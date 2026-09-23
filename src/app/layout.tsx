@@ -45,7 +45,6 @@ export const metadata: Metadata = {
     images: ["/twitter-image.png"],
   },
   alternates: {
-    canonical: "/",
     types: {
       "text/plain": [
         { url: "/llms.txt", title: "LLM Summary — Zéro Passoire" },

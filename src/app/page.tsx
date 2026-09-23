@@ -1,7 +1,14 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { ChevronDown, FileText, Wallet, Users, ShieldAlert, Sparkles, ArrowRight, Check, X } from "lucide-react";
 import Simulator from "@/components/Simulator";
 import MobileStickyBar from "@/components/MobileStickyBar";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
 
 type HomeFaqItem = {
   q: string;
@@ -297,7 +304,7 @@ export default function HomePage() {
                       <Check size={16} className="text-brand-700" /> Zéro Passoire
                     </span>
                   </th>
-                  <th className="text-left px-4 sm:px-6 py-3 font-semibold text-stone-500">
+                  <th className="text-left px-4 sm:px-6 py-3 font-semibold text-stone-700">
                     <span className="inline-flex items-center gap-2">
                       <X size={16} className="text-red-600" /> Comparateur classique
                     </span>
@@ -598,7 +605,7 @@ function StepCard({ n, icon, title, time, children }: { n: number; icon: React.R
     <div className="p-6 rounded-2xl bg-white border border-stone-200 shadow-sm">
       <div className="flex items-center justify-between mb-4">
         <div className="w-11 h-11 rounded-xl bg-brand-100 flex items-center justify-center">{icon}</div>
-        <div className="text-4xl font-display font-bold text-stone-200 leading-none">0{n}</div>
+        <div aria-hidden="true" className="text-4xl font-display font-bold text-stone-500 leading-none">0{n}</div>
       </div>
       <div className="text-xs uppercase tracking-widest text-stone-500 mb-1">{time}</div>
       <h3 className="font-display text-lg font-bold text-stone-900 mb-2">{title}</h3>

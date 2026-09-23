@@ -9,7 +9,7 @@ export default function Header() {
           <Logo />
           <div className="font-display text-lg font-bold tracking-tight text-stone-900">
             zéro<span className="text-brand-700">passoire</span>
-            <span className="text-stone-400">.fr</span>
+            <span className="text-stone-600">.fr</span>
           </div>
         </Link>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-stone-700">
