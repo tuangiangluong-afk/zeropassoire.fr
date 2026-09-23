@@ -1,9 +1,14 @@
 ---
-title: "Isolation des Combles Perdus et Aménagés : Matériaux, Prix au m² et Seuil R ≥ 7"
-description: "Guide technique 2026 : seuil R ≥ 7 m².K/W en combles perdus et R ≥ 6 en rampants, comparatif des isolants, déphasage thermique, prix au m² et règles NF DTU 45.11."
-publishedAt: "2026-09-23"
-category: "Travaux & Isolation"
-readTime: "10 min"
+title: >-
+  Isolation des Combles Perdus et Aménagés : Matériaux, Prix au m² et Seuil R ≥
+  7
+description: >-
+  Guide technique 2026 : seuil R ≥ 7 m².K/W en combles perdus et R ≥ 6 en
+  rampants, comparatif des isolants, déphasage thermique, prix au m² et règles
+  NF DTU 45.11.
+publishedAt: '2026-09-23'
+category: Travaux & Isolation
+readTime: 10 min
 ---
 
 # Isolation des Combles Perdus et Aménagés : Matériaux, Prix au m² et Seuil R ≥ 7
@@ -27,9 +32,9 @@ En physique du bâtiment, l'air chaud, moins dense que l'air froid, s'élève na
 
 Sur le plan de la méthode de calcul DPE (moteur 3CL), le coefficient de transmission thermique surfacique de la toiture ($U_{\text{toit}}$, exprimé en $\text{W/m}^2\cdot\text{K}$) pèse de façon disproportionnée dans l'équation des consommations d'énergie primaire ($C_{\text{ep}}$) et des émissions de gaz à effet de serre ($E_{\text{ges}}$). 
 
-Faire chuter un $U_{\text{toit}}$ de $2{,}5\ \text{W/m}^2\cdot\text{K}$ (plancher nu ou laine minérale détruite) à moins de $0{,}14\ \text{W/m}^2\cdot\text{K}$ ($R \ge 7{,}0\ \text{m}^2\cdot\text{K/W}$) permet régulièrement de faire gagner **une à deux classes énergétiques complètes** à un logement classé F ou G, le repositionnant hors du périmètre des interdictions de louer de la Loi Climat et Résilience :
+Faire chuter un $U_{\text{toit}}$ de $2{,}5\ \text{W/m}^2\cdot\text{K}$ (plancher nu ou laine minérale détruite) à moins de $0{,}14\ \text{W/m}^2\cdot\text{K}$ ($R \ge 7{,}0\ \text{m}^2\cdot\text{K/W}$) permet régulièrement de faire gagner **une à deux classes énergétiques complètes** à un logement classé F ou G, le repositionnant hors du périmètre des interdictions de louer de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) :
 * **1er janvier 2025** : gel et interdiction de mise en location des logements classés G ($> 420\ \text{kWh/m}^2/\text{an}$).
-* **1er janvier 2028** : interdiction de location étendue à l'ensemble de la classe F ($> 330\ \text{kWh/m}^2/\text{an}$).
+* **1er janvier 2028** : [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) étendue à l'ensemble de la classe F ($> 330\ \text{kWh/m}^2/\text{an}$).
 * **1er janvier 2034** : extension programmée à la classe E ($> 250\ \text{kWh/m}^2/\text{an}$).
 
 Au regard du ratio « investissement financier / gain de kWh EP », l'isolation des combles présente le retour sur investissement le plus rapide de la rénovation énergétique : entre 2 et 4 ans en combles perdus, contre 8 à 15 ans pour une Isolation Thermique par l'Extérieur (ITE) des murs de façade.
@@ -38,7 +43,7 @@ Au regard du ratio « investissement financier / gain de kWh EP », l'isolation 
 
 ## Normes et exigences thermiques 2026 : Le seuil R ≥ 7 et les fiches CEE BAR-EN-101
 
-L'accès aux subventions de l'Anah (MaPrimeRénov' Parcours Décarboné et Parcours Accompagné), aux primes des Certificats d'Économies d'Énergie (CEE) et à l'Éco-PTZ impose la justification d'une performance thermique normée, validée par un certificat ACERMI ou un Avis Technique (DTA) du CSTB.
+L'accès aux subventions de [l’Anah](https://www.anah.gouv.fr) (MaPrimeRénov' Parcours Décarboné et Parcours Accompagné), aux primes des Certificats d'Économies d'Énergie (CEE) et à l'Éco-PTZ impose la justification d'une performance thermique normée, validée par un certificat ACERMI ou un Avis Technique (DTA) du CSTB.
 
 ### Les seuils réglementaires d'éligibilité
 
@@ -55,7 +60,7 @@ $$\text{Épaisseur minimale requise } (e) = R \times \lambda$$
 
 ### Les règles de l'art du NF DTU 45.11
 
-Le **NF DTU 45.11** encadre obligatoirement la mise en œuvre de l'isolation en vrac par soufflage dans les combles perdus. Tout chantier non conforme s'expose à un refus pur et simple des primes CEE lors du contrôle COFRAC systématique :
+Le **NF DTU 45.11** encadre obligatoirement la mise en œuvre de l'isolation en vrac par soufflage dans les combles perdus. Tout chantier non conforme s'expose à un refus pur et simple des [primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul) lors du contrôle COFRAC systématique :
 
 1. **Pigéage visuel gradué** : Installation minimale de 4 à 5 piges graduées millimétriques réparties sur la surface des combles, permettant de contrôler à l'œil nu l'épaisseur d'isolant déposé et de vérifier l'absence de tassement sous-évalué.
 2. **Rehausse de trappe d'accès** : Mise en place d'un arrêtoir rigide et isolé dépassant d'au moins 5 cm la hauteur totale de l'isolant soufflé, afin d'éviter le déversement de matière dans la trémie lors des visites d'inspection.
@@ -164,7 +169,7 @@ Déposer un isolant soufflé sur un vieux plancher en bois sans avoir préalable
 La projection d'un isolant combustible ou semi-combustible directement au contact de transformateurs électriques ou de spots halogènes/LED non protégés est la première cause de sinistre incendie après isolation de combles. Chaque point lumineux encastré doit recevoir un capot certifié coupe-feu d'un volume minimal d'air conforme aux prescriptions de la norme NF C 15-100.
 
 ### 4. Le déficit de matière et la fausse déclaration de résistance thermique
-Pour maximiser leurs marges, certains opérateurs peu scrupuleux injectent une densité d'air trop élevée lors du soufflage pneumatique, créant un foisonnement artificiel qui s'effondre de 40 % en quelques mois. Pour être conforme à la fiche BAR-EN-101, l'artisan RGE doit obligatoirement vous remettre à l'achèvement des travaux :
+Pour maximiser leurs marges, certains opérateurs peu scrupuleux injectent une densité d'air trop élevée lors du soufflage pneumatique, créant un foisonnement artificiel qui s'effondre de 40 % en quelques mois. Pour être conforme à la fiche BAR-EN-101, l'[artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) doit obligatoirement vous remettre à l'achèvement des travaux :
 * La fiche de fin de chantier mentionnant le **nombre exact de sacs** d'isolant injectés par rapport à la surface au sol.
 * La marque, la référence ACERMI et la classe d'affaissement du matériau.
 * Les photographies horodatées des piges de mesure et de la protection des points singuliers (trappe, conduit, spots).
@@ -172,6 +177,10 @@ Pour maximiser leurs marges, certains opérateurs peu scrupuleux injectent une d
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 

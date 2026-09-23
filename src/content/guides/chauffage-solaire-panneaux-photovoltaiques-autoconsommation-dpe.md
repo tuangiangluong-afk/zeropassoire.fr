@@ -1,15 +1,20 @@
 ---
-title: "Panneaux Solaires & Chauffe-Eau Thermodynamique : Impact Réel sur le Saut de DPE"
-description: "Découvrez l'impact réel du solaire photovoltaïque en autoconsommation et du chauffe-eau thermodynamique (CET) sur le calcul du DPE 3CL, la valorisation du bien et la rentabilité financière."
-publishedAt: "2026-09-23"
-category: "Chauffage & Énergie"
-readTime: "9 min"
+title: >-
+  Panneaux Solaires & Chauffe-Eau Thermodynamique : Impact Réel sur le Saut de
+  DPE
+description: >-
+  Découvrez l'impact réel du solaire photovoltaïque en autoconsommation et du
+  chauffe-eau thermodynamique (CET) sur le calcul du DPE 3CL, la valorisation du
+  bien et la rentabilité financière.
+publishedAt: '2026-09-23'
+category: Chauffage & Énergie
+readTime: 9 min
 ---
 
 # Panneaux Solaires & Chauffe-Eau Thermodynamique : Impact Réel sur le Saut de DPE
 
 ::: callout Réponse directe
-L’installation de panneaux solaires photovoltaïques en autoconsommation combinée à un chauffe-eau thermodynamique (CET) permet de couvrir jusqu’à 60 % de la consommation électrique et d’eau chaude sanitaire d’un logement. Dans la méthode de calcul DPE 3CL (version fiabilisée), la part d'électricité renouvelable auto-consommée vient directement en déduction de la consommation conventionnelle en énergie primaire, pondérée par le coefficient de conversion de 2,3 pour le vecteur électrique. Cette synergie technique permet fréquemment de gagner entre 35 et 80 kWhEP/m²/an, franchissant ainsi le seuil décisif d'un demi à un échelon complet (passage de F à E ou de E à D) tout en sécurisant la conformité locative imposée par la loi Climat et Résilience.
+L’installation de panneaux solaires photovoltaïques en autoconsommation combinée à un chauffe-eau thermodynamique (CET) permet de couvrir jusqu’à 60 % de la consommation électrique et d’eau chaude sanitaire d’un logement. Dans la méthode de calcul DPE 3CL (version fiabilisée), la part d'électricité renouvelable auto-consommée vient directement en déduction de la consommation conventionnelle en énergie primaire, pondérée par le coefficient de conversion de 2,3 pour le vecteur électrique. Cette synergie technique permet fréquemment de gagner entre 35 et 80 kWhEP/m²/an, franchissant ainsi le seuil décisif d'un demi à un échelon complet (passage de F à E ou de E à D) tout en sécurisant la conformité locative imposée par la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924).
 :::
 
 L'éradication des passoires thermiques s'accélère sous la contrainte du calendrier légal de l'article L. 173-1-1 du Code de la construction et de l'habitation (CCH) : interdiction de mise en location des logements classés G depuis le 1er janvier 2025, des logements F au 1er janvier 2028 et des logements E au 1er janvier 2034. Face à ces échéances, la rénovation de l'enveloppe bâtie (isolation thermique, menuiseries) demeure indispensable, mais le traitement des postes techniques générateurs d'énergie primaire constitue le levier le plus rapide et le plus rentable pour améliorer le Diagnostic de Performance Énergétique (DPE). 
@@ -51,7 +56,7 @@ Le moteur DPE n'intègre pas la totalité de la production théorique brute de l
 Le poste Eau Chaude Sanitaire représente souvent entre 20 % et 40 % de la facture énergétique globale dans un logement moyennement isolé, et jusqu'à 50 % de la consommation d'une maison performante. Le remplacement d'un « cumulus » électrique à effet Joule par un CET constitue l'action individuelle au temps de retour le plus court pour gagner des points de DPE.
 
 ### Principes techniques et coefficients de performance (COP)
-Un chauffe-eau thermodynamique intègre une petite pompe à chaleur aérothermique couplée à une cuve de stockage émaillée ou en acier inoxydable de 150 à 270 litres. Le fluide frigorigène (généralement R134a, R513A ou R290 au propane) extrait les calories de l'air pour vaporiser le fluide, qui est ensuite comprimé afin de restituer la chaleur à l'eau sanitaire.
+Un chauffe-eau thermodynamique intègre une petite [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) aérothermique couplée à une cuve de stockage émaillée ou en acier inoxydable de 150 à 270 litres. Le fluide frigorigène (généralement R134a, R513A ou R290 au propane) extrait les calories de l'air pour vaporiser le fluide, qui est ensuite comprimé afin de restituer la chaleur à l'eau sanitaire.
 
 *   **Coefficient de Performance (COP) :** Selon la norme **NF EN 16147**, les CET modernes affichent un COP pivot mesuré entre **2,8 et 3,4** à une température d'air de $+7^\circ\text{C}$ ou $+15^\circ\text{C}$. Cela signifie que pour $1\text{ kWh}$ d'électricité consommé par le compresseur, le ballon transfère $2,8\text{ à }3,4\text{ kWh}$ d'énergie thermique à l'eau.
 *   **Division de la consommation :** Par rapport à un ballon électrique traditionnel dont le rendement d'exploitation est plafonné à 0,90-0,95, le CET divise la consommation électrique annuelle conventionnelle pour l'ECS par un facteur de **2,6 à 3,2**.
@@ -172,13 +177,17 @@ Sur une période d'exploitation de 25 ans, une installation solaire de $3\text{ 
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Le DPE prend-il en compte l'électricité revendue en totalité à EDF OA ?
 Non. Le moteur de calcul DPE 3CL ne comptabilise que l'électricité photovoltaïque produite et auto-consommée in situ pour couvrir les besoins conventionnels du logement (chauffage, ECS, éclairage, auxiliaires). Si vous optez pour un contrat de « vente totale » de la production à EDF OA sans autoconsommation physique, le gain DPE sera strictement nul. Pour maximiser la note énergétique, le contrat doit impérativement être établi en **autoconsommation avec vente du surplus**.
 
 ### Peut-on combiner MaPrimeRénov' Parcours Décarbonation et la prime à l'autoconsommation photovoltaïque ?
-Oui, mais sous des régimes d'aides distincts. L'Anah (MaPrimeRénov') ne subventionne pas directement les panneaux solaires photovoltaïques en geste individuel mono-travaux. En revanche, vous pouvez obtenir MaPrimeRénov' et les CEE pour l'installation du chauffe-eau thermodynamique (Fiche BAR-TH-148) ou d'un Système Solaire Combiné (Fiche BAR-TH-101), tout en percevant la prime à l'autoconsommation photovoltaïque versée par EDF OA selon les termes de l'arrêté tarifaire S21.
+Oui, mais sous des régimes d'aides distincts. [l’Anah](https://www.anah.gouv.fr) (MaPrimeRénov') ne subventionne pas directement les panneaux solaires photovoltaïques en geste individuel mono-travaux. En revanche, vous pouvez obtenir MaPrimeRénov' et les CEE pour l'installation du chauffe-eau thermodynamique (Fiche BAR-TH-148) ou d'un Système Solaire Combiné (Fiche BAR-TH-101), tout en percevant la prime à l'autoconsommation photovoltaïque versée par EDF OA selon les termes de l'arrêté tarifaire S21.
 
 ### Quelle est la différence de calcul DPE entre un CET sur air ambiant et un CET sur air extrait ?
 Dans la méthode 3CL, le CET sur air ambiant est pénalisé par le fait qu'il puise ses calories dans une pièce non chauffée dont la température descend en hiver, ce qui dégrade son COP effectif moyen. Le CET sur air extrait, lui, est valorisé avec un COP annuel stable et élevé car il récupère les calories d'un flux d'air chaud intérieur constant à $19-20^\circ\text{C}$ avant rejet. Le gain DPE d'un système sur air extrait est généralement supérieur de $5\text{ à }10\text{ kWh}_{\text{EP}}/\text{m}^2/\text{an}$ par rapport à un modèle sur air ambiant.

@@ -1,18 +1,21 @@
 ---
-title: "Mon Accompagnateur Rénov’ (MAR) : Rôle, Obligation, Coût et Financement 2026"
-description: "Guide complet 2026 sur Mon Accompagnateur Rénov' (MAR) : obligation légale, missions, tarifs, barème de prise en charge Anah et critères pour choisir un tiers de confiance agréé."
-publishedAt: "2026-09-23"
-category: "Aides Financières"
-readTime: "9 min"
+title: 'Mon Accompagnateur Rénov’ (MAR) : Rôle, Obligation, Coût et Financement 2026'
+description: >-
+  Guide complet 2026 sur Mon Accompagnateur Rénov' (MAR) : obligation légale,
+  missions, tarifs, barème de prise en charge Anah et critères pour choisir un
+  tiers de confiance agréé.
+publishedAt: '2026-09-23'
+category: Aides Financières
+readTime: 9 min
 ---
 
 # Mon Accompagnateur Rénov’ (MAR) : Rôle, Obligation, Coût et Financement 2026
 
 ::: callout Réponse directe
-**Mon Accompagnateur Rénov’ (MAR)** est un tiers de confiance agréé par l’Anah, obligatoire pour toute rénovation d’ampleur visant une sortie de passoire thermique via MaPrimeRénov' Parcours Accompagné. Sa mission comprend la réalisation de l’audit énergétique, la définition du plan de travaux (gain minimal de 2 classes DPE), l’aide à la sélection des artisans RGE et le montage financier. Son coût (entre 1 200 € et 2 500 €) est subventionné par l’État jusqu’à 100 % dans la limite d’un plafond de dépenses éligibles fixé à 2 000 €.
+**Mon Accompagnateur Rénov’ (MAR)** est un tiers de confiance agréé par [l’Anah](https://www.anah.gouv.fr), obligatoire pour toute rénovation d’ampleur visant une sortie de passoire thermique via MaPrimeRénov' Parcours Accompagné. Sa mission comprend la réalisation de l’audit énergétique, la définition du plan de travaux (gain minimal de 2 classes DPE), l’aide à la sélection des [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) et le montage financier. Son coût (entre 1 200 € et 2 500 €) est subventionné par l’État jusqu’à 100 % dans la limite d’un plafond de dépenses éligibles fixé à 2 000 €.
 :::
 
-La transition énergétique du parc immobilier résidentiel français est soumise à un calendrier réglementaire strict imposé par la **loi Climat et Résilience** : interdiction de location des logements classés G au 1er janvier 2025, extension aux logements F au 1er janvier 2028, puis aux logements E au 1er janvier 2034. Face à ces échéances et pour éviter les rénovations parcellaires inefficaces, les pouvoirs publics ont instauré un dispositif d'encadrement technique obligatoire : le statut de **Mon Accompagnateur Rénov’ (MAR)**. 
+La transition énergétique du parc immobilier résidentiel français est soumise à un calendrier réglementaire strict imposé par la **[loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)** : [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) des logements classés G au 1er janvier 2025, extension aux logements F au 1er janvier 2028, puis aux logements E au 1er janvier 2034. Face à ces échéances et pour éviter les rénovations parcellaires inefficaces, les pouvoirs publics ont instauré un dispositif d'encadrement technique obligatoire : le statut de **Mon Accompagnateur Rénov’ (MAR)**. 
 
 Ce professionnel agréé constitue la clé de voûte des chantiers de rénovation globale subventionnés, garantissant la performance thermique réelle et protégeant les propriétaires contre les dérives techniques et financières.
 
@@ -93,7 +96,7 @@ Visite initiale     Scénarios de travaux     Sélection devis RGE     Fin de ch
 
 Le MAR se déplace physiquement dans le logement pour réaliser un diagnostic complet du bâti :
 * Relevé géométrique précis, état des menuiseries, type d'isolation existante, analyse des ponts thermiques structurels.
-* Inspection approfondie des systèmes de chauffage, de production d'eau chaude sanitaire (ECS) et de ventilation (VMC simple flux, VMC hygroréglable, double flux).
+* Inspection approfondie des systèmes de chauffage, de production d'eau chaude sanitaire (ECS) et de ventilation (VMC simple flux, [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures), double flux).
 * Réalisation ou mise à jour de l'**audit énergétique réglementaire** conforme à la méthode 3CL-2021, intégrant l'évaluation de la qualité de l'air intérieur et de la ventilation.
 
 ### Étape 2 : L'élaboration des scénarios de travaux et du plan de financement
@@ -165,6 +168,10 @@ La loi n° 2020-901 du 24 juillet 2020 **interdit formellement le démarchage t�
 4. **Ne rien signer dans la précipitation** : Le contrat d'accompagnement doit détailler le calendrier, les livrables (audit, rapport de conformité, plan financier) et les recours en cas de litige.
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 

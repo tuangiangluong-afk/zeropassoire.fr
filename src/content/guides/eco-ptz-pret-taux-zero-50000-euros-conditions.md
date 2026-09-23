@@ -1,15 +1,20 @@
 ---
-title: "Éco-PTZ 2026 : Emprunter Jusqu’à 50 000 € à Taux Zéro sur 20 Ans pour ses Travaux"
-description: "Plafonds, conditions d'éligibilité, démarches et calcul du gain financier : guide exhaustif 2026 de l'Éco-prêt à taux zéro pour financer votre rénovation globale."
-publishedAt: "2026-09-23"
-category: "Financement & Fiscalité"
-readTime: "9 min"
+title: >-
+  Éco-PTZ 2026 : Emprunter Jusqu’à 50 000 € à Taux Zéro sur 20 Ans pour ses
+  Travaux
+description: >-
+  Plafonds, conditions d'éligibilité, démarches et calcul du gain financier :
+  guide exhaustif 2026 de l'Éco-prêt à taux zéro pour financer votre rénovation
+  globale.
+publishedAt: '2026-09-23'
+category: Financement & Fiscalité
+readTime: 9 min
 ---
 
 # Éco-PTZ 2026 : Emprunter Jusqu’à 50 000 € à Taux Zéro sur 20 Ans pour ses Travaux
 
 ::: callout Réponse directe
-L’Éco-prêt à taux zéro (Éco-PTZ) permet d’emprunter jusqu’à 50 000 € sans aucun intérêt (0 %) sur une durée maximale de 20 ans pour financer une rénovation globale de passoire énergétique. Accessible sans aucune condition de ressources à tous les propriétaires occupants ou bailleurs, il s’associe en guichet unique avec MaPrimeRénov’ (« Éco-PTZ Prime Rénov »). Ce prêt constitue l'outil pivot pour absorber le reste à charge des chantiers d'éradication des étiquettes F et G soumis aux interdictions de location de la loi Climat et Résilience.
+L’Éco-prêt à taux zéro (Éco-PTZ) permet d’emprunter jusqu’à 50 000 € sans aucun intérêt (0 %) sur une durée maximale de 20 ans pour financer une rénovation globale de passoire énergétique. Accessible sans aucune condition de ressources à tous les propriétaires occupants ou bailleurs, il s’associe en guichet unique avec MaPrimeRénov’ (« Éco-PTZ Prime Rénov »). Ce prêt constitue l'outil pivot pour absorber le reste à charge des chantiers d'éradication des étiquettes F et G soumis aux interdictions de location de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924).
 :::
 
 Face au durcissement du calendrier d'indécence énergétique de l'article L. 173-1-1 du Code de la construction et de l'habitation (interdiction de louer les passoires G depuis le 1er janvier 2025, puis F au 1er janvier 2028 et E au 1er janvier 2034), le financement du reste à charge constitue le principal point de blocage pour les bailleurs et copropriétaires. 
@@ -36,13 +41,13 @@ Le cadre légal distingue quatre grandes catégories d'interventions :
 | :--- | :--- | :--- | :--- |
 | **Action simple : Parois vitrées** | 7 000 € | 15 ans (180 mois) | $U_w \le 1,3\ \text{W}/(\text{m}^2\cdot\text{K})$ et $S_w \ge 0,3$ ou $U_w \le 1,4$ et $S_w \ge 0,36$ |
 | **Action simple : Autre poste unique** *(ex: ITE, PAC air/eau)* | 15 000 € | 15 ans (180 mois) | $R \ge 3,7\ \text{m}^2\cdot\text{K}/\text{W}$ (murs) / $ETAS \ge 111\,\%$ (PAC moyenne/haute T°) |
-| **Bouquet de 2 actions** *(ex: Combles + Pompe à chaleur)* | 25 000 € | 15 ans (180 mois) | Respect des seuils de résistance thermique et d'efficacité saisonnière |
+| **Bouquet de 2 actions** *(ex: Combles + [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026))* | 25 000 € | 15 ans (180 mois) | Respect des seuils de résistance thermique et d'efficacité saisonnière |
 | **Bouquet de 3 actions ou plus** | 30 000 € | 15 ans (180 mois) | Combinaison de 3 postes éligibles distincts certifiés RGE |
 | **Rénovation globale standard** *(Gain énergétique $\ge 35\,\%$)* | 50 000 € | 20 ans (240 mois) | Audit énergétique préalable, conso finale $< 331\ \text{kWh}/\text{m}^2/\text{an}$ |
-| **Éco-PTZ Prime Rénov' Parcours Accompagné** | 50 000 € | 20 ans (240 mois) | Notification d'octroi de l'Anah (Saut de 2 classes DPE minimum) |
+| **Éco-PTZ Prime Rénov' Parcours Accompagné** | 50 000 € | 20 ans (240 mois) | Notification d'octroi de [l’Anah](https://www.anah.gouv.fr) (Saut de 2 classes DPE minimum) |
 | **Réhabilitation assainissement non collectif** | 10 000 € | 10 ans (120 mois) | Dispositif non consommateur d'énergie validé par le SPANC |
 
-Le montant accordé ne peut en aucun cas excéder le montant des dépenses éligibles, déduction faite des subventions directes perçues (MaPrimeRénov’, primes CEE des délégataires, aides des collectivités territoriales).
+Le montant accordé ne peut en aucun cas excéder le montant des dépenses éligibles, déduction faite des subventions directes perçues (MaPrimeRénov’, [primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul) des délégataires, aides des collectivités territoriales).
 
 ---
 
@@ -72,7 +77,7 @@ Pour déclencher l'Éco-PTZ à 50 000 €, le maître d'ouvrage doit justifier :
 Le prêt ne finance pas uniquement les équipements bruts, il englobe l'intégralité du chantier induit :
 * Les frais d'ingénierie financière et d'études thermiques (audit énergétique, mission Mon Accompagnateur Rénov' - MAR).
 * Les travaux d'isolation thermique des toitures, combles, planchers bas et murs donnant sur l'extérieur.
-* Le remplacement des menuiseries extérieures et occultations thermiques.
+* Le [remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite) extérieures et occultations thermiques.
 * La dépose des chaudières fossiles et l'installation de générateurs biosourcés, solaires thermiques ou thermodynamiques.
 * Les systèmes de ventilation mécanique contrôlée (VMC double flux autoréglable ou simple flux hygroréglable type B).
 * Les travaux indissociablement liés (reprise d'étanchéité, réfection du système électrique suite au doublage isolant, plâtrerie, peinture et adaptation des réseaux hydrauliques).
@@ -88,7 +93,7 @@ Dans la procédure classique, l'emprunteur devait monter un dossier technique co
 ### Le mécanisme du guichet unique
 Avec l'Éco-PTZ Prime Rénov' :
 1. Le propriétaire dépose son dossier de subvention globale sur la plateforme de l'Anah.
-2. Après instruction de l'audit et des devis par l'Anah ou l'opérateur MAR, l'Anah délivre une **décision d'octroi de subvention** (notification formelle d'accord de principe précisant le montant de l'aide attribuée et le montant des dépenses éligibles).
+2. Après instruction de l'audit et des devis par l'Anah ou l'[Mon Accompagnateur Rénov’ (MAR)](/guides/mon-accompagnateur-renov-mar-role-cout-obligation), l'Anah délivre une **décision d'octroi de subvention** (notification formelle d'accord de principe précisant le montant de l'aide attribuée et le montant des dépenses éligibles).
 3. Le particulier transmet cette notification unique à son établissement bancaire.
 4. **La banque est dispensée de toute analyse technique.** Elle se borne à instruire la solvabilité financière de l'emprunteur (taux d'endettement, reste à vivre) et calibre le montant du prêt à hauteur du reste à charge exact, jusqu'au plafond de 50 000 €.
 
@@ -173,6 +178,10 @@ L'Éco-PTZ présente l'avantage d'une neutralité fiscale totale et d'un cumul e
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 

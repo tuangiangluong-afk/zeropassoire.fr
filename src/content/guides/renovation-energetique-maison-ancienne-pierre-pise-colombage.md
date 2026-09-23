@@ -1,9 +1,14 @@
 ---
-title: "Rénover une Maison Ancienne (Pierre, Pisé, Colombages) : Éviter le Piège de l'Humidité"
-description: "Guide expert pour la rénovation thermique du bâti ancien : gestion de la perspirance, compatibilité des matériaux biosourcés, correction thermique chaux-chanvre et élimination des pathologies d'humidité."
-publishedAt: "2026-09-23"
-category: "Travaux & Bâti Ancien"
-readTime: "11 min"
+title: >-
+  Rénover une Maison Ancienne (Pierre, Pisé, Colombages) : Éviter le Piège de
+  l'Humidité
+description: >-
+  Guide expert pour la rénovation thermique du bâti ancien : gestion de la
+  perspirance, compatibilité des matériaux biosourcés, correction thermique
+  chaux-chanvre et élimination des pathologies d'humidité.
+publishedAt: '2026-09-23'
+category: Travaux & Bâti Ancien
+readTime: 11 min
 ---
 
 # Rénover une Maison Ancienne (Pierre, Pisé, Colombages) : Éviter le Piège de l'Humidité
@@ -12,7 +17,7 @@ readTime: "11 min"
 Les bâtiments construits avant 1948 en moellons, pisé, briques foraines ou pans de bois fonctionnent avec une physique perspirante qui régule naturellement la vapeur d’eau par capillarité et évapotranspiration. Appliquer un doublage étanche en polystyrène, une membrane pare-vapeur totale inadaptée ou un enduit au ciment bloque ces transferts gazeux, emprisonne l'humidité dans l'épaisseur des parois, détruit la cohésion des liants d'argile ou de chaux, génère du salpêtre et fait pourrir les structures en bois porteuses. Réussir la performance énergétique d'un bâti ancien sans altérer sa structure exige l'emploi exclusif d'isolants biosourcés à haute perméabilité à la vapeur, de correcteurs thermiques à base de chaux ou de terre, et le respect strict de la continuité capillaire.
 :::
 
-La rénovation énergétique du patrimoine architectural d'avant 1948 ne s'improvise pas selon les standards appliqués aux pavillons en parpaings des années 1980. En France, près d'un tiers du parc de logements est constitué de bâtiments dits "anciens" bâtis en moellons de calcaire ou de granit, en pisé, en bauge ou en pans de bois (colombages). Soumis aux obligations du calendrier de la loi Climat et Résilience — interdiction de location des logements classés G depuis le 1er janvier 2025, puis F au 1er janvier 2028 et E au 1er janvier 2034 —, les propriétaires sont tentés par des travaux d'isolation massifs et standards. 
+La rénovation énergétique du patrimoine architectural d'avant 1948 ne s'improvise pas selon les standards appliqués aux pavillons en parpaings des années 1980. En France, près d'un tiers du parc de logements est constitué de bâtiments dits "anciens" bâtis en moellons de calcaire ou de granit, en pisé, en bauge ou en pans de bois (colombages). Soumis aux obligations du calendrier de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) — [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) des logements classés G depuis le 1er janvier 2025, puis F au 1er janvier 2028 et E au 1er janvier 2034 —, les propriétaires sont tentés par des travaux d'isolation massifs et standards. 
 
 Cependant, calquer les procédés modernes d'étanchéité à l'air et à l'eau sur une bâtisse vernaculaire engendre fréquemment des désordres structurels majeurs en moins de trois à cinq ans : moisissures toxiques, pourrissement des sablières, désagrégation du pisé et prolifération de mérule. Pour conjuguer confort thermique, abaissement des factures d'énergie et préservation du bâti, il est impératif de comprendre la thermo-hygrométrie spécifique du bâti traditionnel.
 
@@ -52,7 +57,7 @@ Lorsqu'un artisan non averti applique un complexe étanche à l'intérieur d'un 
 - Le point de rosée ($T_{rosee}$) migre à l'interface exacte entre le dos de l'isolant synthétique et la face interne de la maçonnerie.
 - L'eau liquide condense en continu dans cette cavité non ventilée, détrempant les mortiers de pose à la chaux ou à l'argile, dissolvant les liants et entraînant la pullulation de moisissures non visibles depuis la pièce de vie mais toxiques par transmission aéroportée.
 
-Le *Guide de réhabilitation thermique du bâti ancien* publié par le CEREMA insiste sur la règle de dégressivité des valeurs $S_d$ : la perméabilité à la vapeur d'eau d'une paroi doit impérativement augmenter de l'intérieur vers l'extérieur pour éviter tout piégeage de liquide dans l'épaisseur structurelle.
+Le *Guide de réhabilitation thermique du bâti ancien* publié par le [CEREMA](https://www.cerema.fr) insiste sur la règle de dégressivité des valeurs $S_d$ : la perméabilité à la vapeur d'eau d'une paroi doit impérativement augmenter de l'intérieur vers l'extérieur pour éviter tout piégeage de liquide dans l'épaisseur structurelle.
 
 ---
 
@@ -82,7 +87,7 @@ Lors de la réalisation du Diagnostic de Performance Énergétique (DPE) réglem
 
 Le moteur de calcul 3CL attribue aux murs en moellons de 50 cm d'épaisseur des valeurs de résistance thermique $R$ théoriques très faibles (souvent $R \approx 0,35\text{ à }0,50\text{ m}^2\text{K/W}$), propulsant mécaniquement la plupart des bâtisses anciennes en étiquette F ou G sans tenir compte des apports passifs et de l'amortissement thermique journalier. 
 
-Pour valoriser un tel bien sans le dégrader, le projet de rénovation doit combiner l'amélioration de la résistance thermique avec des matériaux certifiés (ACERMI) reconnus par le moteur de calcul (atteignant les exigences de $R \ge 3,7\text{ m}^2\text{K/W}$ en façade pour l'obtention des aides de l'Anah), tout en choisissant exclusivement des systèmes à haute capillarité.
+Pour valoriser un tel bien sans le dégrader, le projet de rénovation doit combiner l'amélioration de la résistance thermique avec des matériaux certifiés (ACERMI) reconnus par le moteur de calcul (atteignant les exigences de $R \ge 3,7\text{ m}^2\text{K/W}$ en façade pour l'obtention des aides de [l’Anah](https://www.anah.gouv.fr)), tout en choisissant exclusivement des systèmes à haute capillarité.
 
 ---
 
@@ -207,6 +212,10 @@ Pour stabiliser et isoler le sol d'un rez-de-chaussée ancien :
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Pourquoi les enduits au ciment sont-ils formellement interdits sur les murs en pisé ou en pierre ?
@@ -214,11 +223,11 @@ Le ciment Portland est un matériau étanche à la vapeur d’eau ($\mu \approx 
 
 ### Comment ventiler une maison ancienne rénovée sans créer de courants d'air glaciaux ?
 La mise en œuvre d'une isolation biosourcée performante rend indispensable une ventilation mécanique contrôlée pour renouveler l'air sans compter sur les fuites parasites des anciennes menuiseries. Sur le bâti ancien, deux options sont privilégiées :
-1. La VMC hygroréglable de type B basse consommation, qui ajuste les débits d'extraction d'air dans les pièces humides selon l'hygrométrie relative.
+1. La [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) de type B basse consommation, qui ajuste les débits d'extraction d'air dans les pièces humides selon l'hygrométrie relative.
 2. La VMC double flux avec échangeur enthalpique : ce système récupère non seulement les calories de l'air extrait pour préchauffer l'air entrant (rendement supérieur à 85 %), mais régule également le taux d'humidité intérieur sans assécher excessivement l'ambiance en hiver. Les réseaux de gaines doivent être rigides ou semi-rigides, nettoyables et intégrés dans des faux-plafonds ou des gaines techniques sans perforer les poutres maîtresses porteuses.
 
 ### L'injection de résine hydrophobe pour bloquer les remontées capillaires est-elle efficace sur un mur ancien ?
 L'injection de résines silanes/siloxanes en pied de mur est souvent inopérante et potentiellement dangereuse sur les bâtis anciens hétérogènes. Dans un mur de 60 cm en moellons tout-venant ou en pisé, la diffusion uniforme du produit chimique est impossible : les vides internes créent des poches de résine sans traiter le cœur de la maçonnerie. De plus, bloquer l'eau chimiquement en pied de mur reporte la pression hydrostatique plus haut ou vers les fondations mitoyennes. La seule méthode durable et reconnue par le CEREMA consiste à favoriser l'évapotranspiration du mur par des enduits à la chaux, un hérisson ventilé et, si le terrain s'y prête, un drainage périphérique extérieur placé à distance des fondations pour ne pas décomprimer le sol d'assise.
 
 ### Peut-on installer une pompe à chaleur (PAC) air-eau sur un réseau de radiateurs anciens en fonte ?
-Oui, c'est parfaitement possible, sous réserve d'adapter le régime de température. Les radiateurs en fonte dimensionnés au XIXe ou début du XXe siècle fonctionnaient historiquement à haute température ($70\text{ à }80^\circ\text{C}$) avec des chaudières au charbon ou au fioul. Une fois les travaux d'isolation biosourcée et de changement de menuiseries réalisés, les déperditions de la maison diminuent fortement. Ces radiateurs en fonte, surdimensionnés par rapport aux nouveaux besoins énergétiques, peuvent alors fonctionner à moyenne ou basse température ($45\text{ à }55^\circ\text{C}$), ce qui correspond à la plage de performance optimale d'une pompe à chaleur air-eau moderne, garantissant un COP (Coefficient de Performance) supérieur à 3,5 sans qu'il soit nécessaire de remplacer les émetteurs d'origine.
+Oui, c'est parfaitement possible, sous réserve d'adapter le régime de température. Les radiateurs en fonte dimensionnés au XIXe ou début du XXe siècle fonctionnaient historiquement à haute température ($70\text{ à }80^\circ\text{C}$) avec des chaudières au charbon ou au fioul. Une fois les travaux d'isolation biosourcée et de changement de menuiseries réalisés, les déperditions de la maison diminuent fortement. Ces radiateurs en fonte, surdimensionnés par rapport aux nouveaux besoins énergétiques, peuvent alors fonctionner à moyenne ou basse température ($45\text{ à }55^\circ\text{C}$), ce qui correspond à la plage de performance optimale d'une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) moderne, garantissant un COP (Coefficient de Performance) supérieur à 3,5 sans qu'il soit nécessaire de remplacer les émetteurs d'origine.

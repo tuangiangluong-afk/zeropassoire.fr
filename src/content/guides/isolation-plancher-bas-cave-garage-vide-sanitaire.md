@@ -1,15 +1,20 @@
 ---
-title: "Isolation du Plancher Bas : Cave, Garage et Vide Sanitaire (Gain DPE et Budget)"
-description: "Guide technique complet sur l'isolation des planchers bas en 2026 : techniques en sous-face, insufflation de vide sanitaire, conformité BAR-EN-103 (R ≥ 3,0) et impact DPE."
-publishedAt: "2026-09-23"
-category: "Travaux & Isolation"
-readTime: "8 min"
+title: >-
+  Isolation du Plancher Bas : Cave, Garage et Vide Sanitaire (Gain DPE et
+  Budget)
+description: >-
+  Guide technique complet sur l'isolation des planchers bas en 2026 : techniques
+  en sous-face, insufflation de vide sanitaire, conformité BAR-EN-103 (R ≥ 3,0)
+  et impact DPE.
+publishedAt: '2026-09-23'
+category: Travaux & Isolation
+readTime: 8 min
 ---
 
 # Isolation du Plancher Bas : Cave, Garage et Vide Sanitaire (Gain DPE et Budget)
 
 ::: callout Réponse directe
-Le plancher bas génère 10 % à 15 % des déperditions thermiques globales d'un bâtiment et constitue le premier facteur d'inconfort par sensation de « sol froid » (effusivité thermique). Isoler la sous-face d'un sous-sol, d'un garage ou d'un vide sanitaire accessible coûte entre **35 € et 75 €/m²** (fourniture et pose). Pour débloquer les aides financières en 2026 (CEE et MaPrimeRénov' Rénovation d'ampleur) et valider le calcul DPE selon la méthode 3CL, l'ouvrage doit impérativement respecter une résistance thermique **$R \ge 3,0\ \text{m}^2\cdot\text{K/W}$** (Fiche CEE BAR-EN-103). Cette intervention permet d'effacer entre 15 et 30 kWh/m²/an d'énergie primaire sur le DPE, facilitant le passage au-dessus des seuils d'interdiction de location de la Loi Climat et Résilience.
+Le plancher bas génère 10 % à 15 % des déperditions thermiques globales d'un bâtiment et constitue le premier facteur d'inconfort par sensation de « sol froid » (effusivité thermique). Isoler la sous-face d'un sous-sol, d'un garage ou d'un vide sanitaire accessible coûte entre **35 € et 75 €/m²** (fourniture et pose). Pour débloquer les aides financières en 2026 (CEE et MaPrimeRénov' Rénovation d'ampleur) et valider le calcul DPE selon la méthode 3CL, l'ouvrage doit impérativement respecter une résistance thermique **$R \ge 3,0\ \text{m}^2\cdot\text{K/W}$** (Fiche CEE BAR-EN-103). Cette intervention permet d'effacer entre 15 et 30 kWh/m²/an d'énergie primaire sur le DPE, facilitant le passage au-dessus des seuils d'[calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924).
 :::
 
 ---
@@ -118,7 +123,7 @@ Si le vide sanitaire est gorgé d'eau ou techniquement inaccessible à l'injecti
 
 ## 4. Tableau comparatif : Choix de la solution selon la typologie du sous-sol
 
-Ce tableau synthétise les options techniques validées par les règles de l'art et les exigences d'éligibilité aux primes de l'Anah pour l'année 2026.
+Ce tableau synthétise les options techniques validées par les règles de l'art et les exigences d'éligibilité aux primes de [l’Anah](https://www.anah.gouv.fr) pour l'année 2026.
 
 | Typologie du local non chauffé | Technique d'isolation préconisée | Isolant recommandé & Épaisseur type pour $R \ge 3,0$ | Classement au feu (Euroclasse) | Coût moyen TTC (Fourniture + Pose) | Gain DPE moyen (Consommation d'énergie primaire) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -151,10 +156,10 @@ La fiche d'opération standardisée **BAR-EN-103** ("Isolation d'un plancher") i
 1. Une résistance thermique certifiée de la couche d'isolant installée : **$R \ge 3,0\ \text{m}^2\cdot\text{K/W}$**.
 2. Un isolant titulaire d'une certification **ACERMI** valide ou d'un marquage CE assorti d'une déclaration de performance (DoP) conforme aux normes EN 13162 à EN 13171.
 3. La réalisation des travaux par un professionnel titulaire de la mention **RGE** (*Reconnu Garant de l'Environnement*) dans le domaine de l'isolation des parois opaques à la date de signature de l'engagement.
-4. L'établissement d'une visite technique préalable par l'artisan RGE (attestée sur le devis et la facture) pour valider la typologie du sous-sol et les conditions d'accès.
+4. L'établissement d'une visite technique préalable par l'[artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) (attestée sur le devis et la facture) pour valider la typologie du sous-sol et les conditions d'accès.
 
 ### MaPrimeRénov' et le reste à charge en 2026
-En 2026, l'isolation du plancher bas n'est plus finançable sous forme de mono-geste forfaitaire direct par l'Anah (MaPrimeRénov' parcours par geste) : elle s'articule via les **primes CEE directes** (versées par les délégataires d'énergie, de **6 à 12 €/m²** selon la zone géographique et les revenus) ou s'intègre au sein du parcours **MaPrimeRénov' Rénovation d'ampleur** (Parcours Accompagné).
+En 2026, l'isolation du plancher bas n'est plus finançable sous forme de mono-geste forfaitaire direct par l'Anah (MaPrimeRénov' parcours par geste) : elle s'articule via les **[primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul) directes** (versées par les délégataires d'énergie, de **6 à 12 €/m²** selon la zone géographique et les revenus) ou s'intègre au sein du parcours **MaPrimeRénov' Rénovation d'ampleur** (Parcours Accompagné).
 
 Dans le cadre d'une rénovation globale (saut d'au moins 2 classes DPE) :
 - Les ménages aux revenus très modestes (**Profil Bleu**) bénéficient d'une prise en charge pouvant atteindre jusqu'à **80 % à 90 %** de l'ensemble du bouquet de travaux comprenant le plancher bas.
@@ -172,6 +177,10 @@ Ce gain est décisif pour les bailleurs privés soumis au calendrier de la **Loi
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 

@@ -1,9 +1,14 @@
 ---
-title: "VMC Double Flux vs Hygro B : Pourquoi la Ventilation Est Indispensable Après Isolation"
-description: "Isolation sans ventilation : découvrez les risques de moisissures, condensation et dégradation du DPE. Comparatif technique, coûts et aides 2026 entre VMC Hygro B et Double Flux."
-publishedAt: "2026-09-23"
-category: "Ventilation & Santé"
-readTime: "9 min"
+title: >-
+  VMC Double Flux vs Hygro B : Pourquoi la Ventilation Est Indispensable Après
+  Isolation
+description: >-
+  Isolation sans ventilation : découvrez les risques de moisissures,
+  condensation et dégradation du DPE. Comparatif technique, coûts et aides 2026
+  entre VMC Hygro B et Double Flux.
+publishedAt: '2026-09-23'
+category: Ventilation & Santé
+readTime: 9 min
 ---
 
 # VMC Double Flux vs Hygro B : Pourquoi la Ventilation Est Indispensable Après Isolation
@@ -12,7 +17,7 @@ readTime: "9 min"
 Isoler parfaitement une passoire thermique sans installer une ventilation mécanique contrôlée (VMC) efficace transforme le logement en thermos hermétique, provoquant en moins de 18 mois l’apparition de moisissures toxiques et de condensation sur les ponts thermiques résiduels. La VMC simple flux hygroréglable type B coûte 1 500 € à 3 000 € posée, tandis que la VMC double flux avec récupération d’énergie coûte 5 000 € à 9 000 € mais récupère jusqu’à 90% des calories de l'air extrait. Dans le cadre de MaPrimeRénov' Parcours Accompagné 2026, l'intégration d'un système de ventilation contrôlée conforme à l'Arrêté du 24 mars 1982 est obligatoire pour valider un saut de classe DPE.
 :::
 
-Dans une passoire thermique non rénovée classée F ou G, les déperditions d'air parasites par les menuiseries vétustes, les liaisons maçonnerie-toiture et les coffres de volets roulants assurent un renouvellement d'air involontaire mais continu (souvent entre 1 et 2,5 volumes/heure). Lorsque vous engagez des travaux d'isolation thermique par l'extérieur (ITE), d'isolation des combles (résistance thermique $R \ge 7 \text{ m}^2\cdot\text{K/W}$) et de remplacement des fenêtres par du double vitrage moderne ($U_w \le 1,3 \text{ W/m}^2\cdot\text{K}$ avec joints compressifs), la perméabilité à l'air du bâti est drastiquement réduite. 
+Dans une passoire thermique non rénovée classée F ou G, les déperditions d'air parasites par les menuiseries vétustes, les liaisons maçonnerie-toiture et les coffres de volets roulants assurent un renouvellement d'air involontaire mais continu (souvent entre 1 et 2,5 volumes/heure). Lorsque vous engagez des travaux d'isolation thermique par l'extérieur (ITE), d'[isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7) (résistance thermique $R \ge 7 \text{ m}^2\cdot\text{K/W}$) et de [remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite) par du double vitrage moderne ($U_w \le 1,3 \text{ W/m}^2\cdot\text{K}$ avec joints compressifs), la perméabilité à l'air du bâti est drastiquement réduite. 
 
 Sans un système de renouvellement d'air mécanisé et calibré, la vapeur d'eau générée par l'activité humaine (environ 2 à 3 litres d'eau par jour et par occupant) s'accumule dans le volume chauffé, créant une atmosphère pathogène pour les occupants et destructrice pour le bâti.
 
@@ -143,7 +148,7 @@ En période estivale ou lors des canicules, la VMC double flux dispose d'un clap
 
 ## Tableau comparatif : Hygro B vs Double Flux en rénovation énergétique
 
-Ce comparatif intègre les performances énergétiques réelles, les coûts d'installation constatés en 2026 et les critères d'éligibilité aux aides de l'Anah.
+Ce comparatif intègre les performances énergétiques réelles, les coûts d'installation constatés en 2026 et les critères d'éligibilité aux aides de [l’Anah](https://www.anah.gouv.fr).
 
 | Critère d'évaluation | VMC Simple Flux Hygro B | VMC Double Flux Haut Rendement |
 | :--- | :--- | :--- |
@@ -228,11 +233,15 @@ Une installation de VMC défaillante ou mal entretenue perd jusqu'à 50 % de ses
 
 * **Tous les 6 mois** : Démonter et nettoyer à l'eau savonneuse tiède les bouches d'extraction et les entrées d'air hygroréglables. Ne jamais mouiller les régulateurs sensibles en polyamide sous un jet d'eau direct.
 * **Tous les 6 à 12 mois (VMC Double Flux)** : Remplacer l'ensemble des cartouches filtrantes (filtres d'insufflation F7 et filtres d'extraction G4). Des filtres saturés augmentent la consommation des ventilateurs, déséquilibrent les pressions d'air et provoquent l'arrêt de l'échangeur par sécurité.
-* **Tous les 5 ans** : Faire réaliser un contrôle aéraulique par un artisan RGE avec mesure des débits/pressions au manomètre différentiel et dépoussiérage complet de la roue du motoventilateur.
+* **Tous les 5 ans** : Faire réaliser un contrôle aéraulique par un [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) avec mesure des débits/pressions au manomètre différentiel et dépoussiérage complet de la roue du motoventilateur.
 
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 
@@ -243,7 +252,7 @@ L'installation d'une VMC double flux individuelle dans un appartement ancien en 
 Ce phénomène, fréquent après le remplacement de menuiseries anciennes par du double vitrage performant, indique que le logement est devenu étanche à l'air sans que le système de ventilation n'ait été adapté. Pendant la nuit, la respiration des occupants fait monter l'humidité relative au-delà de 70 %. La vapeur d'eau vient alors se condenser sur la surface intérieure des vitres ou sur les angles des murs froids. Pour y remédier, il faut s'assurer que les fenêtres des pièces sèches (chambres, salon) sont bien équipées de mortaises avec grilles d'entrée d'air hygroréglables conformes, que les portes sont détalonnées d'au moins $1,5 \text{ cm}$ et que la VMC extrait un débit suffisant en continu.
 
 ### Quel est le gain réel d'une VMC double flux sur le DPE par rapport à une Hygro B ?
-Dans le moteur de calcul réglementaire 3CL-DPE 2024-2026, la VMC double flux à haute efficacité certifiée ($\ge 85\%$) permet un gain moyen de **15 à 30 kWh/m²/an d'énergie primaire** par rapport à une VMC simple flux hygroréglable type B. Dans le cadre d'un saut de classe critique (par exemple pour faire basculer une passoire thermique classée E ou F vers la classe D ou C afin d'échapper aux interdictions de location de la Loi Climat et Résilience), l'apport thermique de la VMC double flux est souvent déterminant, en particulier pour les maisons individuelles compactes situées dans les zones climatiques H1 (Nord, Est, Île-de-France, zones de montagne).
+Dans le moteur de calcul réglementaire 3CL-DPE 2024-2026, la VMC double flux à haute efficacité certifiée ($\ge 85\%$) permet un gain moyen de **15 à 30 kWh/m²/an d'énergie primaire** par rapport à une VMC simple flux hygroréglable type B. Dans le cadre d'un saut de classe critique (par exemple pour faire basculer une passoire thermique classée E ou F vers la classe D ou C afin d'échapper aux interdictions de location de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)), l'apport thermique de la VMC double flux est souvent déterminant, en particulier pour les maisons individuelles compactes situées dans les zones climatiques H1 (Nord, Est, Île-de-France, zones de montagne).
 
 ### Est-il judicieux de couper sa VMC en hiver pour économiser l'électricité ?
 Il ne faut jamais couper une VMC, que ce soit en hiver ou en été. L'arrêt de l'extracteur provoque la saturation immédiate de l'air en humidité, créant un pic de condensation dans les conduits de ventilation et l'apparition rapide de moisissures sur les ponts thermiques. De plus, un air humide est beaucoup plus difficile et coûteux à chauffer qu'un air sec : couper sa VMC pour économiser 15 € d'électricité par an engendre une surconsommation de chauffage de 100 à 200 € en raison de la capacité thermique massique de l'eau contenue dans l'air saturé. Les moteurs micro-watt actuels ne consomment que 5 à 15 W en régime continu, ce qui représente un coût d'exploitation dérisoire (environ 10 à 25 €/an).

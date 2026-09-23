@@ -1,18 +1,22 @@
 ---
-title: "Décote des Passoires Thermiques en 2026 : Comment Négocier le Prix d’un Bien F ou G"
-description: "Baromètre des décotes DPE F et G en 2026, méthode de valorisation inversée, utilisation de l'audit énergétique et stratégie d'investissement clé en main."
-publishedAt: "2026-09-23"
-category: "Achat & Investissement"
-readTime: "10 min"
+title: >-
+  Décote des Passoires Thermiques en 2026 : Comment Négocier le Prix d’un Bien F
+  ou G
+description: >-
+  Baromètre des décotes DPE F et G en 2026, méthode de valorisation inversée,
+  utilisation de l'audit énergétique et stratégie d'investissement clé en main.
+publishedAt: '2026-09-23'
+category: Achat & Investissement
+readTime: 10 min
 ---
 
 # Décote des Passoires Thermiques en 2026 : Comment Négocier le Prix d’un Bien F ou G
 
 ::: callout Réponse directe
-Sur le marché immobilier 2026, les logements classés F et G subissent une décote moyenne de 8 % à 15 % en province et de 5 % à 10 % en Île-de-France par rapport aux biens équivalents classés D ou C. Pour un acquéreur averti ou un investisseur, cette décote représente une opportunité majeure : négocier le prix d’achat à la baisse du montant exact du devis de rénovation globale, financé ensuite en grande partie par les aides de l’État (MaPrimeRénov' Parcours Accompagné, CEE) et optimisé par le mécanisme du déficit foncier doublé.
+Sur le marché immobilier 2026, les logements classés F et G subissent une décote moyenne de 8 % à 15 % en province et de 5 % à 10 % en Île-de-France par rapport aux biens équivalents classés D ou C. Pour un acquéreur averti ou un investisseur, cette décote représente une opportunité majeure : négocier le prix d’achat à la baisse du montant exact du devis de rénovation globale, financé ensuite en grande partie par les aides de l’État (MaPrimeRénov' Parcours Accompagné, CEE) et optimisé par le [déficit foncier doublé à 21 400 €](/guides/deficit-foncier-double-passoire-thermique-21400-euros) doublé.
 :::
 
-L'application stricte du calendrier de la **loi Climat et Résilience** (article 158 codifié au Code de la construction et de l’habitation) a transformé la structure du marché immobilier français. Depuis le 1er janvier 2025, la location des logements classés G au Diagnostic de Performance Énergétique (consommation supérieure à 420 kWh/m²/an d'énergie primaire ou émissions supérieures à 100 kg CO₂/m²/an) est formellement interdite pour tous les nouveaux baux. L'échéance du 1er janvier 2028 pour la classe F et celle du 1er janvier 2034 pour la classe E accentuent la pression sur les propriétaires bailleurs non désireux d'engager des chantiers techniques.
+L'application stricte du calendrier de la **[loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)** (article 158 codifié au Code de la construction et de l’habitation) a transformé la structure du marché immobilier français. Depuis le 1er janvier 2025, la location des logements classés G au Diagnostic de Performance Énergétique (consommation supérieure à 420 kWh/m²/an d'énergie primaire ou émissions supérieures à 100 kg CO₂/m²/an) est formellement interdite pour tous les nouveaux baux. L'échéance du 1er janvier 2028 pour la classe F et celle du 1er janvier 2034 pour la classe E accentuent la pression sur les propriétaires bailleurs non désireux d'engager des chantiers techniques.
 
 Cette situation crée une asymétrie de marché historique : des vendeurs contraints de céder leurs actifs sous la pression réglementaire face à des acquéreurs stratégiques capables de chiffrer précisément les travaux, d'absorber le chantier et de capter la « valeur verte » post-rénovation.
 
@@ -56,7 +60,7 @@ Où :
 ### Exemple concret de calcul
 Imaginons une maison individuelle de 120 m² en périphérie nantaise (Zone B1), affichée au prix de 320 000 € avec une étiquette G (510 kWh/m²/an).
 1. **Valeur de marché d'un bien rénové (Classe B) dans le quartier :** 3 300 €/m², soit une **VVR de 396 000 €**.
-2. **Coût estimé du bouquet de travaux global (atteinte classe B) :** 75 000 € TTC (ITE sous enduit R=4,5, isolation combles perdus R=8, pompe à chaleur air/eau, VMC hygroréglable B).
+2. **Coût estimé du bouquet de travaux global (atteinte classe B) :** 75 000 € TTC (ITE sous enduit R=4,5, isolation combles perdus R=8, [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) air/eau, [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) B).
 3. **Marge d'imprévus (10 %) :** 7 500 €.
 4. **Marge d'opération ciblée (12 %) :** 47 520 €.
 5. **Calcul du prix d'achat maximal net vendeur :**
@@ -97,7 +101,7 @@ Contrairement au DPE qui pose un simple diagnostic, l'audit détaille obligatoir
 ### La tactique de déconstruction du prix face au vendeur
 Pour désarmer les objections du vendeur ou de son agent immobilier, la proposition d'achat doit être accompagnée d'une copie surlignée du parcours de travaux de l'audit réglementaire.
 
-1. **Identifier l'écart entre estimation DPE et devis réels :** L'audit énergétique présente souvent des chiffrages forfaitaires sous-estimés par rapport aux réalités du marché des artisans RGE locaux. Obtenir un pré-chiffrage par une entreprise qualifiée RGE permet de réajuster le coût des travaux à la hausse dans la négociation.
+1. **Identifier l'écart entre estimation DPE et devis réels :** L'audit énergétique présente souvent des chiffrages forfaitaires sous-estimés par rapport aux réalités du marché des [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) locaux. Obtenir un pré-chiffrage par une entreprise qualifiée RGE permet de réajuster le coût des travaux à la hausse dans la négociation.
 2. **Pousser l'argument de l'interdiction locative :** Si le vendeur est un bailleur, rappelez-lui l'article 6 de la loi n° 89-462 du 6 juillet 1989 : le logement est désormais juridiquement non décent. Le loyer ne peut plus être révisé (gel effectif depuis août 2022) et tout nouveau locataire peut exiger une mise en conformité sous astreinte judiciaire avec diminution de loyer rétroactive.
 3. **Offrir une certitude d'exécution :** Les vendeurs de passoires thermiques craignent l'annulation de la vente par refus de prêt lié à l'endettement travaux. Présenter un plan de financement pré-validé intégrant le budget travaux rassure le vendeur et justifie l'acceptation d'une décote substantielle.
 
@@ -140,7 +144,7 @@ L'achat décoté d'une passoire thermique prend toute sa puissance patrimoniale 
 ```
 
 ### Le cumul MaPrimeRénov' et CEE en 2026
-Dans le cadre d'un achat par un propriétaire occupant ou par un bailleur (via MaPrimeRénov' Bailleurs), le **Parcours Accompagné** de l'Anah finance les sauts de classes DPE à des taux très incitatifs :
+Dans le cadre d'un achat par un propriétaire occupant ou par un bailleur (via MaPrimeRénov' Bailleurs), le **Parcours Accompagné** de [l’Anah](https://www.anah.gouv.fr) finance les sauts de classes DPE à des taux très incitatifs :
 * **Gain de 2 classes (ex: F -> D) :** Prise en charge jusqu'à 60 % du montant des travaux éligibles (plafond de dépenses de 40 000 € HT).
 * **Gain de 3 classes ou plus (ex: G -> C ou B) :** Prise en charge de 60 % à 80 % du montant des travaux éligibles (plafond de dépenses de 70 000 € HT) pour les ménages aux revenus modestes et très modestes (Profils Bleu et Jaune), et bonification « sortie de passoire thermique » de 10 %.
 * **Certificats d'Économies d'Énergie (CEE) :** Valorisation des fiches standardisées (ex: BAR-TH-164 pour la rénovation globale d'une maison) apportant une prime complémentaire directe déduite du devis des artisans.
@@ -163,6 +167,10 @@ En combinant une décote négociée à l'achat de 30 000 €, des aides publique
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Peut-on faire annuler une vente si le DPE fourni était erroné (faux DPE E devenu G) ?
@@ -170,9 +178,9 @@ Oui. Depuis le 1er juillet 2021, le DPE est juridiquement opposable (article L. 
 
 ### Quels sont les postes de travaux prioritaires pour faire sortir un bien du statut de passoire ?
 Pour maximiser l'efficacité thermique et l'impact sur l'étiquette DPE au moindre coût, le traitement de l'enveloppe doit précéder le remplacement des émetteurs. L'ordre thermique optimal est :
-1. Isolation des combles perdus ou toiture ($R \ge 7\ \text{m}^2\cdot\text{K/W}$), responsable de 25 à 30 % des déperditions.
+1. [isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7) ou toiture ($R \ge 7\ \text{m}^2\cdot\text{K/W}$), responsable de 25 à 30 % des déperditions.
 2. Isolation des murs par l'extérieur (ITE) ou l'intérieur (ITI) ($R \ge 3,7\ \text{m}^2\cdot\text{K/W}$), responsable de 20 à 25 % des pertes.
-3. Remplacement des menuiseries par du double vitrage à isolation renforcée ($U_w \le 1,3\ \text{W/m}^2\cdot\text{K}$).
+3. [remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite) par du double vitrage à isolation renforcée ($U_w \le 1,3\ \text{W/m}^2\cdot\text{K}$).
 4. Installation d'une VMC hygroréglable de type B ou double flux pour maîtriser la perméabilité à l'air.
 5. Remplacement d'un système de chauffage fossile (fioul, gaz non condensé) par une pompe à chaleur air/eau ou un raccordement à un réseau de chaleur urbain vertueux.
 

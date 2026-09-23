@@ -1,9 +1,14 @@
 ---
-title: "Airbnb et Meublés Touristiques Classés F ou G : Les Nouvelles Obligations DPE (Loi Le Meur)"
-description: "Décryptage complet de la loi Le Meur (Loi n° 2024-1038) : calendrier DPE pour les meublés de tourisme, blocage des numéros d'enregistrement en mairie, amendes jusqu'à 50 000 € et réforme fiscale."
-publishedAt: "2026-09-23"
-category: "Réglementation & Droit"
-readTime: "8 min"
+title: >-
+  Airbnb et Meublés Touristiques Classés F ou G : Les Nouvelles Obligations DPE
+  (Loi Le Meur)
+description: >-
+  Décryptage complet de la loi Le Meur (Loi n° 2024-1038) : calendrier DPE pour
+  les meublés de tourisme, blocage des numéros d'enregistrement en mairie,
+  amendes jusqu'à 50 000 € et réforme fiscale.
+publishedAt: '2026-09-23'
+category: Réglementation & Droit
+readTime: 8 min
 ---
 
 # Airbnb et Meublés Touristiques Classés F ou G : Les Nouvelles Obligations DPE (Loi Le Meur)
@@ -12,7 +17,7 @@ readTime: "8 min"
 La loi « Le Meur » (Loi n° 2024-1038) a comblé la faille juridique qui permettait aux bailleurs de basculer leurs passoires thermiques interdites à la location longue durée vers la location saisonnière touristique (Airbnb, Abritel, Booking). Les meublés de tourisme sont désormais soumis aux mêmes exigences d’étiquette énergétique que les logements du parc résidentiel classique. Depuis la promulgation du texte et son entrée en vigueur opérationnelle, aucun numéro d’enregistrement en mairie ne peut être délivré sans justificatif d'un DPE conforme (classe E au minimum à terme), sous peine d’amende administrative pouvant atteindre 50 000 € par logement et de désactivation immédiate de l’annonce sur les plateformes.
 :::
 
-Pendant plusieurs années, les meublés de tourisme ont constitué une zone de repli pour des dizaines de milliers de propriétaires bailleurs refusant d'engager des travaux de rénovation énergétique. La Loi Climat et Résilience du 22 août 2021 avait instauré l'interdiction progressive de louer les logements énergivores en bail d'habitation classique (loi de 1989), mais avait laissé de côté la location saisonnière de courte durée régie par le Code du tourisme.
+Pendant plusieurs années, les meublés de tourisme ont constitué une zone de repli pour des dizaines de milliers de propriétaires bailleurs refusant d'engager des travaux de rénovation énergétique. La [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) du 22 août 2021 avait instauré l'interdiction progressive de louer les logements énergivores en bail d'habitation classique (loi de 1989), mais avait laissé de côté la location saisonnière de courte durée régie par le Code du tourisme.
 
 Ce déséquilibre a provoqué un assèchement massif de l'offre locative pérenne dans les zones tendues, incitant les investisseurs à convertir leurs biens étiquetés F ou G en meublés touristiques. La promulgation de la **Loi n° 2024-1038 visant à remédier aux déséquilibres du marché locatif** (dite « loi Le Meur ») met un terme définitif à cette asymétrie réglementaire.
 
@@ -20,7 +25,7 @@ Ce déséquilibre a provoqué un assèchement massif de l'offre locative pérenn
 
 ## Le mécanisme du contournement : l’afflux de passoires F et G vers les plateformes (2022-2025)
 
-L'interdiction de mise en location des logements consommant plus de 450 kWh/m²/an d'énergie finale au 1er janvier 2023, puis le gel de l'ensemble de la classe G au 1er janvier 2025 dans le cadre des baux de résidence principale, ont créé une onde de choc sur le marché immobilier. Face aux contraintes techniques, aux règles de copropriété complexes ou au coût des travaux d'isolation, une frange importante de bailleurs a exploité le vide juridique de l'article 6 de la loi du 6 juillet 1989.
+L'interdiction de mise en location des logements consommant plus de 450 kWh/m²/an d'énergie finale au 1er janvier 2023, puis le gel de l'ensemble de la classe G au 1er janvier 2025 dans le cadre des baux de résidence principale, ont créé une onde de choc sur le marché immobilier. Face aux contraintes techniques, aux règles de copropriété complexes ou au coût des travaux d'isolation, une frange importante de bailleurs a exploité le vide juridique de l'[article 6 de la loi du 6 juillet 1989](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043977117).
 
 ```
        BAIL RÉSIDENTIEL CLASSIQUE (Loi 1989)
@@ -81,7 +86,7 @@ Toute mise en location d'un meublé de tourisme (qu'il s'agisse d'une résidence
 
 Pour obtenir ce numéro d'enregistrement, le propriétaire déclarant doit désormais obligatoirement téléverser :
 1. L'identifiant fiscal du logement (numéro invariant fiscal issu de *Gérer mes biens immobiliers*).
-2. Un **Diagnostic de Performance Énergétique (DPE) valide** (réalisé selon la méthode 3CL révisée post-1er juillet 2021), attesté par le numéro ADEME à 13 chiffres.
+2. Un **Diagnostic de Performance Énergétique (DPE) valide** (réalisé selon la méthode 3CL révisée post-1er juillet 2021), attesté par le numéro [ADEME](https://www.ademe.fr) à 13 chiffres.
 3. Le titre de propriété ou l'accord formel du bailleur si le loueur est un locataire principal sous-louant son logement.
 
 ```
@@ -193,14 +198,18 @@ Pour maintenir leur activité locative légale et préserver la valeur patrimoni
 ```
 
 ### Les postes de travaux à fort impact sur le DPE
-1. **Chauffage et production d'ECS** : Le remplacement d'un ballon électrique traditionnel par un chauffe-eau thermodynamique et l'abandon des convecteurs électriques à effet Joule au profit d'une pompe à chaleur permettent d'abaisser drastiquement la consommation en énergie primaire (application du coefficient d'énergie primaire de 2,3).
+1. **Chauffage et production d'ECS** : Le remplacement d'un ballon électrique traditionnel par un chauffe-eau thermodynamique et l'abandon des convecteurs électriques à effet Joule au profit d'une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) permettent d'abaisser drastiquement la consommation en énergie primaire (application du coefficient d'énergie primaire de 2,3).
 2. **Isolation des parois opaques** : En copropriété, l'isolation thermique par l'intérieur (ITI) avec des complexes isolants minces haute performance (panneaux sous vide ou polyuréthane certifié ACERMI) préserve la surface habitable tout en atteignant une résistance thermique $R \ge 3,7\ \text{m}^2\cdot\text{K/W}$.
-3. **Traitement du renouvellement d'air** : L'installation d'une VMC hygroréglable de type B limite les déperditions thermiques par renouvellement d'air de 30 % par rapport à une ventilation naturelle ou autoréglable vétuste.
+3. **Traitement du renouvellement d'air** : L'installation d'une [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) de type B limite les déperditions thermiques par renouvellement d'air de 30 % par rapport à une ventilation naturelle ou autoréglable vétuste.
 
 ::: cta Estimer mon reste à charge|/simulateur
 :::
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 

@@ -1,18 +1,21 @@
 ---
-title: "DPE Erroné ou Falsifié : Les Recours de l’Acheteur et du Locataire en 2026"
-description: "DPE mensonger, faux calcul ou étiquette énergétique faussée : découvrez les recours juridiques, actions en vice caché ou dol, et indemnisations possibles pour acheteurs et locataires."
-publishedAt: "2026-09-23"
-category: "Réglementation & Droit"
-readTime: "10 min"
+title: 'DPE Erroné ou Falsifié : Les Recours de l’Acheteur et du Locataire en 2026'
+description: >-
+  DPE mensonger, faux calcul ou étiquette énergétique faussée : découvrez les
+  recours juridiques, actions en vice caché ou dol, et indemnisations possibles
+  pour acheteurs et locataires.
+publishedAt: '2026-09-23'
+category: Réglementation & Droit
+readTime: 10 min
 ---
 
 # DPE Erroné ou Falsifié : Les Recours de l’Acheteur et du Locataire en 2026
 
 ::: callout Réponse directe
-Depuis le 1er juillet 2021, le DPE est pleinement opposable juridiquement en vertu de l'article L126-26 du Code de la construction et de l'habitation. Si un logement vendu ou loué avec une étiquette D ou E s’avère être en réalité une passoire thermique F ou G après contre-expertise, l’acquéreur ou le locataire peut engager la responsabilité du diagnostiqueur et du vendeur pour vice caché (articles 1641 et 1644 du Code civil) ou dol (article 1137 du Code civil). Les juridictions accordent désormais une diminution substantielle du prix de vente (10 % à 25 %), l'indemnisation intégrale des travaux nécessaires pour atteindre la classe énergétique promise ou l'annulation du bail avec révision rétroactive des loyers.
+Depuis le 1er juillet 2021, le DPE est pleinement opposable juridiquement en vertu de l'[article L126-26 du Code de la construction](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043977158). Si un logement vendu ou loué avec une étiquette D ou E s’avère être en réalité une passoire thermique F ou G après contre-expertise, l’acquéreur ou le locataire peut engager la responsabilité du diagnostiqueur et du vendeur pour vice caché (articles 1641 et 1644 du Code civil) ou dol (article 1137 du Code civil). Les juridictions accordent désormais une diminution substantielle du prix de vente (10 % à 25 %), l'indemnisation intégrale des travaux nécessaires pour atteindre la classe énergétique promise ou l'annulation du bail avec révision rétroactive des loyers.
 :::
 
-L'entrée en vigueur du calendrier d'interdiction de location de la loi Climat et Résilience — interdiction des logements classés G depuis le 1er janvier 2025, programmée pour les logements F au 1er janvier 2028 et E au 1er janvier 2034 — a transformé le Diagnostic de Performance Énergétique (DPE) en paramètre financier déterminant de toute transaction immobilière. 
+L'entrée en vigueur du [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) — interdiction des logements classés G depuis le 1er janvier 2025, programmée pour les logements F au 1er janvier 2028 et E au 1er janvier 2034 — a transformé le Diagnostic de Performance Énergétique (DPE) en paramètre financier déterminant de toute transaction immobilière. 
 
 Un mauvais classement énergétique entraîne une décote immédiate sur la valeur vénale d'un bien (de -7 % à plus de -20 % selon les zones tendues ou rurales) et paralyse la rentabilité locative. Face à ces enjeux économiques massifs, les contentieux liés aux DPE de complaisance, aux erreurs de métrage ou aux falsifications délibérées se multiplient devant les tribunaux judiciaires.
 
@@ -48,7 +51,7 @@ Cette opposabilité implique que :
 La découverte d'un DPE sous-évalué engendre trois préjudices distincts reconnus par la jurisprudence :
 1. **La perte de valeur vénale du bien** : un bien vendu comme D qui se révèle être F ou G subit une décote structurelle sur le marché immobilier, car l'acheteur a surpayé l'actif.
 2. **Le surcoût d'exploitation énergétique** : les factures réelles de chauffage, d'eau chaude sanitaire (ECS) et de climatisation excèdent largement les projections annoncées lors de la transaction.
-3. **Le coût des travaux de réhabilitation énergétique** : montant financier exigé pour mettre en œuvre une isolation thermique par l'extérieur (ITE), une isolation des combles (visant $R \ge 7\ \text{m}^2\cdot\text{K/W}$), ou le remplacement d'une chaudière fioul/gaz par une pompe à chaleur air-eau (COP $\ge 4$) afin de réintégrer la classe contractuellement promise.
+3. **Le coût des travaux de réhabilitation énergétique** : montant financier exigé pour mettre en œuvre une isolation thermique par l'extérieur (ITE), une [isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7) (visant $R \ge 7\ \text{m}^2\cdot\text{K/W}$), ou le remplacement d'une chaudière fioul/gaz par une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) (COP $\ge 4$) afin de réintégrer la classe contractuellement promise.
 
 ---
 
@@ -81,7 +84,7 @@ L'acquéreur doit mandater un nouveau diagnostiqueur certifié par un organisme 
 - **Mesure réelle des surfaces habitables (loi Carrez) et des hauteurs sous plafond** : une surestimation de la surface habitable dilue artificiellement les consommations par mètre carré ($\text{kWh/m}^2/\text{an}$) et améliore indûment l'étiquette.
 - **Sondage non destructif des isolants** : constatation de l'absence réelle de laine minérale sous toiture ou de doublage sur les murs extérieurs, alors que le rapport initial déclarait un $R = 2,5$ ou $R = 4\ \text{m}^2\cdot\text{K/W}$ "par défaut" ou "sur déclaration".
 - **Relevé des menuiseries** : calcul du coefficient de transmission thermique surfacique ($U_w$) réel au lieu d'une valeur arbitrairement optimiste ($U_w \le 1,3\ \text{W/m}^2\cdot\text{K}$).
-- **Vérification du système de ventilation** : déclaration d'une VMC hygroréglable type B inexistante masquant une simple ventilation naturelle à fort renouvellement d'air parasite.
+- **Vérification du système de ventilation** : déclaration d'une [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) type B inexistante masquant une simple ventilation naturelle à fort renouvellement d'air parasite.
 
 ### Étape 2 : Le constat de commissaire de justice (ex-huissier)
 
@@ -115,7 +118,7 @@ Selon la nature de la faute commise lors de la vente, deux fondements majeurs du
 
 Aux termes de l'**article 1641 du Code civil**, le vendeur est tenu de la garantie à raison des défauts cachés de la chose vendue qui la rendent impropre à l'usage auquel on la destine, ou qui diminuent tellement cet usage que l'acheteur ne l'aurait pas acquise, ou n'en aurait donné qu'un moindre prix, s'il les avait connus.
 
-L'**article 1644 du Code civil** accorde à l'acquéreur le choix entre deux voies :
+L'**[article 1644 du Code civil](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441933)** accorde à l'acquéreur le choix entre deux voies :
 - **L'action rédhibitoire** : restitution de l'immeuble et remboursement intégral du prix d'acquisition majoré des frais de mutation.
 - **L'action estimatoire** : conservation de l'immeuble et restitution d'une fraction du prix de vente, arbitrée par voie d'expertise judiciaire.
 
@@ -206,6 +209,10 @@ Calculez en 2 minutes le montant des aides financières (MaPrimeRénov', CEE) po
 :::
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 

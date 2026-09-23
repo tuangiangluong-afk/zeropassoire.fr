@@ -1,22 +1,27 @@
 ---
-title: "Sortir de passoire énergétique en 2026 : le guide technique et pratique complet (DPE F ou G vers C)"
-description: "Le parcours pas à pas pour rénover efficacement une passoire thermique : bouquets de travaux optimaux selon l'ancienneté du bâti, règles de copropriété, pièges techniques et les 7 fraudes répertoriées par la DGCCRF."
-publishedAt: "2026-09-23"
-category: "Guide pilier"
-readTime: "22 min"
+title: >-
+  Sortir de passoire énergétique en 2026 : le guide technique et pratique
+  complet (DPE F ou G vers C)
+description: >-
+  Le parcours pas à pas pour rénover efficacement une passoire thermique :
+  bouquets de travaux optimaux selon l'ancienneté du bâti, règles de
+  copropriété, pièges techniques et les 7 fraudes répertoriées par la DGCCRF.
+publishedAt: '2026-09-23'
+category: Guide pilier
+readTime: 22 min
 ---
 
 # Sortir de passoire énergétique en 2026 : la méthode technique et pratique complète
 
 ::: callout Synthèse exécutive & chiffres réels 2026
 
-Passer d'une étiquette **F ou G** à une étiquette **C ou B** au DPE exige une approche globale et ordonnée. En France, 5,3 millions de résidences principales sont des passoires énergétiques (SDES 2025). Le coût médian constaté sur les chantiers ADEME 2024-2025 est de **32 000 € à 58 000 €HT** pour une maison individuelle (100 à 130 m²), et de **12 000 € à 24 000 €HT** pour un appartement en copropriété.
+Passer d'une étiquette **F ou G** à une étiquette **C ou B** au DPE exige une approche globale et ordonnée. En France, 5,3 millions de résidences principales sont des passoires énergétiques (SDES 2025). Le coût médian constaté sur les chantiers [ADEME](https://www.ademe.fr) 2024-2025 est de **32 000 € à 58 000 €HT** pour une maison individuelle (100 à 130 m²), et de **12 000 € à 24 000 €HT** pour un appartement en copropriété.
 
-Une sortie de passoire réussie divise les factures de chauffage par **2,5 à 3,8**, élimine tout risque d'interdiction de location et annule la décote immobilière à la revente (-6 % à -18 % selon les notaires).
+Une sortie de passoire réussie divise les factures de chauffage par **2,5 à 3,8**, élimine tout risque d'[calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) et annule la décote immobilière à la revente (-6 % à -18 % selon les notaires).
 
 :::
 
-Trop de propriétaires commettent l'erreur d'installer une pompe à chaleur coûteuse dans une maison mal isolée, transformant une passoire au fioul en passoire électrique surchauffée. Ce guide détaille la physique thermique du bâtiment, les bouquets de travaux performants selon l'année de construction, la gestion des copropriétés et la protection contre les arnaques.
+Trop de propriétaires commettent l'erreur d'installer une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) coûteuse dans une maison mal isolée, transformant une passoire au fioul en passoire électrique surchauffée. Ce guide détaille la physique thermique du bâtiment, les bouquets de travaux performants selon l'année de construction, la gestion des copropriétés et la protection contre les arnaques.
 
 ---
 
@@ -54,10 +59,10 @@ Les travaux ne s'improvisent pas : ils doivent s'adapter scrupuleusement aux car
 ### Archétype A : La maison individuelle de lotissement (1970–1989, parpaing ou brique)
 * **Faiblesses typiques** : Combles perdus peu isolés (laine de verre tassée de 5 cm), murs en parpaing creux non isolés, vieille chaudière fioul ou convecteurs « grille-pain », menuiseries simple vitrage ou premier double vitrage alu fuyard.
 * **Le bouquet optimal pour atteindre la classe C ou B** :
-  1. *Isolation des combles perdus* en laine minérale ou ouate de cellulose soufflée ($R \ge 7 \text{ m}^2.\text{K/W}$) : 35 à 55 € / m².
+  1. *[isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7)* en laine minérale ou ouate de cellulose soufflée ($R \ge 7 \text{ m}^2.\text{K/W}$) : 35 à 55 € / m².
   2. *Isolation thermique des murs par l'extérieur (ITE)* sous enduit respirant ($R \ge 3,7$) : 150 à 210 € / m².
   3. *Remplacement du chauffage* par une pompe à chaleur air/eau bi-bloc haute performance (COP saisonnier $\ge 3,8$) : 11 500 à 15 000 €.
-  4. *VMC hygroréglable type B* ou VMC double flux : 1 600 à 4 800 €.
+  4. *[VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) type B* ou VMC double flux : 1 600 à 4 800 €.
 * **Résultat typique DPE** : Classe G $\rightarrow$ Classe B (Facture annuelle passant de 3 400 € à 900 €).
 
 ### Archétype B : La maison ancienne en pierre ou pisé (Bâti d'avant 1948)
@@ -66,7 +71,7 @@ Les travaux ne s'improvisent pas : ils doivent s'adapter scrupuleusement aux car
   1. *Isolation de toiture par sarking ou combles en fibres de bois bio-sourcées*.
   2. *Enduit chaux-chanvre intérieur* ou isolation perspirante permettant la diffusion de vapeur d'eau.
   3. *Système de chauffage bois ou granulés* (chaudière ou poêle canalisé) ou PAC basse température sur radiateurs fonte existants.
-  4. *Menuiseries bois à double vitrage à isolation renforcée (VIR)*.
+  4. *Menuiseries bois à [remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite)e (VIR)*.
 * **Résultat typique DPE** : Classe F $\rightarrow$ Classe C.
 
 ### Archétype C : L'appartement en copropriété des années 1960–1975
@@ -90,7 +95,7 @@ En copropriété, un propriétaire bailleur ou occupant ne peut pas décider seu
 
 ### Les obligations collectives qui aident votre dossier
 1. **Le Plan Pluriannuel de Travaux (PPPT)** : Depuis le 1er janvier 2025, tous les immeubles de copropriété de plus de 15 ans sont **légalement obligés d'avoir voté un PPPT** chiffrant les travaux d'économie d'énergie sur 10 ans.
-2. **Le DPE Collectif** : Obligatoire pour tous les immeubles collectifs depuis le 1er janvier 2025 (loi Climat).
+2. **Le [copropriété, DPE collectif et Plan Pluriannuel de Travaux (PPT)](/guides/copropriete-passoire-thermique-dpe-collectif-ppt-ag)** : Obligatoire pour tous les immeubles collectifs depuis le 1er janvier 2025 (loi Climat).
 3. **Le fonds de travaux obligatoire** : Tous les copropriétaires cotisent chaque année à une réserve financière dédiée exclusivement aux travaux de rénovation énergétique (minimum légal de 2,5 % à 5 % du budget prévisionnel).
 
 ---
@@ -104,7 +109,7 @@ Voici les 7 pièges majeurs et comment vous en prémunir :
 1. **Le démarchage téléphonique illégal** : La loi n° 2020-901 du 24 juillet 2020 **interdit formellement tout démarchage téléphonique non consenti** dans le secteur de la rénovation énergétique. Toute entreprise qui vous appelle spontanément pour vous proposer « un audit gratuit » ou « MaPrimeRénov' » est en infraction pénale immédiate. Raccrochez.
 2. **L'usurpation de logos officiels** : Utilisation frauduleuse des logos « France Rénov' », « République Française » ou « Ministère de la Transition Écologique » sur des flyers ou sites web. Seuls les conseillers du réseau public France Rénov' sont neutres.
 3. **La signature d'un devis déguisé en simple visite technique** : Des démarcheurs à domicile font signer une tablette tactile en affirmant qu'il s'agit d'un « accusé de passage » ou d'une « demande d'éligibilité ». Il s'agit en réalité d'un bon de commande ferme assorti d'un crédit à la consommation dissimulé ! Ne signez jamais rien sur tablette lors d'un premier rendez-vous.
-4. **Le faux artisan RGE (Reconnu Garant de l'Environnement)** : Certains installateurs affichent le logo RGE sur leurs devis alors que leur certificat a expiré ou a été révoqué par Qualibat / Qualit'EnR. Exigez toujours le numéro de certificat et vérifiez sa validité en direct sur l'annuaire public officiel : [france-renov.gouv.fr/annuaire-rge](https://france-renov.gouv.fr/annuaire-rge).
+4. **Le faux [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) (Reconnu Garant de l'Environnement)** : Certains installateurs affichent le logo RGE sur leurs devis alors que leur certificat a expiré ou a été révoqué par Qualibat / Qualit'EnR. Exigez toujours le numéro de certificat et vérifiez sa validité en direct sur l'annuaire public officiel : [france-renov.gouv.fr/annuaire-rge](https://france-renov.gouv.fr/annuaire-rge).
 5. **Le surdimensionnement de la pompe à chaleur** : Pour gonfler la facture de 5 000 €, des commerciaux peu scrupuleux installent une PAC de 16 kW là où une machine de 9 kW est requise. Conséquences : cycles courts de fonctionnement, compresseur qui casse au bout de 4 ans et facture d'électricité record. L'étude thermique et le calcul des déperditions pièce par pièce sont obligatoires.
 6. **L'oubli fatal de la ventilation** : Isoler parfaitement une maison sans installer de VMC transforme le logement en thermos humide. En moins de 18 mois, des champignons et moisissures noires (aspergillus) apparaissent sur les angles de plafonds et derrière les meubles.
 7. **La promesse mensongère de « l'isolation à 1 € »** : Le dispositif à 1 € a été définitivement supprimé par l'État le 1er juillet 2021. Tout opérateur qui utilise encore cet argumentaire pratique une publicité mensongère passible de poursuites pénales.

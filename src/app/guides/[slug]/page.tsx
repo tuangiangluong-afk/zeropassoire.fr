@@ -153,7 +153,22 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
   }
 
   const allGuides = getAllGuides();
-  const relatedGuides = allGuides.filter((g) => g.slug !== slug).slice(0, 3);
+  const currentTokens = new Set(
+    slug.split("-").concat((guide.category || "").toLowerCase().split(/\s+/))
+  );
+  const relatedGuides = allGuides
+    .filter((g) => g.slug !== slug)
+    .map((g) => {
+      let score = 0;
+      if (g.category && guide.category && g.category === guide.category) score += 6;
+      for (const t of g.slug.split("-")) {
+        if (t.length > 3 && currentTokens.has(t)) score += 2;
+      }
+      return { guide: g, score };
+    })
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 3)
+    .map((s) => s.guide);
 
   return (
     <article className="py-16 bg-white">

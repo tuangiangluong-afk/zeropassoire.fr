@@ -1,9 +1,14 @@
 ---
-title: "MaPrimeRénov’ Parcours Accompagné 2026 : Plafonds 70 000 €, Barèmes et Prise en Charge"
-description: "Guide technique et financier 2026 sur MaPrimeRénov' Parcours Accompagné : barèmes de revenus, plafonds de dépenses jusqu'à 70 000 €, taux d'aide et rôle du MAR."
-publishedAt: "2026-09-23"
-category: "Aides Financières"
-readTime: "11 min"
+title: >-
+  MaPrimeRénov’ Parcours Accompagné 2026 : Plafonds 70 000 €, Barèmes et Prise
+  en Charge
+description: >-
+  Guide technique et financier 2026 sur MaPrimeRénov' Parcours Accompagné :
+  barèmes de revenus, plafonds de dépenses jusqu'à 70 000 €, taux d'aide et rôle
+  du MAR.
+publishedAt: '2026-09-23'
+category: Aides Financières
+readTime: 11 min
 ---
 
 # MaPrimeRénov’ Parcours Accompagné 2026 : Plafonds 70 000 €, Barèmes et Prise en Charge
@@ -12,7 +17,7 @@ readTime: "11 min"
 Le Parcours Accompagné de MaPrimeRénov’ 2026 subventionne les rénovations globales permettant un saut d’au moins deux classes énergétiques (ex: G vers E ou F vers D). Les plafonds de dépenses éligibles atteignent 40 000 €, 55 000 € ou 70 000 € HT selon le saut de classe, avec un taux de prise en charge allant jusqu’à 90% pour les ménages très modestes (profil bleu).
 :::
 
-La refonte structurelle des aides à la rénovation énergétique, entérinée par le **Décret n° 2024-249 du 21 mars 2024** et l'**Arrêté du 21 mars 2024 relatif aux aides de l’Anah**, positionne le « Parcours Accompagné » comme l'instrument pivot de la transition thermique résidentielle en 2026. Face au calendrier impératif de la loi Climat et Résilience — interdiction de location des logements classés G depuis le 1er janvier 2025, puis des logements classés F dès le 1er janvier 2028 et E au 1er janvier 2034 —, la rénovation par geste isolé s'avère insuffisante pour éradiquer les passoires thermiques.
+La refonte structurelle des aides à la rénovation énergétique, entérinée par le **Décret n° 2024-249 du 21 mars 2024** et l'**Arrêté du 21 mars 2024 relatif aux aides de [l’Anah](https://www.anah.gouv.fr)**, positionne le « Parcours Accompagné » comme l'instrument pivot de la transition thermique résidentielle en 2026. Face au calendrier impératif de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) — [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) des logements classés G depuis le 1er janvier 2025, puis des logements classés F dès le 1er janvier 2028 et E au 1er janvier 2034 —, la rénovation par geste isolé s'avère insuffisante pour éradiquer les passoires thermiques.
 
 Le Parcours Accompagné s’adresse aux propriétaires occupants et bailleurs engageant une rénovation d’ampleur multigestes. Ce dispositif conditionne l'octroi de subventions massives à un gain de performance énergétique certifié par un audit initial et un contrôle post-travaux, sous la supervision obligatoire d'un tiers de confiance agréé : Mon Accompagnateur Rénov' (MAR).
 
@@ -54,7 +59,7 @@ Le programme impose d'inclure dans le bouquet de travaux au minimum **deux geste
 1. **Isolation de la toiture ou des combles perdus/aménagés** : résistance thermique minimale exigée $R \ge 7,0\ \text{m}^2\cdot\text{K/W}$ en combles perdus ou $R \ge 6,0\ \text{m}^2\cdot\text{K/W}$ en rampants de toiture.
 2. **Isolation des murs par l'extérieur (ITE) ou l'intérieur (ITI)** : résistance thermique minimale $R \ge 3,7\ \text{m}^2\cdot\text{K/W}$.
 3. **Isolation des planchers bas sur sous-sol, vide sanitaire ou passage ouvert** : résistance thermique minimale $R \ge 3,0\ \text{m}^2\cdot\text{K/W}$.
-4. **Remplacement des menuiseries extérieures (fenêtres et portes-fenêtres)** : coefficient de transmission thermique surfacique $U_w \le 1,3\ \text{W/m}^2\cdot\text{K}$ avec facteur solaire $S_w \ge 0,3$ ou $U_w \le 1,4\ \text{W/m}^2\cdot\text{K}$ avec $S_w \ge 0,36$.
+4. **[remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite) extérieures (fenêtres et portes-fenêtres)** : coefficient de transmission thermique surfacique $U_w \le 1,3\ \text{W/m}^2\cdot\text{K}$ avec facteur solaire $S_w \ge 0,3$ ou $U_w \le 1,4\ \text{W/m}^2\cdot\text{K}$ avec $S_w \ge 0,36$.
 
 ### Interdictions techniques et décarbonation
 Le décret interdit formellement l'installation d'un système de chauffage ou de production d'eau chaude sanitaire fonctionnant principalement aux énergies fossiles (fioul ou charbon). L'installation d'une chaudière au gaz (y compris à très haute performance énergétique - THPE) ne peut bénéficier d'aucune aide dans ce parcours et ne permet pas de valider l'étape de décarbonation si elle maintient une dépendance fossile majoritaire.
@@ -115,7 +120,7 @@ Le tableau ci-après présente les taux d'aide applicables aux dépenses éligib
 | **Saut de 4 classes (Base)** | 70 000 € | **80 %** (max 56 000 €) | **60 %** (max 42 000 €) | **40 %** (max 28 000 €) | **30 %** (max 21 000 €) |
 | **Saut de 4 classes (Sortie F/G)** | 70 000 € | **90 %** (max 63 000 €) | **80 %** (max 56 000 €) | **60 %** (max 42 000 €) | **40 %** (max 28 000 €) |
 
-*Note sur la valorisation CEE : Dans le cadre du Parcours Accompagné, la valorisation des Certificats d'Économies d'Énergie (CEE) est directement intégrée dans l'aide distribuée par l'Anah pour les profils Bleu et Jaune. Le demandeur ne peut pas solliciter de prime CEE individuelle auprès d'un délégataire pour les mêmes postes de travaux.*
+*Note sur la valorisation CEE : Dans le cadre du Parcours Accompagné, la valorisation des Certificats d'Économies d'Énergie (CEE) est directement intégrée dans l'aide distribuée par l'Anah pour les profils Bleu et Jaune. Le demandeur ne peut pas solliciter de [primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul) individuelle auprès d'un délégataire pour les mêmes postes de travaux.*
 
 ### Les règles d'écrêtement de l'aide publique
 Le montant total cumulé de l'ensemble des aides publiques directes (MaPrimeRénov', aides des collectivités territoriales, aides Action Logement) et privées ne peut dépasser un pourcentage strict du montant total TTC des dépenses éligibles :
@@ -192,16 +197,16 @@ Pour débloquer le plafond maximal de **70 000 € HT** et sécuriser une valori
 ```
 
 ### Cas concret : Rénovation d'une maison individuelle de 120 m² (1972)
-- **État initial** : DPE classe **F** ($380\ \text{kWh/m}^2\cdot\text{an}$ d'énergie primaire), chaudière fioul hors d'âge, isolation des combles en laine de verre tassée ($R = 1,5$), murs en parpaings non isolés, simple vitrage d'origine, ventilation naturelle non contrôlée.
+- **État initial** : DPE classe **F** ($380\ \text{kWh/m}^2\cdot\text{an}$ d'énergie primaire), chaudière fioul hors d'âge, [isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7) en laine de verre tassée ($R = 1,5$), murs en parpaings non isolés, simple vitrage d'origine, ventilation naturelle non contrôlée.
 - **Objectif** : Atteindre la classe **B** ($95\ \text{kWh/m}^2\cdot\text{an}$), soit un saut de 4 classes.
 
 ### Le bouquet de travaux déployé
 1. **Isolation thermique des murs par l'extérieur (ITE)** : Pose de 140 mm de polystyrène expansé graphité sous enduit minéral ($R = 4,50\ \text{m}^2\cdot\text{K/W}$), traitement des tableaux et linteaux. Coût : 19 500 € HT.
-2. **Isolation des combles perdus** : Soufflage de 350 mm de ouate de cellulose ($R = 7,80\ \text{m}^2\cdot\text{K/W}$) après pose d'une membrane pare-vapeur continue étanche à l'air. Coût : 5 800 € HT.
+2. **[isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7)** : Soufflage de 350 mm de ouate de cellulose ($R = 7,80\ \text{m}^2\cdot\text{K/W}$) après pose d'une membrane pare-vapeur continue étanche à l'air. Coût : 5 800 € HT.
 3. **Menuiseries et fermetures** : Dépose totale et pose de 9 fenêtres/portes-fenêtres PVC à rupture de pont thermique, double vitrage gaz argon, Warm Edge ($U_w = 1,2\ \text{W/m}^2\cdot\text{K}$). Coût : 11 200 € HT.
 4. **Ventilation mécanique** : Installation d'une VMC double flux hygroréglable à haut rendement ($\eta \ge 88\ \%$) avec réseau rigide calorifugé en volume chauffé. Coût : 6 500 € HT.
-5. **Chauffage et ECS décarbonés** : Dépose de la cuve fioul et installation d'une Pompe à Chaleur (PAC) air-eau moyenne température avec plancher chauffant / radiateurs basse température (COP à $+7\ ^\circ\text{C} = 4,20$ ; $\eta_s \ge 135\ \%$). Coût : 16 000 € HT.
-6. **Isolation du plancher bas** : Projection de 100 mm de polyuréthane sous face de dalle sur sous-sol non chauffé ($R = 3,70\ \text{m}^2\cdot\text{K/W}$). Coût : 4 500 € HT.
+5. **Chauffage et ECS décarbonés** : Dépose de la cuve fioul et installation d'une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) (PAC) air-eau moyenne température avec plancher chauffant / radiateurs basse température (COP à $+7\ ^\circ\text{C} = 4,20$ ; $\eta_s \ge 135\ \%$). Coût : 16 000 € HT.
+6. **[isolation du plancher bas sur cave ou garage](/guides/isolation-plancher-bas-cave-garage-vide-sanitaire)** : Projection de 100 mm de polyuréthane sous face de dalle sur sous-sol non chauffé ($R = 3,70\ \text{m}^2\cdot\text{K/W}$). Coût : 4 500 € HT.
 
 - **Montant total des travaux** : **63 500 € HT** (soit 67 000 € TTC à TVA 5,5 %).
 - **Prise en charge financière pour un foyer au profil BLEU (Sortie de passoire, saut de 4 classes)** :
@@ -215,6 +220,10 @@ Pour débloquer le plafond maximal de **70 000 € HT** et sécuriser une valori
 :::
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 

@@ -1,18 +1,23 @@
 ---
-title: "DPE des Petites Surfaces (< 40 m²) : Sortir du G Grâce au Nouvel Arrêté Ministériel"
-description: "Découvrez comment l'arrêté ministériel correctif sur le DPE des logements de moins de 40 m² permet de sortir mécaniquement du statut de passoire thermique sans travaux."
-publishedAt: "2026-09-23"
-category: "DPE & Diagnostics"
-readTime: "8 min"
+title: >-
+  DPE des Petites Surfaces (< 40 m²) : Sortir du G Grâce au Nouvel Arrêté
+  Ministériel
+description: >-
+  Découvrez comment l'arrêté ministériel correctif sur le DPE des logements de
+  moins de 40 m² permet de sortir mécaniquement du statut de passoire thermique
+  sans travaux.
+publishedAt: '2026-09-23'
+category: DPE & Diagnostics
+readTime: 8 min
 ---
 
 # DPE des Petites Surfaces (< 40 m²) : Sortir du G Grâce au Nouvel Arrêté Ministériel
 
 ::: callout Réponse directe
-L’arrêté ministériel modifiant le mode de calcul du DPE pour les logements de moins de 40 m² a corrigé le biais qui pénalisait systématiquement les studios en surévaluant la consommation d’eau chaude sanitaire (ECS) par mètre carré. Plus de 140 000 logements sont sortis mécaniquement du statut de passoire thermique sans aucun travaux, via une simple attestation téléchargeable sur l'Observatoire DPE de l'ADEME, venant modifier la validité juridique du diagnostic initial sans repasser par l'intervention d'un diagnostiqueur.
+L’arrêté ministériel modifiant le mode de calcul du DPE pour les logements de moins de 40 m² a corrigé le biais qui pénalisait systématiquement les studios en surévaluant la consommation d’eau chaude sanitaire (ECS) par mètre carré. Plus de 140 000 logements sont sortis mécaniquement du statut de passoire thermique sans aucun travaux, via une simple attestation téléchargeable sur l'Observatoire DPE de [ADEME](https://www.ademe.fr), venant modifier la validité juridique du diagnostic initial sans repasser par l'intervention d'un diagnostiqueur.
 :::
 
-Depuis l'entrée en vigueur de l'interdiction de louer les logements étiquetés G au 1er janvier 2025 et dans la perspective du couperet pour la classe F au 1er janvier 2028 (puis la classe E au 1er janvier 2034, conformément à la Loi Climat et Résilience), les propriétaires de petites surfaces ont subi de plein fouet les incohérences de la méthode de calcul 3CL-DPE 2021. L'Arrêté du 25 mars 2024 modifiant les seuils du DPE pour les petits logements est venu rectifier une injustice statistique qui frappait les studios et deux-pièces urbains.
+Depuis l'entrée en vigueur de l'interdiction de louer les logements étiquetés G au 1er janvier 2025 et dans la perspective du couperet pour la classe F au 1er janvier 2028 (puis la classe E au 1er janvier 2034, conformément à la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)), les propriétaires de petites surfaces ont subi de plein fouet les incohérences de la méthode de calcul 3CL-DPE 2021. L'[arrêté ministériel du 25 mars 2024](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049446271) modifiant les seuils du DPE pour les petits logements est venu rectifier une injustice statistique qui frappait les studios et deux-pièces urbains.
 
 ---
 
@@ -132,12 +137,16 @@ Dans les surfaces de moins de 40 m², l'impact des équipements techniques est d
 
 ### Priorité 2 : Le traitement de la compacité de l'enveloppe
 * **Isolation thermique par l'intérieur (ITI)** des murs donnant sur l'extérieur ou sur parties communes non chauffées (panneaux de polyuréthane ou laine de roche sous ossature métallique avec résistance thermique $R \ge 3,7 \text{ m}²\text{.K/W}$).
-* **Remplacement des menuiseries** : pose de fenêtres double vitrage à isolation renforcée (verre peu émissif avec gaz Argon, $U_w \le 1,3 \text{ W/m}²\text{.K}$ et facteur solaire $S_w \ge 0,4$).
-* **Calfeutrement et ventilation** : mise en place d'une VMC hygroréglable de type B pour limiter les débits d'air parasites tout en garantissant le renouvellement d'air hygiénique, sans surconsommation de chauffage.
+* **[remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite)** : pose de fenêtres double vitrage à isolation renforcée (verre peu émissif avec gaz Argon, $U_w \le 1,3 \text{ W/m}²\text{.K}$ et facteur solaire $S_w \ge 0,4$).
+* **Calfeutrement et ventilation** : mise en place d'une [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) de type B pour limiter les débits d'air parasites tout en garantissant le renouvellement d'air hygiénique, sans surconsommation de chauffage.
 
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 

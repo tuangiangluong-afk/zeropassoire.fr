@@ -1,9 +1,14 @@
 ---
-title: "Audit Énergétique Obligatoire Avant-Vente : Monopropriétés D, E, F, G (Prix et Validité)"
-description: "Guide complet 2026 de l'audit énergétique réglementaire avant-vente : obligations pour les maisons F, G et E, coût, durée de validité et scénarios de travaux."
-publishedAt: "2026-09-23"
-category: "Vente & Diagnostics"
-readTime: "10 min"
+title: >-
+  Audit Énergétique Obligatoire Avant-Vente : Monopropriétés D, E, F, G (Prix et
+  Validité)
+description: >-
+  Guide complet 2026 de l'audit énergétique réglementaire avant-vente :
+  obligations pour les maisons F, G et E, coût, durée de validité et scénarios
+  de travaux.
+publishedAt: '2026-09-23'
+category: Vente & Diagnostics
+readTime: 10 min
 ---
 
 # Audit Énergétique Obligatoire Avant-Vente : Monopropriétés D, E, F, G (Prix et Validité)
@@ -12,7 +17,7 @@ readTime: "10 min"
 L’audit énergétique réglementaire est obligatoire pour la mise en vente de toute maison individuelle ou immeuble en monopropriété classé F ou G (depuis 2023) et classé E (depuis le 1er janvier 2025). Il doit être remis au candidat acquéreur dès la première visite et annexé à la promesse de vente. D’un coût moyen de 600 € à 1 000 €, il est valable 5 ans et propose au moins deux scénarios de travaux chiffrés.
 :::
 
-Issu de la loi Climat et Résilience du 22 août 2021 et encadré par l’**article L126-28-1 du Code de la construction et de l'habitation (CCH)**, l'audit énergétique réglementaire s'est imposé comme une pièce maîtresse du dossier de diagnostic technique (DDT). Contrairement au simple constat du Diagnostic de Performance Énergétique (DPE), cet audit constitue une véritable feuille de route technique et financière. Il guide l'acquéreur potentiel dans la transformation du bien vers le niveau d'efficacité énergétique requis par la réglementation thermique.
+Issu de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) du 22 août 2021 et encadré par l’**article L126-28-1 du Code de la construction et de l'habitation (CCH)**, l'audit énergétique réglementaire s'est imposé comme une pièce maîtresse du dossier de diagnostic technique (DDT). Contrairement au simple constat du Diagnostic de Performance Énergétique (DPE), cet audit constitue une véritable feuille de route technique et financière. Il guide l'acquéreur potentiel dans la transformation du bien vers le niveau d'efficacité énergétique requis par la réglementation thermique.
 
 En 2026, avec l'intégration définitive des logements classés E dans le périmètre d'obligation depuis le 1er janvier 2025, plus de 45 % du parc des maisons individuelles anciennes mis en vente est soumis à cette obligation d'expertise poussée.
 
@@ -87,18 +92,18 @@ PARCOURS DE RÉNOVATION OBLIGATOIRES
 
 ### Les six postes de travaux obligatoirement examinés
 L'auditeur doit analyser techniquement et prescrire des solutions conformes aux exigences thermiques sur les six postes cardinaux de la rénovation :
-1. **Isolation des combles et toitures** : Visant une résistance thermique minimale $R \ge 7{,}0 \text{ m}²\cdot\text{K/W}$ en combles perdus et $R \ge 6{,}0 \text{ m}²\cdot\text{K/W}$ en toiture-terrasse ou rampants.
+1. **[isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7) et toitures** : Visant une résistance thermique minimale $R \ge 7{,}0 \text{ m}²\cdot\text{K/W}$ en combles perdus et $R \ge 6{,}0 \text{ m}²\cdot\text{K/W}$ en toiture-terrasse ou rampants.
 2. **Isolation des murs par l'extérieur (ITE) ou l'intérieur (ITI)** : Visant un $R \ge 3{,}7 \text{ m}²\cdot\text{K/W}$.
 3. **Isolation des planchers bas** : Sur sous-sol, vide sanitaire ou passage ouvert, visant un $R \ge 3{,}0 \text{ m}²\cdot\text{K/W}$.
-4. **Remplacement des menuiseries extérieures** : Fenêtres et portes-fenêtres avec coefficient de transmission surfacique $U_w \le 1{,}3 \text{ W/m}²\cdot\text{K}$ et facteur solaire $S_w \ge 0{,}3$.
-5. **Système de ventilation** : Implantation impérative d'une VMC hygroréglable de type B ou d'une VMC double flux à haut rendement thermodynamique pour prévenir tout point de rosée post-isolation.
+4. **[remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite) extérieures** : Fenêtres et portes-fenêtres avec coefficient de transmission surfacique $U_w \le 1{,}3 \text{ W/m}²\cdot\text{K}$ et facteur solaire $S_w \ge 0{,}3$.
+5. **Système de ventilation** : Implantation impérative d'une [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) de type B ou d'une VMC double flux à haut rendement thermodynamique pour prévenir tout point de rosée post-isolation.
 6. **Système de chauffage et de production d'eau chaude sanitaire (ECS)** : Dépose des chaudières fioul ou gaz non performantes au profit de pompes à chaleur (PAC air/eau, PAC géothermique), de systèmes solaires combinés (SSC) ou de raccordements aux réseaux de chaleur vertueux.
 
 ### La prévention des pathologies du bâtiment
 Un bon audit ne se limite pas à empiler des isolants. Conformément au texte réglementaire, l'auditeur doit impérativement veiller à :
 * La continuité thermique de l'enveloppe pour éliminer les ponts thermiques structurels (liaisons plancher-mur, tableaux de fenêtres).
 * La gestion de la perméabilité à l'air et le contrôle de l'humidité relative.
-* La compatibilité du mode d'isolation avec les matériaux d'origine (préservation du bâti ancien en pierre, pisé, pans de bois nécessitant des isolants biosourcés perspirants comme la fibre de bois ou le chanvre).
+* La compatibilité du mode d'isolation avec les matériaux d'origine (préservation du [rénovation thermique du bâti ancien en pierre ou pisé](/guides/renovation-energetique-maison-ancienne-pierre-pise-colombage), pisé, pans de bois nécessitant des isolants biosourcés perspirants comme la fibre de bois ou le chanvre).
 
 ---
 
@@ -145,11 +150,15 @@ Alors que le DPE bénéficie d'une durée de validité de 10 ans, l'audit énerg
 ### L'impact sur la négociation du prix de vente (La "décote verte")
 Dans la pratique transactionnelle observée en 2026, l'audit énergétique est devenu l'instrument de négociation numéro un des acheteurs et des investisseurs. Les devis estimatifs poste par poste figurant dans l'audit servent de base pour formuler des offres d'achat avec décote équivalente à tout ou partie du montant des travaux du Scénario 1 ou 2.
 
-Pour le vendeur, disposer d'un audit de haute précision technique permet au contraire de défendre la valeur vénale de son bien en démontrant que le passage en classe C ou B est techniquement réalisable, financièrement optimisé grâce aux aides de l'Anah (MaPrimeRénov' Parcours Accompagné), et planifié sans surcoûts imprévus.
+Pour le vendeur, disposer d'un audit de haute précision technique permet au contraire de défendre la valeur vénale de son bien en démontrant que le passage en classe C ou B est techniquement réalisable, financièrement optimisé grâce aux aides de [l’Anah](https://www.anah.gouv.fr) (MaPrimeRénov' Parcours Accompagné), et planifié sans surcoûts imprévus.
 
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 
@@ -160,7 +169,7 @@ Non. L'audit énergétique réglementaire est un document purement informatif de
 Oui. Depuis le 1er janvier 2025, tous les biens classés E en monopropriété sont assujettis à l'audit énergétique obligatoire lors de leur mise en vente. Le fait que votre DPE ait été établi avant 2025 ne vous exonère pas de l'obligation de commander un audit énergétique dès lors que la promesse de vente ou l'acte authentique est signé après cette date pivot.
 
 ### Peut-on utiliser l'audit incitatif MaPrimeRénov' pour remplacer l'audit obligatoire de vente ?
-Non. L'audit énergétique "incitatif" (réalisé selon les méthodes spécifiques de l'Anah pour l'obtention de subventions de travaux) ne répond pas aux mêmes formalités d'enregistrement administratif que l'audit réglementaire avant-vente défini par l'Arrêté du 4 mai 2022. Seul l'audit réglementaire disposant d'un identifiant officiel ADEME et transmis sur la base de données nationale est juridiquement valable pour une transaction immobilière.
+Non. L'audit énergétique "incitatif" (réalisé selon les méthodes spécifiques de l'Anah pour l'obtention de subventions de travaux) ne répond pas aux mêmes formalités d'enregistrement administratif que l'audit réglementaire avant-vente défini par l'Arrêté du 4 mai 2022. Seul l'audit réglementaire disposant d'un identifiant officiel [ADEME](https://www.ademe.fr) et transmis sur la base de données nationale est juridiquement valable pour une transaction immobilière.
 
 ### Que risque le vendeur en cas d'absence d'audit énergétique dans le compromis de vente ?
 L'absence d'audit énergétique valide lors de la signature de la promesse ou de l'acte authentique empêche le notaire de clôturer la vente. Si la transaction venait à être signée sans ce document, le délai de rétractation de 10 jours de l'acheteur ne commencerait à courir qu'à compter du jour de la communication effective de l'audit. Par ailleurs, l'acquéreur pourrait solliciter en justice l'annulation de la vente ou une diminution rétroactive substantielle du prix de vente pour préjudice d'information.

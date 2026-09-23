@@ -1,9 +1,14 @@
 ---
-title: "PAC Air/Eau en 2026 : Prix Réel, Aides Déduites, COP Saisonnier et Consommation"
-description: "Guide technique complet 2026 sur la pompe à chaleur air/eau : dimensionnement, SCOP, remplacement chaudière fioul/gaz, aides MaPrimeRénov' et CEE, rentabilité réelle."
-publishedAt: "2026-09-23"
-category: "Chauffage & Énergie"
-readTime: "11 min"
+title: >-
+  PAC Air/Eau en 2026 : Prix Réel, Aides Déduites, COP Saisonnier et
+  Consommation
+description: >-
+  Guide technique complet 2026 sur la pompe à chaleur air/eau : dimensionnement,
+  SCOP, remplacement chaudière fioul/gaz, aides MaPrimeRénov' et CEE,
+  rentabilité réelle.
+publishedAt: '2026-09-23'
+category: Chauffage & Énergie
+readTime: 11 min
 ---
 
 # PAC Air/Eau en 2026 : Prix Réel, Aides Déduites, COP Saisonnier et Consommation
@@ -12,7 +17,7 @@ readTime: "11 min"
 La pompe à chaleur (PAC) air/eau est l’équipement pivot pour sortir une passoire thermique du statut F ou G vers les classes C ou B. Pour une maison de 100 à 130 m², l’installation complète coûte entre 12 000 € et 18 000 € TTC. Grâce au cumul MaPrimeRénov’ et Coup de Pouce CEE, les aides peuvent atteindre 8 000 € à 11 000 €, réduisant le reste à charge à moins de 3 000 € pour les ménages très modestes.
 :::
 
-Dans le cadre du calendrier de la **Loi Climat et Résilience** — marquée par l'interdiction de louer les logements classés G depuis le 1er janvier 2025, puis F dès le 1er janvier 2028 et E au 1er janvier 2034 —, la rénovation du système de chauffage constitue le levier le plus rapide pour réduire drastiquement la consommation d'énergie primaire d'un bien immobilier. 
+Dans le cadre du calendrier de la **[loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)** — marquée par l'interdiction de louer les logements classés G depuis le 1er janvier 2025, puis F dès le 1er janvier 2028 et E au 1er janvier 2034 —, la rénovation du système de chauffage constitue le levier le plus rapide pour réduire drastiquement la consommation d'énergie primaire d'un bien immobilier. 
 
 Remplacer une ancienne chaudière fioul ou gaz par une pompe à chaleur aérothermique air/eau permet de diviser la facture énergétique annuelle par un facteur 2,5 à 3,5, tout en débloquant les verrous réglementaires à la location. Cependant, la rentabilité réelle dépend d'un équilibre thermique rigoureux : choix entre haute et basse température, dimensionnement millimétré de la puissance caloportrice, respect des seuils acoustiques et optimisation du montage financier d'aides publiques en vigueur en 2026.
 
@@ -42,7 +47,7 @@ Pour estimer la performance réelle, les diagnostiqueurs DPE et les bureaux d'é
 $$\text{SCOP} = \frac{\text{Quantité totale d'énergie thermique fournie sur la saison (kWh)}}{\text{Quantité totale d'énergie électrique consommée (kWh)}}$$
 
 *   **L'Efficacité Énergétique Saisonnière ($\eta_s$ ou ETAS) :** Exprimée en pourcentage, elle est calculée en divisant le SCOP par le facteur de conversion d'énergie primaire européen (fixé à 2,5) corrigé de facteurs de régulation.
-*   **Les Exigences de la Fiche CEE BAR-TH-104 :** Pour être éligible aux primes CEE et à MaPrimeRénov' en 2026, la PAC doit impérativement respecter un seuil minimal d'ETAS :
+*   **Les Exigences de la Fiche CEE BAR-TH-104 :** Pour être éligible aux [primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul) et à MaPrimeRénov' en 2026, la PAC doit impérativement respecter un seuil minimal d'ETAS :
     *   $\eta_s \ge 111\ \%$ pour les PAC moyenne et haute température (sortie eau $> 55\ ^\circ\text{C}$).
     *   $\eta_s \ge 126\ \%$ pour les PAC basse température (sortie eau $\le 55\ ^\circ\text{C}$).
 
@@ -135,7 +140,7 @@ $$\text{Consommation électrique} = \frac{25\,740\ \text{kWh}}{3{,}1} = 8\,303\ 
 
 *   **Facture annuelle d'électricité (Tarif réglementé 2026 ~ 0,25 €/kWh TTC) :** $8\,303\ \text{kWh} \times 0{,}25\ \text{€} = 2\,075\ \text{€/an}$.
 *   **Économie brute annuelle :** $3\,250\ \text{€} - 2\,075\ \text{€} = 1\,175\ \text{€/an}$.
-*   *Note post-isolation :* Si cette installation s'accompagne d'une isolation des combles perdus ($R \ge 7\ \text{m}^2\cdot\text{K/W}$) et des sous-sols, les besoins tombent à 14 000 kWh thermiques, ramenant la facture électrique PAC entre **1 100 € et 1 350 €/an**.
+*   *Note post-isolation :* Si cette installation s'accompagne d'une [isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7) ($R \ge 7\ \text{m}^2\cdot\text{K/W}$) et des sous-sols, les besoins tombent à 14 000 kWh thermiques, ramenant la facture électrique PAC entre **1 100 € et 1 350 €/an**.
 
 ### Impact sur l'Étiquette DPE
 
@@ -174,7 +179,7 @@ Pour éviter tout conflit de voisinage ou recours juridique :
 
 ## 6. Baromètre Chiffré 2026 : Prix, Aides de l'État et Reste à Charge Net
 
-En 2026, l'installation d'une pompe à chaleur air/eau ouvre droit au cumul de deux mécanismes d'aide financière majeurs : **MaPrimeRénov'** (gérée par l'Anah) et la prime **CEE "Coup de Pouce Chauffage" (Fiche BAR-TH-104)**, bonifiée lors du remplacement d'une chaudière fioul ou gaz hors condensation.
+En 2026, l'installation d'une pompe à chaleur air/eau ouvre droit au cumul de deux mécanismes d'aide financière majeurs : **MaPrimeRénov'** (gérée par [l’Anah](https://www.anah.gouv.fr)) et la prime **CEE "Coup de Pouce Chauffage" (Fiche BAR-TH-104)**, bonifiée lors du remplacement d'une chaudière fioul ou gaz hors condensation.
 
 ### Barème Financier Moyen pour une PAC Air/Eau (Maison de 100 à 130 m²)
 
@@ -184,7 +189,7 @@ En 2026, l'installation d'une pompe à chaleur air/eau ouvre droit au cumul de d
 | **Main d'œuvre RGE & Accessoires** | 3 500 € à 5 000 € | 3 500 € à 5 000 € | 3 500 € à 5 000 € | 3 500 € à 5 000 € |
 | **Coût Total Moyen TTC** | **15 000 €** | **15 000 €** | **15 000 €** | **15 000 €** |
 | **MaPrimeRénov' (Parcours par geste)** | 5 000 € | 4 000 € | 3 000 € | 0 € |
-| **Prime CEE Coup de Pouce** | 4 500 € | 4 500 € | 2 500 € | 2 500 € |
+| **[primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul)** | 4 500 € | 4 500 € | 2 500 € | 2 500 € |
 | **Total des Subventions Déduites** | **9 500 €** | **8 500 €** | **5 500 €** | **2 500 €** |
 | **Reste à Charge Net Estimé** | **5 500 €** | **6 500 €** | **9 500 €** | **12 500 €** |
 | **Financement Éco-PTZ (Taux 0 %)** | Jusqu'à 15 000 € | Jusqu'à 15 000 € | Jusqu'à 15 000 € | Jusqu'à 15 000 € |
@@ -216,6 +221,10 @@ Contrôles obligatoires lors de la visite d'entretien bisannuelle :
 Le coût moyen d'un contrat d'entretien annuel auprès d'une entreprise certifiée RGE varie entre **150 € et 250 € TTC/an**, souvent assorti d'un service de dépannage prioritaire en période hivernale.
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 

@@ -1,9 +1,12 @@
 ---
-title: "Primes CEE & Coup de Pouce 2026 : Fiches BAR-TH-164/171 et Cumul MaPrimeRénov’"
-description: "Guide exhaustif sur les Certificats d'Économies d'Énergie en 2026 : fiches standardisées BAR-TH-164 et BAR-TH-171, Coup de Pouce Chauffage, règles d'écrêtement et barèmes par zone climatique."
-publishedAt: "2026-09-23"
-category: "Aides Financières"
-readTime: "10 min"
+title: 'Primes CEE & Coup de Pouce 2026 : Fiches BAR-TH-164/171 et Cumul MaPrimeRénov’'
+description: >-
+  Guide exhaustif sur les Certificats d'Économies d'Énergie en 2026 : fiches
+  standardisées BAR-TH-164 et BAR-TH-171, Coup de Pouce Chauffage, règles
+  d'écrêtement et barèmes par zone climatique.
+publishedAt: '2026-09-23'
+category: Aides Financières
+readTime: 10 min
 ---
 
 # Primes CEE & Coup de Pouce 2026 : Fiches BAR-TH-164/171 et Cumul MaPrimeRénov’
@@ -12,9 +15,9 @@ readTime: "10 min"
 Les Certificats d’Économies d’Énergie (CEE), versés par les fournisseurs d’énergie (EDF, TotalEnergies, Engie), financent une part majeure des travaux de rénovation thermique via les fiches standardisées BAR-TH-164 (rénovation globale maison) et BAR-TH-171 (bâtiment collectif). Cumulables avec MaPrimeRénov’, les primes CEE peuvent atteindre 4 000 € à 10 000 € selon l’énergie remplacée et le gain thermique. L'obtention de ces aides exige une contractualisation stricte avant la signature du moindre devis, l'intervention d'entreprises qualifiées RGE et le respect des règles d'écrêtement public-privé (100 % Bleu, 90 % Jaune, 80 % Violet, 70 % Rose).
 :::
 
-Le dispositif des Certificats d'Économies d'Énergie (CEE) constitue l'un des deux piliers financiers de la transition énergétique en France avec MaPrimeRénov'. Alors que le calendrier d'interdiction de location issu de la loi Climat et Résilience frappe déjà les passoires thermiques classées G depuis le 1er janvier 2025 et s'apprête à interdire les logements F au 1er janvier 2028 puis E au 1er janvier 2034, la maîtrise des CEE est indispensable pour bâtir un plan de financement performant.
+Le dispositif des Certificats d'Économies d'Énergie (CEE) constitue l'un des deux piliers financiers de la transition énergétique en France avec MaPrimeRénov'. Alors que le [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) issu de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) frappe déjà les passoires thermiques classées G depuis le 1er janvier 2025 et s'apprête à interdire les logements F au 1er janvier 2028 puis E au 1er janvier 2034, la maîtrise des CEE est indispensable pour bâtir un plan de financement performant.
 
-En 2026, au cœur de la 5ème période des CEE renforcée, les exigences techniques se sont durcies pour éliminer les fraudes et maximiser l'efficacité réelle des chantiers. Comprendre le fonctionnement des fiches standardisées de rénovation globale, optimiser les bonifications « Coup de Pouce » et articuler légalement ces subventions privées avec les aides de l'Anah conditionne la rentabilité globale de toute opération immobilière.
+En 2026, au cœur de la 5ème période des CEE renforcée, les exigences techniques se sont durcies pour éliminer les fraudes et maximiser l'efficacité réelle des chantiers. Comprendre le fonctionnement des fiches standardisées de rénovation globale, optimiser les bonifications « Coup de Pouce » et articuler légalement ces subventions privées avec les aides de [l’Anah](https://www.anah.gouv.fr) conditionne la rentabilité globale de toute opération immobilière.
 
 ---
 
@@ -209,11 +212,15 @@ Pour que la prime soit juridiquement valide, l'obligé doit prouver son **rôle 
 Conformément à la réglementation durcie de la 5ème période :
 1.  **Taux de contrôle de 100 %** : Sur les fiches à fort enjeu telles que la BAR-TH-164 (rénovation globale maison) et la BAR-TH-171 (bâtiment collectif), la totalité des chantiers fait l'objet d'un contrôle sur site avant délivrance des certificats.
 2.  **Organismes indépendants accrédités** : Le contrôle est réalisé par un bureau d'inspection tiers accrédité par le COFRAC (selon la norme NF EN ISO/CEI 17020).
-3.  **Points vérifiés** : Épaisseurs réelles d'isolant, résistance thermique certifiée ACERMI, conformité de la marque et du modèle de la pompe à chaleur avec l'audit, étanchéité à l'air des réseaux de ventilation, existence d'un système de régulation par pièce.
+3.  **Points vérifiés** : Épaisseurs réelles d'isolant, résistance thermique certifiée ACERMI, conformité de la marque et du modèle de la [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) avec l'audit, étanchéité à l'air des réseaux de ventilation, existence d'un système de régulation par pièce.
 
 En cas de non-conformité majeure relevée par le rapport COFRAC, l'obligé bloque immédiatement le paiement de la prime jusqu'à ce que l'entreprise RGE intervienne pour effectuer les reprises techniques indispensables et qu'une contre-visite valide les travaux.
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 
@@ -232,4 +239,4 @@ Les artisans doivent posséder la qualification RGE (Reconnu Garant de l'Environ
 *   *Qualifelec RGE* ou *Qualibat 5911* pour la ventilation mécanique.
 
 ### Les propriétaires bailleurs peuvent-ils bénéficier des CEE pour rénover une passoire thermique mise en location ?
-Oui. Les propriétaires bailleurs ont accès aux CEE exactement dans les mêmes conditions techniques et barèmes que les propriétaires occupants. Les CEE ne sont pas soumis aux plafonds d'occupation personnelle. De plus, un bailleur peut cumuler ces primes avec MaPrimeRénov' Bailleur (dans la limite de 3 logements loués sur 5 ans) et déduire le reste à charge de ses revenus fonciers au régime réel d'imposition via le mécanisme du déficit foncier.
+Oui. Les propriétaires bailleurs ont accès aux CEE exactement dans les mêmes conditions techniques et barèmes que les propriétaires occupants. Les CEE ne sont pas soumis aux plafonds d'occupation personnelle. De plus, un bailleur peut cumuler ces primes avec MaPrimeRénov' Bailleur (dans la limite de 3 logements loués sur 5 ans) et déduire le reste à charge de ses revenus fonciers au régime réel d'imposition via le [déficit foncier doublé à 21 400 €](/guides/deficit-foncier-double-passoire-thermique-21400-euros).

@@ -1,9 +1,14 @@
 ---
-title: "Déficit Foncier Doublé à 21 400 € : Mode d’Emploi Fiscal Spécial Passoire Thermique"
-description: "Optimisez la fiscalité de vos travaux de rénovation énergétique : découvrez les conditions, le calendrier et le calcul du déficit foncier majoré à 21 400 € pour les passoires thermiques."
-publishedAt: "2026-09-23"
-category: "Financement & Fiscalité"
-readTime: "10 min"
+title: >-
+  Déficit Foncier Doublé à 21 400 € : Mode d’Emploi Fiscal Spécial Passoire
+  Thermique
+description: >-
+  Optimisez la fiscalité de vos travaux de rénovation énergétique : découvrez
+  les conditions, le calendrier et le calcul du déficit foncier majoré à 21 400
+  € pour les passoires thermiques.
+publishedAt: '2026-09-23'
+category: Financement & Fiscalité
+readTime: 10 min
 ---
 
 # Déficit Foncier Doublé à 21 400 € : Mode d’Emploi Fiscal Spécial Passoire Thermique
@@ -12,7 +17,7 @@ readTime: "10 min"
 Prorogé jusqu’au 31 décembre 2027, le doublement du plafond d’imputation du déficit foncier sur le revenu global permet aux propriétaires bailleurs au régime réel de déduire jusqu’à 21 400 € par an (au lieu de 10 700 €) pour des travaux de rénovation énergétique sur un bien classé E, F ou G qui atteint la classe D ou mieux. L’économie d’impôt sur le revenu et les prélèvements sociaux peut dépasser 10 000 € par an pour les tranches marginales d'imposition élevées (TMI 41 % et 45 %). Ce dispositif est conditionné à la réalisation de deux DPE (avant/après) et au maintien du bien en location nue à usage de résidence principale jusqu'au 31 décembre de la troisième année suivant l'imputation.
 :::
 
-L'accélération du calendrier de la loi Climat et Résilience impose des contraintes sévères au parc locatif privé : interdiction de mise en location des logements classés G depuis le 1er janvier 2025 (pour les consommations supérieures à 450 kWh/m²/an d'énergie finale dès 2023, puis pour l'ensemble des étiquettes G), interdiction programmée des logements classés F au 1er janvier 2028 et des logements classés E au 1er janvier 2034. Face au coût des rénovations globales, l’administration fiscale offre un levier puissant : le doublement temporaire du plafond du déficit foncier imputable sur le revenu global.
+L'accélération du calendrier de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) impose des contraintes sévères au parc locatif privé : interdiction de mise en location des logements classés G depuis le 1er janvier 2025 (pour les consommations supérieures à 450 kWh/m²/an d'énergie finale dès 2023, puis pour l'ensemble des étiquettes G), interdiction programmée des logements classés F au 1er janvier 2028 et des logements classés E au 1er janvier 2034. Face au coût des rénovations globales, l’administration fiscale offre un levier puissant : le doublement temporaire du plafond du déficit foncier imputable sur le revenu global.
 
 ---
 
@@ -85,9 +90,9 @@ Les travaux déductibles doivent répondre à la définition des dépenses de r�
 
 Sont expressément ciblés les travaux visant à améliorer la performance globale du bâti :
 - **Isolation thermique de l'enveloppe :** Combles perdus ou rampants ($R \ge 7{,}0\text{ m}^2\cdot\text{K/W}$), murs par l'extérieur (ITE) ou par l'intérieur (ITI) avec $R \ge 3{,}7\text{ m}^2\cdot\text{K/W}$, planchers bas ($R \ge 3{,}0\text{ m}^2\cdot\text{K/W}$) ;
-- **Menuiseries extérieures :** Remplacement des fenêtres par du double vitrage isolant renforcé ($U_w \le 1{,}3\text{ W/m}^2\cdot\text{K}$) ;
-- **Systèmes de chauffage et d'ECS décarbonés :** Installation d'une pompe à chaleur air-eau (COP $\ge 3{,}0$), raccordement à un réseau de chaleur urbain vertueux ou système solaire combiné ;
-- **Ventilation mécanique contrôlée :** Mise en place d'une VMC hygroréglable type B ou double flux hygiénique.
+- **Menuiseries extérieures :** [remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite) par du double vitrage isolant renforcé ($U_w \le 1{,}3\text{ W/m}^2\cdot\text{K}$) ;
+- **Systèmes de chauffage et d'ECS décarbonés :** Installation d'une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) (COP $\ge 3{,}0$), raccordement à un réseau de chaleur urbain vertueux ou système solaire combiné ;
+- **Ventilation mécanique contrôlée :** Mise en place d'une [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) type B ou double flux hygiénique.
 
 ---
 
@@ -208,7 +213,7 @@ Un des pièges majeurs lors du montage financier réside dans la coordination en
 Selon l'article 31 du Code Général des Impôts, les dépenses ayant fait l'objet d'un remboursement ou d'une subvention publique ne peuvent pas être déduites des revenus fonciers. Vous ne pouvez déduire que les dépenses de travaux effectivement supportées à titre définitif.
 
 Si vous percevez :
-- **MaPrimeRénov' Parcours Accompagné / Forfait Bailleurs** (gérée par l'Anah) ;
+- **MaPrimeRénov' Parcours Accompagné / Forfait Bailleurs** (gérée par [l’Anah](https://www.anah.gouv.fr)) ;
 - Des primes au titre des **Certificats d'Économies d'Énergie (CEE)** ;
 - Des subventions locales des collectivités territoriales ;
 
@@ -224,6 +229,10 @@ Les fonds issus de l'Éco-PTZ constituent un mode de financement à la charge du
 ::: cta Estimer mon reste à charge|/simulateur
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Peut-on bénéficier du plafond de 21 400 € pour des travaux de rénovation réalisés dans une maison louée en colocation ?
@@ -236,4 +245,4 @@ Si les travaux réalisés ne permettent pas d'atteindre au minimum la classe D (
 Oui. La quote-part des travaux de rénovation énergétique votés en assemblée générale de copropriété (isolation thermique par l'extérieur de la façade, réfection de toiture isolée, remplacement de la chaufferie collective par une sous-station ou une PAC collective) et payée par le copropriétaire bailleur au titre de ses appels de fonds est éligible au plafond de 21 400 €. Il est nécessaire que le DPE individuel du lot privatif passe en classe A, B, C ou D à l'issue de ces travaux collectifs.
 
 ### Comment déclarer concrètement ce déficit majoré sur le formulaire 2044 aux impôts ?
-Sur la déclaration annexe des revenus fonciers **n° 2044** ou **n° 2044-SPE**, les dépenses de rénovation énergétique ouvrant droit au plafond bonifié doivent être ventilées spécifiquement sur les lignes prévues pour les dépenses d'amélioration. Lors du calcul du résultat foncier récapitulé sur le formulaire principal **n° 2042** (case 4BC pour le déficit imputable sur le revenu global), le report automatique intègre le nouveau plafond de 21 400 € dès lors que vous cochez la case attestant de la réalisation de travaux de rénovation énergétique sur une passoire thermique avec production des DPE conformes. Conservez précieusement les deux DPE, devis et factures acquittées des artisans RGE pour répondre à toute demande ultérieure du centre des finances publiques.
+Sur la déclaration annexe des revenus fonciers **n° 2044** ou **n° 2044-SPE**, les dépenses de rénovation énergétique ouvrant droit au plafond bonifié doivent être ventilées spécifiquement sur les lignes prévues pour les dépenses d'amélioration. Lors du calcul du résultat foncier récapitulé sur le formulaire principal **n° 2042** (case 4BC pour le déficit imputable sur le revenu global), le report automatique intègre le nouveau plafond de 21 400 € dès lors que vous cochez la case attestant de la réalisation de travaux de rénovation énergétique sur une passoire thermique avec production des DPE conformes. Conservez précieusement les deux DPE, devis et factures acquittées des [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) pour répondre à toute demande ultérieure du centre des finances publiques.

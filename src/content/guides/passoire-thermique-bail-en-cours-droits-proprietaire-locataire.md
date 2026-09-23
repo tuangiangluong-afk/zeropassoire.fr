@@ -1,9 +1,12 @@
 ---
-title: "Passoire Thermique avec Locataire en Place : Que Dit la Loi en 2026 ?"
-description: "Bail en cours, reconduction tacite, recours du locataire et travaux en milieu occupé : analyse juridique complète des obligations du bailleur face à la décence énergétique en 2026."
-publishedAt: "2026-09-23"
-category: "Bailleurs & Baux"
-readTime: "10 min"
+title: 'Passoire Thermique avec Locataire en Place : Que Dit la Loi en 2026 ?'
+description: >-
+  Bail en cours, reconduction tacite, recours du locataire et travaux en milieu
+  occupé : analyse juridique complète des obligations du bailleur face à la
+  décence énergétique en 2026.
+publishedAt: '2026-09-23'
+category: Bailleurs & Baux
+readTime: 10 min
 ---
 
 # Passoire Thermique avec Locataire en Place : Que Dit la Loi en 2026 ?
@@ -12,7 +15,7 @@ readTime: "10 min"
 Un bail en cours pour un logement classé G conclu avant le 1er janvier 2025 reste juridiquement valable jusqu’à son terme contractuel initial. En revanche, dès sa reconduction tacite ou son renouvellement, le bien tombe sous le coup de l’indécence énergétique (article 6 de la loi du 6 juillet 1989). Le locataire en place peut alors exiger la mise en conformité du logement aux frais exclusifs du bailleur, solliciter une diminution judiciaire de loyer avec effet rétroactif ou demander des dommages et intérêts sans être contraint de quitter les lieux. Le propriétaire ne peut expulser le locataire pour ce motif, mais dispose de leviers d'action stricts pour exécuter les travaux en milieu occupé ou délivrer un congé pour motif légitime et sérieux ultra-documenté.
 :::
 
-L'entrée en vigueur progressive des interdictions de location issues de la loi n° 2021-1104 du 22 août 2021 (dite loi Climat et Résilience) bouleverse la gestion locative des logements énergivores. Depuis le 1er janvier 2025, la totalité des logements de la classe DPE G est frappée d'indécence énergétique sur le territoire métropolitain, succédant au premier seuil d'exclusion des logements consommant plus de 450 kWh/m²/an d'énergie finale instauré au 1er janvier 2023.
+L'entrée en vigueur progressive des interdictions de location issues de la loi n° 2021-1104 du 22 août 2021 (dite [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)) bouleverse la gestion locative des logements énergivores. Depuis le 1er janvier 2025, la totalité des logements de la classe DPE G est frappée d'indécence énergétique sur le territoire métropolitain, succédant au premier seuil d'exclusion des logements consommant plus de 450 kWh/m²/an d'énergie finale instauré au 1er janvier 2023.
 
 Pour les propriétaires bailleurs, la présence d'un locataire sous contrat en cours soulève des questions juridiques, techniques et financières complexes. Le bail est-il caduc ? Le locataire peut-il refuser de payer son loyer ? Comment engager un bouquet de travaux d'isolation sans violer la jouissance paisible des lieux ? Ce guide décortique les dispositions du Code de la construction et de l'habitation, du Code civil et de la loi du 6 juillet 1989 pour sécuriser la situation juridique des bailleurs et éclairer les droits des occupants.
 
@@ -47,7 +50,7 @@ Chronologie d'opposabilité de la décence énergétique :
 
 ### Le gel strict des loyers (Article 159 de la loi Climat et Résilience)
 
-Indépendamment de la date de reconduction du bail, une règle transversale s'applique depuis le **24 août 2022** en France métropolitaine : le gel des loyers pour l'ensemble des passoires thermiques classées F et G.
+Indépendamment de la date de reconduction du bail, une règle transversale s'applique depuis le **24 août 2022** en France métropolitaine : le [gel des loyers des passoires F et G](/guides/gel-des-loyers-passoires-thermiques-f-g) pour l'ensemble des passoires thermiques classées F et G.
 
 Pour ces logements :
 * Aucune révision annuelle de loyer fondée sur la variation de l'Indice de Référence des Loyers (IRL) ne peut être appliquée.
@@ -191,6 +194,10 @@ Si le bailleur délivre un congé pour motif légitime et sérieux ou pour vente
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 

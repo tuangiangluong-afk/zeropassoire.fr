@@ -1,9 +1,14 @@
 ---
-title: "Aides financières sortie de passoire 2026 : MaPrimeRénov', CEE P6, TVA 5,5 %, Éco-PTZ 50 000 €"
-description: "Le guide financier officiel 2026 : barèmes complets RFR Île-de-France et Province, plafonds par profil (Bleu, Jaune, Violet, Rose), règles d'écrêtement Anah, fiches CEE 6e période et calendrier optimal de dépôt."
-publishedAt: "2026-09-23"
-category: "Aides & financement"
-readTime: "20 min"
+title: >-
+  Aides financières sortie de passoire 2026 : MaPrimeRénov', CEE P6, TVA 5,5 %,
+  Éco-PTZ 50 000 €
+description: >-
+  Le guide financier officiel 2026 : barèmes complets RFR Île-de-France et
+  Province, plafonds par profil (Bleu, Jaune, Violet, Rose), règles d'écrêtement
+  Anah, fiches CEE 6e période et calendrier optimal de dépôt.
+publishedAt: '2026-09-23'
+category: Aides & financement
+readTime: 20 min
 ---
 
 # Aides sortie de passoire énergétique 2026 : le panorama financier exhaustif et officiel
@@ -12,7 +17,7 @@ readTime: "20 min"
 
 En 2026, un ménage sortant une maison individuelle ou un appartement d'un DPE **F ou G** peut mobiliser jusqu'à **63 000 € de subventions publiques non remboursables** en cumulant **MaPrimeRénov' Parcours Accompagné** (jusqu'à 85 % d'aide), les **Certificats d'Économies d'Énergie (CEE 6e période)**, et la **TVA réduite à 5,5 %**. Le reste à charge peut être financé à **taux d'intérêt zéro (0 %)** via l'Éco-PTZ jusqu'à 50 000 € remboursable sur 20 ans.
 
-**La règle d'or absolue pour ne pas perdre 100 % de vos droits :** l'accusé de réception officiel de dépôt du dossier MaPrimeRénov' sur le portail de l'Anah doit être obtenu **AVANT de signer le moindre devis** ou de verser le moindre acompte à un artisan. Tout devis signé avant le dépôt entraîne la déchéance immédiate de vos aides.
+**La règle d'or absolue pour ne pas perdre 100 % de vos droits :** l'accusé de réception officiel de dépôt du dossier MaPrimeRénov' sur le portail de [l’Anah](https://www.anah.gouv.fr) doit être obtenu **AVANT de signer le moindre devis** ou de verser le moindre acompte à un artisan. Tout devis signé avant le dépôt entraîne la déchéance immédiate de vos aides.
 
 :::
 
@@ -70,7 +75,7 @@ Le montant de l'aide est calculé en pourcentage d'un plafond de dépenses de tr
 Dans le Parcours Accompagné, le recours à un opérateur agréé par l'État (**Mon Accompagnateur Rénov'**) est **légalement obligatoire**. Ses missions :
 1. Réaliser la visite initiale du logement et l'audit thermique réglementaire.
 2. Élaborer 2 à 3 scénarios de travaux chiffrés permettant de sortir du statut de passoire.
-3. Vérifier la conformité des devis d'artisans RGE (critères techniques de résistance thermique R, coefficient Uw, COP des pompes à chaleur).
+3. Vérifier la conformité des devis d'[artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) (critères techniques de résistance thermique R, coefficient Uw, COP des pompes à chaleur).
 4. Monter et suivre le dossier de subvention auprès de l'Anah jusqu'au versement effectif des fonds.
 
 **Financement de la prestation du MAR :**
@@ -90,7 +95,7 @@ Les CEE constituent le deuxième pilier de subvention. Ils sont financés par le
 
 | Fiche standardisée CEE | Poste de travaux | Zone H1 (Nord, Est, IdF) | Zone H2 (Ouest, Centre) | Zone H3 (Sud, Méditerranée) |
 |---|---|---|---|---|
-| **BAR-TH-105** | Pompe à chaleur air/eau | 4 500 à 5 600 € | 3 800 à 4 800 € | 2 900 à 3 600 € |
+| **BAR-TH-105** | [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) air/eau | 4 500 à 5 600 € | 3 800 à 4 800 € | 2 900 à 3 600 € |
 | **BAR-TH-106** | Chaudière granulés de bois | 4 200 à 5 200 € | 3 600 à 4 400 € | 2 700 à 3 300 € |
 | **BAR-TH-129** | Isolation combles perdus ou toiture | 12 à 18 € / m² | 10 à 15 € / m² | 8 à 12 € / m² |
 | **BAR-TH-101** | Isolation murs par l'extérieur (ITE) | 25 à 45 € / m² | 20 à 38 € / m² | 15 à 30 € / m² |

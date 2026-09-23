@@ -17,20 +17,24 @@ Source de données : Légifrance, Journal Officiel, ADEME, Anah, CEREMA, CCH, Co
 === GUIDES/decote-immobiliere-passoire-thermique-negociation-achat.md ===
 
 ---
-title: "Décote des Passoires Thermiques en 2026 : Comment Négocier le Prix d’un Bien F ou G"
-description: "Baromètre des décotes DPE F et G en 2026, méthode de valorisation inversée, utilisation de l'audit énergétique et stratégie d'investissement clé en main."
-publishedAt: "2026-09-23"
-category: "Achat & Investissement"
-readTime: "10 min"
+title: >-
+  Décote des Passoires Thermiques en 2026 : Comment Négocier le Prix d’un Bien F
+  ou G
+description: >-
+  Baromètre des décotes DPE F et G en 2026, méthode de valorisation inversée,
+  utilisation de l'audit énergétique et stratégie d'investissement clé en main.
+publishedAt: '2026-09-23'
+category: Achat & Investissement
+readTime: 10 min
 ---
 
 # Décote des Passoires Thermiques en 2026 : Comment Négocier le Prix d’un Bien F ou G
 
 ::: callout Réponse directe
-Sur le marché immobilier 2026, les logements classés F et G subissent une décote moyenne de 8 % à 15 % en province et de 5 % à 10 % en Île-de-France par rapport aux biens équivalents classés D ou C. Pour un acquéreur averti ou un investisseur, cette décote représente une opportunité majeure : négocier le prix d’achat à la baisse du montant exact du devis de rénovation globale, financé ensuite en grande partie par les aides de l’État (MaPrimeRénov' Parcours Accompagné, CEE) et optimisé par le mécanisme du déficit foncier doublé.
+Sur le marché immobilier 2026, les logements classés F et G subissent une décote moyenne de 8 % à 15 % en province et de 5 % à 10 % en Île-de-France par rapport aux biens équivalents classés D ou C. Pour un acquéreur averti ou un investisseur, cette décote représente une opportunité majeure : négocier le prix d’achat à la baisse du montant exact du devis de rénovation globale, financé ensuite en grande partie par les aides de l’État (MaPrimeRénov' Parcours Accompagné, CEE) et optimisé par le [déficit foncier doublé à 21 400 €](/guides/deficit-foncier-double-passoire-thermique-21400-euros) doublé.
 :::
 
-L'application stricte du calendrier de la **loi Climat et Résilience** (article 158 codifié au Code de la construction et de l’habitation) a transformé la structure du marché immobilier français. Depuis le 1er janvier 2025, la location des logements classés G au Diagnostic de Performance Énergétique (consommation supérieure à 420 kWh/m²/an d'énergie primaire ou émissions supérieures à 100 kg CO₂/m²/an) est formellement interdite pour tous les nouveaux baux. L'échéance du 1er janvier 2028 pour la classe F et celle du 1er janvier 2034 pour la classe E accentuent la pression sur les propriétaires bailleurs non désireux d'engager des chantiers techniques.
+L'application stricte du calendrier de la **[loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)** (article 158 codifié au Code de la construction et de l’habitation) a transformé la structure du marché immobilier français. Depuis le 1er janvier 2025, la location des logements classés G au Diagnostic de Performance Énergétique (consommation supérieure à 420 kWh/m²/an d'énergie primaire ou émissions supérieures à 100 kg CO₂/m²/an) est formellement interdite pour tous les nouveaux baux. L'échéance du 1er janvier 2028 pour la classe F et celle du 1er janvier 2034 pour la classe E accentuent la pression sur les propriétaires bailleurs non désireux d'engager des chantiers techniques.
 
 Cette situation crée une asymétrie de marché historique : des vendeurs contraints de céder leurs actifs sous la pression réglementaire face à des acquéreurs stratégiques capables de chiffrer précisément les travaux, d'absorber le chantier et de capter la « valeur verte » post-rénovation.
 
@@ -74,7 +78,7 @@ Où :
 ### Exemple concret de calcul
 Imaginons une maison individuelle de 120 m² en périphérie nantaise (Zone B1), affichée au prix de 320 000 € avec une étiquette G (510 kWh/m²/an).
 1. **Valeur de marché d'un bien rénové (Classe B) dans le quartier :** 3 300 €/m², soit une **VVR de 396 000 €**.
-2. **Coût estimé du bouquet de travaux global (atteinte classe B) :** 75 000 € TTC (ITE sous enduit R=4,5, isolation combles perdus R=8, pompe à chaleur air/eau, VMC hygroréglable B).
+2. **Coût estimé du bouquet de travaux global (atteinte classe B) :** 75 000 € TTC (ITE sous enduit R=4,5, isolation combles perdus R=8, [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) air/eau, [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) B).
 3. **Marge d'imprévus (10 %) :** 7 500 €.
 4. **Marge d'opération ciblée (12 %) :** 47 520 €.
 5. **Calcul du prix d'achat maximal net vendeur :**
@@ -115,7 +119,7 @@ Contrairement au DPE qui pose un simple diagnostic, l'audit détaille obligatoir
 ### La tactique de déconstruction du prix face au vendeur
 Pour désarmer les objections du vendeur ou de son agent immobilier, la proposition d'achat doit être accompagnée d'une copie surlignée du parcours de travaux de l'audit réglementaire.
 
-1. **Identifier l'écart entre estimation DPE et devis réels :** L'audit énergétique présente souvent des chiffrages forfaitaires sous-estimés par rapport aux réalités du marché des artisans RGE locaux. Obtenir un pré-chiffrage par une entreprise qualifiée RGE permet de réajuster le coût des travaux à la hausse dans la négociation.
+1. **Identifier l'écart entre estimation DPE et devis réels :** L'audit énergétique présente souvent des chiffrages forfaitaires sous-estimés par rapport aux réalités du marché des [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) locaux. Obtenir un pré-chiffrage par une entreprise qualifiée RGE permet de réajuster le coût des travaux à la hausse dans la négociation.
 2. **Pousser l'argument de l'interdiction locative :** Si le vendeur est un bailleur, rappelez-lui l'article 6 de la loi n° 89-462 du 6 juillet 1989 : le logement est désormais juridiquement non décent. Le loyer ne peut plus être révisé (gel effectif depuis août 2022) et tout nouveau locataire peut exiger une mise en conformité sous astreinte judiciaire avec diminution de loyer rétroactive.
 3. **Offrir une certitude d'exécution :** Les vendeurs de passoires thermiques craignent l'annulation de la vente par refus de prêt lié à l'endettement travaux. Présenter un plan de financement pré-validé intégrant le budget travaux rassure le vendeur et justifie l'acceptation d'une décote substantielle.
 
@@ -158,7 +162,7 @@ L'achat décoté d'une passoire thermique prend toute sa puissance patrimoniale 
 ```
 
 ### Le cumul MaPrimeRénov' et CEE en 2026
-Dans le cadre d'un achat par un propriétaire occupant ou par un bailleur (via MaPrimeRénov' Bailleurs), le **Parcours Accompagné** de l'Anah finance les sauts de classes DPE à des taux très incitatifs :
+Dans le cadre d'un achat par un propriétaire occupant ou par un bailleur (via MaPrimeRénov' Bailleurs), le **Parcours Accompagné** de [l’Anah](https://www.anah.gouv.fr) finance les sauts de classes DPE à des taux très incitatifs :
 * **Gain de 2 classes (ex: F -> D) :** Prise en charge jusqu'à 60 % du montant des travaux éligibles (plafond de dépenses de 40 000 € HT).
 * **Gain de 3 classes ou plus (ex: G -> C ou B) :** Prise en charge de 60 % à 80 % du montant des travaux éligibles (plafond de dépenses de 70 000 € HT) pour les ménages aux revenus modestes et très modestes (Profils Bleu et Jaune), et bonification « sortie de passoire thermique » de 10 %.
 * **Certificats d'Économies d'Énergie (CEE) :** Valorisation des fiches standardisées (ex: BAR-TH-164 pour la rénovation globale d'une maison) apportant une prime complémentaire directe déduite du devis des artisans.
@@ -181,6 +185,10 @@ En combinant une décote négociée à l'achat de 30 000 €, des aides publique
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Peut-on faire annuler une vente si le DPE fourni était erroné (faux DPE E devenu G) ?
@@ -188,9 +196,9 @@ Oui. Depuis le 1er juillet 2021, le DPE est juridiquement opposable (article L. 
 
 ### Quels sont les postes de travaux prioritaires pour faire sortir un bien du statut de passoire ?
 Pour maximiser l'efficacité thermique et l'impact sur l'étiquette DPE au moindre coût, le traitement de l'enveloppe doit précéder le remplacement des émetteurs. L'ordre thermique optimal est :
-1. Isolation des combles perdus ou toiture ($R \ge 7\ \text{m}^2\cdot\text{K/W}$), responsable de 25 à 30 % des déperditions.
+1. [isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7) ou toiture ($R \ge 7\ \text{m}^2\cdot\text{K/W}$), responsable de 25 à 30 % des déperditions.
 2. Isolation des murs par l'extérieur (ITE) ou l'intérieur (ITI) ($R \ge 3,7\ \text{m}^2\cdot\text{K/W}$), responsable de 20 à 25 % des pertes.
-3. Remplacement des menuiseries par du double vitrage à isolation renforcée ($U_w \le 1,3\ \text{W/m}^2\cdot\text{K}$).
+3. [remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite) par du double vitrage à isolation renforcée ($U_w \le 1,3\ \text{W/m}^2\cdot\text{K}$).
 4. Installation d'une VMC hygroréglable de type B ou double flux pour maîtriser la perméabilité à l'air.
 5. Remplacement d'un système de chauffage fossile (fioul, gaz non condensé) par une pompe à chaleur air/eau ou un raccordement à un réseau de chaleur urbain vertueux.
 
@@ -205,11 +213,16 @@ L'article 7 de la loi du 6 juillet 1989 impose au locataire de permettre l'accè
 === GUIDES/aides-financieres-sortie-passoire-2026.md ===
 
 ---
-title: "Aides financières sortie de passoire 2026 : MaPrimeRénov', CEE P6, TVA 5,5 %, Éco-PTZ 50 000 €"
-description: "Le guide financier officiel 2026 : barèmes complets RFR Île-de-France et Province, plafonds par profil (Bleu, Jaune, Violet, Rose), règles d'écrêtement Anah, fiches CEE 6e période et calendrier optimal de dépôt."
-publishedAt: "2026-09-23"
-category: "Aides & financement"
-readTime: "20 min"
+title: >-
+  Aides financières sortie de passoire 2026 : MaPrimeRénov', CEE P6, TVA 5,5 %,
+  Éco-PTZ 50 000 €
+description: >-
+  Le guide financier officiel 2026 : barèmes complets RFR Île-de-France et
+  Province, plafonds par profil (Bleu, Jaune, Violet, Rose), règles d'écrêtement
+  Anah, fiches CEE 6e période et calendrier optimal de dépôt.
+publishedAt: '2026-09-23'
+category: Aides & financement
+readTime: 20 min
 ---
 
 # Aides sortie de passoire énergétique 2026 : le panorama financier exhaustif et officiel
@@ -218,7 +231,7 @@ readTime: "20 min"
 
 En 2026, un ménage sortant une maison individuelle ou un appartement d'un DPE **F ou G** peut mobiliser jusqu'à **63 000 € de subventions publiques non remboursables** en cumulant **MaPrimeRénov' Parcours Accompagné** (jusqu'à 85 % d'aide), les **Certificats d'Économies d'Énergie (CEE 6e période)**, et la **TVA réduite à 5,5 %**. Le reste à charge peut être financé à **taux d'intérêt zéro (0 %)** via l'Éco-PTZ jusqu'à 50 000 € remboursable sur 20 ans.
 
-**La règle d'or absolue pour ne pas perdre 100 % de vos droits :** l'accusé de réception officiel de dépôt du dossier MaPrimeRénov' sur le portail de l'Anah doit être obtenu **AVANT de signer le moindre devis** ou de verser le moindre acompte à un artisan. Tout devis signé avant le dépôt entraîne la déchéance immédiate de vos aides.
+**La règle d'or absolue pour ne pas perdre 100 % de vos droits :** l'accusé de réception officiel de dépôt du dossier MaPrimeRénov' sur le portail de [l’Anah](https://www.anah.gouv.fr) doit être obtenu **AVANT de signer le moindre devis** ou de verser le moindre acompte à un artisan. Tout devis signé avant le dépôt entraîne la déchéance immédiate de vos aides.
 
 :::
 
@@ -276,7 +289,7 @@ Le montant de l'aide est calculé en pourcentage d'un plafond de dépenses de tr
 Dans le Parcours Accompagné, le recours à un opérateur agréé par l'État (**Mon Accompagnateur Rénov'**) est **légalement obligatoire**. Ses missions :
 1. Réaliser la visite initiale du logement et l'audit thermique réglementaire.
 2. Élaborer 2 à 3 scénarios de travaux chiffrés permettant de sortir du statut de passoire.
-3. Vérifier la conformité des devis d'artisans RGE (critères techniques de résistance thermique R, coefficient Uw, COP des pompes à chaleur).
+3. Vérifier la conformité des devis d'[artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) (critères techniques de résistance thermique R, coefficient Uw, COP des pompes à chaleur).
 4. Monter et suivre le dossier de subvention auprès de l'Anah jusqu'au versement effectif des fonds.
 
 **Financement de la prestation du MAR :**
@@ -296,7 +309,7 @@ Les CEE constituent le deuxième pilier de subvention. Ils sont financés par le
 
 | Fiche standardisée CEE | Poste de travaux | Zone H1 (Nord, Est, IdF) | Zone H2 (Ouest, Centre) | Zone H3 (Sud, Méditerranée) |
 |---|---|---|---|---|
-| **BAR-TH-105** | Pompe à chaleur air/eau | 4 500 à 5 600 € | 3 800 à 4 800 € | 2 900 à 3 600 € |
+| **BAR-TH-105** | [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) air/eau | 4 500 à 5 600 € | 3 800 à 4 800 € | 2 900 à 3 600 € |
 | **BAR-TH-106** | Chaudière granulés de bois | 4 200 à 5 200 € | 3 600 à 4 400 € | 2 700 à 3 300 € |
 | **BAR-TH-129** | Isolation combles perdus ou toiture | 12 à 18 € / m² | 10 à 15 € / m² | 8 à 12 € / m² |
 | **BAR-TH-101** | Isolation murs par l'extérieur (ITE) | 25 à 45 € / m² | 20 à 38 € / m² | 15 à 30 € / m² |
@@ -369,11 +382,16 @@ Pour sécuriser l'ensemble de vos aides sans risque de rejet, respectez scrupule
 === GUIDES/aides-locales-regionales-renovation-energetique-cumul.md ===
 
 ---
-title: "Aides Régionales et Municipales 2026 : Exonération de Taxe Foncière et Abondements"
-description: "Guide complet 2026 sur les aides locales à la rénovation énergétique : exonération de taxe foncière (CGI), primes métropolitaines, caisses de retraite et règles de cumul."
-publishedAt: "2026-09-23"
-category: "Aides Financières"
-readTime: "8 min"
+title: >-
+  Aides Régionales et Municipales 2026 : Exonération de Taxe Foncière et
+  Abondements
+description: >-
+  Guide complet 2026 sur les aides locales à la rénovation énergétique :
+  exonération de taxe foncière (CGI), primes métropolitaines, caisses de
+  retraite et règles de cumul.
+publishedAt: '2026-09-23'
+category: Aides Financières
+readTime: 8 min
 ---
 
 # Aides Régionales et Municipales 2026 : Exonération de Taxe Foncière et Abondements
@@ -382,7 +400,7 @@ readTime: "8 min"
 En plus des aides nationales, de nombreuses collectivités territoriales (Métropoles, Régions, Communes) offrent des aides directes cumulables de 1 000 € à 5 000 € pour la sortie de passoire thermique. De plus, plus de 450 communes appliquent une exonération de taxe foncière de 50% à 100% pendant 3 ans pour les logements rénovés.
 :::
 
-L'atteinte des objectifs de décarbonation du parc résidentiel français impose un rythme de rénovation soutenu. Alors que les interdictions de location issues de la loi Climat et Résilience frappent déjà les passoires thermiques classées G depuis le 1er janvier 2025 et s'étendront aux logements F dès le 1er janvier 2028 puis E au 1er janvier 2034, le plan de financement des travaux reste le principal verrou pour les ménages et les bailleurs.
+L'atteinte des objectifs de décarbonation du parc résidentiel français impose un rythme de rénovation soutenu. Alors que les interdictions de location issues de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) frappent déjà les passoires thermiques classées G depuis le 1er janvier 2025 et s'étendront aux logements F dès le 1er janvier 2028 puis E au 1er janvier 2034, le plan de financement des travaux reste le principal verrou pour les ménages et les bailleurs.
 
 Si le socle national repose sur MaPrimeRénov' (parcours accompagné ou par geste), les Certificats d'Économies d'Énergie (CEE) et l'Éco-Prêt à Taux Zéro (Éco-PTZ), **le gisement des aides territoriales demeure sous-exploité**. Pourtant, le cumul des subventions régionales, départementales, métropolitaines et l'activation des exonérations fiscales locales permettent d'abaisser le reste à charge réel jusqu'aux plafonds légaux autorisés (de 40 % à 100 % de la dépense éligible selon le profil de revenus).
 
@@ -452,7 +470,7 @@ Face à l'urgence de traiter les passoires thermiques et d'éradiquer les chaudi
 
 ### 1. La Métropole du Grand Paris (MGP)
 La Métropole du Grand Paris déploie le programme « Métropole Rénov' », ciblant prioritairement les copropriétés dégradées et les propriétaires individuels en classe F ou G :
-*   **Prime sortie du fioul :** Jusqu'à 1 500 € supplémentaires pour le remplacement d'un générateur fioul par une pompe à chaleur géothermique ou un raccordement à un réseau de chaleur urbain (RCU).
+*   **Prime sortie du fioul :** Jusqu'à 1 500 € supplémentaires pour le remplacement d'un générateur fioul par une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) géothermique ou un raccordement à un réseau de chaleur urbain (RCU).
 *   **Bonus biosourcé :** Majoration de 1 000 € dès lors que plus de 50 % de l'isolant mis en œuvre est d'origine biosourcée (fibre de bois, chanvre, ouate de cellulose certifiés ACERMI).
 
 ### 2. La Métropole de Lyon : Dispositif Éco-rénov
@@ -465,7 +483,7 @@ Le dispositif lyonnais fait figure de référence par son niveau de dotation :
 *   **Abondement sortie de passoire thermique :** Aide forfaitaire de 1 500 € à 3 000 € pour les ménages modestes et très modestes effectuant un saut d'au moins 2 classes DPE (sortie de F/G vers D minimum).
 
 ### 4. Métropole Européenne de Lille (MEL) : Prime AMELIO
-Le réseau AMELIO propose des aides directes cumulables avec l'Anah :
+Le réseau AMELIO propose des aides directes cumulables avec [l’Anah](https://www.anah.gouv.fr) :
 *   **Prime AMELIO Rénovation Globale :** Jusqu'à 4 000 € pour les propriétaires occupants sous plafonds de ressources modestes, avec une obligation de recours à un accompagnement agréé.
 *   **Bonus étiquette A ou B :** Prime exceptionnelle de 1 000 € pour l'atteinte du niveau BBC Rénovation (bâtiment basse consommation).
 
@@ -555,13 +573,17 @@ Pour cartographier l'intégralité des aides directes et indirectes de votre com
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Peut-on cumuler l'exonération de taxe foncière avec MaPrimeRénov' et les CEE ?
 Oui. L'exonération de taxe foncière (art. 1383-0 B du CGI) est un avantage fiscal territorial qui ne rentre pas dans le calcul du plafonnement d'écrêtement des subventions directes de travaux (MaPrimeRénov' et CEE). Vous pouvez donc cumuler l'intégralité de vos primes travaux avec une réduction de 50 % à 100 % de votre taxe foncière durant les 3 années suivant la fin des travaux, sous réserve que votre commune ait voté la délibération.
 
 ### Quelles sont les démarches pour obtenir l'exonération de taxe foncière après des travaux ?
-Vous devez déposer auprès de votre Centre des Finances Publiques (Service des Impôts des Particuliers) une demande sur papier libre accompagnée des factures détaillées acquittées de vos artisans RGE avant le 1er janvier de l'année suivant l'achèvement des travaux. Si les travaux ont été réglés en totalité au cours de l'année 2025, la déclaration doit être remise avant le 1er janvier 2026 pour une exonération effective sur les avis de taxes foncières 2026, 2027 et 2028.
+Vous devez déposer auprès de votre Centre des Finances Publiques (Service des Impôts des Particuliers) une demande sur papier libre accompagnée des factures détaillées acquittées de vos [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) avant le 1er janvier de l'année suivant l'achèvement des travaux. Si les travaux ont été réglés en totalité au cours de l'année 2025, la déclaration doit être remise avant le 1er janvier 2026 pour une exonération effective sur les avis de taxes foncières 2026, 2027 et 2028.
 
 ### Pourquoi le montant de ma prime nationale a-t-il été réduit après déclaration de mon aide locale ?
 Il s'agit de l'application de la règle légale d'écrêtement de l'Anah. La somme totale des aides publiques directes perçues ne peut dépasser un pourcentage précis du montant total TTC des travaux éligibles : 100 % pour les ménages très modestes (Bleu), 80 % pour les modestes (Jaune), 60 % pour les intermédiaires (Violet) et 40 % pour les ménages aux revenus supérieurs (Rose). Si le cumul de votre aide municipale/régionale et de MaPrimeRénov' franchit cette limite, l'Anah diminue proportionnellement son versement final.
@@ -574,11 +596,16 @@ Oui. La majorité des métropoles (ex. Lyon, Grand Paris, Lille) ouvrent leurs d
 === GUIDES/maprimerenov-parcours-accompagne-2026-baremes-plafonds.md ===
 
 ---
-title: "MaPrimeRénov’ Parcours Accompagné 2026 : Plafonds 70 000 €, Barèmes et Prise en Charge"
-description: "Guide technique et financier 2026 sur MaPrimeRénov' Parcours Accompagné : barèmes de revenus, plafonds de dépenses jusqu'à 70 000 €, taux d'aide et rôle du MAR."
-publishedAt: "2026-09-23"
-category: "Aides Financières"
-readTime: "11 min"
+title: >-
+  MaPrimeRénov’ Parcours Accompagné 2026 : Plafonds 70 000 €, Barèmes et Prise
+  en Charge
+description: >-
+  Guide technique et financier 2026 sur MaPrimeRénov' Parcours Accompagné :
+  barèmes de revenus, plafonds de dépenses jusqu'à 70 000 €, taux d'aide et rôle
+  du MAR.
+publishedAt: '2026-09-23'
+category: Aides Financières
+readTime: 11 min
 ---
 
 # MaPrimeRénov’ Parcours Accompagné 2026 : Plafonds 70 000 €, Barèmes et Prise en Charge
@@ -587,7 +614,7 @@ readTime: "11 min"
 Le Parcours Accompagné de MaPrimeRénov’ 2026 subventionne les rénovations globales permettant un saut d’au moins deux classes énergétiques (ex: G vers E ou F vers D). Les plafonds de dépenses éligibles atteignent 40 000 €, 55 000 € ou 70 000 € HT selon le saut de classe, avec un taux de prise en charge allant jusqu’à 90% pour les ménages très modestes (profil bleu).
 :::
 
-La refonte structurelle des aides à la rénovation énergétique, entérinée par le **Décret n° 2024-249 du 21 mars 2024** et l'**Arrêté du 21 mars 2024 relatif aux aides de l’Anah**, positionne le « Parcours Accompagné » comme l'instrument pivot de la transition thermique résidentielle en 2026. Face au calendrier impératif de la loi Climat et Résilience — interdiction de location des logements classés G depuis le 1er janvier 2025, puis des logements classés F dès le 1er janvier 2028 et E au 1er janvier 2034 —, la rénovation par geste isolé s'avère insuffisante pour éradiquer les passoires thermiques.
+La refonte structurelle des aides à la rénovation énergétique, entérinée par le **Décret n° 2024-249 du 21 mars 2024** et l'**Arrêté du 21 mars 2024 relatif aux aides de [l’Anah](https://www.anah.gouv.fr)**, positionne le « Parcours Accompagné » comme l'instrument pivot de la transition thermique résidentielle en 2026. Face au calendrier impératif de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) — [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) des logements classés G depuis le 1er janvier 2025, puis des logements classés F dès le 1er janvier 2028 et E au 1er janvier 2034 —, la rénovation par geste isolé s'avère insuffisante pour éradiquer les passoires thermiques.
 
 Le Parcours Accompagné s’adresse aux propriétaires occupants et bailleurs engageant une rénovation d’ampleur multigestes. Ce dispositif conditionne l'octroi de subventions massives à un gain de performance énergétique certifié par un audit initial et un contrôle post-travaux, sous la supervision obligatoire d'un tiers de confiance agréé : Mon Accompagnateur Rénov' (MAR).
 
@@ -629,7 +656,7 @@ Le programme impose d'inclure dans le bouquet de travaux au minimum **deux geste
 1. **Isolation de la toiture ou des combles perdus/aménagés** : résistance thermique minimale exigée $R \ge 7,0\ \text{m}^2\cdot\text{K/W}$ en combles perdus ou $R \ge 6,0\ \text{m}^2\cdot\text{K/W}$ en rampants de toiture.
 2. **Isolation des murs par l'extérieur (ITE) ou l'intérieur (ITI)** : résistance thermique minimale $R \ge 3,7\ \text{m}^2\cdot\text{K/W}$.
 3. **Isolation des planchers bas sur sous-sol, vide sanitaire ou passage ouvert** : résistance thermique minimale $R \ge 3,0\ \text{m}^2\cdot\text{K/W}$.
-4. **Remplacement des menuiseries extérieures (fenêtres et portes-fenêtres)** : coefficient de transmission thermique surfacique $U_w \le 1,3\ \text{W/m}^2\cdot\text{K}$ avec facteur solaire $S_w \ge 0,3$ ou $U_w \le 1,4\ \text{W/m}^2\cdot\text{K}$ avec $S_w \ge 0,36$.
+4. **[remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite) extérieures (fenêtres et portes-fenêtres)** : coefficient de transmission thermique surfacique $U_w \le 1,3\ \text{W/m}^2\cdot\text{K}$ avec facteur solaire $S_w \ge 0,3$ ou $U_w \le 1,4\ \text{W/m}^2\cdot\text{K}$ avec $S_w \ge 0,36$.
 
 ### Interdictions techniques et décarbonation
 Le décret interdit formellement l'installation d'un système de chauffage ou de production d'eau chaude sanitaire fonctionnant principalement aux énergies fossiles (fioul ou charbon). L'installation d'une chaudière au gaz (y compris à très haute performance énergétique - THPE) ne peut bénéficier d'aucune aide dans ce parcours et ne permet pas de valider l'étape de décarbonation si elle maintient une dépendance fossile majoritaire.
@@ -690,7 +717,7 @@ Le tableau ci-après présente les taux d'aide applicables aux dépenses éligib
 | **Saut de 4 classes (Base)** | 70 000 € | **80 %** (max 56 000 €) | **60 %** (max 42 000 €) | **40 %** (max 28 000 €) | **30 %** (max 21 000 €) |
 | **Saut de 4 classes (Sortie F/G)** | 70 000 € | **90 %** (max 63 000 €) | **80 %** (max 56 000 €) | **60 %** (max 42 000 €) | **40 %** (max 28 000 €) |
 
-*Note sur la valorisation CEE : Dans le cadre du Parcours Accompagné, la valorisation des Certificats d'Économies d'Énergie (CEE) est directement intégrée dans l'aide distribuée par l'Anah pour les profils Bleu et Jaune. Le demandeur ne peut pas solliciter de prime CEE individuelle auprès d'un délégataire pour les mêmes postes de travaux.*
+*Note sur la valorisation CEE : Dans le cadre du Parcours Accompagné, la valorisation des Certificats d'Économies d'Énergie (CEE) est directement intégrée dans l'aide distribuée par l'Anah pour les profils Bleu et Jaune. Le demandeur ne peut pas solliciter de [primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul) individuelle auprès d'un délégataire pour les mêmes postes de travaux.*
 
 ### Les règles d'écrêtement de l'aide publique
 Le montant total cumulé de l'ensemble des aides publiques directes (MaPrimeRénov', aides des collectivités territoriales, aides Action Logement) et privées ne peut dépasser un pourcentage strict du montant total TTC des dépenses éligibles :
@@ -767,16 +794,16 @@ Pour débloquer le plafond maximal de **70 000 € HT** et sécuriser une valori
 ```
 
 ### Cas concret : Rénovation d'une maison individuelle de 120 m² (1972)
-- **État initial** : DPE classe **F** ($380\ \text{kWh/m}^2\cdot\text{an}$ d'énergie primaire), chaudière fioul hors d'âge, isolation des combles en laine de verre tassée ($R = 1,5$), murs en parpaings non isolés, simple vitrage d'origine, ventilation naturelle non contrôlée.
+- **État initial** : DPE classe **F** ($380\ \text{kWh/m}^2\cdot\text{an}$ d'énergie primaire), chaudière fioul hors d'âge, [isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7) en laine de verre tassée ($R = 1,5$), murs en parpaings non isolés, simple vitrage d'origine, ventilation naturelle non contrôlée.
 - **Objectif** : Atteindre la classe **B** ($95\ \text{kWh/m}^2\cdot\text{an}$), soit un saut de 4 classes.
 
 ### Le bouquet de travaux déployé
 1. **Isolation thermique des murs par l'extérieur (ITE)** : Pose de 140 mm de polystyrène expansé graphité sous enduit minéral ($R = 4,50\ \text{m}^2\cdot\text{K/W}$), traitement des tableaux et linteaux. Coût : 19 500 € HT.
-2. **Isolation des combles perdus** : Soufflage de 350 mm de ouate de cellulose ($R = 7,80\ \text{m}^2\cdot\text{K/W}$) après pose d'une membrane pare-vapeur continue étanche à l'air. Coût : 5 800 € HT.
+2. **[isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7)** : Soufflage de 350 mm de ouate de cellulose ($R = 7,80\ \text{m}^2\cdot\text{K/W}$) après pose d'une membrane pare-vapeur continue étanche à l'air. Coût : 5 800 € HT.
 3. **Menuiseries et fermetures** : Dépose totale et pose de 9 fenêtres/portes-fenêtres PVC à rupture de pont thermique, double vitrage gaz argon, Warm Edge ($U_w = 1,2\ \text{W/m}^2\cdot\text{K}$). Coût : 11 200 € HT.
 4. **Ventilation mécanique** : Installation d'une VMC double flux hygroréglable à haut rendement ($\eta \ge 88\ \%$) avec réseau rigide calorifugé en volume chauffé. Coût : 6 500 € HT.
-5. **Chauffage et ECS décarbonés** : Dépose de la cuve fioul et installation d'une Pompe à Chaleur (PAC) air-eau moyenne température avec plancher chauffant / radiateurs basse température (COP à $+7\ ^\circ\text{C} = 4,20$ ; $\eta_s \ge 135\ \%$). Coût : 16 000 € HT.
-6. **Isolation du plancher bas** : Projection de 100 mm de polyuréthane sous face de dalle sur sous-sol non chauffé ($R = 3,70\ \text{m}^2\cdot\text{K/W}$). Coût : 4 500 € HT.
+5. **Chauffage et ECS décarbonés** : Dépose de la cuve fioul et installation d'une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) (PAC) air-eau moyenne température avec plancher chauffant / radiateurs basse température (COP à $+7\ ^\circ\text{C} = 4,20$ ; $\eta_s \ge 135\ \%$). Coût : 16 000 € HT.
+6. **[isolation du plancher bas sur cave ou garage](/guides/isolation-plancher-bas-cave-garage-vide-sanitaire)** : Projection de 100 mm de polyuréthane sous face de dalle sur sous-sol non chauffé ($R = 3,70\ \text{m}^2\cdot\text{K/W}$). Coût : 4 500 € HT.
 
 - **Montant total des travaux** : **63 500 € HT** (soit 67 000 € TTC à TVA 5,5 %).
 - **Prise en charge financière pour un foyer au profil BLEU (Sortie de passoire, saut de 4 classes)** :
@@ -791,6 +818,10 @@ Pour débloquer le plafond maximal de **70 000 € HT** et sécuriser une valori
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Peut-on cumuler le Parcours Accompagné avec les primes CEE classiques ?
@@ -803,20 +834,23 @@ Non. Le Parcours Accompagné MaPrimeRénov' intègre la valorisation financière
 === GUIDES/mon-accompagnateur-renov-mar-role-cout-obligation.md ===
 
 ---
-title: "Mon Accompagnateur Rénov’ (MAR) : Rôle, Obligation, Coût et Financement 2026"
-description: "Guide complet 2026 sur Mon Accompagnateur Rénov' (MAR) : obligation légale, missions, tarifs, barème de prise en charge Anah et critères pour choisir un tiers de confiance agréé."
-publishedAt: "2026-09-23"
-category: "Aides Financières"
-readTime: "9 min"
+title: 'Mon Accompagnateur Rénov’ (MAR) : Rôle, Obligation, Coût et Financement 2026'
+description: >-
+  Guide complet 2026 sur Mon Accompagnateur Rénov' (MAR) : obligation légale,
+  missions, tarifs, barème de prise en charge Anah et critères pour choisir un
+  tiers de confiance agréé.
+publishedAt: '2026-09-23'
+category: Aides Financières
+readTime: 9 min
 ---
 
 # Mon Accompagnateur Rénov’ (MAR) : Rôle, Obligation, Coût et Financement 2026
 
 ::: callout Réponse directe
-**Mon Accompagnateur Rénov’ (MAR)** est un tiers de confiance agréé par l’Anah, obligatoire pour toute rénovation d’ampleur visant une sortie de passoire thermique via MaPrimeRénov' Parcours Accompagné. Sa mission comprend la réalisation de l’audit énergétique, la définition du plan de travaux (gain minimal de 2 classes DPE), l’aide à la sélection des artisans RGE et le montage financier. Son coût (entre 1 200 € et 2 500 €) est subventionné par l’État jusqu’à 100 % dans la limite d’un plafond de dépenses éligibles fixé à 2 000 €.
+**Mon Accompagnateur Rénov’ (MAR)** est un tiers de confiance agréé par [l’Anah](https://www.anah.gouv.fr), obligatoire pour toute rénovation d’ampleur visant une sortie de passoire thermique via MaPrimeRénov' Parcours Accompagné. Sa mission comprend la réalisation de l’audit énergétique, la définition du plan de travaux (gain minimal de 2 classes DPE), l’aide à la sélection des [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) et le montage financier. Son coût (entre 1 200 € et 2 500 €) est subventionné par l’État jusqu’à 100 % dans la limite d’un plafond de dépenses éligibles fixé à 2 000 €.
 :::
 
-La transition énergétique du parc immobilier résidentiel français est soumise à un calendrier réglementaire strict imposé par la **loi Climat et Résilience** : interdiction de location des logements classés G au 1er janvier 2025, extension aux logements F au 1er janvier 2028, puis aux logements E au 1er janvier 2034. Face à ces échéances et pour éviter les rénovations parcellaires inefficaces, les pouvoirs publics ont instauré un dispositif d'encadrement technique obligatoire : le statut de **Mon Accompagnateur Rénov’ (MAR)**. 
+La transition énergétique du parc immobilier résidentiel français est soumise à un calendrier réglementaire strict imposé par la **[loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)** : [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) des logements classés G au 1er janvier 2025, extension aux logements F au 1er janvier 2028, puis aux logements E au 1er janvier 2034. Face à ces échéances et pour éviter les rénovations parcellaires inefficaces, les pouvoirs publics ont instauré un dispositif d'encadrement technique obligatoire : le statut de **Mon Accompagnateur Rénov’ (MAR)**. 
 
 Ce professionnel agréé constitue la clé de voûte des chantiers de rénovation globale subventionnés, garantissant la performance thermique réelle et protégeant les propriétaires contre les dérives techniques et financières.
 
@@ -897,7 +931,7 @@ Visite initiale     Scénarios de travaux     Sélection devis RGE     Fin de ch
 
 Le MAR se déplace physiquement dans le logement pour réaliser un diagnostic complet du bâti :
 * Relevé géométrique précis, état des menuiseries, type d'isolation existante, analyse des ponts thermiques structurels.
-* Inspection approfondie des systèmes de chauffage, de production d'eau chaude sanitaire (ECS) et de ventilation (VMC simple flux, VMC hygroréglable, double flux).
+* Inspection approfondie des systèmes de chauffage, de production d'eau chaude sanitaire (ECS) et de ventilation (VMC simple flux, [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures), double flux).
 * Réalisation ou mise à jour de l'**audit énergétique réglementaire** conforme à la méthode 3CL-2021, intégrant l'évaluation de la qualité de l'air intérieur et de la ventilation.
 
 ### Étape 2 : L'élaboration des scénarios de travaux et du plan de financement
@@ -970,6 +1004,10 @@ La loi n° 2020-901 du 24 juillet 2020 **interdit formellement le démarchage t�
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Peut-on choisir librement son Accompagnateur Rénov’ ?
@@ -989,11 +1027,14 @@ Pour les copropriétés réalisant des travaux sur les parties communes via le d
 === GUIDES/prime-cee-coup-de-pouce-renovation-globale-cumul.md ===
 
 ---
-title: "Primes CEE & Coup de Pouce 2026 : Fiches BAR-TH-164/171 et Cumul MaPrimeRénov’"
-description: "Guide exhaustif sur les Certificats d'Économies d'Énergie en 2026 : fiches standardisées BAR-TH-164 et BAR-TH-171, Coup de Pouce Chauffage, règles d'écrêtement et barèmes par zone climatique."
-publishedAt: "2026-09-23"
-category: "Aides Financières"
-readTime: "10 min"
+title: 'Primes CEE & Coup de Pouce 2026 : Fiches BAR-TH-164/171 et Cumul MaPrimeRénov’'
+description: >-
+  Guide exhaustif sur les Certificats d'Économies d'Énergie en 2026 : fiches
+  standardisées BAR-TH-164 et BAR-TH-171, Coup de Pouce Chauffage, règles
+  d'écrêtement et barèmes par zone climatique.
+publishedAt: '2026-09-23'
+category: Aides Financières
+readTime: 10 min
 ---
 
 # Primes CEE & Coup de Pouce 2026 : Fiches BAR-TH-164/171 et Cumul MaPrimeRénov’
@@ -1002,9 +1043,9 @@ readTime: "10 min"
 Les Certificats d’Économies d’Énergie (CEE), versés par les fournisseurs d’énergie (EDF, TotalEnergies, Engie), financent une part majeure des travaux de rénovation thermique via les fiches standardisées BAR-TH-164 (rénovation globale maison) et BAR-TH-171 (bâtiment collectif). Cumulables avec MaPrimeRénov’, les primes CEE peuvent atteindre 4 000 € à 10 000 € selon l’énergie remplacée et le gain thermique. L'obtention de ces aides exige une contractualisation stricte avant la signature du moindre devis, l'intervention d'entreprises qualifiées RGE et le respect des règles d'écrêtement public-privé (100 % Bleu, 90 % Jaune, 80 % Violet, 70 % Rose).
 :::
 
-Le dispositif des Certificats d'Économies d'Énergie (CEE) constitue l'un des deux piliers financiers de la transition énergétique en France avec MaPrimeRénov'. Alors que le calendrier d'interdiction de location issu de la loi Climat et Résilience frappe déjà les passoires thermiques classées G depuis le 1er janvier 2025 et s'apprête à interdire les logements F au 1er janvier 2028 puis E au 1er janvier 2034, la maîtrise des CEE est indispensable pour bâtir un plan de financement performant.
+Le dispositif des Certificats d'Économies d'Énergie (CEE) constitue l'un des deux piliers financiers de la transition énergétique en France avec MaPrimeRénov'. Alors que le [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) issu de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) frappe déjà les passoires thermiques classées G depuis le 1er janvier 2025 et s'apprête à interdire les logements F au 1er janvier 2028 puis E au 1er janvier 2034, la maîtrise des CEE est indispensable pour bâtir un plan de financement performant.
 
-En 2026, au cœur de la 5ème période des CEE renforcée, les exigences techniques se sont durcies pour éliminer les fraudes et maximiser l'efficacité réelle des chantiers. Comprendre le fonctionnement des fiches standardisées de rénovation globale, optimiser les bonifications « Coup de Pouce » et articuler légalement ces subventions privées avec les aides de l'Anah conditionne la rentabilité globale de toute opération immobilière.
+En 2026, au cœur de la 5ème période des CEE renforcée, les exigences techniques se sont durcies pour éliminer les fraudes et maximiser l'efficacité réelle des chantiers. Comprendre le fonctionnement des fiches standardisées de rénovation globale, optimiser les bonifications « Coup de Pouce » et articuler légalement ces subventions privées avec les aides de [l’Anah](https://www.anah.gouv.fr) conditionne la rentabilité globale de toute opération immobilière.
 
 ---
 
@@ -1199,11 +1240,15 @@ Pour que la prime soit juridiquement valide, l'obligé doit prouver son **rôle 
 Conformément à la réglementation durcie de la 5ème période :
 1.  **Taux de contrôle de 100 %** : Sur les fiches à fort enjeu telles que la BAR-TH-164 (rénovation globale maison) et la BAR-TH-171 (bâtiment collectif), la totalité des chantiers fait l'objet d'un contrôle sur site avant délivrance des certificats.
 2.  **Organismes indépendants accrédités** : Le contrôle est réalisé par un bureau d'inspection tiers accrédité par le COFRAC (selon la norme NF EN ISO/CEI 17020).
-3.  **Points vérifiés** : Épaisseurs réelles d'isolant, résistance thermique certifiée ACERMI, conformité de la marque et du modèle de la pompe à chaleur avec l'audit, étanchéité à l'air des réseaux de ventilation, existence d'un système de régulation par pièce.
+3.  **Points vérifiés** : Épaisseurs réelles d'isolant, résistance thermique certifiée ACERMI, conformité de la marque et du modèle de la [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) avec l'audit, étanchéité à l'air des réseaux de ventilation, existence d'un système de régulation par pièce.
 
 En cas de non-conformité majeure relevée par le rapport COFRAC, l'obligé bloque immédiatement le paiement de la prime jusqu'à ce que l'entreprise RGE intervienne pour effectuer les reprises techniques indispensables et qu'une contre-visite valide les travaux.
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 
@@ -1222,27 +1267,32 @@ Les artisans doivent posséder la qualification RGE (Reconnu Garant de l'Environ
 *   *Qualifelec RGE* ou *Qualibat 5911* pour la ventilation mécanique.
 
 ### Les propriétaires bailleurs peuvent-ils bénéficier des CEE pour rénover une passoire thermique mise en location ?
-Oui. Les propriétaires bailleurs ont accès aux CEE exactement dans les mêmes conditions techniques et barèmes que les propriétaires occupants. Les CEE ne sont pas soumis aux plafonds d'occupation personnelle. De plus, un bailleur peut cumuler ces primes avec MaPrimeRénov' Bailleur (dans la limite de 3 logements loués sur 5 ans) et déduire le reste à charge de ses revenus fonciers au régime réel d'imposition via le mécanisme du déficit foncier.
+Oui. Les propriétaires bailleurs ont accès aux CEE exactement dans les mêmes conditions techniques et barèmes que les propriétaires occupants. Les CEE ne sont pas soumis aux plafonds d'occupation personnelle. De plus, un bailleur peut cumuler ces primes avec MaPrimeRénov' Bailleur (dans la limite de 3 logements loués sur 5 ans) et déduire le reste à charge de ses revenus fonciers au régime réel d'imposition via le [déficit foncier doublé à 21 400 €](/guides/deficit-foncier-double-passoire-thermique-21400-euros).
 
 ---
 
 === GUIDES/delegation-paiement-aides-avancer-frais-renovation.md ===
 
 ---
-title: "Rénovation Énergétique Sans Avance de Frais : Mandataires et Prêt Avance Rénovation (PAR)"
-description: "Découvrez comment réaliser vos travaux de rénovation globale sans débourser votre trésorerie grâce à la délégation de paiement Anah et au Prêt Avance Rénovation garanti par l'État."
-publishedAt: "2026-09-23"
-category: "Aides Financières"
-readTime: "8 min"
+title: >-
+  Rénovation Énergétique Sans Avance de Frais : Mandataires et Prêt Avance
+  Rénovation (PAR)
+description: >-
+  Découvrez comment réaliser vos travaux de rénovation globale sans débourser
+  votre trésorerie grâce à la délégation de paiement Anah et au Prêt Avance
+  Rénovation garanti par l'État.
+publishedAt: '2026-09-23'
+category: Aides Financières
+readTime: 8 min
 ---
 
 # Rénovation Énergétique Sans Avance de Frais : Mandataires et Prêt Avance Rénovation (PAR)
 
 ::: callout Réponse directe
-Pour les ménages ne disposant pas de l’épargne nécessaire pour avancer 20 000 € à 40 000 € de travaux avant le versement des aides de l’Anah, deux solutions officielles existent : la délégation de paiement à un mandataire financier agréé et le Prêt Avance Rénovation (PAR), un prêt hypothécaire garanti par l’État dont le capital n’est remboursé que lors de la revente ou succession.
+Pour les ménages ne disposant pas de l’épargne nécessaire pour avancer 20 000 € à 40 000 € de travaux avant le versement des aides de [l’Anah](https://www.anah.gouv.fr), deux solutions officielles existent : la délégation de paiement à un mandataire financier agréé et le Prêt Avance Rénovation (PAR), un prêt hypothécaire garanti par l’État dont le capital n’est remboursé que lors de la revente ou succession.
 :::
 
-L'éradication des passoires thermiques, rendue impérative par le calendrier de la loi Climat et Résilience (gel des loyers depuis août 2022, interdiction de location des logements classés G au 1er janvier 2025, F au 1er janvier 2028 et E au 1er janvier 2034), impose des opérations de rénovation énergétique d'ampleur. Pour hisser un bâtiment étiqueté F ou G vers les classes C ou B du Diagnostic de Performance Énergétique (DPE), le coût des chantiers multi-postes oscille généralement entre 35 000 € et 70 000 € TTC.
+L'éradication des passoires thermiques, rendue impérative par le calendrier de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) (gel des loyers depuis août 2022, [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) des logements classés G au 1er janvier 2025, F au 1er janvier 2028 et E au 1er janvier 2034), impose des opérations de rénovation énergétique d'ampleur. Pour hisser un bâtiment étiqueté F ou G vers les classes C ou B du Diagnostic de Performance Énergétique (DPE), le coût des chantiers multi-postes oscille généralement entre 35 000 € et 70 000 € TTC.
 
 Bien que les subventions publiques (MaPrimeRénov' Parcours Accompagné, Certificats d'Économies d'Énergie - CEE, abondements des collectivités locales) puissent couvrir jusqu'à 80 % ou 90 % du montant des travaux pour les ménages aux revenus très modestes (profil Bleu de l'Anah) et modestes (profil Jaune), le principe fondamental de la comptabilité publique impose que **l'aide ne soit versée qu'après la réalisation complète des travaux et la présentation des factures acquittées**. 
 
@@ -1261,7 +1311,7 @@ Le processus standard d'octroi de MaPrimeRénov' repose sur un contrôle *ex-pos
 ```
 
 ### Le cycle des flux financiers sur un chantier de 50 000 €
-1. **Acompte initial (30 %) :** 15 000 € exigés par les artisans RGE au démarrage pour l'achat des isolants (R ≥ 7 m².K/W en combles, R ≥ 3,7 m².K/W sur murs ITE), des menuiseries (Uw ≤ 1,3 W/m².K) et du générateur thermodynamique (PAC air/eau avec ETAS ≥ 126 %).
+1. **Acompte initial (30 %) :** 15 000 € exigés par les [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) au démarrage pour l'achat des isolants (R ≥ 7 m².K/W en combles, R ≥ 3,7 m².K/W sur murs ITE), des menuiseries (Uw ≤ 1,3 W/m².K) et du générateur thermodynamique (PAC air/eau avec ETAS ≥ 126 %).
 2. **Appel de fonds intermédiaire (40 %) :** 20 000 € réclamés à mi-chantier selon l'avancement des lots techniques.
 3. **Solde à la réception des travaux (30 %) :** 15 000 € exigibles dès la signature du procès-verbal de réception sans réserve.
 4. **Instruction de la demande de solde Anah :** Entre 16 et 32 semaines (4 à 8 mois) pour l'instruction administrative, le contrôle de conformité par l'Agence Nationale de l'Habitat et le virement effectif sur le compte du bénéficiaire.
@@ -1374,9 +1424,13 @@ Pour sécuriser l'opération, appliquez scrupuleusement les règles de conformit
 ### Le verrouillage de l'attestation de fin de travaux
 En vertu du droit commun des contrats et des directives de l'Anah, le versement des aides au mandataire financier reste subordonné à la transmission de l'attestation de fin de travaux signée par le bénéficiaire. 
 
-Tant que les performances thermiques requises ne sont pas constatées (ex : absence de pont thermique sur l'ITE, mise en service et réglage de la courbe de chauffe de la pompe à chaleur, test de débit de la VMC double flux), **le particulier conserve le droit légal de retenir sa signature**. Cette rétention bloque le paiement de la subvention par l'Anah au mandataire, conférant au particulier un moyen de pression juridique direct pour exiger la levée intégrale des réserves.
+Tant que les performances thermiques requises ne sont pas constatées (ex : absence de pont thermique sur l'ITE, mise en service et réglage de la courbe de chauffe de la [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026), test de débit de la [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures)), **le particulier conserve le droit légal de retenir sa signature**. Cette rétention bloque le paiement de la subvention par l'Anah au mandataire, conférant au particulier un moyen de pression juridique direct pour exiger la levée intégrale des réserves.
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 
@@ -1397,11 +1451,14 @@ Oui. Le mandat financier est une faculté contractuelle et non une obligation l�
 === GUIDES/passoire-thermique-bail-en-cours-droits-proprietaire-locataire.md ===
 
 ---
-title: "Passoire Thermique avec Locataire en Place : Que Dit la Loi en 2026 ?"
-description: "Bail en cours, reconduction tacite, recours du locataire et travaux en milieu occupé : analyse juridique complète des obligations du bailleur face à la décence énergétique en 2026."
-publishedAt: "2026-09-23"
-category: "Bailleurs & Baux"
-readTime: "10 min"
+title: 'Passoire Thermique avec Locataire en Place : Que Dit la Loi en 2026 ?'
+description: >-
+  Bail en cours, reconduction tacite, recours du locataire et travaux en milieu
+  occupé : analyse juridique complète des obligations du bailleur face à la
+  décence énergétique en 2026.
+publishedAt: '2026-09-23'
+category: Bailleurs & Baux
+readTime: 10 min
 ---
 
 # Passoire Thermique avec Locataire en Place : Que Dit la Loi en 2026 ?
@@ -1410,7 +1467,7 @@ readTime: "10 min"
 Un bail en cours pour un logement classé G conclu avant le 1er janvier 2025 reste juridiquement valable jusqu’à son terme contractuel initial. En revanche, dès sa reconduction tacite ou son renouvellement, le bien tombe sous le coup de l’indécence énergétique (article 6 de la loi du 6 juillet 1989). Le locataire en place peut alors exiger la mise en conformité du logement aux frais exclusifs du bailleur, solliciter une diminution judiciaire de loyer avec effet rétroactif ou demander des dommages et intérêts sans être contraint de quitter les lieux. Le propriétaire ne peut expulser le locataire pour ce motif, mais dispose de leviers d'action stricts pour exécuter les travaux en milieu occupé ou délivrer un congé pour motif légitime et sérieux ultra-documenté.
 :::
 
-L'entrée en vigueur progressive des interdictions de location issues de la loi n° 2021-1104 du 22 août 2021 (dite loi Climat et Résilience) bouleverse la gestion locative des logements énergivores. Depuis le 1er janvier 2025, la totalité des logements de la classe DPE G est frappée d'indécence énergétique sur le territoire métropolitain, succédant au premier seuil d'exclusion des logements consommant plus de 450 kWh/m²/an d'énergie finale instauré au 1er janvier 2023.
+L'entrée en vigueur progressive des interdictions de location issues de la loi n° 2021-1104 du 22 août 2021 (dite [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)) bouleverse la gestion locative des logements énergivores. Depuis le 1er janvier 2025, la totalité des logements de la classe DPE G est frappée d'indécence énergétique sur le territoire métropolitain, succédant au premier seuil d'exclusion des logements consommant plus de 450 kWh/m²/an d'énergie finale instauré au 1er janvier 2023.
 
 Pour les propriétaires bailleurs, la présence d'un locataire sous contrat en cours soulève des questions juridiques, techniques et financières complexes. Le bail est-il caduc ? Le locataire peut-il refuser de payer son loyer ? Comment engager un bouquet de travaux d'isolation sans violer la jouissance paisible des lieux ? Ce guide décortique les dispositions du Code de la construction et de l'habitation, du Code civil et de la loi du 6 juillet 1989 pour sécuriser la situation juridique des bailleurs et éclairer les droits des occupants.
 
@@ -1445,7 +1502,7 @@ Chronologie d'opposabilité de la décence énergétique :
 
 ### Le gel strict des loyers (Article 159 de la loi Climat et Résilience)
 
-Indépendamment de la date de reconduction du bail, une règle transversale s'applique depuis le **24 août 2022** en France métropolitaine : le gel des loyers pour l'ensemble des passoires thermiques classées F et G.
+Indépendamment de la date de reconduction du bail, une règle transversale s'applique depuis le **24 août 2022** en France métropolitaine : le [gel des loyers des passoires F et G](/guides/gel-des-loyers-passoires-thermiques-f-g) pour l'ensemble des passoires thermiques classées F et G.
 
 Pour ces logements :
 * Aucune révision annuelle de loyer fondée sur la variation de l'Indice de Référence des Loyers (IRL) ne peut être appliquée.
@@ -1590,6 +1647,10 @@ Si le bailleur délivre un congé pour motif légitime et sérieux ou pour vente
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Mon locataire en place depuis 2021 dans un logement classé G peut-il arrêter de payer son loyer en 2026 ?
@@ -1609,20 +1670,25 @@ Non, pas immédiatement. L'article 159 de la loi Climat et Résilience interdit 
 === GUIDES/interdiction-chaudiere-gaz-fioul-solutions-remplacement.md ===
 
 ---
-title: "Fin des Chaudières Fioul et Restrictions Gaz : Les Meilleures Alternatives 2026"
-description: "Réglementation 2026 sur l'interdiction du fioul et les restrictions du gaz : découvrez les alternatives techniques (PAC, biomasse, réseau urbain), les coûts et les aides MaPrimeRénov'."
-publishedAt: "2026-09-23"
-category: "Chauffage & Énergie"
-readTime: "10 min"
+title: >-
+  Fin des Chaudières Fioul et Restrictions Gaz : Les Meilleures Alternatives
+  2026
+description: >-
+  Réglementation 2026 sur l'interdiction du fioul et les restrictions du gaz :
+  découvrez les alternatives techniques (PAC, biomasse, réseau urbain), les
+  coûts et les aides MaPrimeRénov'.
+publishedAt: '2026-09-23'
+category: Chauffage & Énergie
+readTime: 10 min
 ---
 
 # Fin des Chaudières Fioul et Restrictions Gaz : Les Meilleures Alternatives 2026
 
 ::: callout Réponse directe
-L’installation de nouvelles chaudières au fioul 100 % fossile est strictement interdite depuis le 1er juillet 2022 (seuil d’émissions fixé à 250 gCO2e/kWh PCI), et les aides publiques (MaPrimeRénov’, CEE) pour les chaudières à condensation au gaz ont été définitivement supprimées. Pour remplacer ces équipements fossiles sur une passoire thermique et éviter l’interdiction de location (gel des classes G depuis 2025, F dès 2028), les trois alternatives les plus pérennes sont la pompe à chaleur air/eau haute température, la chaudière biomasse à granulés de bois (pellets) et le raccordement à un réseau de chaleur urbain (RCU). La neutralisation de l'ancienne cuve à fioul (dégazage, nettoyage et comblement ou enlèvement) est obligatoire sous peine de sanctions.
+L’installation de nouvelles chaudières au fioul 100 % fossile est strictement interdite depuis le 1er juillet 2022 (seuil d’émissions fixé à 250 gCO2e/kWh PCI), et les aides publiques (MaPrimeRénov’, CEE) pour les chaudières à condensation au gaz ont été définitivement supprimées. Pour remplacer ces équipements fossiles sur une passoire thermique et éviter l’[calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) (gel des classes G depuis 2025, F dès 2028), les trois alternatives les plus pérennes sont la [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) air/eau haute température, la chaudière biomasse à granulés de bois (pellets) et le raccordement à un réseau de chaleur urbain (RCU). La neutralisation de l'ancienne cuve à fioul (dégazage, nettoyage et comblement ou enlèvement) est obligatoire sous peine de sanctions.
 :::
 
-Le secteur du chauffage résidentiel subit une transformation réglementaire sans précédent. Portée par la Loi Climat et Résilience, la Stratégie Nationale Bas-Carbone (SNBC) et les directives européennes sur l'efficacité énergétique, l'élimination des combustibles fossiles s'accélère. Pour les propriétaires bailleurs, investisseurs et occupants de maisons individuelles ou de copropriétés classées E, F ou G au Diagnostic de Performance Énergétique (DPE), le maintien ou le remplacement à l'identique d'un équipement fioul ou gaz n'est plus une option légale ni économique. 
+Le secteur du chauffage résidentiel subit une transformation réglementaire sans précédent. Portée par la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924), la Stratégie Nationale Bas-Carbone (SNBC) et les directives européennes sur l'efficacité énergétique, l'élimination des combustibles fossiles s'accélère. Pour les propriétaires bailleurs, investisseurs et occupants de maisons individuelles ou de copropriétés classées E, F ou G au Diagnostic de Performance Énergétique (DPE), le maintien ou le remplacement à l'identique d'un équipement fioul ou gaz n'est plus une option légale ni économique. 
 
 Remplacer un générateur fossile par une solution bas-carbone permet de sortir immédiatement du statut de passoire thermique grâce au double seuil énergie primaire/émissions de gaz à effet de serre du DPE en vigueur.
 
@@ -1658,7 +1724,7 @@ Ce seuil a pour conséquence directe :
 
 Si le remplacement d'une chaudière gaz par un modèle neuf à très haute performance énergétique (THPE) reste légalement toléré dans le parc existant (le gaz naturel émettant environ 227 gCO2e/kWh PCI, soit juste sous le seuil de 250 g), cette filière subit un désengagement public total :
 * **Suppression complète de MaPrimeRénov'** sur tous les générateurs fonctionnant exclusivement au gaz, y compris les modèles à condensation les plus récents.
-* **Fin des primes CEE** (Certificats d'Économies d'Énergie) standardisées pour l'installation de chaudières individuelles au gaz.
+* **Fin des [primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul)** (Certificats d'Économies d'Énergie) standardisées pour l'installation de chaudières individuelles au gaz.
 * **Pénalisation dans le calcul du DPE** : le facteur d'émission de CO2 du gaz naturel plombe systématiquement la lettre Climat du logement, empêchant souvent une passoire thermique (F ou G) d'atteindre la classe C ou B sans changer d'énergie principale.
 
 ---
@@ -1698,7 +1764,7 @@ La chaudière à granulés exploite un combustible normalisé (DINplus ou ENplus
 
 ### Aides financières spécifiques en 2026
 
-La biomasse bénéficie du soutien maximal de l'Anah dans le cadre du parcours accompagné ou par geste :
+La biomasse bénéficie du soutien maximal de [l’Anah](https://www.anah.gouv.fr) dans le cadre du parcours accompagné ou par geste :
 * **MaPrimeRénov' Parcours Décarbonation / Geste** : Jusqu'à 10 000 € pour les ménages aux revenus très modestes (barème Bleu), 8 000 € (barème Jaune) et 4 000 € (barème Violet).
 * **Coup de Pouce Chauffage (CEE)** : Prime bonifiée comprise entre 4 000 € et 5 000 € pour le remplacement d'un équipement fioul ou gaz par une chaudière biomasse de classe 5 (norme NF EN 303.5) labellisée Flamme Verte 7 étoiles.
 
@@ -1830,6 +1896,10 @@ Le choix d'un vecteur de remplacement dépend du coût d'investissement initial,
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Peut-on encore réparer une chaudière au fioul existante en 2026 ?
@@ -1849,11 +1919,16 @@ En milieu urbain ou périurbain, le raccordement à un Réseau de Chaleur Urbain
 === GUIDES/pompe-a-chaleur-air-eau-prix-aides-consommation-2026.md ===
 
 ---
-title: "PAC Air/Eau en 2026 : Prix Réel, Aides Déduites, COP Saisonnier et Consommation"
-description: "Guide technique complet 2026 sur la pompe à chaleur air/eau : dimensionnement, SCOP, remplacement chaudière fioul/gaz, aides MaPrimeRénov' et CEE, rentabilité réelle."
-publishedAt: "2026-09-23"
-category: "Chauffage & Énergie"
-readTime: "11 min"
+title: >-
+  PAC Air/Eau en 2026 : Prix Réel, Aides Déduites, COP Saisonnier et
+  Consommation
+description: >-
+  Guide technique complet 2026 sur la pompe à chaleur air/eau : dimensionnement,
+  SCOP, remplacement chaudière fioul/gaz, aides MaPrimeRénov' et CEE,
+  rentabilité réelle.
+publishedAt: '2026-09-23'
+category: Chauffage & Énergie
+readTime: 11 min
 ---
 
 # PAC Air/Eau en 2026 : Prix Réel, Aides Déduites, COP Saisonnier et Consommation
@@ -1862,7 +1937,7 @@ readTime: "11 min"
 La pompe à chaleur (PAC) air/eau est l’équipement pivot pour sortir une passoire thermique du statut F ou G vers les classes C ou B. Pour une maison de 100 à 130 m², l’installation complète coûte entre 12 000 € et 18 000 € TTC. Grâce au cumul MaPrimeRénov’ et Coup de Pouce CEE, les aides peuvent atteindre 8 000 € à 11 000 €, réduisant le reste à charge à moins de 3 000 € pour les ménages très modestes.
 :::
 
-Dans le cadre du calendrier de la **Loi Climat et Résilience** — marquée par l'interdiction de louer les logements classés G depuis le 1er janvier 2025, puis F dès le 1er janvier 2028 et E au 1er janvier 2034 —, la rénovation du système de chauffage constitue le levier le plus rapide pour réduire drastiquement la consommation d'énergie primaire d'un bien immobilier. 
+Dans le cadre du calendrier de la **[loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)** — marquée par l'interdiction de louer les logements classés G depuis le 1er janvier 2025, puis F dès le 1er janvier 2028 et E au 1er janvier 2034 —, la rénovation du système de chauffage constitue le levier le plus rapide pour réduire drastiquement la consommation d'énergie primaire d'un bien immobilier. 
 
 Remplacer une ancienne chaudière fioul ou gaz par une pompe à chaleur aérothermique air/eau permet de diviser la facture énergétique annuelle par un facteur 2,5 à 3,5, tout en débloquant les verrous réglementaires à la location. Cependant, la rentabilité réelle dépend d'un équilibre thermique rigoureux : choix entre haute et basse température, dimensionnement millimétré de la puissance caloportrice, respect des seuils acoustiques et optimisation du montage financier d'aides publiques en vigueur en 2026.
 
@@ -1892,7 +1967,7 @@ Pour estimer la performance réelle, les diagnostiqueurs DPE et les bureaux d'é
 $$\text{SCOP} = \frac{\text{Quantité totale d'énergie thermique fournie sur la saison (kWh)}}{\text{Quantité totale d'énergie électrique consommée (kWh)}}$$
 
 *   **L'Efficacité Énergétique Saisonnière ($\eta_s$ ou ETAS) :** Exprimée en pourcentage, elle est calculée en divisant le SCOP par le facteur de conversion d'énergie primaire européen (fixé à 2,5) corrigé de facteurs de régulation.
-*   **Les Exigences de la Fiche CEE BAR-TH-104 :** Pour être éligible aux primes CEE et à MaPrimeRénov' en 2026, la PAC doit impérativement respecter un seuil minimal d'ETAS :
+*   **Les Exigences de la Fiche CEE BAR-TH-104 :** Pour être éligible aux [primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul) et à MaPrimeRénov' en 2026, la PAC doit impérativement respecter un seuil minimal d'ETAS :
     *   $\eta_s \ge 111\ \%$ pour les PAC moyenne et haute température (sortie eau $> 55\ ^\circ\text{C}$).
     *   $\eta_s \ge 126\ \%$ pour les PAC basse température (sortie eau $\le 55\ ^\circ\text{C}$).
 
@@ -1985,7 +2060,7 @@ $$\text{Consommation électrique} = \frac{25\,740\ \text{kWh}}{3{,}1} = 8\,303\ 
 
 *   **Facture annuelle d'électricité (Tarif réglementé 2026 ~ 0,25 €/kWh TTC) :** $8\,303\ \text{kWh} \times 0{,}25\ \text{€} = 2\,075\ \text{€/an}$.
 *   **Économie brute annuelle :** $3\,250\ \text{€} - 2\,075\ \text{€} = 1\,175\ \text{€/an}$.
-*   *Note post-isolation :* Si cette installation s'accompagne d'une isolation des combles perdus ($R \ge 7\ \text{m}^2\cdot\text{K/W}$) et des sous-sols, les besoins tombent à 14 000 kWh thermiques, ramenant la facture électrique PAC entre **1 100 € et 1 350 €/an**.
+*   *Note post-isolation :* Si cette installation s'accompagne d'une [isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7) ($R \ge 7\ \text{m}^2\cdot\text{K/W}$) et des sous-sols, les besoins tombent à 14 000 kWh thermiques, ramenant la facture électrique PAC entre **1 100 € et 1 350 €/an**.
 
 ### Impact sur l'Étiquette DPE
 
@@ -2024,7 +2099,7 @@ Pour éviter tout conflit de voisinage ou recours juridique :
 
 ## 6. Baromètre Chiffré 2026 : Prix, Aides de l'État et Reste à Charge Net
 
-En 2026, l'installation d'une pompe à chaleur air/eau ouvre droit au cumul de deux mécanismes d'aide financière majeurs : **MaPrimeRénov'** (gérée par l'Anah) et la prime **CEE "Coup de Pouce Chauffage" (Fiche BAR-TH-104)**, bonifiée lors du remplacement d'une chaudière fioul ou gaz hors condensation.
+En 2026, l'installation d'une pompe à chaleur air/eau ouvre droit au cumul de deux mécanismes d'aide financière majeurs : **MaPrimeRénov'** (gérée par [l’Anah](https://www.anah.gouv.fr)) et la prime **CEE "Coup de Pouce Chauffage" (Fiche BAR-TH-104)**, bonifiée lors du remplacement d'une chaudière fioul ou gaz hors condensation.
 
 ### Barème Financier Moyen pour une PAC Air/Eau (Maison de 100 à 130 m²)
 
@@ -2034,7 +2109,7 @@ En 2026, l'installation d'une pompe à chaleur air/eau ouvre droit au cumul de d
 | **Main d'œuvre RGE & Accessoires** | 3 500 € à 5 000 € | 3 500 € à 5 000 € | 3 500 € à 5 000 € | 3 500 € à 5 000 € |
 | **Coût Total Moyen TTC** | **15 000 €** | **15 000 €** | **15 000 €** | **15 000 €** |
 | **MaPrimeRénov' (Parcours par geste)** | 5 000 € | 4 000 € | 3 000 € | 0 € |
-| **Prime CEE Coup de Pouce** | 4 500 € | 4 500 € | 2 500 € | 2 500 € |
+| **[primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul)** | 4 500 € | 4 500 € | 2 500 € | 2 500 € |
 | **Total des Subventions Déduites** | **9 500 €** | **8 500 €** | **5 500 €** | **2 500 €** |
 | **Reste à Charge Net Estimé** | **5 500 €** | **6 500 €** | **9 500 €** | **12 500 €** |
 | **Financement Éco-PTZ (Taux 0 %)** | Jusqu'à 15 000 € | Jusqu'à 15 000 € | Jusqu'à 15 000 € | Jusqu'à 15 000 € |
@@ -2067,6 +2142,10 @@ Le coût moyen d'un contrat d'entretien annuel auprès d'une entreprise certifi�
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Peut-on installer une PAC air/eau par grand froid (-15 °C) ?
@@ -2086,17 +2165,22 @@ La majorité des unités extérieures modernes émettent une puissance acoustiqu
 === GUIDES/chauffage-solaire-panneaux-photovoltaiques-autoconsommation-dpe.md ===
 
 ---
-title: "Panneaux Solaires & Chauffe-Eau Thermodynamique : Impact Réel sur le Saut de DPE"
-description: "Découvrez l'impact réel du solaire photovoltaïque en autoconsommation et du chauffe-eau thermodynamique (CET) sur le calcul du DPE 3CL, la valorisation du bien et la rentabilité financière."
-publishedAt: "2026-09-23"
-category: "Chauffage & Énergie"
-readTime: "9 min"
+title: >-
+  Panneaux Solaires & Chauffe-Eau Thermodynamique : Impact Réel sur le Saut de
+  DPE
+description: >-
+  Découvrez l'impact réel du solaire photovoltaïque en autoconsommation et du
+  chauffe-eau thermodynamique (CET) sur le calcul du DPE 3CL, la valorisation du
+  bien et la rentabilité financière.
+publishedAt: '2026-09-23'
+category: Chauffage & Énergie
+readTime: 9 min
 ---
 
 # Panneaux Solaires & Chauffe-Eau Thermodynamique : Impact Réel sur le Saut de DPE
 
 ::: callout Réponse directe
-L’installation de panneaux solaires photovoltaïques en autoconsommation combinée à un chauffe-eau thermodynamique (CET) permet de couvrir jusqu’à 60 % de la consommation électrique et d’eau chaude sanitaire d’un logement. Dans la méthode de calcul DPE 3CL (version fiabilisée), la part d'électricité renouvelable auto-consommée vient directement en déduction de la consommation conventionnelle en énergie primaire, pondérée par le coefficient de conversion de 2,3 pour le vecteur électrique. Cette synergie technique permet fréquemment de gagner entre 35 et 80 kWhEP/m²/an, franchissant ainsi le seuil décisif d'un demi à un échelon complet (passage de F à E ou de E à D) tout en sécurisant la conformité locative imposée par la loi Climat et Résilience.
+L’installation de panneaux solaires photovoltaïques en autoconsommation combinée à un chauffe-eau thermodynamique (CET) permet de couvrir jusqu’à 60 % de la consommation électrique et d’eau chaude sanitaire d’un logement. Dans la méthode de calcul DPE 3CL (version fiabilisée), la part d'électricité renouvelable auto-consommée vient directement en déduction de la consommation conventionnelle en énergie primaire, pondérée par le coefficient de conversion de 2,3 pour le vecteur électrique. Cette synergie technique permet fréquemment de gagner entre 35 et 80 kWhEP/m²/an, franchissant ainsi le seuil décisif d'un demi à un échelon complet (passage de F à E ou de E à D) tout en sécurisant la conformité locative imposée par la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924).
 :::
 
 L'éradication des passoires thermiques s'accélère sous la contrainte du calendrier légal de l'article L. 173-1-1 du Code de la construction et de l'habitation (CCH) : interdiction de mise en location des logements classés G depuis le 1er janvier 2025, des logements F au 1er janvier 2028 et des logements E au 1er janvier 2034. Face à ces échéances, la rénovation de l'enveloppe bâtie (isolation thermique, menuiseries) demeure indispensable, mais le traitement des postes techniques générateurs d'énergie primaire constitue le levier le plus rapide et le plus rentable pour améliorer le Diagnostic de Performance Énergétique (DPE). 
@@ -2138,7 +2222,7 @@ Le moteur DPE n'intègre pas la totalité de la production théorique brute de l
 Le poste Eau Chaude Sanitaire représente souvent entre 20 % et 40 % de la facture énergétique globale dans un logement moyennement isolé, et jusqu'à 50 % de la consommation d'une maison performante. Le remplacement d'un « cumulus » électrique à effet Joule par un CET constitue l'action individuelle au temps de retour le plus court pour gagner des points de DPE.
 
 ### Principes techniques et coefficients de performance (COP)
-Un chauffe-eau thermodynamique intègre une petite pompe à chaleur aérothermique couplée à une cuve de stockage émaillée ou en acier inoxydable de 150 à 270 litres. Le fluide frigorigène (généralement R134a, R513A ou R290 au propane) extrait les calories de l'air pour vaporiser le fluide, qui est ensuite comprimé afin de restituer la chaleur à l'eau sanitaire.
+Un chauffe-eau thermodynamique intègre une petite [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) aérothermique couplée à une cuve de stockage émaillée ou en acier inoxydable de 150 à 270 litres. Le fluide frigorigène (généralement R134a, R513A ou R290 au propane) extrait les calories de l'air pour vaporiser le fluide, qui est ensuite comprimé afin de restituer la chaleur à l'eau sanitaire.
 
 *   **Coefficient de Performance (COP) :** Selon la norme **NF EN 16147**, les CET modernes affichent un COP pivot mesuré entre **2,8 et 3,4** à une température d'air de $+7^\circ\text{C}$ ou $+15^\circ\text{C}$. Cela signifie que pour $1\text{ kWh}$ d'électricité consommé par le compresseur, le ballon transfère $2,8\text{ à }3,4\text{ kWh}$ d'énergie thermique à l'eau.
 *   **Division de la consommation :** Par rapport à un ballon électrique traditionnel dont le rendement d'exploitation est plafonné à 0,90-0,95, le CET divise la consommation électrique annuelle conventionnelle pour l'ECS par un facteur de **2,6 à 3,2**.
@@ -2259,13 +2343,17 @@ Sur une période d'exploitation de 25 ans, une installation solaire de $3\text{ 
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Le DPE prend-il en compte l'électricité revendue en totalité à EDF OA ?
 Non. Le moteur de calcul DPE 3CL ne comptabilise que l'électricité photovoltaïque produite et auto-consommée in situ pour couvrir les besoins conventionnels du logement (chauffage, ECS, éclairage, auxiliaires). Si vous optez pour un contrat de « vente totale » de la production à EDF OA sans autoconsommation physique, le gain DPE sera strictement nul. Pour maximiser la note énergétique, le contrat doit impérativement être établi en **autoconsommation avec vente du surplus**.
 
 ### Peut-on combiner MaPrimeRénov' Parcours Décarbonation et la prime à l'autoconsommation photovoltaïque ?
-Oui, mais sous des régimes d'aides distincts. L'Anah (MaPrimeRénov') ne subventionne pas directement les panneaux solaires photovoltaïques en geste individuel mono-travaux. En revanche, vous pouvez obtenir MaPrimeRénov' et les CEE pour l'installation du chauffe-eau thermodynamique (Fiche BAR-TH-148) ou d'un Système Solaire Combiné (Fiche BAR-TH-101), tout en percevant la prime à l'autoconsommation photovoltaïque versée par EDF OA selon les termes de l'arrêté tarifaire S21.
+Oui, mais sous des régimes d'aides distincts. [l’Anah](https://www.anah.gouv.fr) (MaPrimeRénov') ne subventionne pas directement les panneaux solaires photovoltaïques en geste individuel mono-travaux. En revanche, vous pouvez obtenir MaPrimeRénov' et les CEE pour l'installation du chauffe-eau thermodynamique (Fiche BAR-TH-148) ou d'un Système Solaire Combiné (Fiche BAR-TH-101), tout en percevant la prime à l'autoconsommation photovoltaïque versée par EDF OA selon les termes de l'arrêté tarifaire S21.
 
 ### Quelle est la différence de calcul DPE entre un CET sur air ambiant et un CET sur air extrait ?
 Dans la méthode 3CL, le CET sur air ambiant est pénalisé par le fait qu'il puise ses calories dans une pièce non chauffée dont la température descend en hiver, ce qui dégrade son COP effectif moyen. Le CET sur air extrait, lui, est valorisé avec un COP annuel stable et élevé car il récupère les calories d'un flux d'air chaud intérieur constant à $19-20^\circ\text{C}$ avant rejet. Le gain DPE d'un système sur air extrait est généralement supérieur de $5\text{ à }10\text{ kWh}_{\text{EP}}/\text{m}^2/\text{an}$ par rapport à un modèle sur air ambiant.
@@ -2278,17 +2366,22 @@ Le bailleur confronté aux interdictions de location de la loi Climat et Résili
 === GUIDES/copropriete-passoire-thermique-dpe-collectif-ppt-ag.md ===
 
 ---
-title: "Passoire Thermique en Copropriété : DPE Collectif, Plan Pluriannuel (PPT) et Vote en AG"
-description: "Guide juridique et technique pour sortir une copropriété du statut de passoire thermique : calendrier du DPE collectif, PPT, fonds de travaux Alur, règles de vote en AG (art. 25-1) et subventions MaPrimeRénov' Copropriété 2026."
-publishedAt: "2026-09-23"
-category: "Copropriété"
-readTime: "11 min"
+title: >-
+  Passoire Thermique en Copropriété : DPE Collectif, Plan Pluriannuel (PPT) et
+  Vote en AG
+description: >-
+  Guide juridique et technique pour sortir une copropriété du statut de passoire
+  thermique : calendrier du DPE collectif, PPT, fonds de travaux Alur, règles de
+  vote en AG (art. 25-1) et subventions MaPrimeRénov' Copropriété 2026.
+publishedAt: '2026-09-23'
+category: Copropriété
+readTime: 11 min
 ---
 
 # Passoire Thermique en Copropriété : DPE Collectif, Plan Pluriannuel (PPT) et Vote en AG
 
 ::: callout Réponse directe
-Sortir un appartement individuel du statut de passoire thermique est quasi impossible sans intervenir sur l'enveloppe et les équipements communs de l'immeuble (isolation thermique par l'extérieur, toiture, planchers bas, régulation ou remplacement de chaufferie collective). Depuis le 1er janvier 2025 pour les copropriétés de plus de 50 lots, et depuis le 1er janvier 2026 pour l'intégralité des immeubles collectifs quel que soit leur nombre de lots, l'élaboration d'un **Diagnostic de Performance Énergétique (DPE) collectif** et d'un **Projet de Plan Pluriannuel de Travaux (PPPT)** est une obligation légale stricte issue de la loi Climat et Résilience. Le vote de ces travaux est sécurisé par la passerelle de l'article 25-1 de la loi du 10 juillet 1965, qui permet d'adopter un programme de rénovation globale à la majorité simple de l'article 24 dès lors que le projet a recueilli au moins le tiers des voix de tous les copropriétaires. En 2026, le dispositif **MaPrimeRénov’ Copropriété** finance jusqu'à 45 % du montant des travaux éligibles dans la limite d'un plafond de 25 000 € HT par lot pour les projets atteignant au moins 35 % de gain énergétique.
+Sortir un appartement individuel du statut de passoire thermique est quasi impossible sans intervenir sur l'enveloppe et les équipements communs de l'immeuble (isolation thermique par l'extérieur, toiture, planchers bas, régulation ou remplacement de chaufferie collective). Depuis le 1er janvier 2025 pour les copropriétés de plus de 50 lots, et depuis le 1er janvier 2026 pour l'intégralité des immeubles collectifs quel que soit leur nombre de lots, l'élaboration d'un **Diagnostic de Performance Énergétique (DPE) collectif** et d'un **Projet de Plan Pluriannuel de Travaux (PPPT)** est une obligation légale stricte issue de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924). Le vote de ces travaux est sécurisé par la passerelle de l'article 25-1 de la loi du 10 juillet 1965, qui permet d'adopter un programme de rénovation globale à la majorité simple de l'article 24 dès lors que le projet a recueilli au moins le tiers des voix de tous les copropriétaires. En 2026, le dispositif **MaPrimeRénov’ Copropriété** finance jusqu'à 45 % du montant des travaux éligibles dans la limite d'un plafond de 25 000 € HT par lot pour les projets atteignant au moins 35 % de gain énergétique.
 :::
 
 Pour un copropriétaire bailleur, l'interdiction progressive de mise en location des logements classés G (1er janvier 2025), F (1er janvier 2028) et E (1er janvier 2034) constitue une contrainte opérationnelle majeure. En habitat collectif, la performance thermique d'un lot privatif dépend à 70 % de la compacité de l'immeuble, de l'isolation des parties communes et du rendement des systèmes de chauffage et de production d'eau chaude sanitaire (ECS) collectifs. 
@@ -2475,7 +2568,7 @@ En complément du socle de base de MaPrimeRénov’ Copropriété, le dispositif
 
 L'octroi des subventions MaPrimeRénov' Copropriété est conditionné à l'intervention d'une **Assistance à Maîtrise d'Ouvrage (AMO)** indépendante, dès la phase de conception du programme de travaux. 
 
-L'Anah cofinance cette prestation d'AMO à hauteur de **50 % de son coût hors taxes**, avec un plancher fixé à 3 000 € pour les petites copropriétés et un plafond de subvention de 300 € HT par lot (ou 500 € HT par lot pour les copropriétés fragiles ou en difficulté financière).
+[l’Anah](https://www.anah.gouv.fr) cofinance cette prestation d'AMO à hauteur de **50 % de son coût hors taxes**, avec un plancher fixé à 3 000 € pour les petites copropriétés et un plafond de subvention de 300 € HT par lot (ou 500 € HT par lot pour les copropriétés fragiles ou en difficulté financière).
 
 ::: cta Estimer mon reste à charge|/simulateur
 
@@ -2534,6 +2627,10 @@ Modifié par la loi Climat et Résilience, l'article 20-1 de la loi du 6 juillet
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Un copropriétaire peut-il réaliser des travaux d'isolation par l'extérieur sur sa terrasse ou son balcon privatif ?
@@ -2553,20 +2650,25 @@ Chaque copropriétaire peut solliciter l'**Éco-PTZ Copropriétés** (souscrit p
 === GUIDES/dpe-petites-surfaces-moins-40m2-reforme-arrete.md ===
 
 ---
-title: "DPE des Petites Surfaces (< 40 m²) : Sortir du G Grâce au Nouvel Arrêté Ministériel"
-description: "Découvrez comment l'arrêté ministériel correctif sur le DPE des logements de moins de 40 m² permet de sortir mécaniquement du statut de passoire thermique sans travaux."
-publishedAt: "2026-09-23"
-category: "DPE & Diagnostics"
-readTime: "8 min"
+title: >-
+  DPE des Petites Surfaces (< 40 m²) : Sortir du G Grâce au Nouvel Arrêté
+  Ministériel
+description: >-
+  Découvrez comment l'arrêté ministériel correctif sur le DPE des logements de
+  moins de 40 m² permet de sortir mécaniquement du statut de passoire thermique
+  sans travaux.
+publishedAt: '2026-09-23'
+category: DPE & Diagnostics
+readTime: 8 min
 ---
 
 # DPE des Petites Surfaces (< 40 m²) : Sortir du G Grâce au Nouvel Arrêté Ministériel
 
 ::: callout Réponse directe
-L’arrêté ministériel modifiant le mode de calcul du DPE pour les logements de moins de 40 m² a corrigé le biais qui pénalisait systématiquement les studios en surévaluant la consommation d’eau chaude sanitaire (ECS) par mètre carré. Plus de 140 000 logements sont sortis mécaniquement du statut de passoire thermique sans aucun travaux, via une simple attestation téléchargeable sur l'Observatoire DPE de l'ADEME, venant modifier la validité juridique du diagnostic initial sans repasser par l'intervention d'un diagnostiqueur.
+L’arrêté ministériel modifiant le mode de calcul du DPE pour les logements de moins de 40 m² a corrigé le biais qui pénalisait systématiquement les studios en surévaluant la consommation d’eau chaude sanitaire (ECS) par mètre carré. Plus de 140 000 logements sont sortis mécaniquement du statut de passoire thermique sans aucun travaux, via une simple attestation téléchargeable sur l'Observatoire DPE de [ADEME](https://www.ademe.fr), venant modifier la validité juridique du diagnostic initial sans repasser par l'intervention d'un diagnostiqueur.
 :::
 
-Depuis l'entrée en vigueur de l'interdiction de louer les logements étiquetés G au 1er janvier 2025 et dans la perspective du couperet pour la classe F au 1er janvier 2028 (puis la classe E au 1er janvier 2034, conformément à la Loi Climat et Résilience), les propriétaires de petites surfaces ont subi de plein fouet les incohérences de la méthode de calcul 3CL-DPE 2021. L'Arrêté du 25 mars 2024 modifiant les seuils du DPE pour les petits logements est venu rectifier une injustice statistique qui frappait les studios et deux-pièces urbains.
+Depuis l'entrée en vigueur de l'interdiction de louer les logements étiquetés G au 1er janvier 2025 et dans la perspective du couperet pour la classe F au 1er janvier 2028 (puis la classe E au 1er janvier 2034, conformément à la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)), les propriétaires de petites surfaces ont subi de plein fouet les incohérences de la méthode de calcul 3CL-DPE 2021. L'[arrêté ministériel du 25 mars 2024](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049446271) modifiant les seuils du DPE pour les petits logements est venu rectifier une injustice statistique qui frappait les studios et deux-pièces urbains.
 
 ---
 
@@ -2686,12 +2788,16 @@ Dans les surfaces de moins de 40 m², l'impact des équipements techniques est d
 
 ### Priorité 2 : Le traitement de la compacité de l'enveloppe
 * **Isolation thermique par l'intérieur (ITI)** des murs donnant sur l'extérieur ou sur parties communes non chauffées (panneaux de polyuréthane ou laine de roche sous ossature métallique avec résistance thermique $R \ge 3,7 \text{ m}²\text{.K/W}$).
-* **Remplacement des menuiseries** : pose de fenêtres double vitrage à isolation renforcée (verre peu émissif avec gaz Argon, $U_w \le 1,3 \text{ W/m}²\text{.K}$ et facteur solaire $S_w \ge 0,4$).
-* **Calfeutrement et ventilation** : mise en place d'une VMC hygroréglable de type B pour limiter les débits d'air parasites tout en garantissant le renouvellement d'air hygiénique, sans surconsommation de chauffage.
+* **[remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite)** : pose de fenêtres double vitrage à isolation renforcée (verre peu émissif avec gaz Argon, $U_w \le 1,3 \text{ W/m}²\text{.K}$ et facteur solaire $S_w \ge 0,4$).
+* **Calfeutrement et ventilation** : mise en place d'une [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) de type B pour limiter les débits d'air parasites tout en garantissant le renouvellement d'air hygiénique, sans surconsommation de chauffage.
 
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 
@@ -2712,11 +2818,16 @@ L'ajustement de l'Arrêté du 25 mars 2024 applique une courbe de pondération d
 === GUIDES/dpe-vierge-ancien-dpe-valeur-juridique-opposabilite.md ===
 
 ---
-title: "DPE Vierge et DPE d’Avant Juillet 2021 : Pourquoi Ils Sont Totalement Caducs et Dangereux"
-description: "Les anciens DPE et DPE vierges sont caducs depuis le 31 décembre 2024. Analyse des risques juridiques, de l'opposabilité et des obligations pour louer ou vendre."
-publishedAt: "2026-09-23"
-category: "DPE & Diagnostics"
-readTime: "7 min"
+title: >-
+  DPE Vierge et DPE d’Avant Juillet 2021 : Pourquoi Ils Sont Totalement Caducs
+  et Dangereux
+description: >-
+  Les anciens DPE et DPE vierges sont caducs depuis le 31 décembre 2024. Analyse
+  des risques juridiques, de l'opposabilité et des obligations pour louer ou
+  vendre.
+publishedAt: '2026-09-23'
+category: DPE & Diagnostics
+readTime: 7 min
 ---
 
 # DPE Vierge et DPE d’Avant Juillet 2021 : Pourquoi Ils Sont Totalement Caducs et Dangereux
@@ -2808,7 +2919,7 @@ Conserver un DPE obsolète ou vierge ne relève pas d'une simple omission admini
 
 ### L'opposabilité juridique issue de l'article L126-29 du CCH
 
-La loi Climat et Résilience, adossée à l'**article L126-29 du Code de la construction et de l'habitation**, a conféré au DPE une opposabilité juridique totale. Contrairement aux anciens DPE purement informatifs, le diagnostic actuel engage la responsabilité contractuelle du bailleur ou du vendeur.
+La [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924), adossée à l'**article L126-29 du Code de la construction et de l'habitation**, a conféré au DPE une opposabilité juridique totale. Contrairement aux anciens DPE purement informatifs, le diagnostic actuel engage la responsabilité contractuelle du bailleur ou du vendeur.
 
 Si un propriétaire loue un bien sur la base d'un DPE non conforme, le locataire peut saisir le tribunal judiciaire pour :
 1. **Contester le montant du loyer :** Les logements classés F et G ont l'interdiction formelle de subir la moindre révision ou augmentation de loyer (gel des loyers en vigueur depuis le 24 août 2022). Sans DPE 3CL valide, l'augmentation appliquée est réputée illégale, ouvrant droit au remboursement des trop-perçus.
@@ -2838,7 +2949,7 @@ Lors de l'acquisition d'un actif immobilier, les acquéreurs doivent faire preuv
 
 Pour vous assurer qu'un DPE est conforme à la législation actuelle, vérifiez les marqueurs suivants dès la première page :
 
-* **Le numéro ADEME à 13 chiffres :** Tout diagnostic légal est enregistré sur l'Observatoire DPE-Audit de l'ADEME. Ce numéro unique (format : `21XXE0000000X` ou `24XXE0000000X`) prouve la validité de la télétransmission. Sans ce numéro, le document est nul et non avenu.
+* **Le numéro [ADEME](https://www.ademe.fr) à 13 chiffres :** Tout diagnostic légal est enregistré sur l'Observatoire DPE-Audit de l'ADEME. Ce numéro unique (format : `21XXE0000000X` ou `24XXE0000000X`) prouve la validité de la télétransmission. Sans ce numéro, le document est nul et non avenu.
 * **Le double seuil des classes DPE :** L'étiquette énergie-climat globale prend obligatoirement la plus mauvaise note entre la consommation en énergie primaire ($kWh/m²/an$) et les émissions de GES ($kg CO_2/m²/an$). Si le document n'affiche qu'une seule échelle linéaire simple, il s'agit d'un ancien modèle caduc.
 * **La mention des 5 usages réglementaires :** L'ancien DPE n'évaluait que 3 usages (chauffage, eau chaude sanitaire, refroidissement). Le DPE actuel modélise **5 postes** : chauffage, eau chaude sanitaire, climatisation, éclairage et auxiliaires (pompes, ventilateurs VMC).
 * **L'estimation des coûts annuels d'énergie :** Le DPE doit obligatoirement mentionner une fourchette de dépenses annuelles prévisionnelles d'énergie, indexée sur une année tarifaire précise (ex. tarifs moyens de 2021 ou 2026).
@@ -2879,12 +2990,16 @@ Exigez systématiquement un professionnel certifié avec mention (pour les immeu
 Pour éviter que le diagnostiqueur n'applique des valeurs par défaut défavorables, réunissez impérativement les documents suivants avant sa visite :
 1. **Factures détaillées des travaux d'isolation :** Mentionnant la résistance thermique $R$ (en $m².K/W$) des isolants posés en toiture ($R \ge 7$), combles perdus, murs intérieurs ou extérieurs ($R \ge 3,7$).
 2. **Fiches techniques des menuiseries vitrées :** Factures indiquant le coefficient $U_w \le 1,3 W/m².K$ et le facteur solaire $S_w$.
-3. **Notices techniques des générateurs :** Modèle exact de la pompe à chaleur (COP/ETAS), de la chaudière à condensation ou du ballon thermodynamique.
+3. **Notices techniques des générateurs :** Modèle exact de la [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) (COP/ETAS), de la chaudière à condensation ou du ballon thermodynamique.
 4. **Attestation de surface habitable (loi Carrez ou surface thermique $S_{hab}$) :** Depuis la réforme des petites surfaces de 2024, les logements de moins de 40 m² bénéficient d'un barème réévalué limitant l'impact défavorable du ratio de surface d'eau chaude sanitaire.
 
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 
@@ -2905,11 +3020,16 @@ Non, ils ne bénéficient d'aucune dispense de DPE. En revanche, un arrêté min
 === GUIDES/deficit-foncier-double-passoire-thermique-21400-euros.md ===
 
 ---
-title: "Déficit Foncier Doublé à 21 400 € : Mode d’Emploi Fiscal Spécial Passoire Thermique"
-description: "Optimisez la fiscalité de vos travaux de rénovation énergétique : découvrez les conditions, le calendrier et le calcul du déficit foncier majoré à 21 400 € pour les passoires thermiques."
-publishedAt: "2026-09-23"
-category: "Financement & Fiscalité"
-readTime: "10 min"
+title: >-
+  Déficit Foncier Doublé à 21 400 € : Mode d’Emploi Fiscal Spécial Passoire
+  Thermique
+description: >-
+  Optimisez la fiscalité de vos travaux de rénovation énergétique : découvrez
+  les conditions, le calendrier et le calcul du déficit foncier majoré à 21 400
+  € pour les passoires thermiques.
+publishedAt: '2026-09-23'
+category: Financement & Fiscalité
+readTime: 10 min
 ---
 
 # Déficit Foncier Doublé à 21 400 € : Mode d’Emploi Fiscal Spécial Passoire Thermique
@@ -2918,7 +3038,7 @@ readTime: "10 min"
 Prorogé jusqu’au 31 décembre 2027, le doublement du plafond d’imputation du déficit foncier sur le revenu global permet aux propriétaires bailleurs au régime réel de déduire jusqu’à 21 400 € par an (au lieu de 10 700 €) pour des travaux de rénovation énergétique sur un bien classé E, F ou G qui atteint la classe D ou mieux. L’économie d’impôt sur le revenu et les prélèvements sociaux peut dépasser 10 000 € par an pour les tranches marginales d'imposition élevées (TMI 41 % et 45 %). Ce dispositif est conditionné à la réalisation de deux DPE (avant/après) et au maintien du bien en location nue à usage de résidence principale jusqu'au 31 décembre de la troisième année suivant l'imputation.
 :::
 
-L'accélération du calendrier de la loi Climat et Résilience impose des contraintes sévères au parc locatif privé : interdiction de mise en location des logements classés G depuis le 1er janvier 2025 (pour les consommations supérieures à 450 kWh/m²/an d'énergie finale dès 2023, puis pour l'ensemble des étiquettes G), interdiction programmée des logements classés F au 1er janvier 2028 et des logements classés E au 1er janvier 2034. Face au coût des rénovations globales, l’administration fiscale offre un levier puissant : le doublement temporaire du plafond du déficit foncier imputable sur le revenu global.
+L'accélération du calendrier de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) impose des contraintes sévères au parc locatif privé : interdiction de mise en location des logements classés G depuis le 1er janvier 2025 (pour les consommations supérieures à 450 kWh/m²/an d'énergie finale dès 2023, puis pour l'ensemble des étiquettes G), interdiction programmée des logements classés F au 1er janvier 2028 et des logements classés E au 1er janvier 2034. Face au coût des rénovations globales, l’administration fiscale offre un levier puissant : le doublement temporaire du plafond du déficit foncier imputable sur le revenu global.
 
 ---
 
@@ -2991,9 +3111,9 @@ Les travaux déductibles doivent répondre à la définition des dépenses de r�
 
 Sont expressément ciblés les travaux visant à améliorer la performance globale du bâti :
 - **Isolation thermique de l'enveloppe :** Combles perdus ou rampants ($R \ge 7{,}0\text{ m}^2\cdot\text{K/W}$), murs par l'extérieur (ITE) ou par l'intérieur (ITI) avec $R \ge 3{,}7\text{ m}^2\cdot\text{K/W}$, planchers bas ($R \ge 3{,}0\text{ m}^2\cdot\text{K/W}$) ;
-- **Menuiseries extérieures :** Remplacement des fenêtres par du double vitrage isolant renforcé ($U_w \le 1{,}3\text{ W/m}^2\cdot\text{K}$) ;
-- **Systèmes de chauffage et d'ECS décarbonés :** Installation d'une pompe à chaleur air-eau (COP $\ge 3{,}0$), raccordement à un réseau de chaleur urbain vertueux ou système solaire combiné ;
-- **Ventilation mécanique contrôlée :** Mise en place d'une VMC hygroréglable type B ou double flux hygiénique.
+- **Menuiseries extérieures :** [remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite) par du double vitrage isolant renforcé ($U_w \le 1{,}3\text{ W/m}^2\cdot\text{K}$) ;
+- **Systèmes de chauffage et d'ECS décarbonés :** Installation d'une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) (COP $\ge 3{,}0$), raccordement à un réseau de chaleur urbain vertueux ou système solaire combiné ;
+- **Ventilation mécanique contrôlée :** Mise en place d'une [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) type B ou double flux hygiénique.
 
 ---
 
@@ -3114,7 +3234,7 @@ Un des pièges majeurs lors du montage financier réside dans la coordination en
 Selon l'article 31 du Code Général des Impôts, les dépenses ayant fait l'objet d'un remboursement ou d'une subvention publique ne peuvent pas être déduites des revenus fonciers. Vous ne pouvez déduire que les dépenses de travaux effectivement supportées à titre définitif.
 
 Si vous percevez :
-- **MaPrimeRénov' Parcours Accompagné / Forfait Bailleurs** (gérée par l'Anah) ;
+- **MaPrimeRénov' Parcours Accompagné / Forfait Bailleurs** (gérée par [l’Anah](https://www.anah.gouv.fr)) ;
 - Des primes au titre des **Certificats d'Économies d'Énergie (CEE)** ;
 - Des subventions locales des collectivités territoriales ;
 
@@ -3130,6 +3250,10 @@ Les fonds issus de l'Éco-PTZ constituent un mode de financement à la charge du
 ::: cta Estimer mon reste à charge|/simulateur
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Peut-on bénéficier du plafond de 21 400 € pour des travaux de rénovation réalisés dans une maison louée en colocation ?
@@ -3142,24 +3266,29 @@ Si les travaux réalisés ne permettent pas d'atteindre au minimum la classe D (
 Oui. La quote-part des travaux de rénovation énergétique votés en assemblée générale de copropriété (isolation thermique par l'extérieur de la façade, réfection de toiture isolée, remplacement de la chaufferie collective par une sous-station ou une PAC collective) et payée par le copropriétaire bailleur au titre de ses appels de fonds est éligible au plafond de 21 400 €. Il est nécessaire que le DPE individuel du lot privatif passe en classe A, B, C ou D à l'issue de ces travaux collectifs.
 
 ### Comment déclarer concrètement ce déficit majoré sur le formulaire 2044 aux impôts ?
-Sur la déclaration annexe des revenus fonciers **n° 2044** ou **n° 2044-SPE**, les dépenses de rénovation énergétique ouvrant droit au plafond bonifié doivent être ventilées spécifiquement sur les lignes prévues pour les dépenses d'amélioration. Lors du calcul du résultat foncier récapitulé sur le formulaire principal **n° 2042** (case 4BC pour le déficit imputable sur le revenu global), le report automatique intègre le nouveau plafond de 21 400 € dès lors que vous cochez la case attestant de la réalisation de travaux de rénovation énergétique sur une passoire thermique avec production des DPE conformes. Conservez précieusement les deux DPE, devis et factures acquittées des artisans RGE pour répondre à toute demande ultérieure du centre des finances publiques.
+Sur la déclaration annexe des revenus fonciers **n° 2044** ou **n° 2044-SPE**, les dépenses de rénovation énergétique ouvrant droit au plafond bonifié doivent être ventilées spécifiquement sur les lignes prévues pour les dépenses d'amélioration. Lors du calcul du résultat foncier récapitulé sur le formulaire principal **n° 2042** (case 4BC pour le déficit imputable sur le revenu global), le report automatique intègre le nouveau plafond de 21 400 € dès lors que vous cochez la case attestant de la réalisation de travaux de rénovation énergétique sur une passoire thermique avec production des DPE conformes. Conservez précieusement les deux DPE, devis et factures acquittées des [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) pour répondre à toute demande ultérieure du centre des finances publiques.
 
 ---
 
 === GUIDES/eco-ptz-pret-taux-zero-50000-euros-conditions.md ===
 
 ---
-title: "Éco-PTZ 2026 : Emprunter Jusqu’à 50 000 € à Taux Zéro sur 20 Ans pour ses Travaux"
-description: "Plafonds, conditions d'éligibilité, démarches et calcul du gain financier : guide exhaustif 2026 de l'Éco-prêt à taux zéro pour financer votre rénovation globale."
-publishedAt: "2026-09-23"
-category: "Financement & Fiscalité"
-readTime: "9 min"
+title: >-
+  Éco-PTZ 2026 : Emprunter Jusqu’à 50 000 € à Taux Zéro sur 20 Ans pour ses
+  Travaux
+description: >-
+  Plafonds, conditions d'éligibilité, démarches et calcul du gain financier :
+  guide exhaustif 2026 de l'Éco-prêt à taux zéro pour financer votre rénovation
+  globale.
+publishedAt: '2026-09-23'
+category: Financement & Fiscalité
+readTime: 9 min
 ---
 
 # Éco-PTZ 2026 : Emprunter Jusqu’à 50 000 € à Taux Zéro sur 20 Ans pour ses Travaux
 
 ::: callout Réponse directe
-L’Éco-prêt à taux zéro (Éco-PTZ) permet d’emprunter jusqu’à 50 000 € sans aucun intérêt (0 %) sur une durée maximale de 20 ans pour financer une rénovation globale de passoire énergétique. Accessible sans aucune condition de ressources à tous les propriétaires occupants ou bailleurs, il s’associe en guichet unique avec MaPrimeRénov’ (« Éco-PTZ Prime Rénov »). Ce prêt constitue l'outil pivot pour absorber le reste à charge des chantiers d'éradication des étiquettes F et G soumis aux interdictions de location de la loi Climat et Résilience.
+L’Éco-prêt à taux zéro (Éco-PTZ) permet d’emprunter jusqu’à 50 000 € sans aucun intérêt (0 %) sur une durée maximale de 20 ans pour financer une rénovation globale de passoire énergétique. Accessible sans aucune condition de ressources à tous les propriétaires occupants ou bailleurs, il s’associe en guichet unique avec MaPrimeRénov’ (« Éco-PTZ Prime Rénov »). Ce prêt constitue l'outil pivot pour absorber le reste à charge des chantiers d'éradication des étiquettes F et G soumis aux interdictions de location de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924).
 :::
 
 Face au durcissement du calendrier d'indécence énergétique de l'article L. 173-1-1 du Code de la construction et de l'habitation (interdiction de louer les passoires G depuis le 1er janvier 2025, puis F au 1er janvier 2028 et E au 1er janvier 2034), le financement du reste à charge constitue le principal point de blocage pour les bailleurs et copropriétaires. 
@@ -3186,13 +3315,13 @@ Le cadre légal distingue quatre grandes catégories d'interventions :
 | :--- | :--- | :--- | :--- |
 | **Action simple : Parois vitrées** | 7 000 € | 15 ans (180 mois) | $U_w \le 1,3\ \text{W}/(\text{m}^2\cdot\text{K})$ et $S_w \ge 0,3$ ou $U_w \le 1,4$ et $S_w \ge 0,36$ |
 | **Action simple : Autre poste unique** *(ex: ITE, PAC air/eau)* | 15 000 € | 15 ans (180 mois) | $R \ge 3,7\ \text{m}^2\cdot\text{K}/\text{W}$ (murs) / $ETAS \ge 111\,\%$ (PAC moyenne/haute T°) |
-| **Bouquet de 2 actions** *(ex: Combles + Pompe à chaleur)* | 25 000 € | 15 ans (180 mois) | Respect des seuils de résistance thermique et d'efficacité saisonnière |
+| **Bouquet de 2 actions** *(ex: Combles + [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026))* | 25 000 € | 15 ans (180 mois) | Respect des seuils de résistance thermique et d'efficacité saisonnière |
 | **Bouquet de 3 actions ou plus** | 30 000 € | 15 ans (180 mois) | Combinaison de 3 postes éligibles distincts certifiés RGE |
 | **Rénovation globale standard** *(Gain énergétique $\ge 35\,\%$)* | 50 000 € | 20 ans (240 mois) | Audit énergétique préalable, conso finale $< 331\ \text{kWh}/\text{m}^2/\text{an}$ |
-| **Éco-PTZ Prime Rénov' Parcours Accompagné** | 50 000 € | 20 ans (240 mois) | Notification d'octroi de l'Anah (Saut de 2 classes DPE minimum) |
+| **Éco-PTZ Prime Rénov' Parcours Accompagné** | 50 000 € | 20 ans (240 mois) | Notification d'octroi de [l’Anah](https://www.anah.gouv.fr) (Saut de 2 classes DPE minimum) |
 | **Réhabilitation assainissement non collectif** | 10 000 € | 10 ans (120 mois) | Dispositif non consommateur d'énergie validé par le SPANC |
 
-Le montant accordé ne peut en aucun cas excéder le montant des dépenses éligibles, déduction faite des subventions directes perçues (MaPrimeRénov’, primes CEE des délégataires, aides des collectivités territoriales).
+Le montant accordé ne peut en aucun cas excéder le montant des dépenses éligibles, déduction faite des subventions directes perçues (MaPrimeRénov’, [primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul) des délégataires, aides des collectivités territoriales).
 
 ---
 
@@ -3222,7 +3351,7 @@ Pour déclencher l'Éco-PTZ à 50 000 €, le maître d'ouvrage doit justifier :
 Le prêt ne finance pas uniquement les équipements bruts, il englobe l'intégralité du chantier induit :
 * Les frais d'ingénierie financière et d'études thermiques (audit énergétique, mission Mon Accompagnateur Rénov' - MAR).
 * Les travaux d'isolation thermique des toitures, combles, planchers bas et murs donnant sur l'extérieur.
-* Le remplacement des menuiseries extérieures et occultations thermiques.
+* Le [remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite) extérieures et occultations thermiques.
 * La dépose des chaudières fossiles et l'installation de générateurs biosourcés, solaires thermiques ou thermodynamiques.
 * Les systèmes de ventilation mécanique contrôlée (VMC double flux autoréglable ou simple flux hygroréglable type B).
 * Les travaux indissociablement liés (reprise d'étanchéité, réfection du système électrique suite au doublage isolant, plâtrerie, peinture et adaptation des réseaux hydrauliques).
@@ -3238,7 +3367,7 @@ Dans la procédure classique, l'emprunteur devait monter un dossier technique co
 ### Le mécanisme du guichet unique
 Avec l'Éco-PTZ Prime Rénov' :
 1. Le propriétaire dépose son dossier de subvention globale sur la plateforme de l'Anah.
-2. Après instruction de l'audit et des devis par l'Anah ou l'opérateur MAR, l'Anah délivre une **décision d'octroi de subvention** (notification formelle d'accord de principe précisant le montant de l'aide attribuée et le montant des dépenses éligibles).
+2. Après instruction de l'audit et des devis par l'Anah ou l'[Mon Accompagnateur Rénov’ (MAR)](/guides/mon-accompagnateur-renov-mar-role-cout-obligation), l'Anah délivre une **décision d'octroi de subvention** (notification formelle d'accord de principe précisant le montant de l'aide attribuée et le montant des dépenses éligibles).
 3. Le particulier transmet cette notification unique à son établissement bancaire.
 4. **La banque est dispensée de toute analyse technique.** Elle se borne à instruire la solvabilité financière de l'emprunteur (taux d'endettement, reste à vivre) et calibre le montant du prêt à hauteur du reste à charge exact, jusqu'au plafond de 50 000 €.
 
@@ -3324,6 +3453,10 @@ L'Éco-PTZ présente l'avantage d'une neutralité fiscale totale et d'un cumul e
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Qui a droit à l'Éco-PTZ en 2026 ? Y a-t-il un plafond de revenus ?
@@ -3343,24 +3476,29 @@ En dehors des pièces d'identité et justificatifs de revenus requis pour l'anal
 === GUIDES/sortir-de-passoire-energetique-2026.md ===
 
 ---
-title: "Sortir de passoire énergétique en 2026 : le guide technique et pratique complet (DPE F ou G vers C)"
-description: "Le parcours pas à pas pour rénover efficacement une passoire thermique : bouquets de travaux optimaux selon l'ancienneté du bâti, règles de copropriété, pièges techniques et les 7 fraudes répertoriées par la DGCCRF."
-publishedAt: "2026-09-23"
-category: "Guide pilier"
-readTime: "22 min"
+title: >-
+  Sortir de passoire énergétique en 2026 : le guide technique et pratique
+  complet (DPE F ou G vers C)
+description: >-
+  Le parcours pas à pas pour rénover efficacement une passoire thermique :
+  bouquets de travaux optimaux selon l'ancienneté du bâti, règles de
+  copropriété, pièges techniques et les 7 fraudes répertoriées par la DGCCRF.
+publishedAt: '2026-09-23'
+category: Guide pilier
+readTime: 22 min
 ---
 
 # Sortir de passoire énergétique en 2026 : la méthode technique et pratique complète
 
 ::: callout Synthèse exécutive & chiffres réels 2026
 
-Passer d'une étiquette **F ou G** à une étiquette **C ou B** au DPE exige une approche globale et ordonnée. En France, 5,3 millions de résidences principales sont des passoires énergétiques (SDES 2025). Le coût médian constaté sur les chantiers ADEME 2024-2025 est de **32 000 € à 58 000 €HT** pour une maison individuelle (100 à 130 m²), et de **12 000 € à 24 000 €HT** pour un appartement en copropriété.
+Passer d'une étiquette **F ou G** à une étiquette **C ou B** au DPE exige une approche globale et ordonnée. En France, 5,3 millions de résidences principales sont des passoires énergétiques (SDES 2025). Le coût médian constaté sur les chantiers [ADEME](https://www.ademe.fr) 2024-2025 est de **32 000 € à 58 000 €HT** pour une maison individuelle (100 à 130 m²), et de **12 000 € à 24 000 €HT** pour un appartement en copropriété.
 
-Une sortie de passoire réussie divise les factures de chauffage par **2,5 à 3,8**, élimine tout risque d'interdiction de location et annule la décote immobilière à la revente (-6 % à -18 % selon les notaires).
+Une sortie de passoire réussie divise les factures de chauffage par **2,5 à 3,8**, élimine tout risque d'[calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) et annule la décote immobilière à la revente (-6 % à -18 % selon les notaires).
 
 :::
 
-Trop de propriétaires commettent l'erreur d'installer une pompe à chaleur coûteuse dans une maison mal isolée, transformant une passoire au fioul en passoire électrique surchauffée. Ce guide détaille la physique thermique du bâtiment, les bouquets de travaux performants selon l'année de construction, la gestion des copropriétés et la protection contre les arnaques.
+Trop de propriétaires commettent l'erreur d'installer une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) coûteuse dans une maison mal isolée, transformant une passoire au fioul en passoire électrique surchauffée. Ce guide détaille la physique thermique du bâtiment, les bouquets de travaux performants selon l'année de construction, la gestion des copropriétés et la protection contre les arnaques.
 
 ---
 
@@ -3398,10 +3536,10 @@ Les travaux ne s'improvisent pas : ils doivent s'adapter scrupuleusement aux car
 ### Archétype A : La maison individuelle de lotissement (1970–1989, parpaing ou brique)
 * **Faiblesses typiques** : Combles perdus peu isolés (laine de verre tassée de 5 cm), murs en parpaing creux non isolés, vieille chaudière fioul ou convecteurs « grille-pain », menuiseries simple vitrage ou premier double vitrage alu fuyard.
 * **Le bouquet optimal pour atteindre la classe C ou B** :
-  1. *Isolation des combles perdus* en laine minérale ou ouate de cellulose soufflée ($R \ge 7 \text{ m}^2.\text{K/W}$) : 35 à 55 € / m².
+  1. *[isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7)* en laine minérale ou ouate de cellulose soufflée ($R \ge 7 \text{ m}^2.\text{K/W}$) : 35 à 55 € / m².
   2. *Isolation thermique des murs par l'extérieur (ITE)* sous enduit respirant ($R \ge 3,7$) : 150 à 210 € / m².
   3. *Remplacement du chauffage* par une pompe à chaleur air/eau bi-bloc haute performance (COP saisonnier $\ge 3,8$) : 11 500 à 15 000 €.
-  4. *VMC hygroréglable type B* ou VMC double flux : 1 600 à 4 800 €.
+  4. *[VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) type B* ou VMC double flux : 1 600 à 4 800 €.
 * **Résultat typique DPE** : Classe G $\rightarrow$ Classe B (Facture annuelle passant de 3 400 € à 900 €).
 
 ### Archétype B : La maison ancienne en pierre ou pisé (Bâti d'avant 1948)
@@ -3410,7 +3548,7 @@ Les travaux ne s'improvisent pas : ils doivent s'adapter scrupuleusement aux car
   1. *Isolation de toiture par sarking ou combles en fibres de bois bio-sourcées*.
   2. *Enduit chaux-chanvre intérieur* ou isolation perspirante permettant la diffusion de vapeur d'eau.
   3. *Système de chauffage bois ou granulés* (chaudière ou poêle canalisé) ou PAC basse température sur radiateurs fonte existants.
-  4. *Menuiseries bois à double vitrage à isolation renforcée (VIR)*.
+  4. *Menuiseries bois à [remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite)e (VIR)*.
 * **Résultat typique DPE** : Classe F $\rightarrow$ Classe C.
 
 ### Archétype C : L'appartement en copropriété des années 1960–1975
@@ -3434,7 +3572,7 @@ En copropriété, un propriétaire bailleur ou occupant ne peut pas décider seu
 
 ### Les obligations collectives qui aident votre dossier
 1. **Le Plan Pluriannuel de Travaux (PPPT)** : Depuis le 1er janvier 2025, tous les immeubles de copropriété de plus de 15 ans sont **légalement obligés d'avoir voté un PPPT** chiffrant les travaux d'économie d'énergie sur 10 ans.
-2. **Le DPE Collectif** : Obligatoire pour tous les immeubles collectifs depuis le 1er janvier 2025 (loi Climat).
+2. **Le [copropriété, DPE collectif et Plan Pluriannuel de Travaux (PPT)](/guides/copropriete-passoire-thermique-dpe-collectif-ppt-ag)** : Obligatoire pour tous les immeubles collectifs depuis le 1er janvier 2025 (loi Climat).
 3. **Le fonds de travaux obligatoire** : Tous les copropriétaires cotisent chaque année à une réserve financière dédiée exclusivement aux travaux de rénovation énergétique (minimum légal de 2,5 % à 5 % du budget prévisionnel).
 
 ---
@@ -3448,7 +3586,7 @@ Voici les 7 pièges majeurs et comment vous en prémunir :
 1. **Le démarchage téléphonique illégal** : La loi n° 2020-901 du 24 juillet 2020 **interdit formellement tout démarchage téléphonique non consenti** dans le secteur de la rénovation énergétique. Toute entreprise qui vous appelle spontanément pour vous proposer « un audit gratuit » ou « MaPrimeRénov' » est en infraction pénale immédiate. Raccrochez.
 2. **L'usurpation de logos officiels** : Utilisation frauduleuse des logos « France Rénov' », « République Française » ou « Ministère de la Transition Écologique » sur des flyers ou sites web. Seuls les conseillers du réseau public France Rénov' sont neutres.
 3. **La signature d'un devis déguisé en simple visite technique** : Des démarcheurs à domicile font signer une tablette tactile en affirmant qu'il s'agit d'un « accusé de passage » ou d'une « demande d'éligibilité ». Il s'agit en réalité d'un bon de commande ferme assorti d'un crédit à la consommation dissimulé ! Ne signez jamais rien sur tablette lors d'un premier rendez-vous.
-4. **Le faux artisan RGE (Reconnu Garant de l'Environnement)** : Certains installateurs affichent le logo RGE sur leurs devis alors que leur certificat a expiré ou a été révoqué par Qualibat / Qualit'EnR. Exigez toujours le numéro de certificat et vérifiez sa validité en direct sur l'annuaire public officiel : [france-renov.gouv.fr/annuaire-rge](https://france-renov.gouv.fr/annuaire-rge).
+4. **Le faux [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) (Reconnu Garant de l'Environnement)** : Certains installateurs affichent le logo RGE sur leurs devis alors que leur certificat a expiré ou a été révoqué par Qualibat / Qualit'EnR. Exigez toujours le numéro de certificat et vérifiez sa validité en direct sur l'annuaire public officiel : [france-renov.gouv.fr/annuaire-rge](https://france-renov.gouv.fr/annuaire-rge).
 5. **Le surdimensionnement de la pompe à chaleur** : Pour gonfler la facture de 5 000 €, des commerciaux peu scrupuleux installent une PAC de 16 kW là où une machine de 9 kW est requise. Conséquences : cycles courts de fonctionnement, compresseur qui casse au bout de 4 ans et facture d'électricité record. L'étude thermique et le calcul des déperditions pièce par pièce sont obligatoires.
 6. **L'oubli fatal de la ventilation** : Isoler parfaitement une maison sans installer de VMC transforme le logement en thermos humide. En moins de 18 mois, des champignons et moisissures noires (aspergillus) apparaissent sur les angles de plafonds et derrière les meubles.
 7. **La promesse mensongère de « l'isolation à 1 € »** : Le dispositif à 1 € a été définitivement supprimé par l'État le 1er juillet 2021. Tout opérateur qui utilise encore cet argumentaire pratique une publicité mensongère passible de poursuites pénales.
@@ -3482,18 +3620,24 @@ Pour comprendre la rentabilité concrète d'une sortie de passoire, analysons de
 === GUIDES/interdiction-location-passoire-thermique.md ===
 
 ---
-title: "Interdiction de location des passoires thermiques 2025-2034 : calendrier, sanctions réelles, jurisprudence et stratégies pour bailleurs"
-description: "Le guide juridique et financier exhaustif pour bailleurs : calendrier officiel G/F/E, sanctions civiles et administratives (amende 20 000 €, baisse judiciaire de loyer), cas Airbnb (loi Le Meur), exceptions réelles et 4 stratégies d'arbitrage patrimonial."
-publishedAt: "2026-09-23"
-category: "Obligations légales"
-readTime: "18 min"
+title: >-
+  Interdiction de location des passoires thermiques 2025-2034 : calendrier,
+  sanctions réelles, jurisprudence et stratégies pour bailleurs
+description: >-
+  Le guide juridique et financier exhaustif pour bailleurs : calendrier officiel
+  G/F/E, sanctions civiles et administratives (amende 20 000 €, baisse
+  judiciaire de loyer), cas Airbnb (loi Le Meur), exceptions réelles et 4
+  stratégies d'arbitrage patrimonial.
+publishedAt: '2026-09-23'
+category: Obligations légales
+readTime: 18 min
 ---
 
 # Interdiction de location des passoires thermiques : le dossier juridique et opérationnel complet (2025–2034)
 
 ::: callout Synthèse exécutive & chiffres clés pour bailleurs
 
-Depuis le **1er janvier 2025**, la mise en location et le renouvellement de bail des logements classés **G au DPE** (consommation supérieure à 420 kWh/m²/an en énergie primaire) sont **strictement illégaux** en France métropolitaine (art. 159 de la loi Climat et Résilience, codifié à l'article L. 173-1-1 du Code de la construction et de l'habitation). Les logements **F** sont interdits au **1er janvier 2028**, et les logements **E** au **1er janvier 2034**.
+Depuis le **1er janvier 2025**, la mise en location et le renouvellement de bail des logements classés **G au DPE** (consommation supérieure à 420 kWh/m²/an en énergie primaire) sont **strictement illégaux** en France métropolitaine (art. 159 de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924), codifié à l'article L. 173-1-1 du Code de la construction et de l'habitation). Les logements **F** sont interdits au **1er janvier 2028**, et les logements **E** au **1er janvier 2034**.
 
 En cas d'infraction, le bailleur s'expose à une **amende administrative jusqu'à 20 000 €** par logement (60 000 € pour une SCI ou personne morale), et à une action judiciaire du locataire pouvant imposer une **baisse de loyer rétroactive jusqu'à 50 %** ainsi que l'exécution des travaux sous **astreinte financière journalière**.
 
@@ -3516,7 +3660,7 @@ La loi n° 2021-1104 du 22 août 2021 (dite « Climat et Résilience ») a profo
 
 ### L'application aux baux en cours, reconductions tacites et renouvellements
 
-Une confusion majeure persiste chez de nombreux bailleurs entre **bail en cours**, **reconduction tacite** et **renouvellement exprès** :
+Une confusion majeure persiste chez de nombreux bailleurs entre **[gestion d’un bail en cours avec locataire en place](/guides/passoire-thermique-bail-en-cours-droits-proprietaire-locataire)**, **reconduction tacite** et **renouvellement exprès** :
 
 1. **Le bail en cours d'exécution** : Un contrat de bail d'habitation (vide 3 ans ou meublé 1 an) signé avant le 1er janvier 2025 sur un bien classé G reste valable jusqu'à son terme contractuel. Le locataire ne peut pas exiger de quitter les lieux immédiatement sans préavis.
 2. **La reconduction tacite** : Selon l'analyse dominante confirmée par la Direction de l'Habitat, de l'Urbanisme et des Paysages (DHUP), la reconduction tacite d'un bail n'opère pas novation du contrat mais prolonge ses effets. Toutefois, le locataire peut à tout moment exiger la mise en conformité du logement avec les critères de décence applicables au jour de la reconduction.
@@ -3612,7 +3756,7 @@ Rénovation globale      Déficit foncier         Vente à investisseur    Chang
 
 ### Stratégie 1 : Rénovation globale avec subventions (Le choix à plus fort ROI)
 * **Mécanisme** : Réaliser un bouquet de 3 à 4 travaux coordonnés (ex. en maison : PAC air-eau + combles + menuiseries ; en appartement : ITI + fenêtres argon + radiateurs à inertie).
-* **Financement** : Cumul MaPrimeRénov' Parcours Accompagné (jusqu'à 60 % pour bailleur intermédiaire) + primes CEE 6e période + TVA 5,5 % + Éco-PTZ jusqu'à 50 000 € sans intérêts.
+* **Financement** : Cumul MaPrimeRénov' Parcours Accompagné (jusqu'à 60 % pour bailleur intermédiaire) + [primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul) 6e période + TVA 5,5 % + Éco-PTZ jusqu'à 50 000 € sans intérêts.
 * **Bénéfice patrimonial** : Sortie immédiate en classe C ou D, revalorisation du loyer à la relocation, suppression du risque juridique et annulation de la décote de revente.
 
 ### Stratégie 2 : Utilisation maximale du Déficit Foncier (Tranches marginales 30 % / 41 % / 45 %)
@@ -3650,11 +3794,16 @@ Depuis l'ordonnance sur la copropriété et la loi Climat, le syndic est tenu de
 === GUIDES/meubles-touristiques-airbnb-passoire-thermique-loi-le-meur.md ===
 
 ---
-title: "Airbnb et Meublés Touristiques Classés F ou G : Les Nouvelles Obligations DPE (Loi Le Meur)"
-description: "Décryptage complet de la loi Le Meur (Loi n° 2024-1038) : calendrier DPE pour les meublés de tourisme, blocage des numéros d'enregistrement en mairie, amendes jusqu'à 50 000 € et réforme fiscale."
-publishedAt: "2026-09-23"
-category: "Réglementation & Droit"
-readTime: "8 min"
+title: >-
+  Airbnb et Meublés Touristiques Classés F ou G : Les Nouvelles Obligations DPE
+  (Loi Le Meur)
+description: >-
+  Décryptage complet de la loi Le Meur (Loi n° 2024-1038) : calendrier DPE pour
+  les meublés de tourisme, blocage des numéros d'enregistrement en mairie,
+  amendes jusqu'à 50 000 € et réforme fiscale.
+publishedAt: '2026-09-23'
+category: Réglementation & Droit
+readTime: 8 min
 ---
 
 # Airbnb et Meublés Touristiques Classés F ou G : Les Nouvelles Obligations DPE (Loi Le Meur)
@@ -3663,7 +3812,7 @@ readTime: "8 min"
 La loi « Le Meur » (Loi n° 2024-1038) a comblé la faille juridique qui permettait aux bailleurs de basculer leurs passoires thermiques interdites à la location longue durée vers la location saisonnière touristique (Airbnb, Abritel, Booking). Les meublés de tourisme sont désormais soumis aux mêmes exigences d’étiquette énergétique que les logements du parc résidentiel classique. Depuis la promulgation du texte et son entrée en vigueur opérationnelle, aucun numéro d’enregistrement en mairie ne peut être délivré sans justificatif d'un DPE conforme (classe E au minimum à terme), sous peine d’amende administrative pouvant atteindre 50 000 € par logement et de désactivation immédiate de l’annonce sur les plateformes.
 :::
 
-Pendant plusieurs années, les meublés de tourisme ont constitué une zone de repli pour des dizaines de milliers de propriétaires bailleurs refusant d'engager des travaux de rénovation énergétique. La Loi Climat et Résilience du 22 août 2021 avait instauré l'interdiction progressive de louer les logements énergivores en bail d'habitation classique (loi de 1989), mais avait laissé de côté la location saisonnière de courte durée régie par le Code du tourisme.
+Pendant plusieurs années, les meublés de tourisme ont constitué une zone de repli pour des dizaines de milliers de propriétaires bailleurs refusant d'engager des travaux de rénovation énergétique. La [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) du 22 août 2021 avait instauré l'interdiction progressive de louer les logements énergivores en bail d'habitation classique (loi de 1989), mais avait laissé de côté la location saisonnière de courte durée régie par le Code du tourisme.
 
 Ce déséquilibre a provoqué un assèchement massif de l'offre locative pérenne dans les zones tendues, incitant les investisseurs à convertir leurs biens étiquetés F ou G en meublés touristiques. La promulgation de la **Loi n° 2024-1038 visant à remédier aux déséquilibres du marché locatif** (dite « loi Le Meur ») met un terme définitif à cette asymétrie réglementaire.
 
@@ -3671,7 +3820,7 @@ Ce déséquilibre a provoqué un assèchement massif de l'offre locative pérenn
 
 ## Le mécanisme du contournement : l’afflux de passoires F et G vers les plateformes (2022-2025)
 
-L'interdiction de mise en location des logements consommant plus de 450 kWh/m²/an d'énergie finale au 1er janvier 2023, puis le gel de l'ensemble de la classe G au 1er janvier 2025 dans le cadre des baux de résidence principale, ont créé une onde de choc sur le marché immobilier. Face aux contraintes techniques, aux règles de copropriété complexes ou au coût des travaux d'isolation, une frange importante de bailleurs a exploité le vide juridique de l'article 6 de la loi du 6 juillet 1989.
+L'interdiction de mise en location des logements consommant plus de 450 kWh/m²/an d'énergie finale au 1er janvier 2023, puis le gel de l'ensemble de la classe G au 1er janvier 2025 dans le cadre des baux de résidence principale, ont créé une onde de choc sur le marché immobilier. Face aux contraintes techniques, aux règles de copropriété complexes ou au coût des travaux d'isolation, une frange importante de bailleurs a exploité le vide juridique de l'[article 6 de la loi du 6 juillet 1989](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043977117).
 
 ```
        BAIL RÉSIDENTIEL CLASSIQUE (Loi 1989)
@@ -3732,7 +3881,7 @@ Toute mise en location d'un meublé de tourisme (qu'il s'agisse d'une résidence
 
 Pour obtenir ce numéro d'enregistrement, le propriétaire déclarant doit désormais obligatoirement téléverser :
 1. L'identifiant fiscal du logement (numéro invariant fiscal issu de *Gérer mes biens immobiliers*).
-2. Un **Diagnostic de Performance Énergétique (DPE) valide** (réalisé selon la méthode 3CL révisée post-1er juillet 2021), attesté par le numéro ADEME à 13 chiffres.
+2. Un **Diagnostic de Performance Énergétique (DPE) valide** (réalisé selon la méthode 3CL révisée post-1er juillet 2021), attesté par le numéro [ADEME](https://www.ademe.fr) à 13 chiffres.
 3. Le titre de propriété ou l'accord formel du bailleur si le loueur est un locataire principal sous-louant son logement.
 
 ```
@@ -3844,14 +3993,18 @@ Pour maintenir leur activité locative légale et préserver la valeur patrimoni
 ```
 
 ### Les postes de travaux à fort impact sur le DPE
-1. **Chauffage et production d'ECS** : Le remplacement d'un ballon électrique traditionnel par un chauffe-eau thermodynamique et l'abandon des convecteurs électriques à effet Joule au profit d'une pompe à chaleur permettent d'abaisser drastiquement la consommation en énergie primaire (application du coefficient d'énergie primaire de 2,3).
+1. **Chauffage et production d'ECS** : Le remplacement d'un ballon électrique traditionnel par un chauffe-eau thermodynamique et l'abandon des convecteurs électriques à effet Joule au profit d'une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) permettent d'abaisser drastiquement la consommation en énergie primaire (application du coefficient d'énergie primaire de 2,3).
 2. **Isolation des parois opaques** : En copropriété, l'isolation thermique par l'intérieur (ITI) avec des complexes isolants minces haute performance (panneaux sous vide ou polyuréthane certifié ACERMI) préserve la surface habitable tout en atteignant une résistance thermique $R \ge 3,7\ \text{m}^2\cdot\text{K/W}$.
-3. **Traitement du renouvellement d'air** : L'installation d'une VMC hygroréglable de type B limite les déperditions thermiques par renouvellement d'air de 30 % par rapport à une ventilation naturelle ou autoréglable vétuste.
+3. **Traitement du renouvellement d'air** : L'installation d'une [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) de type B limite les déperditions thermiques par renouvellement d'air de 30 % par rapport à une ventilation naturelle ou autoréglable vétuste.
 
 ::: cta Estimer mon reste à charge|/simulateur
 :::
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 
@@ -3872,20 +4025,23 @@ Les plateformes numériques s'exposent à des sanctions financières lourdes pr�
 === GUIDES/litige-dpe-recours-acheteur-locataire-vice-cache.md ===
 
 ---
-title: "DPE Erroné ou Falsifié : Les Recours de l’Acheteur et du Locataire en 2026"
-description: "DPE mensonger, faux calcul ou étiquette énergétique faussée : découvrez les recours juridiques, actions en vice caché ou dol, et indemnisations possibles pour acheteurs et locataires."
-publishedAt: "2026-09-23"
-category: "Réglementation & Droit"
-readTime: "10 min"
+title: 'DPE Erroné ou Falsifié : Les Recours de l’Acheteur et du Locataire en 2026'
+description: >-
+  DPE mensonger, faux calcul ou étiquette énergétique faussée : découvrez les
+  recours juridiques, actions en vice caché ou dol, et indemnisations possibles
+  pour acheteurs et locataires.
+publishedAt: '2026-09-23'
+category: Réglementation & Droit
+readTime: 10 min
 ---
 
 # DPE Erroné ou Falsifié : Les Recours de l’Acheteur et du Locataire en 2026
 
 ::: callout Réponse directe
-Depuis le 1er juillet 2021, le DPE est pleinement opposable juridiquement en vertu de l'article L126-26 du Code de la construction et de l'habitation. Si un logement vendu ou loué avec une étiquette D ou E s’avère être en réalité une passoire thermique F ou G après contre-expertise, l’acquéreur ou le locataire peut engager la responsabilité du diagnostiqueur et du vendeur pour vice caché (articles 1641 et 1644 du Code civil) ou dol (article 1137 du Code civil). Les juridictions accordent désormais une diminution substantielle du prix de vente (10 % à 25 %), l'indemnisation intégrale des travaux nécessaires pour atteindre la classe énergétique promise ou l'annulation du bail avec révision rétroactive des loyers.
+Depuis le 1er juillet 2021, le DPE est pleinement opposable juridiquement en vertu de l'[article L126-26 du Code de la construction](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043977158). Si un logement vendu ou loué avec une étiquette D ou E s’avère être en réalité une passoire thermique F ou G après contre-expertise, l’acquéreur ou le locataire peut engager la responsabilité du diagnostiqueur et du vendeur pour vice caché (articles 1641 et 1644 du Code civil) ou dol (article 1137 du Code civil). Les juridictions accordent désormais une diminution substantielle du prix de vente (10 % à 25 %), l'indemnisation intégrale des travaux nécessaires pour atteindre la classe énergétique promise ou l'annulation du bail avec révision rétroactive des loyers.
 :::
 
-L'entrée en vigueur du calendrier d'interdiction de location de la loi Climat et Résilience — interdiction des logements classés G depuis le 1er janvier 2025, programmée pour les logements F au 1er janvier 2028 et E au 1er janvier 2034 — a transformé le Diagnostic de Performance Énergétique (DPE) en paramètre financier déterminant de toute transaction immobilière. 
+L'entrée en vigueur du [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) — interdiction des logements classés G depuis le 1er janvier 2025, programmée pour les logements F au 1er janvier 2028 et E au 1er janvier 2034 — a transformé le Diagnostic de Performance Énergétique (DPE) en paramètre financier déterminant de toute transaction immobilière. 
 
 Un mauvais classement énergétique entraîne une décote immédiate sur la valeur vénale d'un bien (de -7 % à plus de -20 % selon les zones tendues ou rurales) et paralyse la rentabilité locative. Face à ces enjeux économiques massifs, les contentieux liés aux DPE de complaisance, aux erreurs de métrage ou aux falsifications délibérées se multiplient devant les tribunaux judiciaires.
 
@@ -3921,7 +4077,7 @@ Cette opposabilité implique que :
 La découverte d'un DPE sous-évalué engendre trois préjudices distincts reconnus par la jurisprudence :
 1. **La perte de valeur vénale du bien** : un bien vendu comme D qui se révèle être F ou G subit une décote structurelle sur le marché immobilier, car l'acheteur a surpayé l'actif.
 2. **Le surcoût d'exploitation énergétique** : les factures réelles de chauffage, d'eau chaude sanitaire (ECS) et de climatisation excèdent largement les projections annoncées lors de la transaction.
-3. **Le coût des travaux de réhabilitation énergétique** : montant financier exigé pour mettre en œuvre une isolation thermique par l'extérieur (ITE), une isolation des combles (visant $R \ge 7\ \text{m}^2\cdot\text{K/W}$), ou le remplacement d'une chaudière fioul/gaz par une pompe à chaleur air-eau (COP $\ge 4$) afin de réintégrer la classe contractuellement promise.
+3. **Le coût des travaux de réhabilitation énergétique** : montant financier exigé pour mettre en œuvre une isolation thermique par l'extérieur (ITE), une [isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7) (visant $R \ge 7\ \text{m}^2\cdot\text{K/W}$), ou le remplacement d'une chaudière fioul/gaz par une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) (COP $\ge 4$) afin de réintégrer la classe contractuellement promise.
 
 ---
 
@@ -3954,7 +4110,7 @@ L'acquéreur doit mandater un nouveau diagnostiqueur certifié par un organisme 
 - **Mesure réelle des surfaces habitables (loi Carrez) et des hauteurs sous plafond** : une surestimation de la surface habitable dilue artificiellement les consommations par mètre carré ($\text{kWh/m}^2/\text{an}$) et améliore indûment l'étiquette.
 - **Sondage non destructif des isolants** : constatation de l'absence réelle de laine minérale sous toiture ou de doublage sur les murs extérieurs, alors que le rapport initial déclarait un $R = 2,5$ ou $R = 4\ \text{m}^2\cdot\text{K/W}$ "par défaut" ou "sur déclaration".
 - **Relevé des menuiseries** : calcul du coefficient de transmission thermique surfacique ($U_w$) réel au lieu d'une valeur arbitrairement optimiste ($U_w \le 1,3\ \text{W/m}^2\cdot\text{K}$).
-- **Vérification du système de ventilation** : déclaration d'une VMC hygroréglable type B inexistante masquant une simple ventilation naturelle à fort renouvellement d'air parasite.
+- **Vérification du système de ventilation** : déclaration d'une [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) type B inexistante masquant une simple ventilation naturelle à fort renouvellement d'air parasite.
 
 ### Étape 2 : Le constat de commissaire de justice (ex-huissier)
 
@@ -3988,7 +4144,7 @@ Selon la nature de la faute commise lors de la vente, deux fondements majeurs du
 
 Aux termes de l'**article 1641 du Code civil**, le vendeur est tenu de la garantie à raison des défauts cachés de la chose vendue qui la rendent impropre à l'usage auquel on la destine, ou qui diminuent tellement cet usage que l'acheteur ne l'aurait pas acquise, ou n'en aurait donné qu'un moindre prix, s'il les avait connus.
 
-L'**article 1644 du Code civil** accorde à l'acquéreur le choix entre deux voies :
+L'**[article 1644 du Code civil](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441933)** accorde à l'acquéreur le choix entre deux voies :
 - **L'action rédhibitoire** : restitution de l'immeuble et remboursement intégral du prix d'acquisition majoré des frais de mutation.
 - **L'action estimatoire** : conservation de l'immeuble et restitution d'une fraction du prix de vente, arbitrée par voie d'expertise judiciaire.
 
@@ -4080,6 +4236,10 @@ Calculez en 2 minutes le montant des aides financières (MaPrimeRénov', CEE) po
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Quel est le délai de prescription pour contester un DPE erroné après un achat immobilier ?
@@ -4099,11 +4259,16 @@ Oui. Si la manœuvre frauduleuse est établie au sens de l'**article 1137 du Cod
 === GUIDES/gel-des-loyers-passoires-thermiques-f-g.md ===
 
 ---
-title: "Gel des Loyers des Passoires Thermiques F et G : Règles, Calculs et Sanctions 2026"
-description: "Réglementation complète sur le gel des loyers des passoires thermiques classées F et G : interdiction IRL, relocation, renouvellement, litiges et remboursements."
-publishedAt: "2026-09-23"
-category: "Réglementation & Droit"
-readTime: "9 min"
+title: >-
+  Gel des Loyers des Passoires Thermiques F et G : Règles, Calculs et Sanctions
+  2026
+description: >-
+  Réglementation complète sur le gel des loyers des passoires thermiques
+  classées F et G : interdiction IRL, relocation, renouvellement, litiges et
+  remboursements.
+publishedAt: '2026-09-23'
+category: Réglementation & Droit
+readTime: 9 min
 ---
 
 # Gel des Loyers des Passoires Thermiques F et G : Règles, Calculs et Sanctions 2026
@@ -4122,8 +4287,8 @@ Pour les propriétaires bailleurs, cette mesure neutralise tout mécanisme de re
 
 Le blocage financier imposé aux passoires énergétiques repose sur une modification structurelle des règles de fixation et d'évolution des loyers du parc privé :
 
-*   **Article 159 de la loi Climat et Résilience n° 2021-1104 du 22 août 2021** : Ce texte fondamental a modifié le cadre de la loi n° 89-462 du 6 juillet 1989 tendant à améliorer les rapports locatifs.
-*   **Article 17-1 de la loi du 6 juillet 1989** : Il stipule expressément que pour les logements de la classe F ou de la classe G (au sens de l'article L. 173-1-1 du Code de la construction et de l'habitation), aucune révision de loyer ne peut être appliquée, nonobstant toute clause contractuelle contraire.
+*   **[article 159 de la loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043957083) n° 2021-1104 du 22 août 2021** : Ce texte fondamental a modifié le cadre de la loi n° 89-462 du 6 juillet 1989 tendant à améliorer les rapports locatifs.
+*   **[article 17-1 de la loi du 6 juillet 1989](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043977121)** : Il stipule expressément que pour les logements de la classe F ou de la classe G (au sens de l'article L. 173-1-1 du Code de la construction et de l'habitation), aucune révision de loyer ne peut être appliquée, nonobstant toute clause contractuelle contraire.
 *   **Territorialité et DROM** : Entré en vigueur le **24 août 2022** en France métropolitaine, le dispositif s'applique également en Guadeloupe, en Martinique, en Guyane, à La Réunion et à Mayotte depuis le **1er juillet 2024**, selon les référentiels DPE spécifiques aux climats tropicaux.
 
 Le blocage s'applique aux locations nues comme aux locations meublées à usage de résidence principale du preneur, ainsi qu'aux baux mobilité. Aucune convention privée ne peut déroger à cet ordre public de protection : toute clause prévoyant une indexation automatique sur un logement F ou G est réputée **non écrite**.
@@ -4296,18 +4461,22 @@ Le seul levier juridique permettant de lever le gel du loyer est d'extraire déf
 ### Exigences techniques pour la levée du gel :
 *   **Performance thermique** : Le nouveau DPE réglementaire doit attester d'une consommation en énergie primaire inférieure ou égale à **330 kWh/m²/an** (classe E au minimum, classe C ou D recommandée pour pérenniser l'actif face à l'échéance 2034).
 *   **Isolation thermique** : Mise en œuvre d'isolants performants (résistance thermique $R \ge 7\ \text{m}²\cdot\text{K/W}$ en toiture/combles, $R \ge 3,7\ \text{m}²\cdot\text{K/W}$ en façade extérieure/intérieure).
-*   **Système de chauffage/ECS** : Remplacement des convecteurs effet Joule obsolètes ou chaudières fioul/gaz par une pompe à chaleur air-eau ou air-air haut rendement (SCOP $> 4$) ou raccordement à un réseau de chaleur urbain vertueux.
+*   **Système de chauffage/ECS** : Remplacement des convecteurs effet Joule obsolètes ou chaudières fioul/gaz par une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) ou air-air haut rendement (SCOP $> 4$) ou raccordement à un réseau de chaleur urbain vertueux.
 *   **Menuiseries extérieures** : Pose de doubles vitrages performants présentant un coefficient de transmission thermique surfacique $Uw \le 1,3\ \text{W/m}²\cdot\text{K}$.
 
 ### Mobilisation des aides financières Anah 2026 :
 Pour financer ces travaux, le bailleur peut mobiliser plusieurs dispositifs cumulables :
 *   **MaPrimeRénov' Parcours Accompagné** : Subvention proportionnelle au montant des travaux pour les gains de 2 classes DPE ou plus (barèmes Bleu, Jaune, Violet, Rose).
 *   **Éco-PTZ Copropriété ou Individuel** : Prêt à taux zéro jusqu'à 50 000 € remboursable sur 20 ans pour les rénovations globales.
-*   **Déficit foncier doublé** : Déduction des dépenses de rénovation énergétique sur le revenu global jusqu'à **21 400 € par an** pour les logements F et G atteignant au moins la classe D après travaux.
+*   **[déficit foncier doublé à 21 400 €](/guides/deficit-foncier-double-passoire-thermique-21400-euros) doublé** : Déduction des dépenses de rénovation énergétique sur le revenu global jusqu'à **21 400 € par an** pour les logements F et G atteignant au moins la classe D après travaux.
 
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 
@@ -4328,11 +4497,16 @@ Dès l'obtention du nouveau DPE validé attestant de la classe D (ou au moins E)
 === GUIDES/renovation-energetique-maison-ancienne-pierre-pise-colombage.md ===
 
 ---
-title: "Rénover une Maison Ancienne (Pierre, Pisé, Colombages) : Éviter le Piège de l'Humidité"
-description: "Guide expert pour la rénovation thermique du bâti ancien : gestion de la perspirance, compatibilité des matériaux biosourcés, correction thermique chaux-chanvre et élimination des pathologies d'humidité."
-publishedAt: "2026-09-23"
-category: "Travaux & Bâti Ancien"
-readTime: "11 min"
+title: >-
+  Rénover une Maison Ancienne (Pierre, Pisé, Colombages) : Éviter le Piège de
+  l'Humidité
+description: >-
+  Guide expert pour la rénovation thermique du bâti ancien : gestion de la
+  perspirance, compatibilité des matériaux biosourcés, correction thermique
+  chaux-chanvre et élimination des pathologies d'humidité.
+publishedAt: '2026-09-23'
+category: Travaux & Bâti Ancien
+readTime: 11 min
 ---
 
 # Rénover une Maison Ancienne (Pierre, Pisé, Colombages) : Éviter le Piège de l'Humidité
@@ -4341,7 +4515,7 @@ readTime: "11 min"
 Les bâtiments construits avant 1948 en moellons, pisé, briques foraines ou pans de bois fonctionnent avec une physique perspirante qui régule naturellement la vapeur d’eau par capillarité et évapotranspiration. Appliquer un doublage étanche en polystyrène, une membrane pare-vapeur totale inadaptée ou un enduit au ciment bloque ces transferts gazeux, emprisonne l'humidité dans l'épaisseur des parois, détruit la cohésion des liants d'argile ou de chaux, génère du salpêtre et fait pourrir les structures en bois porteuses. Réussir la performance énergétique d'un bâti ancien sans altérer sa structure exige l'emploi exclusif d'isolants biosourcés à haute perméabilité à la vapeur, de correcteurs thermiques à base de chaux ou de terre, et le respect strict de la continuité capillaire.
 :::
 
-La rénovation énergétique du patrimoine architectural d'avant 1948 ne s'improvise pas selon les standards appliqués aux pavillons en parpaings des années 1980. En France, près d'un tiers du parc de logements est constitué de bâtiments dits "anciens" bâtis en moellons de calcaire ou de granit, en pisé, en bauge ou en pans de bois (colombages). Soumis aux obligations du calendrier de la loi Climat et Résilience — interdiction de location des logements classés G depuis le 1er janvier 2025, puis F au 1er janvier 2028 et E au 1er janvier 2034 —, les propriétaires sont tentés par des travaux d'isolation massifs et standards. 
+La rénovation énergétique du patrimoine architectural d'avant 1948 ne s'improvise pas selon les standards appliqués aux pavillons en parpaings des années 1980. En France, près d'un tiers du parc de logements est constitué de bâtiments dits "anciens" bâtis en moellons de calcaire ou de granit, en pisé, en bauge ou en pans de bois (colombages). Soumis aux obligations du calendrier de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) — [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) des logements classés G depuis le 1er janvier 2025, puis F au 1er janvier 2028 et E au 1er janvier 2034 —, les propriétaires sont tentés par des travaux d'isolation massifs et standards. 
 
 Cependant, calquer les procédés modernes d'étanchéité à l'air et à l'eau sur une bâtisse vernaculaire engendre fréquemment des désordres structurels majeurs en moins de trois à cinq ans : moisissures toxiques, pourrissement des sablières, désagrégation du pisé et prolifération de mérule. Pour conjuguer confort thermique, abaissement des factures d'énergie et préservation du bâti, il est impératif de comprendre la thermo-hygrométrie spécifique du bâti traditionnel.
 
@@ -4381,7 +4555,7 @@ Lorsqu'un artisan non averti applique un complexe étanche à l'intérieur d'un 
 - Le point de rosée ($T_{rosee}$) migre à l'interface exacte entre le dos de l'isolant synthétique et la face interne de la maçonnerie.
 - L'eau liquide condense en continu dans cette cavité non ventilée, détrempant les mortiers de pose à la chaux ou à l'argile, dissolvant les liants et entraînant la pullulation de moisissures non visibles depuis la pièce de vie mais toxiques par transmission aéroportée.
 
-Le *Guide de réhabilitation thermique du bâti ancien* publié par le CEREMA insiste sur la règle de dégressivité des valeurs $S_d$ : la perméabilité à la vapeur d'eau d'une paroi doit impérativement augmenter de l'intérieur vers l'extérieur pour éviter tout piégeage de liquide dans l'épaisseur structurelle.
+Le *Guide de réhabilitation thermique du bâti ancien* publié par le [CEREMA](https://www.cerema.fr) insiste sur la règle de dégressivité des valeurs $S_d$ : la perméabilité à la vapeur d'eau d'une paroi doit impérativement augmenter de l'intérieur vers l'extérieur pour éviter tout piégeage de liquide dans l'épaisseur structurelle.
 
 ---
 
@@ -4411,7 +4585,7 @@ Lors de la réalisation du Diagnostic de Performance Énergétique (DPE) réglem
 
 Le moteur de calcul 3CL attribue aux murs en moellons de 50 cm d'épaisseur des valeurs de résistance thermique $R$ théoriques très faibles (souvent $R \approx 0,35\text{ à }0,50\text{ m}^2\text{K/W}$), propulsant mécaniquement la plupart des bâtisses anciennes en étiquette F ou G sans tenir compte des apports passifs et de l'amortissement thermique journalier. 
 
-Pour valoriser un tel bien sans le dégrader, le projet de rénovation doit combiner l'amélioration de la résistance thermique avec des matériaux certifiés (ACERMI) reconnus par le moteur de calcul (atteignant les exigences de $R \ge 3,7\text{ m}^2\text{K/W}$ en façade pour l'obtention des aides de l'Anah), tout en choisissant exclusivement des systèmes à haute capillarité.
+Pour valoriser un tel bien sans le dégrader, le projet de rénovation doit combiner l'amélioration de la résistance thermique avec des matériaux certifiés (ACERMI) reconnus par le moteur de calcul (atteignant les exigences de $R \ge 3,7\text{ m}^2\text{K/W}$ en façade pour l'obtention des aides de [l’Anah](https://www.anah.gouv.fr)), tout en choisissant exclusivement des systèmes à haute capillarité.
 
 ---
 
@@ -4536,6 +4710,10 @@ Pour stabiliser et isoler le sol d'un rez-de-chaussée ancien :
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Pourquoi les enduits au ciment sont-ils formellement interdits sur les murs en pisé ou en pierre ?
@@ -4543,25 +4721,30 @@ Le ciment Portland est un matériau étanche à la vapeur d’eau ($\mu \approx 
 
 ### Comment ventiler une maison ancienne rénovée sans créer de courants d'air glaciaux ?
 La mise en œuvre d'une isolation biosourcée performante rend indispensable une ventilation mécanique contrôlée pour renouveler l'air sans compter sur les fuites parasites des anciennes menuiseries. Sur le bâti ancien, deux options sont privilégiées :
-1. La VMC hygroréglable de type B basse consommation, qui ajuste les débits d'extraction d'air dans les pièces humides selon l'hygrométrie relative.
+1. La [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) de type B basse consommation, qui ajuste les débits d'extraction d'air dans les pièces humides selon l'hygrométrie relative.
 2. La VMC double flux avec échangeur enthalpique : ce système récupère non seulement les calories de l'air extrait pour préchauffer l'air entrant (rendement supérieur à 85 %), mais régule également le taux d'humidité intérieur sans assécher excessivement l'ambiance en hiver. Les réseaux de gaines doivent être rigides ou semi-rigides, nettoyables et intégrés dans des faux-plafonds ou des gaines techniques sans perforer les poutres maîtresses porteuses.
 
 ### L'injection de résine hydrophobe pour bloquer les remontées capillaires est-elle efficace sur un mur ancien ?
 L'injection de résines silanes/siloxanes en pied de mur est souvent inopérante et potentiellement dangereuse sur les bâtis anciens hétérogènes. Dans un mur de 60 cm en moellons tout-venant ou en pisé, la diffusion uniforme du produit chimique est impossible : les vides internes créent des poches de résine sans traiter le cœur de la maçonnerie. De plus, bloquer l'eau chimiquement en pied de mur reporte la pression hydrostatique plus haut ou vers les fondations mitoyennes. La seule méthode durable et reconnue par le CEREMA consiste à favoriser l'évapotranspiration du mur par des enduits à la chaux, un hérisson ventilé et, si le terrain s'y prête, un drainage périphérique extérieur placé à distance des fondations pour ne pas décomprimer le sol d'assise.
 
 ### Peut-on installer une pompe à chaleur (PAC) air-eau sur un réseau de radiateurs anciens en fonte ?
-Oui, c'est parfaitement possible, sous réserve d'adapter le régime de température. Les radiateurs en fonte dimensionnés au XIXe ou début du XXe siècle fonctionnaient historiquement à haute température ($70\text{ à }80^\circ\text{C}$) avec des chaudières au charbon ou au fioul. Une fois les travaux d'isolation biosourcée et de changement de menuiseries réalisés, les déperditions de la maison diminuent fortement. Ces radiateurs en fonte, surdimensionnés par rapport aux nouveaux besoins énergétiques, peuvent alors fonctionner à moyenne ou basse température ($45\text{ à }55^\circ\text{C}$), ce qui correspond à la plage de performance optimale d'une pompe à chaleur air-eau moderne, garantissant un COP (Coefficient de Performance) supérieur à 3,5 sans qu'il soit nécessaire de remplacer les émetteurs d'origine.
+Oui, c'est parfaitement possible, sous réserve d'adapter le régime de température. Les radiateurs en fonte dimensionnés au XIXe ou début du XXe siècle fonctionnaient historiquement à haute température ($70\text{ à }80^\circ\text{C}$) avec des chaudières au charbon ou au fioul. Une fois les travaux d'isolation biosourcée et de changement de menuiseries réalisés, les déperditions de la maison diminuent fortement. Ces radiateurs en fonte, surdimensionnés par rapport aux nouveaux besoins énergétiques, peuvent alors fonctionner à moyenne ou basse température ($45\text{ à }55^\circ\text{C}$), ce qui correspond à la plage de performance optimale d'une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) moderne, garantissant un COP (Coefficient de Performance) supérieur à 3,5 sans qu'il soit nécessaire de remplacer les émetteurs d'origine.
 
 ---
 
 === GUIDES/isolation-combles-perdus-amenages-guide-prix-r7.md ===
 
 ---
-title: "Isolation des Combles Perdus et Aménagés : Matériaux, Prix au m² et Seuil R ≥ 7"
-description: "Guide technique 2026 : seuil R ≥ 7 m².K/W en combles perdus et R ≥ 6 en rampants, comparatif des isolants, déphasage thermique, prix au m² et règles NF DTU 45.11."
-publishedAt: "2026-09-23"
-category: "Travaux & Isolation"
-readTime: "10 min"
+title: >-
+  Isolation des Combles Perdus et Aménagés : Matériaux, Prix au m² et Seuil R ≥
+  7
+description: >-
+  Guide technique 2026 : seuil R ≥ 7 m².K/W en combles perdus et R ≥ 6 en
+  rampants, comparatif des isolants, déphasage thermique, prix au m² et règles
+  NF DTU 45.11.
+publishedAt: '2026-09-23'
+category: Travaux & Isolation
+readTime: 10 min
 ---
 
 # Isolation des Combles Perdus et Aménagés : Matériaux, Prix au m² et Seuil R ≥ 7
@@ -4585,9 +4768,9 @@ En physique du bâtiment, l'air chaud, moins dense que l'air froid, s'élève na
 
 Sur le plan de la méthode de calcul DPE (moteur 3CL), le coefficient de transmission thermique surfacique de la toiture ($U_{\text{toit}}$, exprimé en $\text{W/m}^2\cdot\text{K}$) pèse de façon disproportionnée dans l'équation des consommations d'énergie primaire ($C_{\text{ep}}$) et des émissions de gaz à effet de serre ($E_{\text{ges}}$). 
 
-Faire chuter un $U_{\text{toit}}$ de $2{,}5\ \text{W/m}^2\cdot\text{K}$ (plancher nu ou laine minérale détruite) à moins de $0{,}14\ \text{W/m}^2\cdot\text{K}$ ($R \ge 7{,}0\ \text{m}^2\cdot\text{K/W}$) permet régulièrement de faire gagner **une à deux classes énergétiques complètes** à un logement classé F ou G, le repositionnant hors du périmètre des interdictions de louer de la Loi Climat et Résilience :
+Faire chuter un $U_{\text{toit}}$ de $2{,}5\ \text{W/m}^2\cdot\text{K}$ (plancher nu ou laine minérale détruite) à moins de $0{,}14\ \text{W/m}^2\cdot\text{K}$ ($R \ge 7{,}0\ \text{m}^2\cdot\text{K/W}$) permet régulièrement de faire gagner **une à deux classes énergétiques complètes** à un logement classé F ou G, le repositionnant hors du périmètre des interdictions de louer de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) :
 * **1er janvier 2025** : gel et interdiction de mise en location des logements classés G ($> 420\ \text{kWh/m}^2/\text{an}$).
-* **1er janvier 2028** : interdiction de location étendue à l'ensemble de la classe F ($> 330\ \text{kWh/m}^2/\text{an}$).
+* **1er janvier 2028** : [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) étendue à l'ensemble de la classe F ($> 330\ \text{kWh/m}^2/\text{an}$).
 * **1er janvier 2034** : extension programmée à la classe E ($> 250\ \text{kWh/m}^2/\text{an}$).
 
 Au regard du ratio « investissement financier / gain de kWh EP », l'isolation des combles présente le retour sur investissement le plus rapide de la rénovation énergétique : entre 2 et 4 ans en combles perdus, contre 8 à 15 ans pour une Isolation Thermique par l'Extérieur (ITE) des murs de façade.
@@ -4596,7 +4779,7 @@ Au regard du ratio « investissement financier / gain de kWh EP », l'isolation 
 
 ## Normes et exigences thermiques 2026 : Le seuil R ≥ 7 et les fiches CEE BAR-EN-101
 
-L'accès aux subventions de l'Anah (MaPrimeRénov' Parcours Décarboné et Parcours Accompagné), aux primes des Certificats d'Économies d'Énergie (CEE) et à l'Éco-PTZ impose la justification d'une performance thermique normée, validée par un certificat ACERMI ou un Avis Technique (DTA) du CSTB.
+L'accès aux subventions de [l’Anah](https://www.anah.gouv.fr) (MaPrimeRénov' Parcours Décarboné et Parcours Accompagné), aux primes des Certificats d'Économies d'Énergie (CEE) et à l'Éco-PTZ impose la justification d'une performance thermique normée, validée par un certificat ACERMI ou un Avis Technique (DTA) du CSTB.
 
 ### Les seuils réglementaires d'éligibilité
 
@@ -4613,7 +4796,7 @@ $$\text{Épaisseur minimale requise } (e) = R \times \lambda$$
 
 ### Les règles de l'art du NF DTU 45.11
 
-Le **NF DTU 45.11** encadre obligatoirement la mise en œuvre de l'isolation en vrac par soufflage dans les combles perdus. Tout chantier non conforme s'expose à un refus pur et simple des primes CEE lors du contrôle COFRAC systématique :
+Le **NF DTU 45.11** encadre obligatoirement la mise en œuvre de l'isolation en vrac par soufflage dans les combles perdus. Tout chantier non conforme s'expose à un refus pur et simple des [primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul) lors du contrôle COFRAC systématique :
 
 1. **Pigéage visuel gradué** : Installation minimale de 4 à 5 piges graduées millimétriques réparties sur la surface des combles, permettant de contrôler à l'œil nu l'épaisseur d'isolant déposé et de vérifier l'absence de tassement sous-évalué.
 2. **Rehausse de trappe d'accès** : Mise en place d'un arrêtoir rigide et isolé dépassant d'au moins 5 cm la hauteur totale de l'isolant soufflé, afin d'éviter le déversement de matière dans la trémie lors des visites d'inspection.
@@ -4722,7 +4905,7 @@ Déposer un isolant soufflé sur un vieux plancher en bois sans avoir préalable
 La projection d'un isolant combustible ou semi-combustible directement au contact de transformateurs électriques ou de spots halogènes/LED non protégés est la première cause de sinistre incendie après isolation de combles. Chaque point lumineux encastré doit recevoir un capot certifié coupe-feu d'un volume minimal d'air conforme aux prescriptions de la norme NF C 15-100.
 
 ### 4. Le déficit de matière et la fausse déclaration de résistance thermique
-Pour maximiser leurs marges, certains opérateurs peu scrupuleux injectent une densité d'air trop élevée lors du soufflage pneumatique, créant un foisonnement artificiel qui s'effondre de 40 % en quelques mois. Pour être conforme à la fiche BAR-EN-101, l'artisan RGE doit obligatoirement vous remettre à l'achèvement des travaux :
+Pour maximiser leurs marges, certains opérateurs peu scrupuleux injectent une densité d'air trop élevée lors du soufflage pneumatique, créant un foisonnement artificiel qui s'effondre de 40 % en quelques mois. Pour être conforme à la fiche BAR-EN-101, l'[artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) doit obligatoirement vous remettre à l'achèvement des travaux :
 * La fiche de fin de chantier mentionnant le **nombre exact de sacs** d'isolant injectés par rapport à la surface au sol.
 * La marque, la référence ACERMI et la classe d'affaissement du matériau.
 * Les photographies horodatées des piges de mesure et de la protection des points singuliers (trappe, conduit, spots).
@@ -4730,6 +4913,10 @@ Pour maximiser leurs marges, certains opérateurs peu scrupuleux injectent une d
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 
@@ -4756,17 +4943,22 @@ Le contrôle repose sur trois éléments matériels vérifiables :
 === GUIDES/isolation-plancher-bas-cave-garage-vide-sanitaire.md ===
 
 ---
-title: "Isolation du Plancher Bas : Cave, Garage et Vide Sanitaire (Gain DPE et Budget)"
-description: "Guide technique complet sur l'isolation des planchers bas en 2026 : techniques en sous-face, insufflation de vide sanitaire, conformité BAR-EN-103 (R ≥ 3,0) et impact DPE."
-publishedAt: "2026-09-23"
-category: "Travaux & Isolation"
-readTime: "8 min"
+title: >-
+  Isolation du Plancher Bas : Cave, Garage et Vide Sanitaire (Gain DPE et
+  Budget)
+description: >-
+  Guide technique complet sur l'isolation des planchers bas en 2026 : techniques
+  en sous-face, insufflation de vide sanitaire, conformité BAR-EN-103 (R ≥ 3,0)
+  et impact DPE.
+publishedAt: '2026-09-23'
+category: Travaux & Isolation
+readTime: 8 min
 ---
 
 # Isolation du Plancher Bas : Cave, Garage et Vide Sanitaire (Gain DPE et Budget)
 
 ::: callout Réponse directe
-Le plancher bas génère 10 % à 15 % des déperditions thermiques globales d'un bâtiment et constitue le premier facteur d'inconfort par sensation de « sol froid » (effusivité thermique). Isoler la sous-face d'un sous-sol, d'un garage ou d'un vide sanitaire accessible coûte entre **35 € et 75 €/m²** (fourniture et pose). Pour débloquer les aides financières en 2026 (CEE et MaPrimeRénov' Rénovation d'ampleur) et valider le calcul DPE selon la méthode 3CL, l'ouvrage doit impérativement respecter une résistance thermique **$R \ge 3,0\ \text{m}^2\cdot\text{K/W}$** (Fiche CEE BAR-EN-103). Cette intervention permet d'effacer entre 15 et 30 kWh/m²/an d'énergie primaire sur le DPE, facilitant le passage au-dessus des seuils d'interdiction de location de la Loi Climat et Résilience.
+Le plancher bas génère 10 % à 15 % des déperditions thermiques globales d'un bâtiment et constitue le premier facteur d'inconfort par sensation de « sol froid » (effusivité thermique). Isoler la sous-face d'un sous-sol, d'un garage ou d'un vide sanitaire accessible coûte entre **35 € et 75 €/m²** (fourniture et pose). Pour débloquer les aides financières en 2026 (CEE et MaPrimeRénov' Rénovation d'ampleur) et valider le calcul DPE selon la méthode 3CL, l'ouvrage doit impérativement respecter une résistance thermique **$R \ge 3,0\ \text{m}^2\cdot\text{K/W}$** (Fiche CEE BAR-EN-103). Cette intervention permet d'effacer entre 15 et 30 kWh/m²/an d'énergie primaire sur le DPE, facilitant le passage au-dessus des seuils d'[calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924).
 :::
 
 ---
@@ -4875,7 +5067,7 @@ Si le vide sanitaire est gorgé d'eau ou techniquement inaccessible à l'injecti
 
 ## 4. Tableau comparatif : Choix de la solution selon la typologie du sous-sol
 
-Ce tableau synthétise les options techniques validées par les règles de l'art et les exigences d'éligibilité aux primes de l'Anah pour l'année 2026.
+Ce tableau synthétise les options techniques validées par les règles de l'art et les exigences d'éligibilité aux primes de [l’Anah](https://www.anah.gouv.fr) pour l'année 2026.
 
 | Typologie du local non chauffé | Technique d'isolation préconisée | Isolant recommandé & Épaisseur type pour $R \ge 3,0$ | Classement au feu (Euroclasse) | Coût moyen TTC (Fourniture + Pose) | Gain DPE moyen (Consommation d'énergie primaire) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -4908,10 +5100,10 @@ La fiche d'opération standardisée **BAR-EN-103** ("Isolation d'un plancher") i
 1. Une résistance thermique certifiée de la couche d'isolant installée : **$R \ge 3,0\ \text{m}^2\cdot\text{K/W}$**.
 2. Un isolant titulaire d'une certification **ACERMI** valide ou d'un marquage CE assorti d'une déclaration de performance (DoP) conforme aux normes EN 13162 à EN 13171.
 3. La réalisation des travaux par un professionnel titulaire de la mention **RGE** (*Reconnu Garant de l'Environnement*) dans le domaine de l'isolation des parois opaques à la date de signature de l'engagement.
-4. L'établissement d'une visite technique préalable par l'artisan RGE (attestée sur le devis et la facture) pour valider la typologie du sous-sol et les conditions d'accès.
+4. L'établissement d'une visite technique préalable par l'[artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) (attestée sur le devis et la facture) pour valider la typologie du sous-sol et les conditions d'accès.
 
 ### MaPrimeRénov' et le reste à charge en 2026
-En 2026, l'isolation du plancher bas n'est plus finançable sous forme de mono-geste forfaitaire direct par l'Anah (MaPrimeRénov' parcours par geste) : elle s'articule via les **primes CEE directes** (versées par les délégataires d'énergie, de **6 à 12 €/m²** selon la zone géographique et les revenus) ou s'intègre au sein du parcours **MaPrimeRénov' Rénovation d'ampleur** (Parcours Accompagné).
+En 2026, l'isolation du plancher bas n'est plus finançable sous forme de mono-geste forfaitaire direct par l'Anah (MaPrimeRénov' parcours par geste) : elle s'articule via les **[primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul) directes** (versées par les délégataires d'énergie, de **6 à 12 €/m²** selon la zone géographique et les revenus) ou s'intègre au sein du parcours **MaPrimeRénov' Rénovation d'ampleur** (Parcours Accompagné).
 
 Dans le cadre d'une rénovation globale (saut d'au moins 2 classes DPE) :
 - Les ménages aux revenus très modestes (**Profil Bleu**) bénéficient d'une prise en charge pouvant atteindre jusqu'à **80 % à 90 %** de l'ensemble du bouquet de travaux comprenant le plancher bas.
@@ -4929,6 +5121,10 @@ Ce gain est décisif pour les bailleurs privés soumis au calendrier de la **Loi
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 
@@ -4949,11 +5145,16 @@ L'isolation doit prioritairement s'effectuer sur la face inférieure du plancher
 === GUIDES/ite-vs-iti-isolation-exterieur-interieur-comparatif.md ===
 
 ---
-title: "ITE vs ITI : Comparatif Coût au m², Pertes de Surface, Démarches PLU et Performance DPE"
-description: "Isolation thermique par l'extérieur ou par l'intérieur ? Analyse complète des coûts au m², pertes de surface Carrez, performance DPE, démarches d'urbanisme et règles DTU 45.2."
-publishedAt: "2026-09-23"
-category: "Travaux & Isolation"
-readTime: "11 min"
+title: >-
+  ITE vs ITI : Comparatif Coût au m², Pertes de Surface, Démarches PLU et
+  Performance DPE
+description: >-
+  Isolation thermique par l'extérieur ou par l'intérieur ? Analyse complète des
+  coûts au m², pertes de surface Carrez, performance DPE, démarches d'urbanisme
+  et règles DTU 45.2.
+publishedAt: '2026-09-23'
+category: Travaux & Isolation
+readTime: 11 min
 ---
 
 # ITE vs ITI : Comparatif Coût au m², Pertes de Surface, Démarches PLU et Performance DPE
@@ -4962,7 +5163,7 @@ readTime: "11 min"
 L’Isolation Thermique par l’Extérieur (ITE) est la solution reine pour traiter l'intégralité des ponts thermiques de plancher et de façade sans perdre un seul mètre carré habitable, pour un coût moyen situé entre 140 € et 230 €/m² HT, tout en exigeant une déclaration préalable en mairie (DP). L’Isolation Thermique par l’Intérieur (ITI), affichée entre 70 € et 130 €/m² HT, ne modifie pas l'aspect extérieur du bâtiment mais ampute la surface habitable de 5 % à 8 % selon les épaisseurs installées, ce qui pénalise lourdement la valeur vénale du bien en zone tendue.
 :::
 
-Face aux échéances strictes de la loi Climat et Résilience — interdiction de location des passoires thermiques classées G depuis le 1er janvier 2025, puis des logements F dès le 1er janvier 2028 et des logements E au 1er janvier 2034 —, les murs constituent le second poste de déperdition thermique d'un bâtiment non isolé (20 % à 25 % des fuites de calories). Choisir entre l'ITE et l'ITI détermine non seulement le saut de classe sur le Diagnostic de Performance Énergétique (DPE), mais également l'impact patrimonial global, le confort d'été et la faisabilité juridique du chantier.
+Face aux échéances strictes de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) — [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) des passoires thermiques classées G depuis le 1er janvier 2025, puis des logements F dès le 1er janvier 2028 et des logements E au 1er janvier 2034 —, les murs constituent le second poste de déperdition thermique d'un bâtiment non isolé (20 % à 25 % des fuites de calories). Choisir entre l'ITE et l'ITI détermine non seulement le saut de classe sur le Diagnostic de Performance Énergétique (DPE), mais également l'impact patrimonial global, le confort d'été et la faisabilité juridique du chantier.
 
 ---
 
@@ -5001,7 +5202,7 @@ L'ITE conserve la masse lourde des murs (brique, moellon, béton) à l'intérieu
 
 ### Exigences de résistance thermique pour l'obtention des aides
 
-Pour être éligibles aux aides financières de l'Anah (MaPrimeRénov' Parcours Décroché ou Rénovation d'ampleur), aux Certificats d'Économies d'Énergie (CEE) et à l'éco-PTZ, les parois isolées doivent respecter des seuils minimaux de résistance thermique certifiés ACERMI :
+Pour être éligibles aux aides financières de [l’Anah](https://www.anah.gouv.fr) (MaPrimeRénov' Parcours Décroché ou Rénovation d'ampleur), aux Certificats d'Économies d'Énergie (CEE) et à l'éco-PTZ, les parois isolées doivent respecter des seuils minimaux de résistance thermique certifiés ACERMI :
 - **Murs en façade ou en pignon (ITE et ITI) :** $R \ge 3,7\ \text{m}^2\text{.K/W}$.
 - En pratique DPE 2026, viser $R \ge 4,0$ à $5,0\ \text{m}^2\text{.K/W}$ est recommandé pour atteindre les classes A, B ou C sans surcoût de main-d’œuvre disproportionné.
 
@@ -5190,6 +5391,10 @@ L'impact opérationnel d'une rénovation sur la vie quotidienne des occupants ou
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Peut-on mixer ITE et ITI sur un même logement ?
@@ -5209,11 +5414,16 @@ Depuis la loi Climat et Résilience (article L111-16 du CCH), vous bénéficiez 
 === GUIDES/changement-fenetres-double-vitrage-gain-dpe-rentabilite.md ===
 
 ---
-title: "Remplacement des Fenêtres : Double vs Triple Vitrage, Coefficient Uw et Gain DPE"
-description: "Guide technique et financier sur le changement de menuiseries : coefficients Uw, Ug, Sw, choix entre double et triple vitrage, dépose totale vs rénovation et impact sur le DPE."
-publishedAt: "2026-09-23"
-category: "Travaux & Isolation"
-readTime: "9 min"
+title: >-
+  Remplacement des Fenêtres : Double vs Triple Vitrage, Coefficient Uw et Gain
+  DPE
+description: >-
+  Guide technique et financier sur le changement de menuiseries : coefficients
+  Uw, Ug, Sw, choix entre double et triple vitrage, dépose totale vs rénovation
+  et impact sur le DPE.
+publishedAt: '2026-09-23'
+category: Travaux & Isolation
+readTime: 9 min
 ---
 
 # Remplacement des Fenêtres : Double vs Triple Vitrage, Coefficient Uw et Gain DPE
@@ -5414,13 +5624,13 @@ En posant des menuiseries modernes étanches (classe d'étanchéité à l'air **
 Conformément à l'arrêté du 24 mars 1982 relatif à l'aération des logements, le renouvellement de l'air doit être général et permanent :
 - **Obligation :** Toutes les fenêtres installées dans les **pièces principales dites sèches** (séjour, salon, chambres, bureau) doivent être équipées d'une entaille avec grille d'entrée d'air autoréglable ou hygroréglable (débits normalisés : **22 m³/h, 30 m³/h ou 45 m³/h**).
 - **Interdiction :** Aucune grille d'entrée d'air ne doit être installée sur les fenêtres des **pièces humides** (cuisine, salle de bains, WC, buanderie), ces pièces étant exclusivement équipées de bouches d'extraction VMC.
-- **Cas d'exclusion :** Les fenêtres peuvent être dépourvues de grilles uniquement si le logement est équipé d'une **VMC double flux** avec réseau d'insufflation mécanique dédié dans les pièces de vie.
+- **Cas d'exclusion :** Les fenêtres peuvent être dépourvues de grilles uniquement si le logement est équipé d'une **[VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures)** avec réseau d'insufflation mécanique dédié dans les pièces de vie.
 
 ---
 
 ## Rentabilité financière, barèmes d'aides 2026 et valorisation de l'actif
 
-Le changement de fenêtres s'inscrit au cœur des stratégies de conformité avec la **loi Climat et Résilience**, qui interdit la mise en location des logements classés G depuis le 1er janvier 2025, puis F au 1er janvier 2028 et E au 1er janvier 2034.
+Le changement de fenêtres s'inscrit au cœur des stratégies de conformité avec la **[loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)**, qui interdit la mise en location des logements classés G depuis le 1er janvier 2025, puis F au 1er janvier 2028 et E au 1er janvier 2034.
 
 ### 1. Critères d'éligibilité aux aides 2026 (Fiche CEE BAR-EN-104)
 Pour prétendre aux subventions de l'Agence Nationale de l'Habitat (Anah) et aux Certificats d'Économies d'Énergie (CEE), les menuiseries doivent justifier des performances minimales certifiées (marquage CE, certification **Acotherm** ou **Cekal**) :
@@ -5430,9 +5640,9 @@ Pour prétendre aux subventions de l'Agence Nationale de l'Habitat (Anah) et aux
 
 ### 2. Barèmes d'aides financières mobilisables en 2026
 
-Les barèmes MaPrimeRénov' (parcours mono-geste ou intégré au parcours accompagné d'ampleur) s'articulent selon les catégories de revenus définies par l'Anah :
+Les barèmes MaPrimeRénov' (parcours mono-geste ou intégré au parcours accompagné d'ampleur) s'articulent selon les catégories de revenus définies par [l’Anah](https://www.anah.gouv.fr) :
 
-| Profil Anah | Revenus du ménage (Ex. Île-de-France 1 pers.) | Prime par fenêtre (Mono-geste) | Prime CEE (Fiche BAR-EN-104) | Éco-PTZ & TVA 5,5 % |
+| Profil Anah | Revenus du ménage (Ex. Île-de-France 1 pers.) | Prime par fenêtre (Mono-geste) | [primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul) (Fiche BAR-EN-104) | Éco-PTZ & TVA 5,5 % |
 | :--- | :--- | :--- | :--- | :--- |
 | **Bleu** (Très modeste) | $\le 23\ 541\text{ €}$ | **100 € / équipement** | ~ 40 € à 70 € / fenêtre | Éligible (TVA 5,5 % + Éco-PTZ 0 %) |
 | **Jaune** (Modeste) | $\le 28\ 657\text{ €}$ | **80 € / équipement** | ~ 40 € à 70 € / fenêtre | Éligible (TVA 5,5 % + Éco-PTZ 0 %) |
@@ -5471,6 +5681,10 @@ RÉSULTAT APRÈS TRAVAUX :
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Le changement de fenêtres seul permet-il de sortir du statut de passoire thermique (F ou G) ?
@@ -5487,11 +5701,16 @@ Le moteur D
 === GUIDES/audit-energetique-obligatoire-vente-maison-prix-validite.md ===
 
 ---
-title: "Audit Énergétique Obligatoire Avant-Vente : Monopropriétés D, E, F, G (Prix et Validité)"
-description: "Guide complet 2026 de l'audit énergétique réglementaire avant-vente : obligations pour les maisons F, G et E, coût, durée de validité et scénarios de travaux."
-publishedAt: "2026-09-23"
-category: "Vente & Diagnostics"
-readTime: "10 min"
+title: >-
+  Audit Énergétique Obligatoire Avant-Vente : Monopropriétés D, E, F, G (Prix et
+  Validité)
+description: >-
+  Guide complet 2026 de l'audit énergétique réglementaire avant-vente :
+  obligations pour les maisons F, G et E, coût, durée de validité et scénarios
+  de travaux.
+publishedAt: '2026-09-23'
+category: Vente & Diagnostics
+readTime: 10 min
 ---
 
 # Audit Énergétique Obligatoire Avant-Vente : Monopropriétés D, E, F, G (Prix et Validité)
@@ -5500,7 +5719,7 @@ readTime: "10 min"
 L’audit énergétique réglementaire est obligatoire pour la mise en vente de toute maison individuelle ou immeuble en monopropriété classé F ou G (depuis 2023) et classé E (depuis le 1er janvier 2025). Il doit être remis au candidat acquéreur dès la première visite et annexé à la promesse de vente. D’un coût moyen de 600 € à 1 000 €, il est valable 5 ans et propose au moins deux scénarios de travaux chiffrés.
 :::
 
-Issu de la loi Climat et Résilience du 22 août 2021 et encadré par l’**article L126-28-1 du Code de la construction et de l'habitation (CCH)**, l'audit énergétique réglementaire s'est imposé comme une pièce maîtresse du dossier de diagnostic technique (DDT). Contrairement au simple constat du Diagnostic de Performance Énergétique (DPE), cet audit constitue une véritable feuille de route technique et financière. Il guide l'acquéreur potentiel dans la transformation du bien vers le niveau d'efficacité énergétique requis par la réglementation thermique.
+Issu de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) du 22 août 2021 et encadré par l’**article L126-28-1 du Code de la construction et de l'habitation (CCH)**, l'audit énergétique réglementaire s'est imposé comme une pièce maîtresse du dossier de diagnostic technique (DDT). Contrairement au simple constat du Diagnostic de Performance Énergétique (DPE), cet audit constitue une véritable feuille de route technique et financière. Il guide l'acquéreur potentiel dans la transformation du bien vers le niveau d'efficacité énergétique requis par la réglementation thermique.
 
 En 2026, avec l'intégration définitive des logements classés E dans le périmètre d'obligation depuis le 1er janvier 2025, plus de 45 % du parc des maisons individuelles anciennes mis en vente est soumis à cette obligation d'expertise poussée.
 
@@ -5575,18 +5794,18 @@ PARCOURS DE RÉNOVATION OBLIGATOIRES
 
 ### Les six postes de travaux obligatoirement examinés
 L'auditeur doit analyser techniquement et prescrire des solutions conformes aux exigences thermiques sur les six postes cardinaux de la rénovation :
-1. **Isolation des combles et toitures** : Visant une résistance thermique minimale $R \ge 7{,}0 \text{ m}²\cdot\text{K/W}$ en combles perdus et $R \ge 6{,}0 \text{ m}²\cdot\text{K/W}$ en toiture-terrasse ou rampants.
+1. **[isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7) et toitures** : Visant une résistance thermique minimale $R \ge 7{,}0 \text{ m}²\cdot\text{K/W}$ en combles perdus et $R \ge 6{,}0 \text{ m}²\cdot\text{K/W}$ en toiture-terrasse ou rampants.
 2. **Isolation des murs par l'extérieur (ITE) ou l'intérieur (ITI)** : Visant un $R \ge 3{,}7 \text{ m}²\cdot\text{K/W}$.
 3. **Isolation des planchers bas** : Sur sous-sol, vide sanitaire ou passage ouvert, visant un $R \ge 3{,}0 \text{ m}²\cdot\text{K/W}$.
-4. **Remplacement des menuiseries extérieures** : Fenêtres et portes-fenêtres avec coefficient de transmission surfacique $U_w \le 1{,}3 \text{ W/m}²\cdot\text{K}$ et facteur solaire $S_w \ge 0{,}3$.
-5. **Système de ventilation** : Implantation impérative d'une VMC hygroréglable de type B ou d'une VMC double flux à haut rendement thermodynamique pour prévenir tout point de rosée post-isolation.
+4. **[remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite) extérieures** : Fenêtres et portes-fenêtres avec coefficient de transmission surfacique $U_w \le 1{,}3 \text{ W/m}²\cdot\text{K}$ et facteur solaire $S_w \ge 0{,}3$.
+5. **Système de ventilation** : Implantation impérative d'une [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures) de type B ou d'une VMC double flux à haut rendement thermodynamique pour prévenir tout point de rosée post-isolation.
 6. **Système de chauffage et de production d'eau chaude sanitaire (ECS)** : Dépose des chaudières fioul ou gaz non performantes au profit de pompes à chaleur (PAC air/eau, PAC géothermique), de systèmes solaires combinés (SSC) ou de raccordements aux réseaux de chaleur vertueux.
 
 ### La prévention des pathologies du bâtiment
 Un bon audit ne se limite pas à empiler des isolants. Conformément au texte réglementaire, l'auditeur doit impérativement veiller à :
 * La continuité thermique de l'enveloppe pour éliminer les ponts thermiques structurels (liaisons plancher-mur, tableaux de fenêtres).
 * La gestion de la perméabilité à l'air et le contrôle de l'humidité relative.
-* La compatibilité du mode d'isolation avec les matériaux d'origine (préservation du bâti ancien en pierre, pisé, pans de bois nécessitant des isolants biosourcés perspirants comme la fibre de bois ou le chanvre).
+* La compatibilité du mode d'isolation avec les matériaux d'origine (préservation du [rénovation thermique du bâti ancien en pierre ou pisé](/guides/renovation-energetique-maison-ancienne-pierre-pise-colombage), pisé, pans de bois nécessitant des isolants biosourcés perspirants comme la fibre de bois ou le chanvre).
 
 ---
 
@@ -5633,11 +5852,15 @@ Alors que le DPE bénéficie d'une durée de validité de 10 ans, l'audit énerg
 ### L'impact sur la négociation du prix de vente (La "décote verte")
 Dans la pratique transactionnelle observée en 2026, l'audit énergétique est devenu l'instrument de négociation numéro un des acheteurs et des investisseurs. Les devis estimatifs poste par poste figurant dans l'audit servent de base pour formuler des offres d'achat avec décote équivalente à tout ou partie du montant des travaux du Scénario 1 ou 2.
 
-Pour le vendeur, disposer d'un audit de haute précision technique permet au contraire de défendre la valeur vénale de son bien en démontrant que le passage en classe C ou B est techniquement réalisable, financièrement optimisé grâce aux aides de l'Anah (MaPrimeRénov' Parcours Accompagné), et planifié sans surcoûts imprévus.
+Pour le vendeur, disposer d'un audit de haute précision technique permet au contraire de défendre la valeur vénale de son bien en démontrant que le passage en classe C ou B est techniquement réalisable, financièrement optimisé grâce aux aides de [l’Anah](https://www.anah.gouv.fr) (MaPrimeRénov' Parcours Accompagné), et planifié sans surcoûts imprévus.
 
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 
@@ -5648,7 +5871,7 @@ Non. L'audit énergétique réglementaire est un document purement informatif de
 Oui. Depuis le 1er janvier 2025, tous les biens classés E en monopropriété sont assujettis à l'audit énergétique obligatoire lors de leur mise en vente. Le fait que votre DPE ait été établi avant 2025 ne vous exonère pas de l'obligation de commander un audit énergétique dès lors que la promesse de vente ou l'acte authentique est signé après cette date pivot.
 
 ### Peut-on utiliser l'audit incitatif MaPrimeRénov' pour remplacer l'audit obligatoire de vente ?
-Non. L'audit énergétique "incitatif" (réalisé selon les méthodes spécifiques de l'Anah pour l'obtention de subventions de travaux) ne répond pas aux mêmes formalités d'enregistrement administratif que l'audit réglementaire avant-vente défini par l'Arrêté du 4 mai 2022. Seul l'audit réglementaire disposant d'un identifiant officiel ADEME et transmis sur la base de données nationale est juridiquement valable pour une transaction immobilière.
+Non. L'audit énergétique "incitatif" (réalisé selon les méthodes spécifiques de l'Anah pour l'obtention de subventions de travaux) ne répond pas aux mêmes formalités d'enregistrement administratif que l'audit réglementaire avant-vente défini par l'Arrêté du 4 mai 2022. Seul l'audit réglementaire disposant d'un identifiant officiel [ADEME](https://www.ademe.fr) et transmis sur la base de données nationale est juridiquement valable pour une transaction immobilière.
 
 ### Que risque le vendeur en cas d'absence d'audit énergétique dans le compromis de vente ?
 L'absence d'audit énergétique valide lors de la signature de la promesse ou de l'acte authentique empêche le notaire de clôturer la vente. Si la transaction venait à être signée sans ce document, le délai de rétractation de 10 jours de l'acheteur ne commencerait à courir qu'à compter du jour de la communication effective de l'audit. Par ailleurs, l'acquéreur pourrait solliciter en justice l'annulation de la vente ou une diminution rétroactive substantielle du prix de vente pour préjudice d'information.
@@ -5658,11 +5881,16 @@ L'absence d'audit énergétique valide lors de la signature de la promesse ou de
 === GUIDES/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures.md ===
 
 ---
-title: "VMC Double Flux vs Hygro B : Pourquoi la Ventilation Est Indispensable Après Isolation"
-description: "Isolation sans ventilation : découvrez les risques de moisissures, condensation et dégradation du DPE. Comparatif technique, coûts et aides 2026 entre VMC Hygro B et Double Flux."
-publishedAt: "2026-09-23"
-category: "Ventilation & Santé"
-readTime: "9 min"
+title: >-
+  VMC Double Flux vs Hygro B : Pourquoi la Ventilation Est Indispensable Après
+  Isolation
+description: >-
+  Isolation sans ventilation : découvrez les risques de moisissures,
+  condensation et dégradation du DPE. Comparatif technique, coûts et aides 2026
+  entre VMC Hygro B et Double Flux.
+publishedAt: '2026-09-23'
+category: Ventilation & Santé
+readTime: 9 min
 ---
 
 # VMC Double Flux vs Hygro B : Pourquoi la Ventilation Est Indispensable Après Isolation
@@ -5671,7 +5899,7 @@ readTime: "9 min"
 Isoler parfaitement une passoire thermique sans installer une ventilation mécanique contrôlée (VMC) efficace transforme le logement en thermos hermétique, provoquant en moins de 18 mois l’apparition de moisissures toxiques et de condensation sur les ponts thermiques résiduels. La VMC simple flux hygroréglable type B coûte 1 500 € à 3 000 € posée, tandis que la VMC double flux avec récupération d’énergie coûte 5 000 € à 9 000 € mais récupère jusqu’à 90% des calories de l'air extrait. Dans le cadre de MaPrimeRénov' Parcours Accompagné 2026, l'intégration d'un système de ventilation contrôlée conforme à l'Arrêté du 24 mars 1982 est obligatoire pour valider un saut de classe DPE.
 :::
 
-Dans une passoire thermique non rénovée classée F ou G, les déperditions d'air parasites par les menuiseries vétustes, les liaisons maçonnerie-toiture et les coffres de volets roulants assurent un renouvellement d'air involontaire mais continu (souvent entre 1 et 2,5 volumes/heure). Lorsque vous engagez des travaux d'isolation thermique par l'extérieur (ITE), d'isolation des combles (résistance thermique $R \ge 7 \text{ m}^2\cdot\text{K/W}$) et de remplacement des fenêtres par du double vitrage moderne ($U_w \le 1,3 \text{ W/m}^2\cdot\text{K}$ avec joints compressifs), la perméabilité à l'air du bâti est drastiquement réduite. 
+Dans une passoire thermique non rénovée classée F ou G, les déperditions d'air parasites par les menuiseries vétustes, les liaisons maçonnerie-toiture et les coffres de volets roulants assurent un renouvellement d'air involontaire mais continu (souvent entre 1 et 2,5 volumes/heure). Lorsque vous engagez des travaux d'isolation thermique par l'extérieur (ITE), d'[isolation des combles perdus ou aménagés](/guides/isolation-combles-perdus-amenages-guide-prix-r7) (résistance thermique $R \ge 7 \text{ m}^2\cdot\text{K/W}$) et de [remplacement des fenêtres par du double vitrage performant](/guides/changement-fenetres-double-vitrage-gain-dpe-rentabilite) par du double vitrage moderne ($U_w \le 1,3 \text{ W/m}^2\cdot\text{K}$ avec joints compressifs), la perméabilité à l'air du bâti est drastiquement réduite. 
 
 Sans un système de renouvellement d'air mécanisé et calibré, la vapeur d'eau générée par l'activité humaine (environ 2 à 3 litres d'eau par jour et par occupant) s'accumule dans le volume chauffé, créant une atmosphère pathogène pour les occupants et destructrice pour le bâti.
 
@@ -5802,7 +6030,7 @@ En période estivale ou lors des canicules, la VMC double flux dispose d'un clap
 
 ## Tableau comparatif : Hygro B vs Double Flux en rénovation énergétique
 
-Ce comparatif intègre les performances énergétiques réelles, les coûts d'installation constatés en 2026 et les critères d'éligibilité aux aides de l'Anah.
+Ce comparatif intègre les performances énergétiques réelles, les coûts d'installation constatés en 2026 et les critères d'éligibilité aux aides de [l’Anah](https://www.anah.gouv.fr).
 
 | Critère d'évaluation | VMC Simple Flux Hygro B | VMC Double Flux Haut Rendement |
 | :--- | :--- | :--- |
@@ -5887,11 +6115,15 @@ Une installation de VMC défaillante ou mal entretenue perd jusqu'à 50 % de ses
 
 * **Tous les 6 mois** : Démonter et nettoyer à l'eau savonneuse tiède les bouches d'extraction et les entrées d'air hygroréglables. Ne jamais mouiller les régulateurs sensibles en polyamide sous un jet d'eau direct.
 * **Tous les 6 à 12 mois (VMC Double Flux)** : Remplacer l'ensemble des cartouches filtrantes (filtres d'insufflation F7 et filtres d'extraction G4). Des filtres saturés augmentent la consommation des ventilateurs, déséquilibrent les pressions d'air et provoquent l'arrêt de l'échangeur par sécurité.
-* **Tous les 5 ans** : Faire réaliser un contrôle aéraulique par un artisan RGE avec mesure des débits/pressions au manomètre différentiel et dépoussiérage complet de la roue du motoventilateur.
+* **Tous les 5 ans** : Faire réaliser un contrôle aéraulique par un [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) avec mesure des débits/pressions au manomètre différentiel et dépoussiérage complet de la roue du motoventilateur.
 
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 
@@ -5902,7 +6134,7 @@ L'installation d'une VMC double flux individuelle dans un appartement ancien en 
 Ce phénomène, fréquent après le remplacement de menuiseries anciennes par du double vitrage performant, indique que le logement est devenu étanche à l'air sans que le système de ventilation n'ait été adapté. Pendant la nuit, la respiration des occupants fait monter l'humidité relative au-delà de 70 %. La vapeur d'eau vient alors se condenser sur la surface intérieure des vitres ou sur les angles des murs froids. Pour y remédier, il faut s'assurer que les fenêtres des pièces sèches (chambres, salon) sont bien équipées de mortaises avec grilles d'entrée d'air hygroréglables conformes, que les portes sont détalonnées d'au moins $1,5 \text{ cm}$ et que la VMC extrait un débit suffisant en continu.
 
 ### Quel est le gain réel d'une VMC double flux sur le DPE par rapport à une Hygro B ?
-Dans le moteur de calcul réglementaire 3CL-DPE 2024-2026, la VMC double flux à haute efficacité certifiée ($\ge 85\%$) permet un gain moyen de **15 à 30 kWh/m²/an d'énergie primaire** par rapport à une VMC simple flux hygroréglable type B. Dans le cadre d'un saut de classe critique (par exemple pour faire basculer une passoire thermique classée E ou F vers la classe D ou C afin d'échapper aux interdictions de location de la Loi Climat et Résilience), l'apport thermique de la VMC double flux est souvent déterminant, en particulier pour les maisons individuelles compactes situées dans les zones climatiques H1 (Nord, Est, Île-de-France, zones de montagne).
+Dans le moteur de calcul réglementaire 3CL-DPE 2024-2026, la VMC double flux à haute efficacité certifiée ($\ge 85\%$) permet un gain moyen de **15 à 30 kWh/m²/an d'énergie primaire** par rapport à une VMC simple flux hygroréglable type B. Dans le cadre d'un saut de classe critique (par exemple pour faire basculer une passoire thermique classée E ou F vers la classe D ou C afin d'échapper aux interdictions de location de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)), l'apport thermique de la VMC double flux est souvent déterminant, en particulier pour les maisons individuelles compactes situées dans les zones climatiques H1 (Nord, Est, Île-de-France, zones de montagne).
 
 ### Est-il judicieux de couper sa VMC en hiver pour économiser l'électricité ?
 Il ne faut jamais couper une VMC, que ce soit en hiver ou en été. L'arrêt de l'extracteur provoque la saturation immédiate de l'air en humidité, créant un pic de condensation dans les conduits de ventilation et l'apparition rapide de moisissures sur les ponts thermiques. De plus, un air humide est beaucoup plus difficile et coûteux à chauffer qu'un air sec : couper sa VMC pour économiser 15 € d'électricité par an engendre une surconsommation de chauffage de 100 à 200 € en raison de la capacité thermique massique de l'eau contenue dans l'air saturé. Les moteurs micro-watt actuels ne consomment que 5 à 15 W en régime continu, ce qui représente un coût d'exploitation dérisoire (environ 10 à 25 €/an).

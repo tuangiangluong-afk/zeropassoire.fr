@@ -1,9 +1,14 @@
 ---
-title: "DPE Vierge et DPE d’Avant Juillet 2021 : Pourquoi Ils Sont Totalement Caducs et Dangereux"
-description: "Les anciens DPE et DPE vierges sont caducs depuis le 31 décembre 2024. Analyse des risques juridiques, de l'opposabilité et des obligations pour louer ou vendre."
-publishedAt: "2026-09-23"
-category: "DPE & Diagnostics"
-readTime: "7 min"
+title: >-
+  DPE Vierge et DPE d’Avant Juillet 2021 : Pourquoi Ils Sont Totalement Caducs
+  et Dangereux
+description: >-
+  Les anciens DPE et DPE vierges sont caducs depuis le 31 décembre 2024. Analyse
+  des risques juridiques, de l'opposabilité et des obligations pour louer ou
+  vendre.
+publishedAt: '2026-09-23'
+category: DPE & Diagnostics
+readTime: 7 min
 ---
 
 # DPE Vierge et DPE d’Avant Juillet 2021 : Pourquoi Ils Sont Totalement Caducs et Dangereux
@@ -95,7 +100,7 @@ Conserver un DPE obsolète ou vierge ne relève pas d'une simple omission admini
 
 ### L'opposabilité juridique issue de l'article L126-29 du CCH
 
-La loi Climat et Résilience, adossée à l'**article L126-29 du Code de la construction et de l'habitation**, a conféré au DPE une opposabilité juridique totale. Contrairement aux anciens DPE purement informatifs, le diagnostic actuel engage la responsabilité contractuelle du bailleur ou du vendeur.
+La [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924), adossée à l'**article L126-29 du Code de la construction et de l'habitation**, a conféré au DPE une opposabilité juridique totale. Contrairement aux anciens DPE purement informatifs, le diagnostic actuel engage la responsabilité contractuelle du bailleur ou du vendeur.
 
 Si un propriétaire loue un bien sur la base d'un DPE non conforme, le locataire peut saisir le tribunal judiciaire pour :
 1. **Contester le montant du loyer :** Les logements classés F et G ont l'interdiction formelle de subir la moindre révision ou augmentation de loyer (gel des loyers en vigueur depuis le 24 août 2022). Sans DPE 3CL valide, l'augmentation appliquée est réputée illégale, ouvrant droit au remboursement des trop-perçus.
@@ -125,7 +130,7 @@ Lors de l'acquisition d'un actif immobilier, les acquéreurs doivent faire preuv
 
 Pour vous assurer qu'un DPE est conforme à la législation actuelle, vérifiez les marqueurs suivants dès la première page :
 
-* **Le numéro ADEME à 13 chiffres :** Tout diagnostic légal est enregistré sur l'Observatoire DPE-Audit de l'ADEME. Ce numéro unique (format : `21XXE0000000X` ou `24XXE0000000X`) prouve la validité de la télétransmission. Sans ce numéro, le document est nul et non avenu.
+* **Le numéro [ADEME](https://www.ademe.fr) à 13 chiffres :** Tout diagnostic légal est enregistré sur l'Observatoire DPE-Audit de l'ADEME. Ce numéro unique (format : `21XXE0000000X` ou `24XXE0000000X`) prouve la validité de la télétransmission. Sans ce numéro, le document est nul et non avenu.
 * **Le double seuil des classes DPE :** L'étiquette énergie-climat globale prend obligatoirement la plus mauvaise note entre la consommation en énergie primaire ($kWh/m²/an$) et les émissions de GES ($kg CO_2/m²/an$). Si le document n'affiche qu'une seule échelle linéaire simple, il s'agit d'un ancien modèle caduc.
 * **La mention des 5 usages réglementaires :** L'ancien DPE n'évaluait que 3 usages (chauffage, eau chaude sanitaire, refroidissement). Le DPE actuel modélise **5 postes** : chauffage, eau chaude sanitaire, climatisation, éclairage et auxiliaires (pompes, ventilateurs VMC).
 * **L'estimation des coûts annuels d'énergie :** Le DPE doit obligatoirement mentionner une fourchette de dépenses annuelles prévisionnelles d'énergie, indexée sur une année tarifaire précise (ex. tarifs moyens de 2021 ou 2026).
@@ -166,12 +171,16 @@ Exigez systématiquement un professionnel certifié avec mention (pour les immeu
 Pour éviter que le diagnostiqueur n'applique des valeurs par défaut défavorables, réunissez impérativement les documents suivants avant sa visite :
 1. **Factures détaillées des travaux d'isolation :** Mentionnant la résistance thermique $R$ (en $m².K/W$) des isolants posés en toiture ($R \ge 7$), combles perdus, murs intérieurs ou extérieurs ($R \ge 3,7$).
 2. **Fiches techniques des menuiseries vitrées :** Factures indiquant le coefficient $U_w \le 1,3 W/m².K$ et le facteur solaire $S_w$.
-3. **Notices techniques des générateurs :** Modèle exact de la pompe à chaleur (COP/ETAS), de la chaudière à condensation ou du ballon thermodynamique.
+3. **Notices techniques des générateurs :** Modèle exact de la [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) (COP/ETAS), de la chaudière à condensation ou du ballon thermodynamique.
 4. **Attestation de surface habitable (loi Carrez ou surface thermique $S_{hab}$) :** Depuis la réforme des petites surfaces de 2024, les logements de moins de 40 m² bénéficient d'un barème réévalué limitant l'impact défavorable du ratio de surface d'eau chaude sanitaire.
 
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 

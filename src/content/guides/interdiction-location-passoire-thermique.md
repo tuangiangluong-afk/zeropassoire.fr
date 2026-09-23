@@ -1,16 +1,22 @@
 ---
-title: "Interdiction de location des passoires thermiques 2025-2034 : calendrier, sanctions réelles, jurisprudence et stratégies pour bailleurs"
-description: "Le guide juridique et financier exhaustif pour bailleurs : calendrier officiel G/F/E, sanctions civiles et administratives (amende 20 000 €, baisse judiciaire de loyer), cas Airbnb (loi Le Meur), exceptions réelles et 4 stratégies d'arbitrage patrimonial."
-publishedAt: "2026-09-23"
-category: "Obligations légales"
-readTime: "18 min"
+title: >-
+  Interdiction de location des passoires thermiques 2025-2034 : calendrier,
+  sanctions réelles, jurisprudence et stratégies pour bailleurs
+description: >-
+  Le guide juridique et financier exhaustif pour bailleurs : calendrier officiel
+  G/F/E, sanctions civiles et administratives (amende 20 000 €, baisse
+  judiciaire de loyer), cas Airbnb (loi Le Meur), exceptions réelles et 4
+  stratégies d'arbitrage patrimonial.
+publishedAt: '2026-09-23'
+category: Obligations légales
+readTime: 18 min
 ---
 
 # Interdiction de location des passoires thermiques : le dossier juridique et opérationnel complet (2025–2034)
 
 ::: callout Synthèse exécutive & chiffres clés pour bailleurs
 
-Depuis le **1er janvier 2025**, la mise en location et le renouvellement de bail des logements classés **G au DPE** (consommation supérieure à 420 kWh/m²/an en énergie primaire) sont **strictement illégaux** en France métropolitaine (art. 159 de la loi Climat et Résilience, codifié à l'article L. 173-1-1 du Code de la construction et de l'habitation). Les logements **F** sont interdits au **1er janvier 2028**, et les logements **E** au **1er janvier 2034**.
+Depuis le **1er janvier 2025**, la mise en location et le renouvellement de bail des logements classés **G au DPE** (consommation supérieure à 420 kWh/m²/an en énergie primaire) sont **strictement illégaux** en France métropolitaine (art. 159 de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924), codifié à l'article L. 173-1-1 du Code de la construction et de l'habitation). Les logements **F** sont interdits au **1er janvier 2028**, et les logements **E** au **1er janvier 2034**.
 
 En cas d'infraction, le bailleur s'expose à une **amende administrative jusqu'à 20 000 €** par logement (60 000 € pour une SCI ou personne morale), et à une action judiciaire du locataire pouvant imposer une **baisse de loyer rétroactive jusqu'à 50 %** ainsi que l'exécution des travaux sous **astreinte financière journalière**.
 
@@ -33,7 +39,7 @@ La loi n° 2021-1104 du 22 août 2021 (dite « Climat et Résilience ») a profo
 
 ### L'application aux baux en cours, reconductions tacites et renouvellements
 
-Une confusion majeure persiste chez de nombreux bailleurs entre **bail en cours**, **reconduction tacite** et **renouvellement exprès** :
+Une confusion majeure persiste chez de nombreux bailleurs entre **[gestion d’un bail en cours avec locataire en place](/guides/passoire-thermique-bail-en-cours-droits-proprietaire-locataire)**, **reconduction tacite** et **renouvellement exprès** :
 
 1. **Le bail en cours d'exécution** : Un contrat de bail d'habitation (vide 3 ans ou meublé 1 an) signé avant le 1er janvier 2025 sur un bien classé G reste valable jusqu'à son terme contractuel. Le locataire ne peut pas exiger de quitter les lieux immédiatement sans préavis.
 2. **La reconduction tacite** : Selon l'analyse dominante confirmée par la Direction de l'Habitat, de l'Urbanisme et des Paysages (DHUP), la reconduction tacite d'un bail n'opère pas novation du contrat mais prolonge ses effets. Toutefois, le locataire peut à tout moment exiger la mise en conformité du logement avec les critères de décence applicables au jour de la reconduction.
@@ -129,7 +135,7 @@ Rénovation globale      Déficit foncier         Vente à investisseur    Chang
 
 ### Stratégie 1 : Rénovation globale avec subventions (Le choix à plus fort ROI)
 * **Mécanisme** : Réaliser un bouquet de 3 à 4 travaux coordonnés (ex. en maison : PAC air-eau + combles + menuiseries ; en appartement : ITI + fenêtres argon + radiateurs à inertie).
-* **Financement** : Cumul MaPrimeRénov' Parcours Accompagné (jusqu'à 60 % pour bailleur intermédiaire) + primes CEE 6e période + TVA 5,5 % + Éco-PTZ jusqu'à 50 000 € sans intérêts.
+* **Financement** : Cumul MaPrimeRénov' Parcours Accompagné (jusqu'à 60 % pour bailleur intermédiaire) + [primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul) 6e période + TVA 5,5 % + Éco-PTZ jusqu'à 50 000 € sans intérêts.
 * **Bénéfice patrimonial** : Sortie immédiate en classe C ou D, revalorisation du loyer à la relocation, suppression du risque juridique et annulation de la décote de revente.
 
 ### Stratégie 2 : Utilisation maximale du Déficit Foncier (Tranches marginales 30 % / 41 % / 45 %)

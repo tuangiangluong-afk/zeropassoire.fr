@@ -1,9 +1,14 @@
 ---
-title: "Aides Régionales et Municipales 2026 : Exonération de Taxe Foncière et Abondements"
-description: "Guide complet 2026 sur les aides locales à la rénovation énergétique : exonération de taxe foncière (CGI), primes métropolitaines, caisses de retraite et règles de cumul."
-publishedAt: "2026-09-23"
-category: "Aides Financières"
-readTime: "8 min"
+title: >-
+  Aides Régionales et Municipales 2026 : Exonération de Taxe Foncière et
+  Abondements
+description: >-
+  Guide complet 2026 sur les aides locales à la rénovation énergétique :
+  exonération de taxe foncière (CGI), primes métropolitaines, caisses de
+  retraite et règles de cumul.
+publishedAt: '2026-09-23'
+category: Aides Financières
+readTime: 8 min
 ---
 
 # Aides Régionales et Municipales 2026 : Exonération de Taxe Foncière et Abondements
@@ -12,7 +17,7 @@ readTime: "8 min"
 En plus des aides nationales, de nombreuses collectivités territoriales (Métropoles, Régions, Communes) offrent des aides directes cumulables de 1 000 € à 5 000 € pour la sortie de passoire thermique. De plus, plus de 450 communes appliquent une exonération de taxe foncière de 50% à 100% pendant 3 ans pour les logements rénovés.
 :::
 
-L'atteinte des objectifs de décarbonation du parc résidentiel français impose un rythme de rénovation soutenu. Alors que les interdictions de location issues de la loi Climat et Résilience frappent déjà les passoires thermiques classées G depuis le 1er janvier 2025 et s'étendront aux logements F dès le 1er janvier 2028 puis E au 1er janvier 2034, le plan de financement des travaux reste le principal verrou pour les ménages et les bailleurs.
+L'atteinte des objectifs de décarbonation du parc résidentiel français impose un rythme de rénovation soutenu. Alors que les interdictions de location issues de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) frappent déjà les passoires thermiques classées G depuis le 1er janvier 2025 et s'étendront aux logements F dès le 1er janvier 2028 puis E au 1er janvier 2034, le plan de financement des travaux reste le principal verrou pour les ménages et les bailleurs.
 
 Si le socle national repose sur MaPrimeRénov' (parcours accompagné ou par geste), les Certificats d'Économies d'Énergie (CEE) et l'Éco-Prêt à Taux Zéro (Éco-PTZ), **le gisement des aides territoriales demeure sous-exploité**. Pourtant, le cumul des subventions régionales, départementales, métropolitaines et l'activation des exonérations fiscales locales permettent d'abaisser le reste à charge réel jusqu'aux plafonds légaux autorisés (de 40 % à 100 % de la dépense éligible selon le profil de revenus).
 
@@ -82,7 +87,7 @@ Face à l'urgence de traiter les passoires thermiques et d'éradiquer les chaudi
 
 ### 1. La Métropole du Grand Paris (MGP)
 La Métropole du Grand Paris déploie le programme « Métropole Rénov' », ciblant prioritairement les copropriétés dégradées et les propriétaires individuels en classe F ou G :
-*   **Prime sortie du fioul :** Jusqu'à 1 500 € supplémentaires pour le remplacement d'un générateur fioul par une pompe à chaleur géothermique ou un raccordement à un réseau de chaleur urbain (RCU).
+*   **Prime sortie du fioul :** Jusqu'à 1 500 € supplémentaires pour le remplacement d'un générateur fioul par une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) géothermique ou un raccordement à un réseau de chaleur urbain (RCU).
 *   **Bonus biosourcé :** Majoration de 1 000 € dès lors que plus de 50 % de l'isolant mis en œuvre est d'origine biosourcée (fibre de bois, chanvre, ouate de cellulose certifiés ACERMI).
 
 ### 2. La Métropole de Lyon : Dispositif Éco-rénov
@@ -95,7 +100,7 @@ Le dispositif lyonnais fait figure de référence par son niveau de dotation :
 *   **Abondement sortie de passoire thermique :** Aide forfaitaire de 1 500 € à 3 000 € pour les ménages modestes et très modestes effectuant un saut d'au moins 2 classes DPE (sortie de F/G vers D minimum).
 
 ### 4. Métropole Européenne de Lille (MEL) : Prime AMELIO
-Le réseau AMELIO propose des aides directes cumulables avec l'Anah :
+Le réseau AMELIO propose des aides directes cumulables avec [l’Anah](https://www.anah.gouv.fr) :
 *   **Prime AMELIO Rénovation Globale :** Jusqu'à 4 000 € pour les propriétaires occupants sous plafonds de ressources modestes, avec une obligation de recours à un accompagnement agréé.
 *   **Bonus étiquette A ou B :** Prime exceptionnelle de 1 000 € pour l'atteinte du niveau BBC Rénovation (bâtiment basse consommation).
 
@@ -185,13 +190,17 @@ Pour cartographier l'intégralité des aides directes et indirectes de votre com
 
 ---
 
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
+
 ## Questions fréquentes
 
 ### Peut-on cumuler l'exonération de taxe foncière avec MaPrimeRénov' et les CEE ?
 Oui. L'exonération de taxe foncière (art. 1383-0 B du CGI) est un avantage fiscal territorial qui ne rentre pas dans le calcul du plafonnement d'écrêtement des subventions directes de travaux (MaPrimeRénov' et CEE). Vous pouvez donc cumuler l'intégralité de vos primes travaux avec une réduction de 50 % à 100 % de votre taxe foncière durant les 3 années suivant la fin des travaux, sous réserve que votre commune ait voté la délibération.
 
 ### Quelles sont les démarches pour obtenir l'exonération de taxe foncière après des travaux ?
-Vous devez déposer auprès de votre Centre des Finances Publiques (Service des Impôts des Particuliers) une demande sur papier libre accompagnée des factures détaillées acquittées de vos artisans RGE avant le 1er janvier de l'année suivant l'achèvement des travaux. Si les travaux ont été réglés en totalité au cours de l'année 2025, la déclaration doit être remise avant le 1er janvier 2026 pour une exonération effective sur les avis de taxes foncières 2026, 2027 et 2028.
+Vous devez déposer auprès de votre Centre des Finances Publiques (Service des Impôts des Particuliers) une demande sur papier libre accompagnée des factures détaillées acquittées de vos [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) avant le 1er janvier de l'année suivant l'achèvement des travaux. Si les travaux ont été réglés en totalité au cours de l'année 2025, la déclaration doit être remise avant le 1er janvier 2026 pour une exonération effective sur les avis de taxes foncières 2026, 2027 et 2028.
 
 ### Pourquoi le montant de ma prime nationale a-t-il été réduit après déclaration de mon aide locale ?
 Il s'agit de l'application de la règle légale d'écrêtement de l'Anah. La somme totale des aides publiques directes perçues ne peut dépasser un pourcentage précis du montant total TTC des travaux éligibles : 100 % pour les ménages très modestes (Bleu), 80 % pour les modestes (Jaune), 60 % pour les intermédiaires (Violet) et 40 % pour les ménages aux revenus supérieurs (Rose). Si le cumul de votre aide municipale/régionale et de MaPrimeRénov' franchit cette limite, l'Anah diminue proportionnellement son versement final.

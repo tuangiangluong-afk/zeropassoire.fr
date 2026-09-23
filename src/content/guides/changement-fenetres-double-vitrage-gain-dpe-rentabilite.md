@@ -1,9 +1,14 @@
 ---
-title: "Remplacement des Fenêtres : Double vs Triple Vitrage, Coefficient Uw et Gain DPE"
-description: "Guide technique et financier sur le changement de menuiseries : coefficients Uw, Ug, Sw, choix entre double et triple vitrage, dépose totale vs rénovation et impact sur le DPE."
-publishedAt: "2026-09-23"
-category: "Travaux & Isolation"
-readTime: "9 min"
+title: >-
+  Remplacement des Fenêtres : Double vs Triple Vitrage, Coefficient Uw et Gain
+  DPE
+description: >-
+  Guide technique et financier sur le changement de menuiseries : coefficients
+  Uw, Ug, Sw, choix entre double et triple vitrage, dépose totale vs rénovation
+  et impact sur le DPE.
+publishedAt: '2026-09-23'
+category: Travaux & Isolation
+readTime: 9 min
 ---
 
 # Remplacement des Fenêtres : Double vs Triple Vitrage, Coefficient Uw et Gain DPE
@@ -204,13 +209,13 @@ En posant des menuiseries modernes étanches (classe d'étanchéité à l'air **
 Conformément à l'arrêté du 24 mars 1982 relatif à l'aération des logements, le renouvellement de l'air doit être général et permanent :
 - **Obligation :** Toutes les fenêtres installées dans les **pièces principales dites sèches** (séjour, salon, chambres, bureau) doivent être équipées d'une entaille avec grille d'entrée d'air autoréglable ou hygroréglable (débits normalisés : **22 m³/h, 30 m³/h ou 45 m³/h**).
 - **Interdiction :** Aucune grille d'entrée d'air ne doit être installée sur les fenêtres des **pièces humides** (cuisine, salle de bains, WC, buanderie), ces pièces étant exclusivement équipées de bouches d'extraction VMC.
-- **Cas d'exclusion :** Les fenêtres peuvent être dépourvues de grilles uniquement si le logement est équipé d'une **VMC double flux** avec réseau d'insufflation mécanique dédié dans les pièces de vie.
+- **Cas d'exclusion :** Les fenêtres peuvent être dépourvues de grilles uniquement si le logement est équipé d'une **[VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures)** avec réseau d'insufflation mécanique dédié dans les pièces de vie.
 
 ---
 
 ## Rentabilité financière, barèmes d'aides 2026 et valorisation de l'actif
 
-Le changement de fenêtres s'inscrit au cœur des stratégies de conformité avec la **loi Climat et Résilience**, qui interdit la mise en location des logements classés G depuis le 1er janvier 2025, puis F au 1er janvier 2028 et E au 1er janvier 2034.
+Le changement de fenêtres s'inscrit au cœur des stratégies de conformité avec la **[loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)**, qui interdit la mise en location des logements classés G depuis le 1er janvier 2025, puis F au 1er janvier 2028 et E au 1er janvier 2034.
 
 ### 1. Critères d'éligibilité aux aides 2026 (Fiche CEE BAR-EN-104)
 Pour prétendre aux subventions de l'Agence Nationale de l'Habitat (Anah) et aux Certificats d'Économies d'Énergie (CEE), les menuiseries doivent justifier des performances minimales certifiées (marquage CE, certification **Acotherm** ou **Cekal**) :
@@ -220,9 +225,9 @@ Pour prétendre aux subventions de l'Agence Nationale de l'Habitat (Anah) et aux
 
 ### 2. Barèmes d'aides financières mobilisables en 2026
 
-Les barèmes MaPrimeRénov' (parcours mono-geste ou intégré au parcours accompagné d'ampleur) s'articulent selon les catégories de revenus définies par l'Anah :
+Les barèmes MaPrimeRénov' (parcours mono-geste ou intégré au parcours accompagné d'ampleur) s'articulent selon les catégories de revenus définies par [l’Anah](https://www.anah.gouv.fr) :
 
-| Profil Anah | Revenus du ménage (Ex. Île-de-France 1 pers.) | Prime par fenêtre (Mono-geste) | Prime CEE (Fiche BAR-EN-104) | Éco-PTZ & TVA 5,5 % |
+| Profil Anah | Revenus du ménage (Ex. Île-de-France 1 pers.) | Prime par fenêtre (Mono-geste) | [primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul) (Fiche BAR-EN-104) | Éco-PTZ & TVA 5,5 % |
 | :--- | :--- | :--- | :--- | :--- |
 | **Bleu** (Très modeste) | $\le 23\ 541\text{ €}$ | **100 € / équipement** | ~ 40 € à 70 € / fenêtre | Éligible (TVA 5,5 % + Éco-PTZ 0 %) |
 | **Jaune** (Modeste) | $\le 28\ 657\text{ €}$ | **80 € / équipement** | ~ 40 € à 70 € / fenêtre | Éligible (TVA 5,5 % + Éco-PTZ 0 %) |
@@ -260,6 +265,10 @@ RÉSULTAT APRÈS TRAVAUX :
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 

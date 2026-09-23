@@ -1,9 +1,14 @@
 ---
-title: "Gel des Loyers des Passoires Thermiques F et G : Règles, Calculs et Sanctions 2026"
-description: "Réglementation complète sur le gel des loyers des passoires thermiques classées F et G : interdiction IRL, relocation, renouvellement, litiges et remboursements."
-publishedAt: "2026-09-23"
-category: "Réglementation & Droit"
-readTime: "9 min"
+title: >-
+  Gel des Loyers des Passoires Thermiques F et G : Règles, Calculs et Sanctions
+  2026
+description: >-
+  Réglementation complète sur le gel des loyers des passoires thermiques
+  classées F et G : interdiction IRL, relocation, renouvellement, litiges et
+  remboursements.
+publishedAt: '2026-09-23'
+category: Réglementation & Droit
+readTime: 9 min
 ---
 
 # Gel des Loyers des Passoires Thermiques F et G : Règles, Calculs et Sanctions 2026
@@ -22,8 +27,8 @@ Pour les propriétaires bailleurs, cette mesure neutralise tout mécanisme de re
 
 Le blocage financier imposé aux passoires énergétiques repose sur une modification structurelle des règles de fixation et d'évolution des loyers du parc privé :
 
-*   **Article 159 de la loi Climat et Résilience n° 2021-1104 du 22 août 2021** : Ce texte fondamental a modifié le cadre de la loi n° 89-462 du 6 juillet 1989 tendant à améliorer les rapports locatifs.
-*   **Article 17-1 de la loi du 6 juillet 1989** : Il stipule expressément que pour les logements de la classe F ou de la classe G (au sens de l'article L. 173-1-1 du Code de la construction et de l'habitation), aucune révision de loyer ne peut être appliquée, nonobstant toute clause contractuelle contraire.
+*   **[article 159 de la loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043957083) n° 2021-1104 du 22 août 2021** : Ce texte fondamental a modifié le cadre de la loi n° 89-462 du 6 juillet 1989 tendant à améliorer les rapports locatifs.
+*   **[article 17-1 de la loi du 6 juillet 1989](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043977121)** : Il stipule expressément que pour les logements de la classe F ou de la classe G (au sens de l'article L. 173-1-1 du Code de la construction et de l'habitation), aucune révision de loyer ne peut être appliquée, nonobstant toute clause contractuelle contraire.
 *   **Territorialité et DROM** : Entré en vigueur le **24 août 2022** en France métropolitaine, le dispositif s'applique également en Guadeloupe, en Martinique, en Guyane, à La Réunion et à Mayotte depuis le **1er juillet 2024**, selon les référentiels DPE spécifiques aux climats tropicaux.
 
 Le blocage s'applique aux locations nues comme aux locations meublées à usage de résidence principale du preneur, ainsi qu'aux baux mobilité. Aucune convention privée ne peut déroger à cet ordre public de protection : toute clause prévoyant une indexation automatique sur un logement F ou G est réputée **non écrite**.
@@ -196,18 +201,22 @@ Le seul levier juridique permettant de lever le gel du loyer est d'extraire déf
 ### Exigences techniques pour la levée du gel :
 *   **Performance thermique** : Le nouveau DPE réglementaire doit attester d'une consommation en énergie primaire inférieure ou égale à **330 kWh/m²/an** (classe E au minimum, classe C ou D recommandée pour pérenniser l'actif face à l'échéance 2034).
 *   **Isolation thermique** : Mise en œuvre d'isolants performants (résistance thermique $R \ge 7\ \text{m}²\cdot\text{K/W}$ en toiture/combles, $R \ge 3,7\ \text{m}²\cdot\text{K/W}$ en façade extérieure/intérieure).
-*   **Système de chauffage/ECS** : Remplacement des convecteurs effet Joule obsolètes ou chaudières fioul/gaz par une pompe à chaleur air-eau ou air-air haut rendement (SCOP $> 4$) ou raccordement à un réseau de chaleur urbain vertueux.
+*   **Système de chauffage/ECS** : Remplacement des convecteurs effet Joule obsolètes ou chaudières fioul/gaz par une [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026) ou air-air haut rendement (SCOP $> 4$) ou raccordement à un réseau de chaleur urbain vertueux.
 *   **Menuiseries extérieures** : Pose de doubles vitrages performants présentant un coefficient de transmission thermique surfacique $Uw \le 1,3\ \text{W/m}²\cdot\text{K}$.
 
 ### Mobilisation des aides financières Anah 2026 :
 Pour financer ces travaux, le bailleur peut mobiliser plusieurs dispositifs cumulables :
 *   **MaPrimeRénov' Parcours Accompagné** : Subvention proportionnelle au montant des travaux pour les gains de 2 classes DPE ou plus (barèmes Bleu, Jaune, Violet, Rose).
 *   **Éco-PTZ Copropriété ou Individuel** : Prêt à taux zéro jusqu'à 50 000 € remboursable sur 20 ans pour les rénovations globales.
-*   **Déficit foncier doublé** : Déduction des dépenses de rénovation énergétique sur le revenu global jusqu'à **21 400 € par an** pour les logements F et G atteignant au moins la classe D après travaux.
+*   **[déficit foncier doublé à 21 400 €](/guides/deficit-foncier-double-passoire-thermique-21400-euros) doublé** : Déduction des dépenses de rénovation énergétique sur le revenu global jusqu'à **21 400 € par an** pour les logements F et G atteignant au moins la classe D après travaux.
 
 ::: cta Estimer mon reste à charge|/simulateur
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 

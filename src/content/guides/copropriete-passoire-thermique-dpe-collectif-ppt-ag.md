@@ -1,15 +1,20 @@
 ---
-title: "Passoire Thermique en Copropriété : DPE Collectif, Plan Pluriannuel (PPT) et Vote en AG"
-description: "Guide juridique et technique pour sortir une copropriété du statut de passoire thermique : calendrier du DPE collectif, PPT, fonds de travaux Alur, règles de vote en AG (art. 25-1) et subventions MaPrimeRénov' Copropriété 2026."
-publishedAt: "2026-09-23"
-category: "Copropriété"
-readTime: "11 min"
+title: >-
+  Passoire Thermique en Copropriété : DPE Collectif, Plan Pluriannuel (PPT) et
+  Vote en AG
+description: >-
+  Guide juridique et technique pour sortir une copropriété du statut de passoire
+  thermique : calendrier du DPE collectif, PPT, fonds de travaux Alur, règles de
+  vote en AG (art. 25-1) et subventions MaPrimeRénov' Copropriété 2026.
+publishedAt: '2026-09-23'
+category: Copropriété
+readTime: 11 min
 ---
 
 # Passoire Thermique en Copropriété : DPE Collectif, Plan Pluriannuel (PPT) et Vote en AG
 
 ::: callout Réponse directe
-Sortir un appartement individuel du statut de passoire thermique est quasi impossible sans intervenir sur l'enveloppe et les équipements communs de l'immeuble (isolation thermique par l'extérieur, toiture, planchers bas, régulation ou remplacement de chaufferie collective). Depuis le 1er janvier 2025 pour les copropriétés de plus de 50 lots, et depuis le 1er janvier 2026 pour l'intégralité des immeubles collectifs quel que soit leur nombre de lots, l'élaboration d'un **Diagnostic de Performance Énergétique (DPE) collectif** et d'un **Projet de Plan Pluriannuel de Travaux (PPPT)** est une obligation légale stricte issue de la loi Climat et Résilience. Le vote de ces travaux est sécurisé par la passerelle de l'article 25-1 de la loi du 10 juillet 1965, qui permet d'adopter un programme de rénovation globale à la majorité simple de l'article 24 dès lors que le projet a recueilli au moins le tiers des voix de tous les copropriétaires. En 2026, le dispositif **MaPrimeRénov’ Copropriété** finance jusqu'à 45 % du montant des travaux éligibles dans la limite d'un plafond de 25 000 € HT par lot pour les projets atteignant au moins 35 % de gain énergétique.
+Sortir un appartement individuel du statut de passoire thermique est quasi impossible sans intervenir sur l'enveloppe et les équipements communs de l'immeuble (isolation thermique par l'extérieur, toiture, planchers bas, régulation ou remplacement de chaufferie collective). Depuis le 1er janvier 2025 pour les copropriétés de plus de 50 lots, et depuis le 1er janvier 2026 pour l'intégralité des immeubles collectifs quel que soit leur nombre de lots, l'élaboration d'un **Diagnostic de Performance Énergétique (DPE) collectif** et d'un **Projet de Plan Pluriannuel de Travaux (PPPT)** est une obligation légale stricte issue de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924). Le vote de ces travaux est sécurisé par la passerelle de l'article 25-1 de la loi du 10 juillet 1965, qui permet d'adopter un programme de rénovation globale à la majorité simple de l'article 24 dès lors que le projet a recueilli au moins le tiers des voix de tous les copropriétaires. En 2026, le dispositif **MaPrimeRénov’ Copropriété** finance jusqu'à 45 % du montant des travaux éligibles dans la limite d'un plafond de 25 000 € HT par lot pour les projets atteignant au moins 35 % de gain énergétique.
 :::
 
 Pour un copropriétaire bailleur, l'interdiction progressive de mise en location des logements classés G (1er janvier 2025), F (1er janvier 2028) et E (1er janvier 2034) constitue une contrainte opérationnelle majeure. En habitat collectif, la performance thermique d'un lot privatif dépend à 70 % de la compacité de l'immeuble, de l'isolation des parties communes et du rendement des systèmes de chauffage et de production d'eau chaude sanitaire (ECS) collectifs. 
@@ -196,7 +201,7 @@ En complément du socle de base de MaPrimeRénov’ Copropriété, le dispositif
 
 L'octroi des subventions MaPrimeRénov' Copropriété est conditionné à l'intervention d'une **Assistance à Maîtrise d'Ouvrage (AMO)** indépendante, dès la phase de conception du programme de travaux. 
 
-L'Anah cofinance cette prestation d'AMO à hauteur de **50 % de son coût hors taxes**, avec un plancher fixé à 3 000 € pour les petites copropriétés et un plafond de subvention de 300 € HT par lot (ou 500 € HT par lot pour les copropriétés fragiles ou en difficulté financière).
+[l’Anah](https://www.anah.gouv.fr) cofinance cette prestation d'AMO à hauteur de **50 % de son coût hors taxes**, avec un plancher fixé à 3 000 € pour les petites copropriétés et un plafond de subvention de 300 € HT par lot (ou 500 € HT par lot pour les copropriétés fragiles ou en difficulté financière).
 
 ::: cta Estimer mon reste à charge|/simulateur
 
@@ -254,6 +259,10 @@ Modifié par la loi Climat et Résilience, l'article 20-1 de la loi du 6 juillet
 * **Étape 4 : Information du locataire** : Joindre une note explicative au bail ou au dossier de gestion locative attestant des diligences accomplies par le bailleur auprès de la copropriété et de la réalisation de l'ensemble des travaux privatifs techniquement réalisables.
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 

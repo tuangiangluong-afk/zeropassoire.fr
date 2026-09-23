@@ -1,9 +1,14 @@
 ---
-title: "ITE vs ITI : Comparatif Coût au m², Pertes de Surface, Démarches PLU et Performance DPE"
-description: "Isolation thermique par l'extérieur ou par l'intérieur ? Analyse complète des coûts au m², pertes de surface Carrez, performance DPE, démarches d'urbanisme et règles DTU 45.2."
-publishedAt: "2026-09-23"
-category: "Travaux & Isolation"
-readTime: "11 min"
+title: >-
+  ITE vs ITI : Comparatif Coût au m², Pertes de Surface, Démarches PLU et
+  Performance DPE
+description: >-
+  Isolation thermique par l'extérieur ou par l'intérieur ? Analyse complète des
+  coûts au m², pertes de surface Carrez, performance DPE, démarches d'urbanisme
+  et règles DTU 45.2.
+publishedAt: '2026-09-23'
+category: Travaux & Isolation
+readTime: 11 min
 ---
 
 # ITE vs ITI : Comparatif Coût au m², Pertes de Surface, Démarches PLU et Performance DPE
@@ -12,7 +17,7 @@ readTime: "11 min"
 L’Isolation Thermique par l’Extérieur (ITE) est la solution reine pour traiter l'intégralité des ponts thermiques de plancher et de façade sans perdre un seul mètre carré habitable, pour un coût moyen situé entre 140 € et 230 €/m² HT, tout en exigeant une déclaration préalable en mairie (DP). L’Isolation Thermique par l’Intérieur (ITI), affichée entre 70 € et 130 €/m² HT, ne modifie pas l'aspect extérieur du bâtiment mais ampute la surface habitable de 5 % à 8 % selon les épaisseurs installées, ce qui pénalise lourdement la valeur vénale du bien en zone tendue.
 :::
 
-Face aux échéances strictes de la loi Climat et Résilience — interdiction de location des passoires thermiques classées G depuis le 1er janvier 2025, puis des logements F dès le 1er janvier 2028 et des logements E au 1er janvier 2034 —, les murs constituent le second poste de déperdition thermique d'un bâtiment non isolé (20 % à 25 % des fuites de calories). Choisir entre l'ITE et l'ITI détermine non seulement le saut de classe sur le Diagnostic de Performance Énergétique (DPE), mais également l'impact patrimonial global, le confort d'été et la faisabilité juridique du chantier.
+Face aux échéances strictes de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) — [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) des passoires thermiques classées G depuis le 1er janvier 2025, puis des logements F dès le 1er janvier 2028 et des logements E au 1er janvier 2034 —, les murs constituent le second poste de déperdition thermique d'un bâtiment non isolé (20 % à 25 % des fuites de calories). Choisir entre l'ITE et l'ITI détermine non seulement le saut de classe sur le Diagnostic de Performance Énergétique (DPE), mais également l'impact patrimonial global, le confort d'été et la faisabilité juridique du chantier.
 
 ---
 
@@ -51,7 +56,7 @@ L'ITE conserve la masse lourde des murs (brique, moellon, béton) à l'intérieu
 
 ### Exigences de résistance thermique pour l'obtention des aides
 
-Pour être éligibles aux aides financières de l'Anah (MaPrimeRénov' Parcours Décroché ou Rénovation d'ampleur), aux Certificats d'Économies d'Énergie (CEE) et à l'éco-PTZ, les parois isolées doivent respecter des seuils minimaux de résistance thermique certifiés ACERMI :
+Pour être éligibles aux aides financières de [l’Anah](https://www.anah.gouv.fr) (MaPrimeRénov' Parcours Décroché ou Rénovation d'ampleur), aux Certificats d'Économies d'Énergie (CEE) et à l'éco-PTZ, les parois isolées doivent respecter des seuils minimaux de résistance thermique certifiés ACERMI :
 - **Murs en façade ou en pignon (ITE et ITI) :** $R \ge 3,7\ \text{m}^2\text{.K/W}$.
 - En pratique DPE 2026, viser $R \ge 4,0$ à $5,0\ \text{m}^2\text{.K/W}$ est recommandé pour atteindre les classes A, B ou C sans surcoût de main-d’œuvre disproportionné.
 
@@ -239,6 +244,10 @@ L'impact opérationnel d'une rénovation sur la vie quotidienne des occupants ou
 :::
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 

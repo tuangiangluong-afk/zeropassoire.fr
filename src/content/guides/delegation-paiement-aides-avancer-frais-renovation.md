@@ -1,18 +1,23 @@
 ---
-title: "Rénovation Énergétique Sans Avance de Frais : Mandataires et Prêt Avance Rénovation (PAR)"
-description: "Découvrez comment réaliser vos travaux de rénovation globale sans débourser votre trésorerie grâce à la délégation de paiement Anah et au Prêt Avance Rénovation garanti par l'État."
-publishedAt: "2026-09-23"
-category: "Aides Financières"
-readTime: "8 min"
+title: >-
+  Rénovation Énergétique Sans Avance de Frais : Mandataires et Prêt Avance
+  Rénovation (PAR)
+description: >-
+  Découvrez comment réaliser vos travaux de rénovation globale sans débourser
+  votre trésorerie grâce à la délégation de paiement Anah et au Prêt Avance
+  Rénovation garanti par l'État.
+publishedAt: '2026-09-23'
+category: Aides Financières
+readTime: 8 min
 ---
 
 # Rénovation Énergétique Sans Avance de Frais : Mandataires et Prêt Avance Rénovation (PAR)
 
 ::: callout Réponse directe
-Pour les ménages ne disposant pas de l’épargne nécessaire pour avancer 20 000 € à 40 000 € de travaux avant le versement des aides de l’Anah, deux solutions officielles existent : la délégation de paiement à un mandataire financier agréé et le Prêt Avance Rénovation (PAR), un prêt hypothécaire garanti par l’État dont le capital n’est remboursé que lors de la revente ou succession.
+Pour les ménages ne disposant pas de l’épargne nécessaire pour avancer 20 000 € à 40 000 € de travaux avant le versement des aides de [l’Anah](https://www.anah.gouv.fr), deux solutions officielles existent : la délégation de paiement à un mandataire financier agréé et le Prêt Avance Rénovation (PAR), un prêt hypothécaire garanti par l’État dont le capital n’est remboursé que lors de la revente ou succession.
 :::
 
-L'éradication des passoires thermiques, rendue impérative par le calendrier de la loi Climat et Résilience (gel des loyers depuis août 2022, interdiction de location des logements classés G au 1er janvier 2025, F au 1er janvier 2028 et E au 1er janvier 2034), impose des opérations de rénovation énergétique d'ampleur. Pour hisser un bâtiment étiqueté F ou G vers les classes C ou B du Diagnostic de Performance Énergétique (DPE), le coût des chantiers multi-postes oscille généralement entre 35 000 € et 70 000 € TTC.
+L'éradication des passoires thermiques, rendue impérative par le calendrier de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) (gel des loyers depuis août 2022, [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) des logements classés G au 1er janvier 2025, F au 1er janvier 2028 et E au 1er janvier 2034), impose des opérations de rénovation énergétique d'ampleur. Pour hisser un bâtiment étiqueté F ou G vers les classes C ou B du Diagnostic de Performance Énergétique (DPE), le coût des chantiers multi-postes oscille généralement entre 35 000 € et 70 000 € TTC.
 
 Bien que les subventions publiques (MaPrimeRénov' Parcours Accompagné, Certificats d'Économies d'Énergie - CEE, abondements des collectivités locales) puissent couvrir jusqu'à 80 % ou 90 % du montant des travaux pour les ménages aux revenus très modestes (profil Bleu de l'Anah) et modestes (profil Jaune), le principe fondamental de la comptabilité publique impose que **l'aide ne soit versée qu'après la réalisation complète des travaux et la présentation des factures acquittées**. 
 
@@ -31,7 +36,7 @@ Le processus standard d'octroi de MaPrimeRénov' repose sur un contrôle *ex-pos
 ```
 
 ### Le cycle des flux financiers sur un chantier de 50 000 €
-1. **Acompte initial (30 %) :** 15 000 € exigés par les artisans RGE au démarrage pour l'achat des isolants (R ≥ 7 m².K/W en combles, R ≥ 3,7 m².K/W sur murs ITE), des menuiseries (Uw ≤ 1,3 W/m².K) et du générateur thermodynamique (PAC air/eau avec ETAS ≥ 126 %).
+1. **Acompte initial (30 %) :** 15 000 € exigés par les [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) au démarrage pour l'achat des isolants (R ≥ 7 m².K/W en combles, R ≥ 3,7 m².K/W sur murs ITE), des menuiseries (Uw ≤ 1,3 W/m².K) et du générateur thermodynamique (PAC air/eau avec ETAS ≥ 126 %).
 2. **Appel de fonds intermédiaire (40 %) :** 20 000 € réclamés à mi-chantier selon l'avancement des lots techniques.
 3. **Solde à la réception des travaux (30 %) :** 15 000 € exigibles dès la signature du procès-verbal de réception sans réserve.
 4. **Instruction de la demande de solde Anah :** Entre 16 et 32 semaines (4 à 8 mois) pour l'instruction administrative, le contrôle de conformité par l'Agence Nationale de l'Habitat et le virement effectif sur le compte du bénéficiaire.
@@ -144,9 +149,13 @@ Pour sécuriser l'opération, appliquez scrupuleusement les règles de conformit
 ### Le verrouillage de l'attestation de fin de travaux
 En vertu du droit commun des contrats et des directives de l'Anah, le versement des aides au mandataire financier reste subordonné à la transmission de l'attestation de fin de travaux signée par le bénéficiaire. 
 
-Tant que les performances thermiques requises ne sont pas constatées (ex : absence de pont thermique sur l'ITE, mise en service et réglage de la courbe de chauffe de la pompe à chaleur, test de débit de la VMC double flux), **le particulier conserve le droit légal de retenir sa signature**. Cette rétention bloque le paiement de la subvention par l'Anah au mandataire, conférant au particulier un moyen de pression juridique direct pour exiger la levée intégrale des réserves.
+Tant que les performances thermiques requises ne sont pas constatées (ex : absence de pont thermique sur l'ITE, mise en service et réglage de la courbe de chauffe de la [pompe à chaleur (PAC) air-eau](/guides/pompe-a-chaleur-air-eau-prix-aides-consommation-2026), test de débit de la [VMC double flux vs hygroréglable](/guides/vmc-double-flux-vs-hygro-b-qualite-air-eviter-moisissures)), **le particulier conserve le droit légal de retenir sa signature**. Cette rétention bloque le paiement de la subvention par l'Anah au mandataire, conférant au particulier un moyen de pression juridique direct pour exiger la levée intégrale des réserves.
 
 ---
+
+::: callout Chiffrer votre reste à charge 2026
+Avant d’engager des devis d’artisans ou de signer un audit, évaluez précisément vos subventions publiques (MaPrimeRénov’, CEE) et votre reste à charge réel : utilisez notre [simulateur gratuit de sortie de passoire thermique](/simulateur) (calcul immédiat en 40 secondes, sans démarchage).
+:::
 
 ## Questions fréquentes
 
