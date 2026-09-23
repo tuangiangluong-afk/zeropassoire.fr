@@ -16,7 +16,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/success"],
       })),
     ],
-    sitemap: "https://zeropassoire.fr/sitemap.xml",
-    host: "https://zeropassoire.fr",
+    sitemap: "https://www.zeropassoire.fr/sitemap.xml",
+    host: "https://www.zeropassoire.fr",
   };
 }

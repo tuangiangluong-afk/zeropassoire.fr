@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     "Cadre contractuel régissant l'usage du simulateur zéropassoire.fr édité par WELINK TECH : limites de responsabilité, obligations utilisateur, médiation consommation.",
   robots: { index: true, follow: true },
-  alternates: { canonical: "https://zeropassoire.fr/cgv" },
+  alternates: { canonical: "https://www.zeropassoire.fr/cgv" },
 };
 
 export default function CGV() {

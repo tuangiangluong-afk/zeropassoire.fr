@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { getAllGuides } from "@/lib/mdx";
 
-const BASE = "https://zeropassoire.fr";
+const BASE = "https://www.zeropassoire.fr";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

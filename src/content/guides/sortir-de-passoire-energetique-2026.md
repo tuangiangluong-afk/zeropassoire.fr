@@ -17,7 +17,7 @@ readTime: 22 min
 
 Passer d'une étiquette **F ou G** à une étiquette **C ou B** au DPE exige une approche globale et ordonnée. En France, 5,3 millions de résidences principales sont des passoires énergétiques (SDES 2025). Le coût médian constaté sur les chantiers [ADEME](https://www.ademe.fr) 2024-2025 est de **32 000 € à 58 000 €HT** pour une maison individuelle (100 à 130 m²), et de **12 000 € à 24 000 €HT** pour un appartement en copropriété.
 
-Une sortie de passoire réussie divise les factures de chauffage par **2,5 à 3,8**, élimine tout risque d'[calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) et annule la décote immobilière à la revente (-6 % à -18 % selon les notaires).
+Une sortie de passoire réussie divise les factures de chauffage par **2,5 à 3,8**, élimine tout risque d'[calendrier officiel d’interdiction de location 2025-2034](/guides/interdiction-location-passoire-thermique) et annule la décote immobilière à la revente (-6 % à -18 % selon les notaires).
 
 :::
 

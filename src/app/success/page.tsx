@@ -73,11 +73,11 @@ export default function SuccessPage() {
             Il mérite les mêmes chiffres que vous.
           </p>
           <div className="flex flex-wrap gap-2 text-sm">
-            <a href={`whatsapp://send?text=${encodeURIComponent("J'ai utilisé zéropassoire.fr pour estimer mon reste à charge de sortie de passoire énergétique. Le simulateur est honnête, sans démarchage : https://zeropassoire.fr")}`}
+            <a href={`whatsapp://send?text=${encodeURIComponent("J'ai utilisé zéropassoire.fr pour estimer mon reste à charge de sortie de passoire énergétique. Le simulateur est honnête, sans démarchage : https://www.zeropassoire.fr")}`}
                className="btn-secondary !py-2 !text-sm">
               Partager sur WhatsApp
             </a>
-            <a href={`mailto:?subject=${encodeURIComponent("Un simulateur honnête pour les passoires thermiques")}&body=${encodeURIComponent("Salut,\n\nJe viens de tomber sur zéropassoire.fr, un simulateur qui donne les vrais chiffres sans te demander ton téléphone. Je me suis dit que ça pourrait te servir.\n\n→ https://zeropassoire.fr\n\nÀ plus.")}`}
+            <a href={`mailto:?subject=${encodeURIComponent("Un simulateur honnête pour les passoires thermiques")}&body=${encodeURIComponent("Salut,\n\nJe viens de tomber sur zéropassoire.fr, un simulateur qui donne les vrais chiffres sans te demander ton téléphone. Je me suis dit que ça pourrait te servir.\n\n→ https://www.zeropassoire.fr\n\nÀ plus.")}`}
                className="btn-secondary !py-2 !text-sm">
               Par email
             </a>

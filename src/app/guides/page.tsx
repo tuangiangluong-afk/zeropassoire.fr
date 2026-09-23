@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, BookOpen, Calendar, ShieldAlert, Award, FileSpreadsheet, Calculator } from "lucide-react";
 import { getAllGuides } from "@/lib/mdx";
 
-const BASE = "https://zeropassoire.fr";
+const BASE = "https://www.zeropassoire.fr";
 
 export const metadata: Metadata = {
   title: "Guides et Enquêtes DPE 2026 : Sortir de passoire énergétique",

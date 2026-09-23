@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     "Éditeur du site zéropassoire.fr : WELINK TECH, SIREN, hébergement, propriété intellectuelle, RGPD et données personnelles.",
   robots: { index: true, follow: true },
-  alternates: { canonical: "https://zeropassoire.fr/mentions-legales" },
+  alternates: { canonical: "https://www.zeropassoire.fr/mentions-legales" },
 };
 
 export default function MentionsLegales() {
@@ -18,7 +18,7 @@ export default function MentionsLegales() {
             <h2 className="font-bold text-stone-900 mb-3">1. Éditeur du site</h2>
             <p className="text-stone-700 mb-3">
               Le présent site, accessible à l'adresse{" "}
-              <strong>https://zeropassoire.fr</strong> (le «&nbsp;Site&nbsp;»), est édité par la société{" "}
+              <strong>https://www.zeropassoire.fr</strong> (le «&nbsp;Site&nbsp;»), est édité par la société{" "}
               <strong>WELINK TECH</strong>, ci-après «&nbsp;l'Éditeur&nbsp;».
             </p>
             <ul className="text-stone-700 space-y-1">

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Mail, Clock, ShieldCheck, ArrowRight, BookOpen, Calculator, Scale } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 
-const BASE_URL = "https://zeropassoire.fr";
+const BASE_URL = "https://www.zeropassoire.fr";
 
 export const metadata: Metadata = {
   title: "Contact & Assistance — Zéro Passoire",

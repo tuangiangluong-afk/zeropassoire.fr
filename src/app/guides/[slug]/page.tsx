@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, Calculator } from "lucide-react";
 import { getAllGuides, getGuideBySlug } from "@/lib/mdx";
 
-const BASE = "https://zeropassoire.fr";
+const BASE = "https://www.zeropassoire.fr";
 
 export async function generateStaticParams() {
   return getAllGuides().map((g) => ({ slug: g.slug }));

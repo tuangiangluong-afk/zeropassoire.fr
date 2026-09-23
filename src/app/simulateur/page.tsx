@@ -7,16 +7,16 @@ export const metadata: Metadata = {
   title: "Simulateur sortie de passoire énergétique 2026 — Reste à charge & Aides",
   description:
     "Combien coûte la sortie d'un DPE F ou G ? Simulateur indépendant basé sur les barèmes MaPrimeRénov' et CEE 2026. Résultat gratuit immédiat, sans email requis.",
-  alternates: { canonical: "https://zeropassoire.fr/simulateur" },
+  alternates: { canonical: "https://www.zeropassoire.fr/simulateur" },
   openGraph: {
     title: "Simulateur officiel de sortie de passoire énergétique 2026",
     description: "Chiffrez en 40 secondes votre reste à charge, vos aides MPR/CEE et votre saut de classe DPE.",
-    url: "https://zeropassoire.fr/simulateur",
+    url: "https://www.zeropassoire.fr/simulateur",
     images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Simulateur Zéro Passoire" }],
   },
 };
 
-const BASE_URL = "https://zeropassoire.fr";
+const BASE_URL = "https://www.zeropassoire.fr";
 
 const SIMULATOR_FAQS = [
   {

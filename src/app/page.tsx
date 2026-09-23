@@ -435,9 +435,9 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebApplication",
-            "@id": "https://zeropassoire.fr/#app",
+            "@id": "https://www.zeropassoire.fr/#app",
             name: "Simulateur Zéro Passoire — Coût de sortie de passoire énergétique 2026",
-            url: "https://zeropassoire.fr/#simulateur",
+            url: "https://www.zeropassoire.fr/#simulateur",
             applicationCategory: "UtilitiesApplication",
             operatingSystem: "All",
             browserRequirements: "Requires JavaScript. Requires HTML5.",
@@ -455,7 +455,7 @@ export default function HomePage() {
               "Calcul de la durée de rentabilité et amortissement mensuel",
               "Vérification des échéances d'interdiction de location 2025, 2028, 2034",
             ],
-            provider: { "@id": "https://zeropassoire.fr/#organization" },
+            provider: { "@id": "https://www.zeropassoire.fr/#organization" },
           }),
         }}
       />
@@ -465,7 +465,7 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "@id": "https://zeropassoire.fr/#faq",
+            "@id": "https://www.zeropassoire.fr/#faq",
             mainEntity: HOME_FAQ.map((f) => ({
               "@type": "Question",
               name: f.q,
@@ -480,13 +480,13 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
-            "@id": "https://zeropassoire.fr/#breadcrumb",
+            "@id": "https://www.zeropassoire.fr/#breadcrumb",
             itemListElement: [
               {
                 "@type": "ListItem",
                 position: 1,
                 name: "Accueil",
-                item: "https://zeropassoire.fr",
+                item: "https://www.zeropassoire.fr",
               },
             ],
           }),
@@ -498,25 +498,25 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "@id": "https://zeropassoire.fr/#webpage",
-            url: "https://zeropassoire.fr",
+            "@id": "https://www.zeropassoire.fr/#webpage",
+            url: "https://www.zeropassoire.fr",
             name: "Zéro Passoire — simulateur indépendant de coût de sortie de passoire énergétique",
             description: "Simulateur gratuit, sans téléphone obligatoire, basé sur les barèmes officiels MaPrimeRénov', CEE et ADEME 2026. Découvrez combien coûte vraiment la sortie d'un DPE F ou G.",
             inLanguage: "fr-FR",
-            isPartOf: { "@id": "https://zeropassoire.fr/#website" },
-            about: { "@id": "https://zeropassoire.fr/#organization" },
-            breadcrumb: { "@id": "https://zeropassoire.fr/#breadcrumb" },
+            isPartOf: { "@id": "https://www.zeropassoire.fr/#website" },
+            about: { "@id": "https://www.zeropassoire.fr/#organization" },
+            breadcrumb: { "@id": "https://www.zeropassoire.fr/#breadcrumb" },
             speakable: {
               "@type": "SpeakableSpecification",
               cssSelector: ["h1", "h1 + p", "#simulateur h2", "#simulateur h2 + p"],
             },
             hasPart: [
-              { "@id": "https://zeropassoire.fr/#breadcrumb" },
-              { "@id": "https://zeropassoire.fr/#faq" },
-              { "@id": "https://zeropassoire.fr/#service" },
-              { "@id": "https://zeropassoire.fr/#app" },
+              { "@id": "https://www.zeropassoire.fr/#breadcrumb" },
+              { "@id": "https://www.zeropassoire.fr/#faq" },
+              { "@id": "https://www.zeropassoire.fr/#service" },
+              { "@id": "https://www.zeropassoire.fr/#app" },
             ],
-            primaryImageOfPage: "https://zeropassoire.fr/opengraph-image.png",
+            primaryImageOfPage: "https://www.zeropassoire.fr/opengraph-image.png",
           }),
         }}
       />
@@ -526,11 +526,11 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "@id": "https://zeropassoire.fr/#service",
+            "@id": "https://www.zeropassoire.fr/#service",
             serviceType: "Simulateur de coût de sortie de passoire énergétique",
             name: "Simulateur Zéro Passoire",
             description: "Estimation indicative du coût de travaux de rénovation énergétique (DPE F ou G vers C), incluant MaPrimeRénov', CEE, TVA 5,5 % et PTZ. Résultat immédiat, sans email requis.",
-            provider: { "@id": "https://zeropassoire.fr/#organization" },
+            provider: { "@id": "https://www.zeropassoire.fr/#organization" },
             areaServed: { "@type": "Country", name: "France" },
             availableLanguage: "fr",
             offers: {
@@ -538,7 +538,7 @@ export default function HomePage() {
               price: "0",
               priceCurrency: "EUR",
               availability: "https://schema.org/InStock",
-              url: "https://zeropassoire.fr/simulateur",
+              url: "https://www.zeropassoire.fr/simulateur",
               validFor: "P1Y",
             },
           }),

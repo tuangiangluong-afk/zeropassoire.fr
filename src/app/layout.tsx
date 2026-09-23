@@ -17,7 +17,7 @@ const grotesk = Space_Grotesk({
   display: "swap",
 });
 
-const BASE_URL = "https://zeropassoire.fr";
+const BASE_URL = "https://www.zeropassoire.fr";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     "Comment WELINK TECH collecte, utilise et protège les données personnelles transmises via le simulateur zéropassoire.fr. RGPD, droits, durée de conservation.",
   robots: { index: true, follow: true },
-  alternates: { canonical: "https://zeropassoire.fr/politique-confidentialite" },
+  alternates: { canonical: "https://www.zeropassoire.fr/politique-confidentialite" },
 };
 
 export default function PolitiqueConfidentialite() {

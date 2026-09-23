@@ -34,7 +34,7 @@ Sur le plan de la méthode de calcul DPE (moteur 3CL), le coefficient de transmi
 
 Faire chuter un $U_{\text{toit}}$ de $2{,}5\ \text{W/m}^2\cdot\text{K}$ (plancher nu ou laine minérale détruite) à moins de $0{,}14\ \text{W/m}^2\cdot\text{K}$ ($R \ge 7{,}0\ \text{m}^2\cdot\text{K/W}$) permet régulièrement de faire gagner **une à deux classes énergétiques complètes** à un logement classé F ou G, le repositionnant hors du périmètre des interdictions de louer de la [loi Climat et Résilience](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924) :
 * **1er janvier 2025** : gel et interdiction de mise en location des logements classés G ($> 420\ \text{kWh/m}^2/\text{an}$).
-* **1er janvier 2028** : [calendrier officiel d’interdiction de location 2025-2034](/guides/calendrier-interdiction-location-passoire-thermique-2025-2034) étendue à l'ensemble de la classe F ($> 330\ \text{kWh/m}^2/\text{an}$).
+* **1er janvier 2028** : [calendrier officiel d’interdiction de location 2025-2034](/guides/interdiction-location-passoire-thermique) étendue à l'ensemble de la classe F ($> 330\ \text{kWh/m}^2/\text{an}$).
 * **1er janvier 2034** : extension programmée à la classe E ($> 250\ \text{kWh/m}^2/\text{an}$).
 
 Au regard du ratio « investissement financier / gain de kWh EP », l'isolation des combles présente le retour sur investissement le plus rapide de la rénovation énergétique : entre 2 et 4 ans en combles perdus, contre 8 à 15 ans pour une Isolation Thermique par l'Extérieur (ITE) des murs de façade.
