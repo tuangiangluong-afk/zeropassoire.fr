@@ -7,9 +7,43 @@ export const runtime = "nodejs";
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 const PHONE_RE = /^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.\-]*\d{2}){4}$/;
 
-// Le frontend (LeadCaptureCard + ContactForm) envoie en snake_case.
-// On accepte aussi camelCase pour curl manuel / intégrations tierces.
+// In-memory sliding window rate limiter : 5 soumissions par IP toutes les 15 minutes.
+const ipHits = new Map<string, { count: number; resetAt: number }>();
+function checkRateLimit(ip: string, maxRequests = 5, windowMs = 15 * 60 * 1000): boolean {
+  const now = Date.now();
+  // Nettoyage régulier pour éviter la fuite mémoire
+  if (ipHits.size > 2000) {
+    for (const [key, val] of ipHits.entries()) {
+      if (now > val.resetAt) ipHits.delete(key);
+    }
+  }
+
+  const entry = ipHits.get(ip);
+  if (!entry || now > entry.resetAt) {
+    ipHits.set(ip, { count: 1, resetAt: now + windowMs });
+    return true;
+  }
+  if (entry.count >= maxRequests) {
+    return false;
+  }
+  entry.count += 1;
+  return true;
+}
+
 export async function POST(req: NextRequest) {
+  // Extraction IP client
+  const clientIp =
+    req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+    req.headers.get("x-real-ip") ||
+    "127.0.0.1";
+
+  if (!checkRateLimit(clientIp)) {
+    return NextResponse.json(
+      { error: "rate_limit_exceeded", message: "Trop de requêtes. Veuillez patienter avant de soumettre à nouveau." },
+      { status: 429 }
+    );
+  }
+
   let body: any;
   try {
     body = await req.json();
@@ -82,7 +116,8 @@ export async function POST(req: NextRequest) {
     event_name: "lead_submitted",
     properties: {
       lead_id: data.id,
-      classe: (simulation as any).classe ?? null,
+      classe: (simulation as any).input?.classe ?? (simulation as any).classe ?? null,
+      statut: (simulation as any).input?.statut ?? null,
       kind: (simulation as any).kind ?? "simulator",
       consent_callback: consentCallback,
       consent_newsletter: consentNewsletter,

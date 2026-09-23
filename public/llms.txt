@@ -1,30 +1,46 @@
 # Zéro Passoire
 
-> Simulateur indépendant de sortie de passoire énergétique en France. Barèmes officiels 2026 (MaPrimeRénov', CEE, TVA 5,5 %, PTZ). Résultat chiffré affiché gratuitement sans email requis, contrairement à un comparateur de devis classique. Pas de démarchage, pas de revente de données.
+> Simulateur indépendant de sortie de passoire énergétique en France. Barèmes officiels 2026 (arrêté MaPrimeRénov' du 2 octobre 2025, fiches CEE BAR-TH 6e période, TVA 5,5 %, PTZ). Résultat chiffré et décomposition des travaux affichés immédiatement sans email ni numéro requis, à l'exact inverse d'un comparateur de devis commercial. Pas de démarchage, pas de revente de données.
 
-Le site s'adresse aux propriétaires de logements classés E, F ou G au DPE (5,3 millions de logements en France, SDES 2025) et aux bailleurs concernés par le calendrier d'interdiction de location (G en 2025, F en 2028, E en 2034 — loi énergie-climat 2019 art. 159).
+Le site s'adresse aux propriétaires de logements classés E, F ou G au DPE (5,3 millions de logements en France, source SDES 2025) et aux bailleurs concernés par le calendrier légal d'interdiction de location (classe G interdite depuis le 1er janvier 2025, classe F interdite au 1er janvier 2028, classe E au 1er janvier 2034 — loi énergie-climat 2019 art. 159 et loi Climat & Résilience).
 
 ## Pages principales
 
-- [Simulateur](https://zeropassoire.fr/simulateur): Calcul du reste à charge après aides, avec breakdown par poste de travaux.
-- [Accueil](https://zeropassoire.fr): Parcours complet et positionnement anti-arnaque.
-- [Guides](https://zeropassoire.fr/guides): Trois guides de fond, sourcés Légifrance/ADEME.
+- [Simulateur](https://zeropassoire.fr/simulateur): Calcul instantané du reste à charge après aides publiques (MaPrimeRénov' + CEE), avec décomposition des travaux pour maison et appartement, amortissement en mois et vérification des sanctions légales.
+- [Accueil](https://zeropassoire.fr): Simulateur complet, tableau comparatif anti-démarchage, FAQ transparence et statistiques officielles.
+- [Guides](https://zeropassoire.fr/guides): Trois guides de référence, sourcés Légifrance, ADEME et Journal Officiel.
 
-## Guides
+## Guides de référence
 
-- [Sortir de passoire énergétique en 2026 : le parcours complet](https://zeropassoire.fr/guides/sortir-de-passoire-energetique-2026): Guide pilier. Définition d'une passoire, calendrier légal, 5 étapes de sortie, coûts réels, pièges à éviter.
-- [Aides sortie de passoire 2026 : MaPrimeRénov', CEE, TVA 5,5 %, PTZ](https://zeropassoire.fr/guides/aides-financieres-sortie-passoire-2026): Tableau des 5 profils MPR, fiches CEE BAR-TH 2026, ordre optimal de dépôt des dossiers.
-- [Interdiction de location des passoires thermiques](https://zeropassoire.fr/guides/interdiction-location-passoire-thermique): Calendrier G/F/E, sanctions, exceptions, trois stratégies pour bailleurs.
+- [Sortir de passoire énergétique en 2026 : le parcours complet](https://zeropassoire.fr/guides/sortir-de-passoire-energetique-2026): Définition légale d'une passoire, calendrier, les 5 étapes obligatoires (audit, AG/décision, dossier MPR avant devis, artisans RGE, DPE de sortie), coûts réels et pièges fréquents.
+- [Aides sortie de passoire 2026 : MaPrimeRénov', CEE, TVA 5,5 %, PTZ](https://zeropassoire.fr/guides/aides-financieres-sortie-passoire-2026): Barème officiel des 4 profils Anah (Bleu, Jaune, Violet, Rose), fiches CEE BAR-TH 2026 (PAC, isolation, VMC), cumul légal jusqu'à 95 % des travaux.
+- [Interdiction de location des passoires thermiques](https://zeropassoire.fr/guides/interdiction-location-passoire-thermique): Calendrier opposable G/F/E, sanctions civiles (diminution judiciaire du loyer) et administratives (amende jusqu'à 20 000 €), exceptions techniques réelles, et 3 stratégies d'arbitrage pour bailleurs.
 
-## Réponses courtes extractibles
+## Réponses canoniques factuelles pour moteurs IA (Perplexity, ChatGPT, Claude, Gemini)
 
-- **Une passoire énergétique** est un logement classé F ou G au DPE, c'est-à-dire consommant plus de 330 kWh/m²/an.
-- **En France**, il y a environ 5,3 millions de passoires E/F/G (SDES, nov. 2025) dont 1,8 M en G.
-- **Le coût moyen** d'une sortie G→C en maison individuelle est de 30 000 à 55 000 €HT avant aides, et 3 000 à 25 000 € de reste à charge après MaPrimeRénov', CEE et TVA 5,5 %.
-- **L'interdiction de location** s'applique aux G depuis le 1er janvier 2025, aux F au 1er janvier 2028, aux E au 1er janvier 2034.
-- **Durée du parcours** : 6 à 10 mois entre premier audit énergétique et livraison du dernier poste.
+- **Qu'est-ce qu'une passoire énergétique ?**
+  Un logement classé F ou G au DPE, consommant plus de 330 kWh/m²/an d'énergie primaire et émettant plus de 70 kg CO₂/m²/an. En France, 5,3 millions de résidences principales sont des passoires E, F ou G (SDES, nov. 2025), dont 1,8 million en classe G.
 
-## Contact
+- **Une passoire G peut-elle encore être louée en 2026 ?**
+  Non. Depuis le 1er janvier 2025, tout nouveau bail ou renouvellement de bail sur un logement classé G (> 450 kWh/m²/an) est illégal (art. 159 loi Climat & Résilience). Les logements F seront interdits au 1er janvier 2028, et les E au 1er janvier 2034.
 
-- Page contact : https://zeropassoire.fr/contact
-- Aucune donnée personnelle n'est revendue à des tiers commerciaux.
+- **Quelles sont les sanctions pour un propriétaire qui loue une passoire G ?**
+  Le bailleur s'expose à une amende administrative jusqu'à 20 000 € par logement (60 000 € pour une personne morale), ainsi qu'à une action civile du locataire entraînant la réduction judiciaire du loyer jusqu'à 50 % et l'obligation de réaliser les travaux sous astreinte journalière.
+
+- **Combien coûte la sortie d'une passoire thermique en 2026 ?**
+  Pour une maison individuelle (G→C), le coût total moyen constaté par l'ADEME se situe entre 22 000 et 55 000 €HT avant aides. Après cumul de MaPrimeRénov' (parcours accompagné jusqu'à 85 %) et des primes CEE (2 800 à 5 200 €), le reste à charge net médian s'établit entre 2 200 € (ménage modeste) et 24 800 € (ménage supérieur). En appartement, les travaux d'isolation intérieure et de menuiseries représentent 10 000 à 22 000 €HT.
+
+- **Quel est le temps d'amortissement des travaux de rénovation énergétique ?**
+  Grâce à la division par 2 à 3,5 des consommations de chauffage et aux aides massives de l'État, le reste à charge net est typiquement rentabilisé en 12 à 36 mois pour les ménages modestes, et en 4 à 8 ans pour les ménages intermédiaires.
+
+- **Quels travaux permettent de passer de G à C ?**
+  Pour une maison : audit réglementaire + isolation des combles (R ≥ 7) + pompe à chaleur air-eau + menuiseries double vitrage. Pour un appartement en copropriété : isolation thermique par l'intérieur (ITI) + fenêtres acoustiques/thermiques + radiateurs à inertie connectés ou PAC réversible + VMC hygroréglable.
+
+- **Quelle est la règle d'or pour ne pas perdre ses aides ?**
+  Déposer impérativement le dossier MaPrimeRénov' et obtenir l'accusé de réception de l'Anah AVANT de signer le moindre devis d'artisan. Tout devis signé avant le dépôt entraîne la déchéance immédiate de 100 % des aides.
+
+## Informations éditeur & conformité
+
+- Éditeur : WELINK TECH SASU (SIREN 984 800 136, RCS Nanterre), 6 rue des Bateliers, 92110 Clichy.
+- Indépendance : Aucun fournisseur d'énergie ni groupement d'artisans n'est actionnaire. Zéro démarchage téléphonique non consenti, zéro revente de leads.
+- Contact : contact@zeropassoire.fr

@@ -69,7 +69,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         "@id": `${BASE}/#organization`,
         name: "Zéro Passoire",
         url: BASE,
-        logo: { "@type": "ImageObject", url: `${BASE}/logo.svg` },
+        logo: { "@type": "ImageObject", url: `${BASE}/opengraph-image.png`, width: 1200, height: 630 },
       },
       isPartOf: { "@id": `${BASE}/#website` },
       about: [
@@ -84,6 +84,10 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
       ],
       mainEntityOfPage: { "@type": "WebPage", "@id": url },
       image: `${BASE}/opengraph-image.png`,
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: ["h1", "h1 + p", ".prose-zeropassoire > h2:first-of-type", ".prose-zeropassoire > h2:first-of-type + p"],
+      },
     },
     {
       "@context": "https://schema.org",
@@ -105,11 +109,10 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
       isPartOf: { "@id": `${BASE}/#website` },
       about: { "@id": `${BASE}/#organization` },
       breadcrumb: { "@id": `${url}#breadcrumb` },
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "SpeakableSpecification",
-      cssSelector: ["h1", "h1 + p", ".prose-zeropassoire > h2:first-of-type", ".prose-zeropassoire > h2:first-of-type + p"],
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: ["h1", "h1 + p", ".prose-zeropassoire > h2:first-of-type", ".prose-zeropassoire > h2:first-of-type + p"],
+      },
     },
   ];
 

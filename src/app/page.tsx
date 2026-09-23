@@ -90,32 +90,49 @@ export default function HomePage() {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 rounded-full bg-brand-900/60 border border-brand-700/50 px-4 py-1.5 text-xs font-semibold text-brand-100 mb-6">
-              <Sparkles size={14} /> Simulateur ind&eacute;pendant &middot; Bar&egrave;mes officiels 2026
+              <Sparkles size={14} /> Simulateur indépendant &middot; Barèmes officiels 2026
             </div>
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
-              Votre maison est une{" "}
+              Votre logement est classé{" "}
               <span className="relative">
-                <span className="relative z-10">passoire &eacute;nerg&eacute;tique</span>
+                <span className="relative z-10">passoire thermique</span>
                 <span className="absolute bottom-1 left-0 right-0 h-3 bg-alert-500/30 z-0" />
               </span>
-              &nbsp;? On vous dit combien &ccedil;a co&ucirc;te d'en sortir.
+              &nbsp;? On chiffre votre sortie de F ou G.
             </h1>
             <p className="mt-6 text-lg text-stone-200 leading-relaxed max-w-2xl">
-              Vrais chiffres, aides &agrave; jour (MaPrimeR&eacute;nov', CEE, TVA&nbsp;5,5&nbsp;%), reste &agrave; charge estim&eacute;.
-              <strong className="text-white"> Sans laisser votre t&eacute;l&eacute;phone.</strong> Sans démarchage. Sans revente de vos coordonn&eacute;es.
+              Chaque poste est pondéré et rattaché à son texte officiel : arrêté MaPrimeRénov' du 2 octobre 2025, fiches CEE 6e période et coûts réels ADEME.
+              En 40 secondes : <strong className="text-white">votre reste à charge net, vos aides déduites, votre délai d'amortissement</strong> et vos obligations légales.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="#simulateur" className="btn-primary">
-                Estimer mon reste &agrave; charge <ChevronDown size={18} />
+                Estimer mon reste à charge <ChevronDown size={18} />
               </Link>
               <Link href="/guides" className="btn-secondary !border-stone-600 !text-white !bg-transparent hover:!bg-stone-800">
                 Lire les guides
               </Link>
             </div>
-            <div className="mt-8 flex flex-wrap gap-4 text-xs text-stone-300">
-              <Badge>✓ Aucun numéro obligatoire</Badge>
-              <Badge>✓ Résultat affiché tout de suite</Badge>
-              <Badge>✓ Sources Légifrance &amp; ADEME</Badge>
+            <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs font-mono text-stone-200">
+              <div className="flex items-center gap-2 p-2.5 rounded-xl bg-stone-800/80 border border-stone-700">
+                <span className="text-emerald-400 font-bold">✓</span>
+                <span>Arrêté 2 oct. 2025 · MPR 2026</span>
+              </div>
+              <div className="flex items-center gap-2 p-2.5 rounded-xl bg-stone-800/80 border border-stone-700">
+                <span className="text-emerald-400 font-bold">✓</span>
+                <span>Fiches CEE BAR-TH 6e période</span>
+              </div>
+              <div className="flex items-center gap-2 p-2.5 rounded-xl bg-stone-800/80 border border-stone-700">
+                <span className="text-emerald-400 font-bold">✓</span>
+                <span>Médianes chantiers ADEME</span>
+              </div>
+              <div className="flex items-center gap-2 p-2.5 rounded-xl bg-stone-800/80 border border-stone-700">
+                <span className="text-emerald-400 font-bold">✓</span>
+                <span>0 appel · 0 donnée revendue</span>
+              </div>
+            </div>
+            <div className="mt-3 text-xs text-stone-400 flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+              <span>Barèmes vérifiés et à jour au 23 septembre 2026 &middot; Sans inscription ni email requis</span>
             </div>
           </div>
 
@@ -362,8 +379,28 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "SpeakableSpecification",
-            cssSelector: ["h1", "h1 + p", "#simulateur h2", "#simulateur h2 + p"],
+            "@type": "WebApplication",
+            "@id": "https://zeropassoire.fr/#app",
+            name: "Simulateur Zéro Passoire — Coût de sortie de passoire énergétique 2026",
+            url: "https://zeropassoire.fr/#simulateur",
+            applicationCategory: "UtilitiesApplication",
+            operatingSystem: "All",
+            browserRequirements: "Requires JavaScript. Requires HTML5.",
+            offers: {
+              "@type": "Offer",
+              price: "0",
+              priceCurrency: "EUR",
+              availability: "https://schema.org/InStock",
+            },
+            featureList: [
+              "Calcul du reste à charge net après aides publiques",
+              "Barèmes officiels MaPrimeRénov' 2026 (arrêté du 2 oct. 2025)",
+              "Primes CEE 6e période 2026 par zone climatique H1/H2/H3",
+              "Décomposition des postes de travaux pour maison et appartement",
+              "Calcul de la durée de rentabilité et amortissement mensuel",
+              "Vérification des échéances d'interdiction de location 2025, 2028, 2034",
+            ],
+            provider: { "@id": "https://zeropassoire.fr/#organization" },
           }),
         }}
       />
@@ -395,7 +432,15 @@ export default function HomePage() {
             inLanguage: "fr-FR",
             isPartOf: { "@id": "https://zeropassoire.fr/#website" },
             about: { "@id": "https://zeropassoire.fr/#organization" },
-            hasPart: [{ "@id": "https://zeropassoire.fr/#faq" }, { "@id": "https://zeropassoire.fr/#service" }],
+            speakable: {
+              "@type": "SpeakableSpecification",
+              cssSelector: ["h1", "h1 + p", "#simulateur h2", "#simulateur h2 + p"],
+            },
+            hasPart: [
+              { "@id": "https://zeropassoire.fr/#faq" },
+              { "@id": "https://zeropassoire.fr/#service" },
+              { "@id": "https://zeropassoire.fr/#app" },
+            ],
             primaryImageOfPage: "https://zeropassoire.fr/opengraph-image.png",
           }),
         }}

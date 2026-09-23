@@ -16,11 +16,21 @@ type SimulationPayload = {
   [k: string]: unknown;
 };
 
+function escapeHtml(str: unknown): string {
+  if (str === null || str === undefined) return "";
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
 function fmtMoney(v: unknown): string {
   if (typeof v === "number" && Number.isFinite(v)) {
     return v.toLocaleString("fr-FR", { maximumFractionDigits: 0 }) + " €";
   }
-  return String(v ?? "");
+  return escapeHtml(v);
 }
 
 function isMoneyKey(k: string): boolean {
@@ -31,18 +41,33 @@ function renderKV(obj: Record<string, unknown> | undefined): string {
   if (!obj) return "";
   return Object.entries(obj)
     .map(([k, v]) => {
-      const display =
-        typeof v === "object" ? JSON.stringify(v) : isMoneyKey(k) ? fmtMoney(v) : String(v ?? "");
-      return `<tr><td style="padding:6px 10px;border-bottom:1px solid #eee;color:#57534e;font-weight:600;text-transform:capitalize">${k.replace(/_/g, " ")}</td><td style="padding:6px 10px;border-bottom:1px solid #eee;color:#1c1917">${display}</td></tr>`;
+      let display = "";
+      if (typeof v === "object" && v !== null) {
+        display = escapeHtml(JSON.stringify(v));
+      } else if (isMoneyKey(k)) {
+        display = fmtMoney(v);
+      } else {
+        display = escapeHtml(v);
+      }
+      const safeKey = escapeHtml(k.replace(/_/g, " "));
+      return `<tr><td style="padding:6px 10px;border-bottom:1px solid #eee;color:#57534e;font-weight:600;text-transform:capitalize">${safeKey}</td><td style="padding:6px 10px;border-bottom:1px solid #eee;color:#1c1917">${display}</td></tr>`;
     })
     .join("");
 }
 
 function buildLeadEmailHtml(email: string, sim: SimulationPayload): string {
   const isContact = sim.kind === "contact";
+  const safeEmail = escapeHtml(email);
+
   if (isContact) {
-    return `<div style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;max-width:560px;margin:0 auto;color:#1c1917"><h2 style="color:#065f46;margin:0 0 8px">Nouveau message via zeropassoire.fr</h2><p style="color:#57534e;margin:0 0 16px">De : <strong>${email}</strong></p><div style="background:#fafaf9;border-left:3px solid #059669;padding:14px 18px;border-radius:6px;white-space:pre-wrap">${(sim.message || "").replace(/</g, "&lt;")}</div></div>`;
+    const safeMsg = escapeHtml(sim.message || "");
+    return `<div style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;max-width:560px;margin:0 auto;color:#1c1917">
+      <h2 style="color:#065f46;margin:0 0 8px">Nouveau message via zeropassoire.fr</h2>
+      <p style="color:#57534e;margin:0 0 16px">De : <strong>${safeEmail}</strong></p>
+      <div style="background:#fafaf9;border-left:3px solid #059669;padding:14px 18px;border-radius:6px;white-space:pre-wrap">${safeMsg}</div>
+    </div>`;
   }
+
   return `<div style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;max-width:600px;margin:0 auto;color:#1c1917">
       <div style="background:#065f46;color:#fff;padding:18px 22px;border-radius:8px 8px 0 0">
         <div style="font-size:12px;letter-spacing:2px;text-transform:uppercase;opacity:.85">Zéro Passoire</div>
@@ -89,11 +114,11 @@ export async function sendLeadEmail(input: {
     subject: isContact
       ? `Nouveau message de contact — ${input.email}`
       : `Nouveau lead — ${input.email}`,
-    html: `<p><strong>Email&nbsp;:</strong> ${input.email}</p>
-      <p><strong>Téléphone&nbsp;:</strong> ${input.phone || "—"}</p>
+    html: `<p><strong>Email&nbsp;:</strong> ${escapeHtml(input.email)}</p>
+      <p><strong>Téléphone&nbsp;:</strong> ${escapeHtml(input.phone || "—")}</p>
       <p><strong>Consentement rappel&nbsp;:</strong> ${input.consentCallback ? "oui" : "non"}</p>
-      <p><strong>Lead ID&nbsp;:</strong> ${input.leadId ?? "—"}</p>
-      <pre style="background:#fafaf9;padding:12px;border-radius:6px;font-size:12px;overflow:auto">${JSON.stringify(input.simulation, null, 2)}</pre>`,
+      <p><strong>Lead ID&nbsp;:</strong> ${escapeHtml(input.leadId ?? "—")}</p>
+      <pre style="background:#fafaf9;padding:12px;border-radius:6px;font-size:12px;overflow:auto">${escapeHtml(JSON.stringify(input.simulation, null, 2))}</pre>`,
   });
 
   try {

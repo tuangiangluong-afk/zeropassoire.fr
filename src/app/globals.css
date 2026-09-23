@@ -33,3 +33,26 @@
 .prose-zeropassoire :where(td) { @apply p-3 border border-stone-200 align-top; }
 .prose-zeropassoire :where(ul), .prose-zeropassoire :where(ol) { @apply my-4 pl-6 space-y-2 text-stone-700; }
 .prose-zeropassoire :where(strong) { @apply text-stone-900 font-semibold; }
+
+/* Print styling for direct PDF generation */
+@media print {
+  header, footer, nav, .print\\:hidden, #mobile-sticky, [aria-hidden="true"] {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt;
+  }
+  .card {
+    border: 1px solid #d6d3d1 !important;
+    box-shadow: none !important;
+    break-inside: avoid;
+  }
+  .bg-stone-900 {
+    background: #1c1917 !important;
+    color: #ffffff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
