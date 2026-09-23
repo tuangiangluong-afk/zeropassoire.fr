@@ -472,6 +472,24 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "@id": "https://zeropassoire.fr/#breadcrumb",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Accueil",
+                item: "https://zeropassoire.fr",
+              },
+            ],
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "WebPage",
             "@id": "https://zeropassoire.fr/#webpage",
             url: "https://zeropassoire.fr",
@@ -480,11 +498,13 @@ export default function HomePage() {
             inLanguage: "fr-FR",
             isPartOf: { "@id": "https://zeropassoire.fr/#website" },
             about: { "@id": "https://zeropassoire.fr/#organization" },
+            breadcrumb: { "@id": "https://zeropassoire.fr/#breadcrumb" },
             speakable: {
               "@type": "SpeakableSpecification",
               cssSelector: ["h1", "h1 + p", "#simulateur h2", "#simulateur h2 + p"],
             },
             hasPart: [
+              { "@id": "https://zeropassoire.fr/#breadcrumb" },
               { "@id": "https://zeropassoire.fr/#faq" },
               { "@id": "https://zeropassoire.fr/#service" },
               { "@id": "https://zeropassoire.fr/#app" },
