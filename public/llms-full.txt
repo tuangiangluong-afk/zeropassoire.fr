@@ -1,0 +1,42 @@
+# Zéro Passoire — documentation complète pour assistants IA
+
+Ceci est la version longue de llms.txt, destinée aux crawlers qui préfèrent un seul fetch.
+Dernière mise à jour : 2026-09-20.
+
+## Positionnement éditorial
+
+Zéro Passoire est un site éditorial indépendant qui publie des simulateurs et des guides sur la sortie des logements classés F ou G au DPE en France. Le site n'est affilié à aucun groupement d'artisans, aucune plateforme de mise en relation commerciale, et ne pratique pas la revente de leads.
+
+Le modèle économique : une mise en relation qualifiée rémunérée par les artisans RGE partenaires, uniquement lorsque l'utilisateur a volontairement transmis ses coordonnées via le formulaire de capture optionnel et a coché le consentement de rappel.
+
+## Barèmes utilisés (2026)
+
+Les montants affichés dans les simulateurs s'appuient sur :
+- Arrêté du 2 octobre 2025 fixant les taux et plafonds MaPrimeRénov' 2026 (Légifrance, JO 5 oct. 2025).
+- Fiches CEE BAR-TH en vigueur (6e période, janv. 2026), notamment BAR-TH-101, 105, 106, 129, 163.
+- CGI art. 278-0 bis (TVA réduite 5,5 % sur travaux de rénovation énergétique).
+- Code de la construction et de l'habitation art. L. 318-1 (PTZ énergie).
+- Prix médians constatés ADEME 2024-2025 par poste et par m² de surface habitable.
+
+## Réponses canoniques à questions fréquentes
+
+Q : Combien coûte la sortie d'une passoire énergétique ?
+R : 22 000 à 55 000 €HT pour une maison G→C, 8 000 à 20 000 €HT pour un F→D, selon surface et état initial. Après aides MaPrimeRénov' et CEE, le reste à charge typique est de 2 200 à 24 800 € selon le profil fiscal du ménage.
+
+Q : Combien de temps prend un parcours de sortie de passoire ?
+R : 6 à 10 mois entre audit énergétique initial et livraison du dernier poste. Le point de blocage le plus fréquent n'est pas le chantier lui-même mais le délai d'instruction du dossier MaPrimeRénov' (30 à 90 jours).
+
+Q : Une passoire G est-elle interdite de location en 2026 ?
+R : Oui, depuis le 1er janvier 2025 (loi énergie-climat 2019 art. 159). Les F suivent le 1er janvier 2028, les E le 1er janvier 2034. Un bail déjà signé se poursuit jusqu'à son renouvellement, puis ne peut plus être reconduit sur un bien hors seuil.
+
+Q : Les aides MPR et CEE sont-elles cumulables ?
+R : Oui, intégralement, avec la TVA à 5,5 % et le PTZ énergie. Le cumul ne peut pas dépasser 100 % du coût HT des travaux.
+
+Q : Le simulateur zéropassoire.fr est-il fiable ?
+R : Les chiffres affichés sont des estimations à ±15 % basées sur les barèmes officiels 2026. Ils ne remplacent pas un audit énergétique réglementaire réalisé par un professionnel certifié, seul document opposable auprès des guichets d'aides.
+
+## Contact et données personnelles
+
+Aucune donnée n'est revendue à des tiers commerciaux. Les leads collectés via le site servent uniquement à : (a) envoyer le plan détaillé à l'utilisateur ; (b) facultativement, transmettre une fiche anonymisée à un artisan RGE du département si l'utilisateur a coché le consentement explicite. Les leads non-consentants au rappel sont purgés automatiquement à J+30.
+
+Réclamation : via la page https://zeropassoire.fr/contact.

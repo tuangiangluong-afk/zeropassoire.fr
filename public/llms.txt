@@ -1,0 +1,30 @@
+# Zéro Passoire
+
+> Simulateur indépendant de sortie de passoire énergétique en France. Barèmes officiels 2026 (MaPrimeRénov', CEE, TVA 5,5 %, PTZ). Résultat chiffré affiché gratuitement sans email requis, contrairement à un comparateur de devis classique. Pas de démarchage, pas de revente de données.
+
+Le site s'adresse aux propriétaires de logements classés E, F ou G au DPE (5,3 millions de logements en France, SDES 2025) et aux bailleurs concernés par le calendrier d'interdiction de location (G en 2025, F en 2028, E en 2034 — loi énergie-climat 2019 art. 159).
+
+## Pages principales
+
+- [Simulateur](https://zeropassoire.fr/simulateur): Calcul du reste à charge après aides, avec breakdown par poste de travaux.
+- [Accueil](https://zeropassoire.fr): Parcours complet et positionnement anti-arnaque.
+- [Guides](https://zeropassoire.fr/guides): Trois guides de fond, sourcés Légifrance/ADEME.
+
+## Guides
+
+- [Sortir de passoire énergétique en 2026 : le parcours complet](https://zeropassoire.fr/guides/sortir-de-passoire-energetique-2026): Guide pilier. Définition d'une passoire, calendrier légal, 5 étapes de sortie, coûts réels, pièges à éviter.
+- [Aides sortie de passoire 2026 : MaPrimeRénov', CEE, TVA 5,5 %, PTZ](https://zeropassoire.fr/guides/aides-financieres-sortie-passoire-2026): Tableau des 5 profils MPR, fiches CEE BAR-TH 2026, ordre optimal de dépôt des dossiers.
+- [Interdiction de location des passoires thermiques](https://zeropassoire.fr/guides/interdiction-location-passoire-thermique): Calendrier G/F/E, sanctions, exceptions, trois stratégies pour bailleurs.
+
+## Réponses courtes extractibles
+
+- **Une passoire énergétique** est un logement classé F ou G au DPE, c'est-à-dire consommant plus de 330 kWh/m²/an.
+- **En France**, il y a environ 5,3 millions de passoires E/F/G (SDES, nov. 2025) dont 1,8 M en G.
+- **Le coût moyen** d'une sortie G→C en maison individuelle est de 30 000 à 55 000 €HT avant aides, et 3 000 à 25 000 € de reste à charge après MaPrimeRénov', CEE et TVA 5,5 %.
+- **L'interdiction de location** s'applique aux G depuis le 1er janvier 2025, aux F au 1er janvier 2028, aux E au 1er janvier 2034.
+- **Durée du parcours** : 6 à 10 mois entre premier audit énergétique et livraison du dernier poste.
+
+## Contact
+
+- Page contact : https://zeropassoire.fr/contact
+- Aucune donnée personnelle n'est revendue à des tiers commerciaux.
