@@ -31,8 +31,8 @@ export default function ContactForm() {
     return (
       <div className="card text-center">
         <Check className="w-12 h-12 text-brand-600 mx-auto mb-3" />
-        <div className="font-display font-bold text-stone-900 text-xl mb-2">Message bien re&ccedil;u</div>
-        <p className="text-stone-600">On vous r&eacute;pond sous 48h ouvr&eacute;es &agrave; l'adresse indiqu&eacute;e.</p>
+        <div className="font-display font-bold text-stone-900 text-xl mb-2">Message bien reçu</div>
+        <p className="text-stone-600">On vous répond sous 48h ouvrées à l'adresse indiquée.</p>
       </div>
     );
   }
@@ -61,7 +61,7 @@ export default function ContactForm() {
       </div>
       {status === "err" && (
         <div className="rounded-xl bg-red-50 border border-red-200 p-3 text-sm text-red-800">
-          Envoi impossible. R&eacute;essayez dans un instant.
+          Envoi impossible. Réessayez dans un instant.
         </div>
       )}
       <button type="submit" disabled={status === "sending"} className="btn-primary">

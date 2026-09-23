@@ -46,7 +46,7 @@ export default function LeadCaptureCard({
       sessionStorage.setItem("zp_lead_id", id);
       router.push("/success");
     } catch {
-      setError("Une erreur est survenue. R&eacute;essayez ou &eacute;crivez-nous via la page Contact.");
+      setError("Une erreur est survenue. Réessayez ou écrivez-nous via la page Contact.");
       setSubmitting(false);
     }
   }
@@ -58,10 +58,10 @@ export default function LeadCaptureCard({
         <div className="text-sm font-semibold uppercase tracking-wide">Recevoir ce plan par email</div>
       </div>
       <h3 className="text-xl font-display font-bold text-stone-900 mb-2">
-        On vous envoie le d&eacute;tail chiffr&eacute; + la liste des pros RGE de votre secteur.
+        On vous envoie le détail chiffré + la liste des pros RGE de votre secteur.
       </h3>
       <p className="text-sm text-stone-700 mb-6">
-        Vous pouvez aussi fermer cette page, vos r&eacute;sultats restent affich&eacute;s ci-dessus.
+        Vous pouvez aussi fermer cette page, vos résultats restent affichés ci-dessus.
       </p>
       <form onSubmit={submit} className="space-y-4">
         <div>
@@ -77,7 +77,7 @@ export default function LeadCaptureCard({
         </div>
         <div>
           <label className="block text-sm font-semibold text-stone-800 mb-1.5">
-            T&eacute;l&eacute;phone <span className="font-normal text-stone-500">(optionnel)</span>
+            Téléphone <span className="font-normal text-stone-500">(optionnel)</span>
           </label>
           <input
             type="tel"
@@ -95,7 +95,7 @@ export default function LeadCaptureCard({
               onChange={(e) => setCallback(e.target.checked)}
               className="mt-1"
             />
-            <span>Un conseiller RGE de mon d&eacute;partement peut me rappeler <strong>une seule fois</strong>, sur le cr&eacute;neau de mon choix.</span>
+            <span>Un conseiller RGE de mon département peut me rappeler <strong>une seule fois</strong>, sur le créneau de mon choix.</span>
           </label>
           <label className="flex items-start gap-2">
             <input
@@ -104,18 +104,20 @@ export default function LeadCaptureCard({
               onChange={(e) => setNewsletter(e.target.checked)}
               className="mt-1"
             />
-            <span>Je souhaite recevoir les &eacute;volutions des aides (2 mails/mois max).</span>
+            <span>Je souhaite recevoir les évolutions des aides (2 mails/mois max).</span>
           </label>
         </div>
         {error && (
-          <div className="rounded-xl bg-red-50 border border-red-200 p-3 text-sm text-red-800" dangerouslySetInnerHTML={{ __html: error }} />
+          <div className="rounded-xl bg-red-50 border border-red-200 p-3 text-sm text-red-800">
+            {error}
+          </div>
         )}
         <button type="submit" disabled={submitting} className="btn-primary w-full">
           {submitting ? <Loader2 className="animate-spin" size={18} /> : <Send size={18} />}
           Recevoir mon plan complet
         </button>
         <p className="text-xs text-stone-500 flex items-center justify-center gap-1">
-          <Lock size={12} /> Donn&eacute;es chiffr&eacute;es. Aucune revente &agrave; des tiers.
+          <Lock size={12} /> Données chiffrées. Aucune revente à des tiers.
         </p>
       </form>
     </div>

@@ -164,14 +164,14 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-8">
             <div className="text-xs uppercase tracking-widest text-brand-700 font-semibold mb-2">
-              Simulateur gratuit &middot; 40 secondes
+              Simulateur gratuit · 40 secondes
             </div>
             <h2 className="font-display text-3xl sm:text-4xl font-bold text-stone-900">
-              Votre plan de sortie chiffr&eacute; en 5 questions
+              Votre plan de sortie chiffré en 5 questions
             </h2>
             <p className="mt-3 text-stone-600 max-w-xl mx-auto">
-              R&eacute;sultats affich&eacute;s imm&eacute;diatement, sans email requis.
-              Vous choisissez ensuite si oui ou non on vous les envoie par &eacute;crit.
+              Résultats affichés immédiatement, sans email requis.
+              Vous choisissez ensuite si oui ou non on vous les envoie par écrit.
             </p>
           </div>
           <Simulator />
@@ -189,23 +189,23 @@ export default function HomePage() {
               On n'est pas un comparateur de devis.
             </h2>
             <p className="text-stone-600 mt-3 max-w-2xl mx-auto">
-              2,3&nbsp;millions de m&eacute;nages fra&ccedil;ais ont &eacute;t&eacute; victimes d'une arnaque &agrave; la r&eacute;novation
-              &eacute;nerg&eacute;tique en 2024 (DGCCRF). On a construit z&eacute;ropassoire pour &ecirc;tre l'exact inverse.
+              2,3 millions de ménages français ont été victimes d'une arnaque à la rénovation
+              énergétique en 2024 (DGCCRF). On a construit zéropassoire pour être l'exact inverse.
             </p>
           </div>
           <div className="grid sm:grid-cols-3 gap-6">
             <AntiCard title="Pas de démarchage">
-              Personne ne vous appelle sans que vous l'ayez demand&eacute;. Votre num&eacute;ro est optionnel,
-              et si vous le laissez, on ne l'appelle qu'une seule fois, sur le cr&eacute;neau que vous choisissez.
+              Personne ne vous appelle sans que vous l'ayez demandé. Votre numéro est optionnel,
+              et si vous le laissez, on ne l'appelle qu'une seule fois, sur le créneau que vous choisissez.
             </AntiCard>
             <AntiCard title="Pas de revente">
-              Vos coordonn&eacute;es ne sont jamais c&eacute;d&eacute;es &agrave; des artisans, des courtiers
-              ou des soci&eacute;t&eacute;s de r&eacute;novation. Point.
+              Vos coordonnées ne sont jamais cédées à des artisans, des courtiers
+              ou des sociétés de rénovation. Point.
             </AntiCard>
-            <AntiCard title="Pas de &laquo;&nbsp;1&nbsp;€&nbsp;&raquo;">
-              On vous donne des fourchettes r&eacute;alistes, pas des montants marketing.
-              Une PAC bien pos&eacute;e co&ucirc;te entre 9&nbsp;000 et 16&nbsp;000&nbsp;&euro; apr&egrave;s aides.
-              M&ecirc;me quand c'est moins vendeur.
+            <AntiCard title="Pas de « 1 € »">
+              On vous donne des fourchettes réalistes, pas des montants marketing.
+              Une PAC bien posée coûte entre 9 000 et 16 000 € après aides.
+              Même quand c'est moins vendeur.
             </AntiCard>
           </div>
         </div>
@@ -215,10 +215,10 @@ export default function HomePage() {
       <section className="py-20 bg-stone-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-stone-900 text-center mb-4">
-            Comment &ccedil;a se passe, concr&egrave;tement
+            Comment ça se passe, concrètement
           </h2>
           <p className="text-center text-stone-600 mb-14 max-w-xl mx-auto">
-            3 &eacute;tapes, z&eacute;ro engagement. Vous gardez la main du d&eacute;but &agrave; la fin.
+            3 étapes, zéro engagement. Vous gardez la main du début à la fin.
           </p>
           <div className="grid md:grid-cols-3 gap-6">
             <StepCard
@@ -227,17 +227,17 @@ export default function HomePage() {
               title="Vous simulez"
               time="≈ 40 secondes"
             >
-              R&eacute;pondez aux 5 questions, consultez imm&eacute;diatement le co&ucirc;t r&eacute;el des travaux,
-              les primes mobilisables et votre reste &agrave; charge. Aucune inscription requise.
+              Répondez aux 5 questions, consultez immédiatement le coût réel des travaux,
+              les primes mobilisables et votre reste à charge. Aucune inscription requise.
             </StepCard>
             <StepCard
               n={2}
-              icon={<FileText className="text-brand-707" />}
+              icon={<FileText className="text-brand-700" />}
               title="On vous envoie le plan"
               time="Email sous 30 secondes"
             >
-              R&eacute;capitulatif chiffr&eacute;, liste des postes de travaux prioritaires,
-              contacts d'artisans RGE de votre d&eacute;partement. Un PDF, consultable hors-ligne.
+              Récapitulatif chiffré, liste des postes de travaux prioritaires,
+              contacts d'artisans RGE de votre département. Un PDF, consultable hors-ligne.
             </StepCard>
             <StepCard
               n={3}
@@ -245,7 +245,7 @@ export default function HomePage() {
               title="Vous choisissez"
               time="Sans aucune pression"
             >
-              Vous contactez qui vous voulez, quand vous voulez. On reste joignables pour r&eacute;pondre
+              Vous contactez qui vous voulez, quand vous voulez. On reste joignables pour répondre
               aux questions techniques. On ne relance jamais.
             </StepCard>
           </div>
@@ -256,10 +256,10 @@ export default function HomePage() {
       <section className="py-20 bg-stone-900 text-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-center mb-3">
-            5,3 millions de logements francais sont des passoires
+            5,3 millions de logements français sont des passoires
           </h2>
           <p className="text-center text-stone-300 mb-14 max-w-2xl mx-auto">
-            Chiffres officiels Observatoire de la Pr&eacute;carit&eacute; &Eacute;nerg&eacute;tique &amp; SDES (minist&egrave;re &Eacute;nergie), 2025.
+            Chiffres officiels Observatoire de la Précarité Énergétique &amp; SDES (ministère Énergie), 2025.
           </p>
           <div className="grid sm:grid-cols-3 gap-6 text-center">
             <BigStat n="1,8 M" label=" passoires G (logements interdits de location depuis le 1er janv. 2025)" />
@@ -267,8 +267,8 @@ export default function HomePage() {
             <BigStat n="~ 45 000 €" label="coût moyen d'une sortie G→C en maison individuelle" />
           </div>
           <p className="text-center text-xs text-stone-400 mt-10">
-            Sources : SDES &laquo;&nbsp;Données de performance énergétique des logements&nbsp;&raquo; (nov. 2025)
-            &middot; OPE, 8<sup>&egrave;me</sup> &eacute;dition &middot; ADEME bar&egrave;mes 2026
+            Sources : SDES « Données de performance énergétique des logements » (nov. 2025)
+            · OPE, 8<sup>ème</sup> édition · ADEME barèmes 2026
           </p>
         </div>
       </section>
@@ -281,20 +281,20 @@ export default function HomePage() {
               Comparatif transparent
             </div>
             <h2 className="font-display text-3xl sm:text-4xl font-bold text-stone-900">
-              Z&eacute;ro Passoire vs un comparateur de devis classique
+              Zéro Passoire vs un comparateur de devis classique
             </h2>
             <p className="mt-3 text-stone-600 max-w-2xl mx-auto">
-              Ce qui nous s&eacute;pare, point par point. Vous &ecirc;tes libre de choisir&nbsp;; l'important est de savoir &agrave; quoi vous vous engagez.
+              Ce qui nous sépare, point par point. Vous êtes libre de choisir ; l'important est de savoir à quoi vous vous engagez.
             </p>
           </div>
           <div className="overflow-x-auto rounded-2xl border border-stone-200 bg-white shadow-sm">
             <table className="w-full text-sm">
               <thead className="bg-stone-100 text-stone-900">
                 <tr>
-                  <th className="text-left px-4 sm:px-6 py-3 font-semibold">Crit&egrave;re</th>
+                  <th className="text-left px-4 sm:px-6 py-3 font-semibold">Critère</th>
                   <th className="text-left px-4 sm:px-6 py-3 font-semibold">
                     <span className="inline-flex items-center gap-2">
-                      <Check size={16} className="text-brand-700" /> Z&eacute;ro Passoire
+                      <Check size={16} className="text-brand-700" /> Zéro Passoire
                     </span>
                   </th>
                   <th className="text-left px-4 sm:px-6 py-3 font-semibold text-stone-500">
@@ -326,7 +326,7 @@ export default function HomePage() {
             </table>
           </div>
           <p className="text-center text-xs text-stone-500 mt-6">
-            Comparatif r&eacute;dig&eacute; &agrave; partir de nos propres observations et des signalements DGCCRF 2024 sur les plateformes de mise en relation.
+            Comparatif rédigé à partir de nos propres observations et des signalements DGCCRF 2024 sur les plateformes de mise en relation.
           </p>
         </div>
       </section>
@@ -357,11 +357,11 @@ export default function HomePage() {
       <section className="py-20 bg-brand-50 border-t border-brand-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-stone-900 mb-4">
-            Pr&ecirc;t &agrave; voir vos vrais chiffres&nbsp;?
+            Prêt à voir vos vrais chiffres ?
           </h2>
           <p className="text-stone-700 mb-8 max-w-xl mx-auto">
-            40 secondes, sans t&eacute;l&eacute;phone, sans engagement. Vous saurez exactement
-            o&ugrave; vous en &ecirc;tes.
+            40 secondes, sans téléphone, sans engagement. Vous saurez exactement
+            où vous en êtes.
           </p>
           <a href="#simulateur" className="btn-primary inline-flex">
             Lancer la simulation <ArrowRight size={18} />

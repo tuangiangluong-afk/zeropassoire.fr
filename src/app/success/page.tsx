@@ -17,35 +17,35 @@ export default function SuccessPage() {
         <div className="text-center mb-10">
           <CheckCircle2 className="w-16 h-16 text-brand-600 mx-auto mb-4" />
           <h1 className="font-display text-4xl font-bold text-stone-900 mb-3">
-            C'est envoy&eacute;.
+            C'est envoyé.
           </h1>
           <p className="text-stone-600">
-            V&eacute;rifiez votre bo&icirc;te mail&nbsp;: le PDF de votre plan de sortie + la liste
-            des pros RGE de votre secteur y sont (et pensez &agrave; regarder les spams).
+            Vérifiez votre boîte mail : le PDF de votre plan de sortie + la liste
+            des pros RGE de votre secteur y sont (et pensez à regarder les spams).
           </p>
         </div>
 
         <div className="card">
           <h2 className="font-display text-xl font-bold text-stone-900 mb-4">
-            Les 3 choses &agrave; faire dans les 30 prochains jours
+            Les 3 choses à faire dans les 30 prochains jours
           </h2>
           <ol className="space-y-4">
             <li className="flex gap-3">
               <span className="w-8 h-8 rounded-full bg-brand-100 text-brand-800 font-semibold flex items-center justify-center flex-shrink-0">1</span>
               <div>
-                <div className="font-semibold text-stone-900">Demander un audit &eacute;nerg&eacute;tique</div>
+                <div className="font-semibold text-stone-900">Demander un audit énergétique</div>
                 <p className="text-sm text-stone-600 mt-1">
-                  Obligatoire pour les E/F/G vendus ou lou&eacute;s. Entre 450&nbsp;&euro; et 750&nbsp;&euro;, pris en charge &agrave; 100&nbsp;% par MPR bleu et
-                  CEE. Il affine votre reste &agrave; charge &agrave; ±5&nbsp;%.
+                  Obligatoire pour les E/F/G vendus ou loués. Entre 450 € et 750 €, pris en charge à 100 % par MPR bleu et
+                  CEE. Il affine votre reste à charge à ±5 %.
                 </p>
               </div>
             </li>
             <li className="flex gap-3">
               <span className="w-8 h-8 rounded-full bg-brand-100 text-brand-800 font-semibold flex items-center justify-center flex-shrink-0">2</span>
               <div>
-                <div className="font-semibold text-stone-900">Contacter 2&ndash;3 artisans RGE diff&eacute;rents</div>
+                <div className="font-semibold text-stone-900">Contacter 2–3 artisans RGE différents</div>
                 <p className="text-sm text-stone-600 mt-1">
-                  Comparez &agrave; poste &eacute;gal (m&ecirc;me mat&eacute;riel, m&ecirc;me surface d'isolant). Un &eacute;cart de 30&nbsp;%+ entre deux devis
+                  Comparez à poste égal (même matériel, même surface d'isolant). Un écart de 30 %+ entre deux devis
                   est suspect.
                 </p>
               </div>
@@ -53,9 +53,9 @@ export default function SuccessPage() {
             <li className="flex gap-3">
               <span className="w-8 h-8 rounded-full bg-brand-100 text-brand-800 font-semibold flex items-center justify-center flex-shrink-0">3</span>
               <div>
-                <div className="font-semibold text-stone-900">D&eacute;poser le dossier MaPrimeR&eacute;nov' AVANT signature</div>
+                <div className="font-semibold text-stone-900">Déposer le dossier MaPrimeRénov' AVANT signature</div>
                 <p className="text-sm text-stone-600 mt-1">
-                  Un devis sign&eacute; avant l'accord MPR = 0&nbsp;&euro; d'aide. Point de non-retour &agrave; ne pas rater.
+                  Un devis signé avant l'accord MPR = 0 € d'aide. Point de non-retour à ne pas rater.
                 </p>
               </div>
             </li>
@@ -66,11 +66,11 @@ export default function SuccessPage() {
         <div className="mt-8 card bg-brand-50 border-brand-200">
           <div className="flex items-center gap-2 text-brand-800 mb-2">
             <Share2 size={18} />
-            <div className="font-display font-bold">Une id&eacute;e&nbsp;? Partagez ce simulateur</div>
+            <div className="font-display font-bold">Une idée ? Partagez ce simulateur</div>
           </div>
           <p className="text-sm text-stone-700 mb-3">
-            Vous connaissez un voisin, un coll&egrave;gue, un parent coinc&eacute; avec un DPE F&nbsp;?
-            Il m&eacute;rite les m&ecirc;mes chiffres que vous.
+            Vous connaissez un voisin, un collègue, un parent coincé avec un DPE F ?
+            Il mérite les mêmes chiffres que vous.
           </p>
           <div className="flex flex-wrap gap-2 text-sm">
             <a href={`whatsapp://send?text=${encodeURIComponent("J'ai utilisé zéropassoire.fr pour estimer mon reste à charge de sortie de passoire énergétique. Le simulateur est honnête, sans démarchage : https://zeropassoire.fr")}`}

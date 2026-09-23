@@ -7,11 +7,11 @@ export default function NotFound() {
         <div className="font-display text-7xl font-bold text-brand-700 mb-4">404</div>
         <h1 className="font-display text-2xl font-bold text-stone-900 mb-3">Cette page n'existe pas (encore)</h1>
         <p className="text-stone-600 mb-8">
-          Le lien est peut-&ecirc;tre p&eacute;rim&eacute;. Revenez &agrave; l'accueil, ou filez directement
+          Le lien est peut-être périmé. Revenez à l'accueil, ou filez directement
           vers le simulateur.
         </p>
         <div className="flex flex-wrap gap-3 justify-center">
-          <Link href="/" className="btn-primary">Retour &agrave; l'accueil</Link>
+          <Link href="/" className="btn-primary">Retour à l'accueil</Link>
           <Link href="/simulateur" className="btn-secondary">Lancer une simulation</Link>
         </div>
       </div>

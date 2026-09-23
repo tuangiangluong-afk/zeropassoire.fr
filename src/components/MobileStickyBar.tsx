@@ -14,7 +14,7 @@ export default function MobileStickyBar() {
   return (
     <div className="fixed bottom-0 left-0 right-0 z-40 sm:hidden bg-white border-t border-stone-200 p-3 shadow-lg">
       <Link href="/#simulateur" className="btn-primary w-full text-sm">
-        Estimer mon reste &agrave; charge
+        Estimer mon reste à charge
       </Link>
     </div>
   );

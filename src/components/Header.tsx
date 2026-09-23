@@ -8,7 +8,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2 text-brand-800 hover:text-brand-900">
           <Logo />
           <div className="font-display text-lg font-bold tracking-tight text-stone-900">
-            z&eacute;ro<span className="text-brand-700">passoire</span>
+            zéro<span className="text-brand-700">passoire</span>
             <span className="text-stone-400">.fr</span>
           </div>
         </Link>
@@ -21,7 +21,7 @@ export default function Header() {
           href="/#simulateur"
           className="hidden sm:inline-flex items-center gap-2 rounded-xl bg-brand-700 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-800 transition shadow-sm"
         >
-          Estimer mon reste &agrave; charge
+          Estimer mon reste à charge
         </Link>
       </div>
     </header>
