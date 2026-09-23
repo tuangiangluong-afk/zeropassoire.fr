@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { z } from "zod";
 import { supabaseAdmin } from "@/lib/supabase";
 import { sendLeadEmail } from "@/lib/email";
 import { pushLeadToViteUnDevis } from "@/lib/viteundevis";
@@ -7,6 +8,34 @@ export const runtime = "nodejs";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 const PHONE_RE = /^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.\-]*\d{2}){4}$/;
+
+const LeadInputSchema = z.object({
+  email: z.string().trim().toLowerCase().regex(EMAIL_RE, "invalid_email"),
+  phone: z
+    .string()
+    .trim()
+    .regex(PHONE_RE, "invalid_phone")
+    .nullable()
+    .optional()
+    .or(z.literal("")),
+  simulation: z.record(z.string(), z.unknown()),
+  consent_callback: z.boolean().optional().default(false),
+  consent_newsletter: z.boolean().optional().default(false),
+  session_id: z.string().max(120).nullable().optional(),
+  utm: z
+    .object({
+      utm_source: z.string().max(120).optional(),
+      source: z.string().max(120).optional(),
+      utm_medium: z.string().max(120).optional(),
+      medium: z.string().max(120).optional(),
+      utm_campaign: z.string().max(160).optional(),
+      campaign: z.string().max(160).optional(),
+      gclid: z.string().max(120).optional(),
+      fbclid: z.string().max(120).optional(),
+    })
+    .nullable()
+    .optional(),
+});
 
 // In-memory sliding window rate limiter : 5 soumissions par IP toutes les 15 minutes.
 const ipHits = new Map<string, { count: number; resetAt: number }>();
@@ -45,40 +74,36 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  let body: any;
+  let rawBody: unknown;
   try {
-    body = await req.json();
+    rawBody = await req.json();
   } catch {
     return NextResponse.json({ error: "invalid_json" }, { status: 400 });
   }
-  if (!body || typeof body !== "object") {
-    return NextResponse.json({ error: "invalid_body" }, { status: 400 });
+
+  const parseResult = LeadInputSchema.safeParse(rawBody);
+  if (!parseResult.success) {
+    const issue = parseResult.error.issues[0];
+    return NextResponse.json(
+      { error: issue?.message || "invalid_payload", details: parseResult.error.format() },
+      { status: 400 }
+    );
   }
 
-  const email = String(body.email || "").trim().toLowerCase();
-  const phoneRaw = body.phone ? String(body.phone).trim() : null;
-  const simulation = body.simulation;
+  const valid = parseResult.data;
+  const email = valid.email;
+  const phoneRaw = valid.phone ? valid.phone.trim() : null;
+  const simulation = valid.simulation;
 
-  const consentCallback = Boolean(body.consent_callback ?? body.consentCallback ?? false);
-  const consentNewsletter = Boolean(body.consent_newsletter ?? body.consentNewsletter ?? false);
-  const sessionIdRaw = body.session_id ?? body.sessionId;
-  const sessionId = sessionIdRaw ? String(sessionIdRaw).slice(0, 120) : null;
+  const consentCallback = valid.consent_callback;
+  const consentNewsletter = valid.consent_newsletter;
+  const sessionId = valid.session_id ? valid.session_id.slice(0, 120) : null;
 
-  const utmSource = String(body.utm?.source ?? body.utm?.utm_source ?? body.utm_source ?? "").slice(0, 120) || null;
-  const utmMedium = String(body.utm?.medium ?? body.utm?.utm_medium ?? body.utm_medium ?? "").slice(0, 120) || null;
-  const utmCampaign = String(body.utm?.campaign ?? body.utm?.utm_campaign ?? body.utm_campaign ?? "").slice(0, 160) || null;
-  const gclid = String(body.utm?.gclid ?? body.gclid ?? "").slice(0, 120) || null;
-  const fbclid = String(body.utm?.fbclid ?? body.fbclid ?? "").slice(0, 120) || null;
-
-  if (!EMAIL_RE.test(email)) {
-    return NextResponse.json({ error: "invalid_email" }, { status: 400 });
-  }
-  if (phoneRaw && !PHONE_RE.test(phoneRaw)) {
-    return NextResponse.json({ error: "invalid_phone" }, { status: 400 });
-  }
-  if (!simulation || typeof simulation !== "object") {
-    return NextResponse.json({ error: "simulation_required" }, { status: 400 });
-  }
+  const utmSource = (valid.utm?.source || valid.utm?.utm_source)?.slice(0, 120) || null;
+  const utmMedium = (valid.utm?.medium || valid.utm?.utm_medium)?.slice(0, 120) || null;
+  const utmCampaign = (valid.utm?.campaign || valid.utm?.utm_campaign)?.slice(0, 160) || null;
+  const gclid = valid.utm?.gclid?.slice(0, 120) || null;
+  const fbclid = valid.utm?.fbclid?.slice(0, 120) || null;
 
   const client = supabaseAdmin();
   const record = {

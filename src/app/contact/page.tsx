@@ -112,7 +112,16 @@ export default function ContactPage() {
                 <div className="font-bold flex items-center gap-1.5 mb-1.5 text-amber-950">
                   <Clock size={14} /> Vous suspectez une fraude d'artisan ?
                 </div>
-                En cas de démarchage abusif ou de faux devis RGE, signalez immédiatement l'entreprise sur la plateforme officielle de la répression des fraudes : <strong>signal.conso.gouv.fr</strong>. Zéro Passoire n'a aucun lien avec les entreprises sanctionnées.
+                En cas de démarchage abusif ou de faux devis RGE, signalez immédiatement l'entreprise sur la plateforme officielle de la répression des fraudes :{" "}
+                <a
+                  href="https://signal.conso.gouv.fr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-bold underline hover:text-amber-950"
+                >
+                  signal.conso.gouv.fr
+                </a>
+                . Zéro Passoire n'a aucun lien avec les entreprises sanctionnées.
               </div>
             </div>
           </div>
