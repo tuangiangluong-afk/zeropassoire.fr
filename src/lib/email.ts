@@ -1,11 +1,19 @@
 import { Resend } from "resend";
 
-const API_KEY = process.env.RESEND_API_KEY || "";
-const FROM = process.env.RESEND_FROM || "Zéro Passoire <plan@zeropassoire.fr>";
-const NOTIFY = process.env.LEAD_NOTIFY_EMAIL || "contact@zeropassoire.fr";
+function getApiKey(): string {
+  return process.env.RESEND_API_KEY || "";
+}
+
+function getFrom(): string {
+  return process.env.RESEND_FROM || "Zéro Passoire <plan@zeropassoire.fr>";
+}
+
+function getNotify(): string {
+  return process.env.LEAD_NOTIFY_EMAIL || "expertbornerecharge@gmail.com";
+}
 
 export function isEmailReady(): boolean {
-  return API_KEY.length > 0;
+  return getApiKey().length > 0;
 }
 
 type SimulationPayload = {
@@ -92,7 +100,10 @@ export async function sendLeadEmail(input: {
   leadId?: number | string;
 }): Promise<{ ok: boolean; skipped?: string; error?: string }> {
   if (!isEmailReady()) return { ok: false, skipped: "no_api_key" };
-  const resend = new Resend(API_KEY);
+  const apiKey = getApiKey();
+  const from = getFrom();
+  const notify = getNotify();
+  const resend = new Resend(apiKey);
   const isContact = input.simulation?.kind === "contact";
   const subject = isContact
     ? `Zéro Passoire — nouveau message de contact`
@@ -100,17 +111,17 @@ export async function sendLeadEmail(input: {
 
   const leadTask = !isContact
     ? resend.emails.send({
-        from: FROM,
+        from,
         to: input.email,
-        replyTo: NOTIFY,
+        replyTo: notify,
         subject,
         html: buildLeadEmailHtml(input.email, input.simulation),
       })
     : Promise.resolve({ data: null, error: null });
 
   const notifyTask = resend.emails.send({
-    from: FROM,
-    to: NOTIFY,
+    from,
+    to: notify,
     subject: isContact
       ? `Nouveau message de contact — ${input.email}`
       : `Nouveau lead — ${input.email}`,

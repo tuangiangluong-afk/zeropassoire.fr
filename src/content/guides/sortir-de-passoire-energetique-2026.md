@@ -1,127 +1,134 @@
 ---
-title: "Sortir de passoire énergétique en 2026 : le parcours complet"
-description: "De la classe F ou G à un DPE C ou B : étapes, coûts réels, aides mobilisables, délais, pièges à éviter. Le guide indépendant, sourcé, pensé pour les propriétaires."
-publishedAt: "2026-09-20"
+title: "Sortir de passoire énergétique en 2026 : le guide technique et pratique complet (DPE F ou G vers C)"
+description: "Le parcours pas à pas pour rénover efficacement une passoire thermique : bouquets de travaux optimaux selon l'ancienneté du bâti, règles de copropriété, pièges techniques et les 7 fraudes répertoriées par la DGCCRF."
+publishedAt: "2026-09-23"
 category: "Guide pilier"
-readTime: "11 min"
+readTime: "22 min"
 ---
 
-# Sortir de passoire énergétique en 2026 : le parcours complet
+# Sortir de passoire énergétique en 2026 : la méthode technique et pratique complète
 
-::: callout Réponse directe
+::: callout Synthèse exécutive & chiffres réels 2026
 
-Une sortie de passoire énergétique — passer d'un DPE F ou G à un DPE E ou mieux — coûte entre **22 000 et 55 000 €HT** pour une maison individuelle moyenne, et mobilise **trois guichets cumulables** : MaPrimeRénov' (jusqu'à 90 % selon le profil), les CEE (2 800 – 5 200 € pour une PAC), et la TVA à 5,5 %. Le reste à charge médian constaté par l'ADEME en 2025 : **~11 400 €** pour un ménage modeste, **~24 800 €** pour un ménage supérieur. Le parcours type prend **6 à 10 mois** entre le premier audit énergétique et le dernier poste livré.
+Passer d'une étiquette **F ou G** à une étiquette **C ou B** au DPE exige une approche globale et ordonnée. En France, 5,3 millions de résidences principales sont des passoires énergétiques (SDES 2025). Le coût médian constaté sur les chantiers ADEME 2024-2025 est de **32 000 € à 58 000 €HT** pour une maison individuelle (100 à 130 m²), et de **12 000 € à 24 000 €HT** pour un appartement en copropriété.
 
-:::
-
-Un logement est qualifié de <strong>passoire énergétique</strong> dès lors qu'il obtient une classe <strong>F ou G</strong> au Diagnostic de Performance Énergétique. En France, cela représente **5,3 millions de logements** (SDES, nov. 2025), dont 1,8 million en classe G — interdits à la location depuis le 1<sup>er</sup> janvier 2025. Sortir de cette classification est devenu à la fois un enjeu environnemental, légal et patrimonial.
-
-Ce guide décompose le parcours réel, sans le jargon des commerciaux qui vous appellent le dimanche.
-
-## Qu'est-ce qui fait une passoire énergétique ?
-
-**Réponse courte** : trois défauts cumulés — une isolation insuffisante, un chauffage vieillissant, une ventilation inadaptée.
-
-Le DPE mesure la consommation énergétique conventionnelle (kWh/m&sup2;/an) et l'équivalent émissions de CO<sub>2</sub>. Un logement classé G consomme plus de **450 kWh/m&sup2;/an** et émet plus de **80 kg CO<sub>2</sub>/m&sup2;/an**. Un logement classé C est à moins de **110 kWh/m&sup2;/an**.
-
-| Classe | Consommation conventionnelle | Facture annuelle typique (90 m&sup2;, chauffage élec.) |
-|---|---|---|
-| G | > 450 kWh/m&sup2;/an | ~2 700 € |
-| F | 331 – 450 | ~2 100 € |
-| E | 241 – 330 | ~1 500 € |
-| D | 151 – 240 | ~1 000 € |
-| C | 111 – 150 | ~700 € |
-
-Un passage G→C divise donc typiquement la facture énergétique par 3,5.
-
-## Le calendrier légal à connaître
-
-**Réponse courte** : 2025 interdit à la location les G, 2028 les F, 2034 les E. Et depuis 2023, une étiquette F ou G impose une <strong>obligation de travaux à la vente</strong> (audit énergétique + mention dans le compromis).
-
-| Échéance | Effet juridique | Base légale |
-|---|---|---|
-| 1<sup>er</sup> janv. 2023 | Audit énergétique obligatoire à la vente pour les E, F, G | Loi Climat & Résilience art. 158 |
-| 1<sup>er</sup> janv. 2025 | Interdiction de location des G (DPE > 450 kWh) | Loi énergie-climat art. 159 |
-| 1<sup>er</sup> janv. 2028 | Interdiction de location des F | idem |
-| 1<sup>er</sup> janv. 2034 | Interdiction de location des E | idem |
-
-Passer outre expose à une amende administrative jusqu'à **20 000 € par logement** (personne physique) et à une action civile du locataire (réduction de loyer, dommages et intérêts).
-
-## Les 5 étapes réelles d'une sortie de passoire
-
-### 1. Audit énergétique réglementaire (obligatoire, 450-750 €)
-
-Réalisé par un auditeur certifié (liste sur [lannuaire-france-renov.gouv.fr](https://lannuaire-france-renov.gouv.fr)). Différent d'un simple DPE : il modélise le bâti et propose 3 à 5 scénarios chiffrés. C'est le document pivot du dossier.
-
-### 2. Gain de 2 classes avec le scénario retenu (AG ou validation propriétaire)
-
-En maison individuelle : décision du propriétaire. En copropriété : vote en AG avec majorité article 24 ou 25 selon la nature des travaux (LOI 65-557).
-
-### 3. Dépôt du dossier MaPrimeRénov' AVANT signature des devis
-
-Point de non-retour : un devis signé avant l'accord MPR = 0 € d'aide. Le dépôt se fait sur [maprimerenov.gouv.fr](https://maprimerenov.gouv.fr), ou via un accompagnateur agréé (obligatoire pour les parcours E→C+).
-
-### 4. Recherche de 3 artisans RGE et comparatif à poste égal
-
-La qualification <strong>RGE</strong> (Reconnu Garant de l'Environnement) est obligatoire pour ouvrir droit à MPR et aux CEE. Liste à jour sur [rge.ademe.fr](https://rge.ademe.fr).
-
-### 5. Réalisation des travaux + DPE de sortie
-
-Le DPE final atteste du nouveau classement. Il doit être à jour pour la location, la vente, et pour justifier les aides versées.
-
-## Combien ça coûte, vraiment, en 2026 ?
-
-**Réponse courte** : entre 22 000 € et 55 000 €HT pour une maison individuelle G→C ; entre 8 000 € et 20 000 €HT pour un F→D (selon surface et état de départ).
-
-Poste par poste, à la médiane ADEME 2025 (maison ~100 m&sup2;) :
-
-| Poste de travaux | Fourchette HT |
-|---|---|
-| Audit énergétique réglementaire | 450 – 750 € |
-| Isolation combles perdus | 30 – 60 €/m&sup2; |
-| Isolation murs extérieurs (ITE) | 150 – 220 €/m&sup2; |
-| Remplacement menuiseries | 90 – 160 €/m&sup2; de baies |
-| Pompe à chaleur air/eau | 11 000 – 16 000 € |
-| Chaudière granulés | 8 000 – 12 000 € |
-| VMC double flux | 4 000 – 6 500 € |
-
-Aides cumulables typiques pour un ménage **modeste** sortant un 100 m&sup2; de G à C :
-
-::: callout Exemple concret : maison 100 m², classe G, ménage modeste, zone H1
-
-Travaux retenus : isolation combles + PAC air/eau + menuiseries.
-- Coût total HT : ~22 500 €
-- MaPrimeRénov' profil bleu (modeste) : ~14 500 €
-- Prime CEE (BAR-TH-105, PAC H1) : ~4 800 €
-- TVA 5,5 % économie : ~1 000 €
-- **Reste à charge : ~2 200 €**
+Une sortie de passoire réussie divise les factures de chauffage par **2,5 à 3,8**, élimine tout risque d'interdiction de location et annule la décote immobilière à la revente (-6 % à -18 % selon les notaires).
 
 :::
 
-::: cta Voir ce que ça donne pour votre maison|/simulateur
+Trop de propriétaires commettent l'erreur d'installer une pompe à chaleur coûteuse dans une maison mal isolée, transformant une passoire au fioul en passoire électrique surchauffée. Ce guide détaille la physique thermique du bâtiment, les bouquets de travaux performants selon l'année de construction, la gestion des copropriétés et la protection contre les arnaques.
 
-## Les 5 pièges qui font échouer un chantier
+---
 
-1. **Signer un devis avant d'avoir déposé le dossier MPR.** 0 € d'aide, point final. C'est l'arnaque la plus fréquente.
-2. **Négliger la ventilation.** Une maison sur-isolée sans VMC efficace développe des problèmes d'humidité à 18 mois.
-3. **Choisir un installateur non RGE** ou dont la qualification a expiré. Vérifier sur [rge.ademe.fr](https://rge.ademe.fr), pas seulement le logo sur le camion.
-4. **Surestimer la puissance de la PAC.** Une PAC surdimensionnée consomme 25 à 40 % de plus qu'une PAC calibrée sur le besoin réel.
-5. **Vendre à perte sans chiffrer les travaux.** Un bien non-rénové subit une décote de 6 à 15 % selon DVF-PIERVAL 2025. Rénover avant mise en vente est souvent plus rentable.
+## 1. La physique thermique d'une passoire : où s'échappe votre argent ?
 
-## Questions fréquentes
+Dans un logement construit avant 1975 (date de la première réglementation thermique en France), l'énergie s'échappe par cinq failles majeures :
 
-### Puis-je bénéficier des aides si je suis déjà propriétaire-occupant depuis 30 ans ?
+```
+                  ┌────────────────────────────────────────┐
+                  │    Toiture & Combles : 25 % à 30 %     │
+                  └───────────────────┬────────────────────┘
+                                      │
+       ┌──────────────────────────────┼──────────────────────────────┐
+       ▼                              ▼                              ▼
+┌──────────────┐              ┌──────────────┐               ┌──────────────┐
+│    Murs      │              │ Renouvellement│               │  Fenêtres &  │
+│  20 % à 25 % │              │  d'air / VMC  │               │ Vitrages     │
+│              │              │  20 % à 25 %  │               │ 10 % à 15 %  │
+└──────────────┘              └──────┬───────┘               └──────────────┘
+                                     │
+                  ┌──────────────────┴─────────────────────┐
+                  │ Planchers bas & Sous-sol : 7 % à 10 %  │
+                  └────────────────────────────────────────┘
+```
 
-Oui. MaPrimeRénov' n'impose aucune condition d'ancienneté de propriété. La seule condition de ressources porte sur le revenu fiscal de référence du ménage, qui doit être inférieur aux plafonds bleu/jaune/ocre (pour les taux bonifiés). Les propriétaires au-delà des plafonds restent éligibles à un taux inférieur (vert).
+**Le principe cardinal de la rénovation thermique :**
+On **isole toujours l'enveloppe avant de redimensionner le système de chauffage**. Si vous posez une pompe à chaleur dans un bâti non isolé, l'équipement devra tourner en surrégime permanent, déclenchant des appoint électriques énergivores et divisant par deux sa durée de vie (usure prématurée du compresseur).
 
-### Faut-il sortir complètement de passoire ou juste passer en D ?
+---
 
-Le minimum légal pour rester louable est un passage en **D**. Mais l'expérience ADEME montre qu'un saut de 2 classes (G→E ou F→D) est nécessaire pour débloquer MPR "parcours accompagné" au taux maximal, et qu'un saut de 3 classes (G→D ou F→C) est le seuil où la rentabilité économique devient nette sur 15 ans.
+## 2. Les 4 bouquets de travaux gagnants selon l'archétype du logement
 
-### Et si mes voisins de copropriété votent contre les travaux ?
+Les travaux ne s'improvisent pas : ils doivent s'adapter scrupuleusement aux caractéristiques architecturales du bâtiment.
 
-En copropriété, un syndic ne peut pas imposer la sortie de passoire sans vote. Mais depuis la loi 2024-467 (25 juin 2024), si le DPE collectif est F ou G, une <strong>obligation de planifier</strong> les travaux s'applique via le PPT (plan pluriannuel de travaux). Un conseil syndical actif peut inscrire la question à l'ODJ, et en cas de blocage répété, saisir le tribunal judiciaire pour mise en demeure.
+### Archétype A : La maison individuelle de lotissement (1970–1989, parpaing ou brique)
+* **Faiblesses typiques** : Combles perdus peu isolés (laine de verre tassée de 5 cm), murs en parpaing creux non isolés, vieille chaudière fioul ou convecteurs « grille-pain », menuiseries simple vitrage ou premier double vitrage alu fuyard.
+* **Le bouquet optimal pour atteindre la classe C ou B** :
+  1. *Isolation des combles perdus* en laine minérale ou ouate de cellulose soufflée ($R \ge 7 \text{ m}^2.\text{K/W}$) : 35 à 55 € / m².
+  2. *Isolation thermique des murs par l'extérieur (ITE)* sous enduit respirant ($R \ge 3,7$) : 150 à 210 € / m².
+  3. *Remplacement du chauffage* par une pompe à chaleur air/eau bi-bloc haute performance (COP saisonnier $\ge 3,8$) : 11 500 à 15 000 €.
+  4. *VMC hygroréglable type B* ou VMC double flux : 1 600 à 4 800 €.
+* **Résultat typique DPE** : Classe G $\rightarrow$ Classe B (Facture annuelle passant de 3 400 € à 900 €).
 
-### Le simulateur zéropassoire est-il lié à un groupe d'artisans ?
+### Archétype B : La maison ancienne en pierre ou pisé (Bâti d'avant 1948)
+* **Faiblesses typiques** : Bâti perspirant nécessitant une régulation permanente de l'humidité. Attention : l'application d'un polystyrène étanche en extérieur (ITE standard) emprisonne l'humidité dans la pierre et détruit la maçonnerie !
+* **Le bouquet optimal** :
+  1. *Isolation de toiture par sarking ou combles en fibres de bois bio-sourcées*.
+  2. *Enduit chaux-chanvre intérieur* ou isolation perspirante permettant la diffusion de vapeur d'eau.
+  3. *Système de chauffage bois ou granulés* (chaudière ou poêle canalisé) ou PAC basse température sur radiateurs fonte existants.
+  4. *Menuiseries bois à double vitrage à isolation renforcée (VIR)*.
+* **Résultat typique DPE** : Classe F $\rightarrow$ Classe C.
 
-Non. Zéro Passoire est indépendant, n'a aucun accord commercial avec un installateur ou un négociateur de travaux. Les barèmes utilisés viennent de textes officiels, les moyennes de prix de l'ADEME. Le modèle économique repose sur des mises en relation qualifiées avec des artisans RGE, rémunéres uniquement si l'utilisateur les contacte volontairement.
+### Archétype C : L'appartement en copropriété des années 1960–1975
+* **Faiblesses typiques** : Dalles béton non isolées créant d'immenses ponts thermiques, façades collectives amiantées ou interdites de modification sans vote d'AG, simple vitrage d'origine.
+* **Le bouquet individuel de sortie de passoire** :
+  1. *Isolation thermique par l'intérieur (ITI)* des murs en contact avec l'extérieur ou les parties communes non chauffées (panneaux de doublage polyuréthane ou laine minérale $R \ge 3$) : 75 à 110 € / m².
+  2. *Menuiseries PVC ou Aluminium à rupture de pont thermique* (coefficient $U_w \le 1,3 \text{ W/m}^2.\text{K}$) avec vitrage à contrôle acoustique : 800 à 1 400 € par fenêtre posée.
+  3. *Remplacement des convecteurs par des radiateurs à inertie fonte ou fluide caloporteur avec programmateur hebdomadaire connecté* : 500 à 900 € par radiateur.
+  4. *VMC hygroréglable individuelle avec entrées d'air acoustiques* : 1 400 à 2 200 €.
+* **Résultat typique DPE** : Classe G $\rightarrow$ Classe D (logement redevenant immédiatement louable et conforme à la loi).
+
+---
+
+## 3. Sortir de passoire en copropriété : naviguer dans le cadre de la loi de 1965
+
+En copropriété, un propriétaire bailleur ou occupant ne peut pas décider seul d'isoler la toiture ou de ravaler les façades. La loi fixe des règles impératives :
+
+### Les majorités de vote en Assemblée Générale (Loi du 10 juillet 1965 modifiée)
+* **L'article 24 (Majorité simple des présents et représentés)** : S'applique pour les travaux d'entretien, de calorifugeage des tuyaux de chauffage collectif, ou les petits travaux d'économie d'énergie sans modification de structure.
+* **L'article 25 (Majorité absolue de tous les copropriétaires)** : Obligatoire pour les travaux d'isolation thermique des façades (ITE), réfection globale de toiture avec isolation, ou remplacement de la chaufferie collective. Si le vote recueille au moins un tiers des voix, un second vote immédiat à la majorité de l'article 24 (passerelle de l'article 25-1) peut être organisé.
+
+### Les obligations collectives qui aident votre dossier
+1. **Le Plan Pluriannuel de Travaux (PPPT)** : Depuis le 1er janvier 2025, tous les immeubles de copropriété de plus de 15 ans sont **légalement obligés d'avoir voté un PPPT** chiffrant les travaux d'économie d'énergie sur 10 ans.
+2. **Le DPE Collectif** : Obligatoire pour tous les immeubles collectifs depuis le 1er janvier 2025 (loi Climat).
+3. **Le fonds de travaux obligatoire** : Tous les copropriétaires cotisent chaque année à une réserve financière dédiée exclusivement aux travaux de rénovation énergétique (minimum légal de 2,5 % à 5 % du budget prévisionnel).
+
+---
+
+## 4. Les 7 fraudes et arnaques répertoriées par la DGCCRF (Guide anti-arnaque)
+
+La Direction Générale de la Concurrence, de la Consommation et de la Répression des Fraudes (DGCCRF) a relevé que plus de **2,3 millions de ménages français** ont été ciblés par des pratiques commerciales trompeuses dans la rénovation énergétique.
+
+Voici les 7 pièges majeurs et comment vous en prémunir :
+
+1. **Le démarchage téléphonique illégal** : La loi n° 2020-901 du 24 juillet 2020 **interdit formellement tout démarchage téléphonique non consenti** dans le secteur de la rénovation énergétique. Toute entreprise qui vous appelle spontanément pour vous proposer « un audit gratuit » ou « MaPrimeRénov' » est en infraction pénale immédiate. Raccrochez.
+2. **L'usurpation de logos officiels** : Utilisation frauduleuse des logos « France Rénov' », « République Française » ou « Ministère de la Transition Écologique » sur des flyers ou sites web. Seuls les conseillers du réseau public France Rénov' sont neutres.
+3. **La signature d'un devis déguisé en simple visite technique** : Des démarcheurs à domicile font signer une tablette tactile en affirmant qu'il s'agit d'un « accusé de passage » ou d'une « demande d'éligibilité ». Il s'agit en réalité d'un bon de commande ferme assorti d'un crédit à la consommation dissimulé ! Ne signez jamais rien sur tablette lors d'un premier rendez-vous.
+4. **Le faux artisan RGE (Reconnu Garant de l'Environnement)** : Certains installateurs affichent le logo RGE sur leurs devis alors que leur certificat a expiré ou a été révoqué par Qualibat / Qualit'EnR. Exigez toujours le numéro de certificat et vérifiez sa validité en direct sur l'annuaire public officiel : [france-renov.gouv.fr/annuaire-rge](https://france-renov.gouv.fr/annuaire-rge).
+5. **Le surdimensionnement de la pompe à chaleur** : Pour gonfler la facture de 5 000 €, des commerciaux peu scrupuleux installent une PAC de 16 kW là où une machine de 9 kW est requise. Conséquences : cycles courts de fonctionnement, compresseur qui casse au bout de 4 ans et facture d'électricité record. L'étude thermique et le calcul des déperditions pièce par pièce sont obligatoires.
+6. **L'oubli fatal de la ventilation** : Isoler parfaitement une maison sans installer de VMC transforme le logement en thermos humide. En moins de 18 mois, des champignons et moisissures noires (aspergillus) apparaissent sur les angles de plafonds et derrière les meubles.
+7. **La promesse mensongère de « l'isolation à 1 € »** : Le dispositif à 1 € a été définitivement supprimé par l'État le 1er juillet 2021. Tout opérateur qui utilise encore cet argumentaire pratique une publicité mensongère passible de poursuites pénales.
+
+---
+
+## 5. Cas pratique chiffré : comparatif avant / après travaux
+
+Pour comprendre la rentabilité concrète d'une sortie de passoire, analysons deux cas réels modélisés avec les barèmes 2026 :
+
+| Indicateur | Cas 1 : Maison individuelle 115 m² (Lille, Zone H1) | Cas 2 : Appartement T3 62 m² (Lyon, Zone H1) |
+|---|---|---|
+| **Classe de départ** | **G (440 kWh/m²/an - Fioul)** | **G (460 kWh/m²/an - Électrique)** |
+| **Facture énergétique avant** | **3 850 € / an** | **2 350 € / an** |
+| **Travaux réalisés** | PAC air/eau + Combles R=8 + Fenêtres argon | ITI murs froids + Fenêtres Uw=1.2 + Inertie |
+| **Coût total travaux HT** | **31 500 €** | **14 800 €** |
+| **Aides cumulées (MPR + CEE)** | **24 600 €** (Ménage modeste Jaune) | **10 900 €** (Ménage modeste Jaune) |
+| **Reste à charge net TTC** | **7 900 €** | **4 400 €** |
+| **Nouvelle classe DPE** | **Classe C (115 kWh/m²/an)** | **Classe D (175 kWh/m²/an)** |
+| **Facture énergétique après** | **1 150 € / an** | **980 € / an** |
+| **Gain annuel sur facture** | **+2 700 € / an** | **+1 370 € / an** |
+| **Délai d'amortissement réel** | **2 ans et 11 mois** | **3 ans et 2 mois** |
+
+---
+
+::: cta Lancez votre simulation chiffrée en 40 secondes, sans démarchage|/simulateur
+:::

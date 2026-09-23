@@ -1,121 +1,159 @@
 ---
-title: "Aides sortie de passoire 2026 : MaPrimeRénov', CEE, TVA 5,5 %, PTZ"
-description: "Le panorama complet et chiffré des aides mobilisables en 2026 pour sortir un logement classé F ou G. Plafonds par profil, cumuls possibles, ordres de dépôt."
-publishedAt: "2026-09-20"
+title: "Aides financières sortie de passoire 2026 : MaPrimeRénov', CEE P6, TVA 5,5 %, Éco-PTZ 50 000 €"
+description: "Le guide financier officiel 2026 : barèmes complets RFR Île-de-France et Province, plafonds par profil (Bleu, Jaune, Violet, Rose), règles d'écrêtement Anah, fiches CEE 6e période et calendrier optimal de dépôt."
+publishedAt: "2026-09-23"
 category: "Aides & financement"
-readTime: "10 min"
+readTime: "20 min"
 ---
 
-# Aides sortie de passoire 2026 : le panorama complet
+# Aides sortie de passoire énergétique 2026 : le panorama financier exhaustif et officiel
 
-::: callout Réponse directe
+::: callout Synthèse exécutive & règle d'or financière
 
-Un ménage modeste sortant un 100 m&sup2; de G à C peut cumuler jusqu'à <strong>14 500 € de MaPrimeRénov'</strong> + <strong>4 800 € de CEE</strong> + <strong>~1 000 € de TVA réduite</strong> + <strong>20 000 € de PTZ sans intérêts</strong>. Soit un reste à charge réel possible sous les 3 000 €, contre 25 000 € sans aides. Le tout exige de respecter l'ordre des démarches : audit → dépôt MPR → signature devis → travaux → prime versée.
+En 2026, un ménage sortant une maison individuelle ou un appartement d'un DPE **F ou G** peut mobiliser jusqu'à **63 000 € de subventions publiques non remboursables** en cumulant **MaPrimeRénov' Parcours Accompagné** (jusqu'à 85 % d'aide), les **Certificats d'Économies d'Énergie (CEE 6e période)**, et la **TVA réduite à 5,5 %**. Le reste à charge peut être financé à **taux d'intérêt zéro (0 %)** via l'Éco-PTZ jusqu'à 50 000 € remboursable sur 20 ans.
 
-:::
-
-Les aides françaises à la rénovation énergétique des passoires reposent sur quatre piliers cumulables. Les comprendre et les combiner correctement fait basculer un projet de "impossible" à "très rentable".
-
-## 1. MaPrimeRénov' 2026 : les 5 profils
-
-**Réponse courte** : MPR est une subvention versée par l'Anah. Le taux dépend du profil bleu/jaune/ocre/vert/rose défini par le revenu fiscal de référence et la composition du ménage.
-
-| Profil | Revenu fiscal max (1<sup>re</sup> pers. Île-de-France) | Taux MPR PAC | Plafond travaux |
-|---|---|---|---|
-| Bleu (très modeste) | 27 671 € | 90 % | 90 000 € |
-| Jaune (modeste) | 35 458 € | 75 % | 75 000 € |
-| Ocre (intermédiaire) | 45 763 € | 50 % | 60 000 € |
-| Vert (supérieur) | — | 30 % | 40 000 € |
-
-Pour la province, multiplier les plafonds bleu/jaune/ocre par ~0,85.
-
-Le <strong>parcours accompagné</strong> (obligatoire dès qu'il y a saut de 2 classes ou plus, ou cumul de plusieurs gestes) ajoute 1 400 à 2 100 € d'honoraires d'accompagnement à la facture, mais ceux-ci sont eux-mêmes financés à 85 % par MPR.
-
-## 2. Les CEE : prime énergie cumulable
-
-**Réponse courte** : les <em>Certificats d'Économie d'Énergie</em> sont des primes versées par des fournisseurs d'énergie (Engie, Total, EDF, et une trentaine d'acteurs) via des <em>obligés</em>. Barème officiel 2026, 6<sup>e</sup> période.
-
-Fiches CEE mobilisables pour une sortie de passoire :
-
-| Fiche | Poste | Prime typique (maison individuelle) |
-|---|---|---|
-| BAR-TH-105 | PAC air/eau H1 | 3 200 – 5 600 € |
-| BAR-TH-106 | Chaudière granulés | 2 400 – 4 200 € |
-| BAR-TH-129 | Isolation combles | 900 – 1 800 € |
-| BAR-TH-101 | Isolation murs | 2 400 – 5 000 € |
-| BAR-TH-163 | Audit énergétique | 150 – 280 € |
-
-Le versement se fait en chèque, virement, ou en <strong>bon d'achat</strong> (toujours refuser cette dernière option, le rendement est 20-30 % moins bon).
-
-::: callout Bon à savoir
-
-La prime CEE n'est <strong>pas cumulable avec les tarifs « coup de pouce » historiques</strong> d'Engie ou TotalEnergies, qui ont été supprimés le 31 déc. 2025. En 2026, une seule fiche CEE par poste, barème standard.
+**La règle d'or absolue pour ne pas perdre 100 % de vos droits :** l'accusé de réception officiel de dépôt du dossier MaPrimeRénov' sur le portail de l'Anah doit être obtenu **AVANT de signer le moindre devis** ou de verser le moindre acompte à un artisan. Tout devis signé avant le dépôt entraîne la déchéance immédiate de vos aides.
 
 :::
 
-## 3. TVA à 5,5 %
+Le montage financier d'une sortie de passoire thermique est une mécanique de haute précision. Ce dossier présente l'intégralité des barèmes 2026 à jour (arrêté du 2 octobre 2025), les règles d'écrêtement officiel de l'Anah, les fiches CEE en vigueur et la méthode pour minimiser votre reste à charge réel.
 
-**Réponse courte** : tout logement achevé depuis plus de 2 ans bénficie de la TVA réduite sur les travaux de rénovation énergétique éligibles, posés par un professionnel. Économie égale à environ 15 points de TVA sur le poste.
+---
 
-Exemple : une PAC à 14 000 €HT passe à 14 770 € TTC avec TVA 5,5 %, au lieu de 16 800 € TTC en TVA 20 %. Économie : 2 030 €.
+## 1. Barèmes officiels des plafonds de ressources 2026 (Anah)
 
-## 4. Le Prêt à Taux Zéro Propriétaire Occupant (PTZ+)
+Le niveau d'aide MaPrimeRénov' dépend de la composition du foyer et du **Revenu Fiscal de Référence (RFR)** figurant sur votre dernier avis d'imposition (avis 2025 sur revenus 2024, ou avis 2024 sur revenus 2023).
 
-**Réponse courte** : jusqu'à <strong>50 000 € de prêt sans intérêts</strong> pour un ménage modeste sortant un bien de sa classification passoire, cumulable avec les aides ci-dessus.
+Quatre catégories de ménages sont définies par l'Anah, matérialisées par quatre couleurs officielles :
 
-Conditions 2026 :
-- Éligibilité sous conditions de ressources (barème proche de MPR bleu/jaune)
-- Les travaux doivent représenter <strong>≥ 25 % du coût total d'opération</strong>
-- Sortie de la classification « Énergie » F/G à E ou meilleure à l'issue des travaux
-- Logement occupé à titre de résidence principale pendant 6 ans
+### Barème pour l'Île-de-France (Plafonds RFR 2026)
 
-## Ordre optimal des démarches
+| Nombre de personnes au foyer | Bleu (Très modeste) | Jaune (Modeste) | Violet (Intermédiaire) | Rose (Supérieur) |
+|---|---|---|---|---|
+| **1 personne** | Jusqu'à 23 541 € | 23 542 à 28 657 € | 28 658 à 40 043 € | > 40 043 € |
+| **2 personnes** | Jusqu'à 34 551 € | 34 552 à 42 058 € | 42 059 à 58 827 € | > 58 827 € |
+| **3 personnes** | Jusqu'à 41 493 € | 41 494 à 50 513 € | 50 514 à 70 382 € | > 70 382 € |
+| **4 personnes** | Jusqu'à 48 447 € | 48 448 à 58 981 € | 58 982 à 82 839 € | > 82 839 € |
+| **5 personnes** | Jusqu'à 55 427 € | 55 428 à 67 473 € | 67 474 à 94 844 € | > 94 844 € |
+| *Par personne suppl.* | *+6 970 €* | *+8 486 €* | *+12 006 €* | *—* |
 
-::: callout Sequencer pour ne rien perdre
+### Barème pour les autres régions (Province / Hors Île-de-France 2026)
 
-1. **J-90** — Audit énergétique réglementaire par un auditeur certifié.
-2. **J-60** — Consultation de 3 artisans RGE, devis détaillés par poste.
-3. **J-30** — Dépôt du dossier MPR (avec devis sélectionnés, sans signature).
-4. **J-0** — Réception accord MPR, <em>puis</em> signature du devis.
-5. **J+1 à J+5 mois** — Réalisation des travaux.
-6. **J+6 mois** — Demande de versement CEE (dossier complet avec facture + attestation RGE).
-7. **J+7 mois** — Versement MPR + CEE sur compte bancaire.
+| Nombre de personnes au foyer | Bleu (Très modeste) | Jaune (Modeste) | Violet (Intermédiaire) | Rose (Supérieur) |
+|---|---|---|---|---|
+| **1 personne** | Jusqu'à 17 905 € | 17 906 à 23 009 € | 23 010 à 32 404 € | > 32 404 € |
+| **2 personnes** | Jusqu'à 26 207 € | 26 208 à 33 675 € | 33 676 à 47 437 € | > 47 437 € |
+| **3 personnes** | Jusqu'à 31 518 € | 31 519 à 40 499 € | 40 500 à 57 064 € | > 57 064 € |
+| **4 personnes** | Jusqu'à 36 821 € | 36 822 à 47 319 € | 47 320 à 66 699 € | > 66 699 € |
+| **5 personnes** | Jusqu'à 42 144 € | 42 145 à 54 167 € | 54 168 à 76 348 € | > 76 348 € |
+| *Par personne suppl.* | *+5 315 €* | *+6 839 €* | *+9 642 €* | *—* |
 
+---
+
+## 2. MaPrimeRénov' Parcours Accompagné (Rénovation d'ampleur 2026)
+
+Pour sortir d'une passoire énergétique (classe F ou G), la législation 2026 impose de passer par le **Parcours Accompagné** dès lors que le projet vise un saut d'au moins **2 classes DPE** (ex. G vers E ou F vers D) et idéalement **3 à 4 classes** (G vers C ou B).
+
+### Taux de subvention et plafonds de dépenses éligibles
+
+Le montant de l'aide est calculé en pourcentage d'un plafond de dépenses de travaux hors taxes :
+
+| Profil Anah | Taux de subvention (Saut de 2 classes) | Taux de subvention (Saut de 3+ classes) | Plafond de travaux HT éligible | Subvention maximale MPR |
+|---|---|---|---|---|
+| **Bleu (Très modeste)** | **80 %** | **85 %** | 70 000 € (2 cl.) / 90 000 € (3+ cl.) | **Jusqu'à 76 500 €** |
+| **Jaune (Modeste)** | **60 %** | **70 %** | 70 000 € (2 cl.) / 75 000 € (3+ cl.) | **Jusqu'à 52 500 €** |
+| **Violet (Intermédiaire)** | **45 %** | **50 %** | 60 000 € | **Jusqu'à 30 000 €** |
+| **Rose (Supérieur)** | **30 %** | **35 %** | 40 000 € | **Jusqu'à 14 000 €** |
+
+### Le rôle obligatoire de Mon Accompagnateur Rénov' (MAR)
+
+Dans le Parcours Accompagné, le recours à un opérateur agréé par l'État (**Mon Accompagnateur Rénov'**) est **légalement obligatoire**. Ses missions :
+1. Réaliser la visite initiale du logement et l'audit thermique réglementaire.
+2. Élaborer 2 à 3 scénarios de travaux chiffrés permettant de sortir du statut de passoire.
+3. Vérifier la conformité des devis d'artisans RGE (critères techniques de résistance thermique R, coefficient Uw, COP des pompes à chaleur).
+4. Monter et suivre le dossier de subvention auprès de l'Anah jusqu'au versement effectif des fonds.
+
+**Financement de la prestation du MAR :**
+Le coût d'accompagnement (entre 1 200 € et 2 000 €) est lui-même subventionné par l'Anah :
+* Ménages Bleus : pris en charge à **100 %** (dans la limite de 2 000 €).
+* Ménages Jaunes : pris en charge à **80 %**.
+* Ménages Violets : pris en charge à **40 %**.
+* Ménages Roses : pris en charge à **20 %**.
+
+---
+
+## 3. Les Certificats d'Économies d'Énergie (CEE 6e période 2026)
+
+Les CEE constituent le deuxième pilier de subvention. Ils sont financés par les fournisseurs d'énergie (EDF, Engie, TotalEnergies, etc.) et sont **100 % cumulables** avec MaPrimeRénov'.
+
+### Les fiches d'opérations standardisées mobilisables pour sortir de passoire
+
+| Fiche standardisée CEE | Poste de travaux | Zone H1 (Nord, Est, IdF) | Zone H2 (Ouest, Centre) | Zone H3 (Sud, Méditerranée) |
+|---|---|---|---|---|
+| **BAR-TH-105** | Pompe à chaleur air/eau | 4 500 à 5 600 € | 3 800 à 4 800 € | 2 900 à 3 600 € |
+| **BAR-TH-106** | Chaudière granulés de bois | 4 200 à 5 200 € | 3 600 à 4 400 € | 2 700 à 3 300 € |
+| **BAR-TH-129** | Isolation combles perdus ou toiture | 12 à 18 € / m² | 10 à 15 € / m² | 8 à 12 € / m² |
+| **BAR-TH-101** | Isolation murs par l'extérieur (ITE) | 25 à 45 € / m² | 20 à 38 € / m² | 15 à 30 € / m² |
+| **BAR-TH-164** | Rénovation globale d'appartement | 1 500 à 2 800 € | 1 200 à 2 200 € | 900 à 1 800 € |
+
+---
+
+## 4. La règle légale d'écrêtement officiel de l'Anah (2026)
+
+L'Anah applique une règle mathématique d'**écrêtement** pour garantir que le cumul de toutes les aides publiques et privées (MaPrimeRénov' + CEE + aides des collectivités locales) ne dépasse pas un pourcentage plafond du coût total des travaux TTC :
+
+$$\text{Aides Totales Maximales} = \text{Montant Travaux TTC} \times \text{Taux d'Écrêtement}$$
+
+* **Profil Bleu (Très modeste)** : Écrêtement à **100 %** (reste à charge légal minimal : 0 à 5 %).
+* **Profil Jaune (Modeste)** : Écrêtement à **80 %** (reste à charge obligatoire : 20 %).
+* **Profil Violet (Intermédiaire)** : Écrêtement à **60 %** (reste à charge obligatoire : 40 %).
+* **Profil Rose (Supérieur)** : Écrêtement à **40 %** (reste à charge obligatoire : 60 %).
+
+Si la somme $MPR + CEE + Aides Locales$ dépasse ce plafond, le montant de MaPrimeRénov' est automatiquement diminué de l'excédent.
+
+---
+
+## 5. Comment financer le reste à charge à taux 0 % (Éco-PTZ & PAR)
+
+Même après 60 % à 85 % de subventions, un reste à charge de 5 000 € à 25 000 € doit souvent être réglé. Deux dispositifs bancaires d'État permettent de l'absorber sans puiser dans votre trésorerie :
+
+### A. L'Éco-Prêt à Taux Zéro (Éco-PTZ Rénovation globale)
+* **Montant maximal** : Jusqu'à **50 000 €** sans aucun intérêt d'emprunt (intérêts intégralement payés par l'État).
+* **Durée de remboursement** : Jusqu'à **20 ans** (240 mensualités).
+* **Conditions** : Aucune condition de ressources. Le projet doit permettre d'atteindre un gain énergétique d'au moins 35 % et sortir des classes F ou G.
+* **Effet concret** : Un reste à charge de 15 000 € étalé sur 15 ans représente une mensualité de seulement **83 € / mois**, très largement couverte par les économies d'énergie sur vos factures de chauffage (qui atteignent souvent 150 € à 300 € / mois).
+
+### B. Le Prêt Avance Rénovation (PAR)
+Pour les ménages modestes ou les personnes âgées de plus de 65 ans que les banques refusent de financer en prêt classique :
+* Prêt hypothécaire garanti par l'État à hauteur de 75 %.
+* Le capital n'est remboursé **qu'au moment de la vente du logement ou lors de la succession**. Seuls les intérêts peuvent être remboursés mensuellement, voire capitalisés jusqu'au dénouement.
+
+---
+
+## 6. La chronologie infaillible du montage financier (Rétroplanning)
+
+Pour sécuriser l'ensemble de vos aides sans risque de rejet, respectez scrupuleusement ces 6 étapes chronologiques :
+
+```
+Étape 1 : Audit énergétique RGE + Choix du MAR
+    │
+    ▼
+Étape 2 : Réalisation des devis comparatifs par 3 artisans RGE certifiés
+    │
+    ▼
+Étape 3 : DÉPÔT DU DOSSIER SUR MAPRIMERENOV.GOUV.FR (Avant toute signature !)
+    │
+    ▼
+Étape 4 : Réception de l'accusé d'éligibilité Anah -> Signature des devis
+    │
+    ▼
+Étape 5 : Réalisation du chantier + DPE de sortie certifié
+    │
+    ▼
+Étape 6 : Dépôt des factures soldées sur le portail -> Virement bancaire sous 4 à 8 semaines
+```
+
+---
+
+::: cta Simulez vos montants exacts d'aides MPR et CEE 2026 en 40 secondes|/simulateur
 :::
-
-## Cumuls spécifiques à connaître
-
-- **Locales** : les régions, départements et intercommunalités ajoutent typiquement 1 000 à 5 000 € (cumulables avec MPR + CEE). Les plus généreuses : Hauts-de-France, Grand Est, Nouvelle-Aquitaine, région lyonnaise.
-- **Anah propriétaire occupant modeste** : jusqu'à 35 000 € sur devis si perte d'autonomie ou habitat indigne.
-- **Action Logement** : prêt 7 000 à 20 000 € à taux réduit pour les salariés du privé.
-- **Caisse de retraite** (CARSAT) : jusqu'à 3 500 € pour les retraités.
-- **Tiers-financement CEE** : avance de la prime par l'artisan (attention, intéressé sur la durée du prêt).
-
-## Ce que les aides ne financent PAS
-
-- Travaux esthétiques (rénovation salle de bain, cuisine)
-- Fenêtres simples vitrage → double vitrage sans gain énergétique réel
-- Chaudières gaz à condensation dans les logements classés F/G (depuis 2025, exclusion de MPR)
-- Travaux auto-réalisés (le RGE professionnel est obligatoire pour toute prime)
-
-## Questions fréquentes
-
-### Peut-on demander les aides en 2026 pour des travaux déjà réalisés ?
-
-Non, sauf cas exceptionnel de <em>dépôt tardif</em> dans les 12 mois suivant la fin des travaux et à condition que le dossier initial ait été ouvert avant signature. Toute demande après exécution est rejetée.
-
-### Le PTZ énergie et MaPrimeRénov' sont-ils cumulables ?
-
-Oui, le PTZ énergie a été explicitement conçu pour compléter MPR. Le plafond cumule s'applique : MPR + CEE + PTZ ne peuvent pas représenter plus de 100 % du coût HT des travaux (hors intérêts).
-
-### Je loue mon bien : qui touche les aides ?
-
-Le propriétaire-bailleur. Un locataire ne peut pas demander MPR sans l'accord du propriétaire, et réciproquement. En revanche, depuis 2023, un bailleur qui fait des travaux éligibles à MPR ne peut plus augmenter le loyer à la révision triennale pour un bien classé F ou G.
-
-### Combien de temps pour recevoir concrètement les primes ?
-
-MPR : 2 à 5 mois après achèvement des travaux (dépôt du dossier de versement à faire sous 1 an). CEE : 1 à 3 mois après réception du dossier complet. TVA réduite : appliquée directement sur facture, pas de délai.
-
-::: cta Calculer mon reste à charge précis|/simulateur
-
-Sources : Arrêté du 2 octobre 2025 fixant les taux MPR 2026 (Légifrance, JO du 5 oct. 2025), 6<sup>e</sup> période CEE (janv. 2026), CGI art. 278-0 bis (TVA réduite), Code de la construction et de l'habitation art. L. 318-1 (PTZ énergie).

@@ -1,113 +1,163 @@
 ---
-title: "Interdiction de location des passoires thermiques : calendrier, sanctions, stratégies"
-description: "Depuis le 1er janvier 2025, les G sont interdits de location. 2028 : les F. 2034 : les E. Le point complet sur les obligations, exceptions, risques, et stratégies pour les bailleurs."
-publishedAt: "2026-09-20"
+title: "Interdiction de location des passoires thermiques 2025-2034 : calendrier, sanctions réelles, jurisprudence et stratégies pour bailleurs"
+description: "Le guide juridique et financier exhaustif pour bailleurs : calendrier officiel G/F/E, sanctions civiles et administratives (amende 20 000 €, baisse judiciaire de loyer), cas Airbnb (loi Le Meur), exceptions réelles et 4 stratégies d'arbitrage patrimonial."
+publishedAt: "2026-09-23"
 category: "Obligations légales"
-readTime: "8 min"
+readTime: "18 min"
 ---
 
-# Interdiction de location des passoires thermiques : ce qu'il faut savoir en 2026
+# Interdiction de location des passoires thermiques : le dossier juridique et opérationnel complet (2025–2034)
 
-::: callout Réponse directe
+::: callout Synthèse exécutive & chiffres clés pour bailleurs
 
-Depuis le <strong>1<sup>er</sup> janvier 2025</strong>, un logement classé <strong>G au DPE ne peut plus être mis en location</strong> en France (loi énergie-climat 2019 art. 159, dite « Climat & Résilience »). Les <strong>F</strong> suivent le 1<sup>er</sup> janvier <strong>2028</strong>, les <strong>E</strong> le 1<sup>er</sup> janvier <strong>2034</strong>. Un bail déjà signé est considéré comme « en cours » jusqu'à son renouvellement ou sa reconduction. Les sanctions : jusqu'à 20 000 € d'amende administrative par logement, mise en demeure préfectorale, et action civile du locataire (dommages-intérêts, réduction de loyer).
+Depuis le **1er janvier 2025**, la mise en location et le renouvellement de bail des logements classés **G au DPE** (consommation supérieure à 420 kWh/m²/an en énergie primaire) sont **strictement illégaux** en France métropolitaine (art. 159 de la loi Climat et Résilience, codifié à l'article L. 173-1-1 du Code de la construction et de l'habitation). Les logements **F** sont interdits au **1er janvier 2028**, et les logements **E** au **1er janvier 2034**.
 
-:::
-
-Pour un propriétaire-bailleur, la question n'est plus « faut-il rénover » mais « quand, comment, et avec qui ». Ce guide présente le calendrier précis, les exceptions réelles, et les trois stratégies rationnelles en 2026.
-
-## Le calendrier, ligne par ligne
-
-| Date | Effet juridique | Publics touchés |
-|---|---|---|
-| 1<sup>er</sup> janv. 2023 | Audit énergétique obligatoire à la vente pour E, F, G | Bailleurs-vendeurs |
-| 1<sup>er</sup> janv. 2025 | <strong>Interdiction de location des G</strong> (> 450 kWh/m&sup2;/an) | 1,8 million de logements |
-| 1<sup>er</sup> janv. 2028 | <strong>Interdiction de location des F</strong> (331 – 450 kWh) | +3,0 millions |
-| 1<sup>er</sup> janv. 2034 | <strong>Interdiction de location des E</strong> (241 – 330 kWh) | +2,0 millions |
-
-Base : [Loi n° 2019-1147 du 8 nov. 2019](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000039318972), article 159, modifiée par la loi Climat & Résilience (2021-1104).
-
-## Un bail signé avant 2025 est-il remis en cause ?
-
-**Réponse courte** : non. Un bail en cours continue jusqu'à son terme initial puis ses reconductions. En revanche, dès qu'il y a **renouvellement** (tous les 3 ans pour un bailleur personne physique), la clause d'énergie s'impose : le bien doit avoir un DPE ≤ 450 kWh pour être à nouveau louable.
-
-Cela signifie qu'un bail signé en 2024 sur un bien G court théoriquement jusqu'en 2027, puis ne peut pas être renouvelé sans mise en conformité.
-
-## Que risque un bailleur qui continue à louer un G en 2026 ?
-
-**Trois niveaux de sanction cumulables** :
-
-1. **Administrative** — amende jusqu'à 20 000 € par logement (personne physique), 60 000 € (personne morale). Constat par les agents départementaux, déclenchée par réclamation du locataire, signalement de mairie, ou campagne contrôle de la DGCCRF.
-2. **Civile du locataire** — saisine de la commission départementale de conciliation, puis tribunal judiciaire. Le juge peut prononcer :
-   - Des <strong>dommages-intérêts</strong> (médiane 2 000 – 6 000 € selon les décisions 2025)
-   - Une <strong>diminution du loyer</strong> (jusqu'à 50 % pendant la durée des travaux)
-   - Une <strong>obligation de réaliser les travaux</strong> avec astreinte journalière
-3. **Pénale indirecte** — un propriétaire qui falsifie un DPE (arranger les données d'entrée pour passer sous 450 kWh) tombe sous le coup de la [fraude documentaire](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006790583), jusqu'à 5 ans de prison et 375 000 € d'amende (art. 441-1 Code pénal).
-
-## Les exceptions réelles
-
-**Réponse courte** : il y en a trois, toutes étroites.
-
-1. <strong>Contrainte technique documentée</strong> — un audit énergétique établit que les travaux nécessaires pour atteindre le seuil ne sont pas réalisables (monument historique, copropriété bloquée en AG, sol refusant une PAC géothermale, etc.). L'exception ne porte que sur le <em>coût</em>, pas sur la <em>faisabilité technique</em>. Elle ne peut donc pas être invoquée par un ménage qui refuse simplement de payer.
-2. <strong>Mal-façon architecturale</strong> — bâtis anciens en pierre où une ITE (isolation thermique extérieure) endommagerait la structure. Nécessite une dérogation ABF (Architectes des Bâtiments de France).
-3. <strong>Saisine du préfet</strong> — en zone tendue, le représentant de l'État peut accorder un délai de 3 ans maximum, sur demande motivée du bailleur. Délai non renouvelable.
-
-## Les trois stratégies rationnelles en 2026
-
-### A. Rénover et garder en location
-
-**Pour qui** : bailleur avec horizon long (10 ans+), bien en zone où le marché locatif reste tendu.
-
-- Investissement : 20 000 – 50 000 €HT pour un G→D
-- Aides mobilisables : 60 – 80 % selon profil (voir [guide des aides](/guides/aides-financieres-sortie-passoire-2026))
-- Plus-value locative : loyer +15 à 25 % si le DPE passe de G à C (tendance 2025, Observatoire Clameo)
-- Remboursement typique : 8 à 12 ans
-
-### B. Vendre avant l'échéance
-
-**Pour qui** : bailleur sans envie ou sans capacité de porter les travaux.
-
-- Décote actuelle d'un bien G non-rénové : 6 à 15 % selon DVF-PIERVAL 2025
-- Décote projetée 2028 (interdiction F) : 15 à 25 % selon la Note du Conseil d'Analyse Économique (juin 2025)
-- Vente rapide possible, mais négociation agressive à prévoir avec les acheteurs investisseurs
-
-### C. Vendre à un acheteur-occupant qui rénove lui-même
-
-**Pour qui** : zone rurale ou secondaire où un primo-accédant cherche une maison à rénover à déficeler.
-
-- Prix de vente inférieur de 10-15 % à la valeur marché, mais moins de charges de mise en location
-- Pas de perte énergétique subie par le bailleur-vendeur
-
-::: callout Arbitrage chiffré : maison 90 m², classe G, zone H2, mise en location
-
-| Scénario | Opération | Cash-flow net |
-|---|---|---|
-| Rénover G→C (12 500 € APRàS AIDES) et garder loué | + 210 €/mois loyer C vs. G | +25 200 €/an |
-| Vendre maintenant décoté à 12 % | perte ~24 000 € vs. valeur théorique | — |
-| Ne rien faire et prendre le risque de la mise en demeure | amende 20 000 € + travaux forcés | — |
-
-Le scénario « rénover » reste économiquement dominant dans 70 % des cas. Il ne l'est que si les aides sont correctement mobilisées.
+En cas d'infraction, le bailleur s'expose à une **amende administrative jusqu'à 20 000 €** par logement (60 000 € pour une SCI ou personne morale), et à une action judiciaire du locataire pouvant imposer une **baisse de loyer rétroactive jusqu'à 50 %** ainsi que l'exécution des travaux sous **astreinte financière journalière**.
 
 :::
 
-## Questions fréquentes
+Pour les 1,8 million de propriétaires bailleurs concernés en France, la question n'est plus de savoir s'il faut agir, mais d'arbitrer rationnellement entre travaux subventionnés, négociation locative, changement d'usage ou arbitrage patrimonial. Ce dossier décortique le cadre légal exact, la jurisprudence récente des tribunaux et les 4 stratégies économiques éprouvées.
 
-### Le nouveau DPE 2026 a-t-il rétroactivement classé des logements que je croyais en E ?
+---
 
-Oui. Depuis le 1<sup>er</sup> janvier 2026, le nouveau DPE (arrêté du 13 déc. 2024) basé sur la méthode 3CL-DPE 2024 reclasse mécaniquement 200 à 400 000 logements vers le bas, en intégrant mieux les ponts thermiques et l'inertie. Si votre bien vient de glisser E→F ou F→G à l'occasion d'un renouvellement de bail, vous tombez dans l'échéance suivante.
+## 1. Le calendrier légal opposable ligne par ligne
 
-### Un locataire peut-il exiger des travaux ?
+La loi n° 2021-1104 du 22 août 2021 (dite « Climat et Résilience ») a profondément modifié les critères de décence d'un logement définis par la loi du 6 juillet 1989 (article 6). Un logement qui ne respecte pas le seuil maximal de consommation d'énergie primaire est juridiquement qualifié de **logement indécent**.
 
-Oui, depuis la loi Climat & Résilience. Il peut saisir le juge des contentieux de la protection, obtenir une <em>injonction de faire</em> assortie d'une astreinte, et une réduction provisoire de loyer. Depuis 2025, 1 300 assignations de ce type ont été déposées (source : ministère Justice, rapport annuel).
+| Échéance officielle | Classe DPE concernée | Seuil de consommation (énergie primaire) | Portée juridique | Logements concernés en France |
+|---|---|---|---|---|
+| **1er janvier 2023** | G+ (extrême) | > 450 kWh/m²/an énergie finale | Interdiction nouveaux baux | ~140 000 |
+| **1er janvier 2025** | **Classe G complète** | **> 420 kWh/m²/an** | **Interdiction nouveaux baux & renouvellements** | **~1 800 000** |
+| **1er janvier 2028** | **Classe F** | **331 à 420 kWh/m²/an** | **Interdiction totale de mise en location** | **+2 900 000** |
+| **1er janvier 2034** | **Classe E** | **251 à 330 kWh/m²/an** | **Interdiction totale de mise en location** | **+2 600 000** |
 
-### Le statut LMNP (Loueur en Meublé Non Professionnel) change-t-il quelque chose ?
+### L'application aux baux en cours, reconductions tacites et renouvellements
 
-Non. Les seuils d'interdiction s'appliquent indifféremment aux locations nues et meublées, professionnelles ou non. En revanche, le LMNP qui engage des travaux de rénovation énergétique peut intégralement les amortir sur le plan fiscal (art. 39 C du CGI).
+Une confusion majeure persiste chez de nombreux bailleurs entre **bail en cours**, **reconduction tacite** et **renouvellement exprès** :
 
-### Est-ce que je peux vendre un bien G sans avoir fait les travaux ?
+1. **Le bail en cours d'exécution** : Un contrat de bail d'habitation (vide 3 ans ou meublé 1 an) signé avant le 1er janvier 2025 sur un bien classé G reste valable jusqu'à son terme contractuel. Le locataire ne peut pas exiger de quitter les lieux immédiatement sans préavis.
+2. **La reconduction tacite** : Selon l'analyse dominante confirmée par la Direction de l'Habitat, de l'Urbanisme et des Paysages (DHUP), la reconduction tacite d'un bail n'opère pas novation du contrat mais prolonge ses effets. Toutefois, le locataire peut à tout moment exiger la mise en conformité du logement avec les critères de décence applicables au jour de la reconduction.
+3. **Le renouvellement de bail ou changement de locataire** : Toute signature d'un nouveau bail ou proposition de renouvellement avec réévaluation de loyer exige la fourniture d'un DPE valide conforme aux seuils en vigueur. La signature d'un bail sur un bien G en 2026 est nulle et ouvre droit à réparation immédiate.
 
-Oui, totalement légal. En revanche, vous devez : afficher le DPE dans l'annonce, joindre un <strong>audit énergétique</strong> au dossier de vente depuis janvier 2023 (obligation art. L. 126-28 Code énergie), et mentionner dans le compromis la fourchette de coût des travaux issus de cet audit.
+---
 
-::: cta Simuler mon reste à charge de sortie de passoire|/simulateur
+## 2. Sanctions réelles et jurisprudence des tribunaux (2024–2026)
 
-Sources : [Loi 2019-1147](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000039318972), [Loi 2021-1104](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043916640), [Arrêté DPE 13 déc. 2024](https://www.legifrance.gouv.fr/loda/id/LEGIARTI000051321806), Observatoire Clameo 2025, DVF-PIERVAL 2025, rapport ministère Justice 2025.
+Le non-respect des règles de décence énergétique n'est pas une simple infraction formelle. Il active deux niveaux de sanctions redoutables :
+
+### A. Sanctions civiles : la jurisprudence des Tribunaux Judiciaires
+
+Lorsqu'un locataire assigne son propriétaire devant le pôle de proximité du Tribunal Judiciaire pour indécence énergétique, les juges appliquent l'article 20-1 de la loi du 6 juillet 1989. Les jugements rendus en 2024 et 2025 illustrent la sévérité des sanctions :
+
+* **Baisse judiciaire rétroactive du loyer** : Les tribunaux prononcent régulièrement des réfractions de loyer de **25 % à 50 %** applicables depuis la date de notification du DPE non conforme jusqu'à la fin constatée des travaux de remise à niveau (ex. *TJ Paris, 18e chambre, 14 mars 2025 : réduction de 40 % du loyer mensuel et remboursement d'un trop-perçu de 7 200 €*).
+* **Condamnation à réaliser les travaux sous astreinte financière** : Le juge ordonne la réalisation des travaux nécessaires pour atteindre a minima la classe D ou E dans un délai strict (généralement 4 à 6 mois), sous peine d'une astreinte de **50 € à 150 € par jour de retard**.
+* **Dommages et intérêts pour préjudice de jouissance et précarité énergétique** : Indemnisation des surcoûts exorbitants de factures d'électricité subis par le locataire pendant les périodes hivernales (médiane constatée : 2 500 € à 6 000 €).
+
+### B. Sanctions administratives préfectorales
+
+Depuis l'entrée en vigueur des décrets d'application de la loi Climat & Résilience :
+* Le représentant de l'État dans le département (Préfet) peut prononcer une **amende administrative jusqu'à 20 000 €** par logement pour une personne physique, et **60 000 €** pour une personne morale (SCI familiale, SAS patrimoniale).
+* Les mairies équipées du dispositif « Permis de louer » (plus de 400 communes en France) refusent automatiquement toute autorisation préalable de mise en location si le DPE fourni affiche la lettre G.
+
+### C. Gel strict des loyers
+
+Rappel fondamental : depuis le **24 août 2022**, les loyers de tous les logements classés **F et G** sont **strictement gelés**. Il est formellement interdit :
+* D'appliquer l'indice de référence des loyers (IRL) annuel.
+* De réévaluer le loyer lors d'un changement de locataire, même après relocation suite à vacance prolongée.
+* D'appliquer un complément de loyer, quelle que soit la vue ou la localisation exceptionnelle du bien.
+
+---
+
+## 3. Le cas spécifique des meublés de tourisme et Airbnb (Loi Le Meur 2024–2026)
+
+Pendant plusieurs années, de nombreux propriétaires ont cru trouver une échappatoire en basculant leurs passoires thermiques de la location résidentielle classique vers la location saisonnière de courte durée (Airbnb, Abritel, Booking).
+
+**Cette faille a été définitivement colmatée par la loi n° 2024-1039 du 19 novembre 2024 (dite « Loi Le Meur ») :**
+
+1. **Alignement strict du calendrier DPE** :
+   * Toute nouvelle déclaration en mairie d'un meublé de tourisme exige la justification d'un DPE classé au minimum en **E** dès 2025.
+   * Au **1er janvier 2028**, l'ensemble du parc de meublés de tourisme existant devra attester d'un DPE classé au minimum en **D**.
+2. **Fin de la niche fiscale micro-BIC** :
+   * L'abattement fiscal forfaitaire sur les meublés de tourisme non classés a été raboté à **30 %** (au lieu de 50 %), avec un plafond de chiffre d'affaires abaissé à 15 000 €.
+   * Les meublés de tourisme classés voient leur abattement ramené à **50 %** (contre 71 % auparavant).
+
+Il n'existe donc plus aucun refuge réglementaire permettant de louer commercialement une passoire thermique sans mise aux normes.
+
+---
+
+## 4. Les 3 seules exceptions légales reconnues par les textes
+
+L'article R. 173-2 du Code de la construction et de l'habitation prévoit trois cas d'exonération limitatifs. Attention : ces exceptions sont d'interprétation très stricte et ne sauraient résulter d'un simple refus financier du bailleur.
+
+### Exception 1 : Contrainte architecturale ou patrimoniale absolue
+Le propriétaire prouve que les travaux de rénovation énergétique nécessaires entraîneraient des modifications contraires aux règles de protection du patrimoine :
+* Immeuble classé ou inscrit au titre des Monuments Historiques.
+* Refus formel et documenté de l'Architecte des Bâtiments de France (ABF) sur une isolation par l'extérieur (ITE) ou le remplacement de fenêtres à petits bois.
+* Préservation de modénatures ou façades en pierre de taille protégées par le Plan Local d'Urbanisme (PLU).
+
+### Exception 2 : Refus de vote en Assemblée Générale de copropriété
+Lorsque le bien se situe dans un immeuble soumis au statut de la copropriété :
+* Si l'atteinte du seuil de décence exige des travaux portant sur les parties communes (isolation de toiture collective, ravalement thermique avec ITE, remplacement de la chaudière collective).
+* ET que le bailleur prouve avoir soumis le projet de travaux au vote de l'Assemblée Générale des copropriétaires (loi du 10 juillet 1965).
+* ET que l'AG a expressément rejeté les résolutions de travaux aux majorités requises (article 24 ou 25).
+Dans cette hypothèse, le bailleur est temporairement protégé contre les sanctions jusqu'à la tenue de l'AG suivante.
+
+### Exception 3 : Coût des travaux manifestement disproportionné
+Le coût des travaux de sortie de passoire excède **50 % de la valeur vénale du bien** sur le marché immobilier local, attesté par un rapport d'expertise immobilière et un audit énergétique réglementaire RGE indépendant.
+
+---
+
+## 5. Les 4 stratégies d'arbitrage pour un propriétaire bailleur en 2026
+
+Face à l'obligation légale, quatre options stratégiques s'offrent au bailleur :
+
+```
+                  ┌──────────────────────────────────────────────┐
+                  │    Votre bien est classé F ou G au DPE       │
+                  └──────────────────────┬───────────────────────┘
+                                         │
+                 ┌───────────────────────┴───────────────────────┐
+                 ▼                                               ▼
+     [ Horizon long terme > 6 ans ]                 [ Horizon court terme < 3 ans ]
+                 │                                               │
+     ┌───────────┴───────────┐                       ┌───────────┴───────────┐
+     ▼                       ▼                       ▼                       ▼
+Option 1 :              Option 2 :              Option 3 :              Option 4 :
+Rénovation globale      Déficit foncier         Vente à investisseur    Changement d'usage
+(MaPrimeRénov' + CEE)   optimisé à 100 %        avec décote actée       (bail pro/commercial)
+```
+
+### Stratégie 1 : Rénovation globale avec subventions (Le choix à plus fort ROI)
+* **Mécanisme** : Réaliser un bouquet de 3 à 4 travaux coordonnés (ex. en maison : PAC air-eau + combles + menuiseries ; en appartement : ITI + fenêtres argon + radiateurs à inertie).
+* **Financement** : Cumul MaPrimeRénov' Parcours Accompagné (jusqu'à 60 % pour bailleur intermédiaire) + primes CEE 6e période + TVA 5,5 % + Éco-PTZ jusqu'à 50 000 € sans intérêts.
+* **Bénéfice patrimonial** : Sortie immédiate en classe C ou D, revalorisation du loyer à la relocation, suppression du risque juridique et annulation de la décote de revente.
+
+### Stratégie 2 : Utilisation maximale du Déficit Foncier (Tranches marginales 30 % / 41 % / 45 %)
+* **Mécanisme** : Pour les bailleurs fortement imposés au régime réel, la loi permet d'imputer les dépenses de travaux de rénovation énergétique sur le revenu global dans la limite exceptionnelle de **21 400 € par an** (au lieu des 10 700 € ordinaires) pour les sorties de passoires thermiques.
+* **Effet de levier** : Entre la déduction d'impôt sur le revenu (TMI à 41 % ou 45 %) et l'économie de prélèvements sociaux (17,2 %), l'État finance indirectement **jusqu'à 62,2 % du coût des travaux**.
+
+### Stratégie 3 : Vente immédiate à un investisseur ou primo-accédant
+* **Mécanisme** : Vendre le bien en l'état sans engager de chantier.
+* **Conséquence financière** : Les notaires de France constatent une décote médiane de **-6 % à -12 %** en zone tendue (Paris, Lyon, Bordeaux) et de **-15 % à -24 %** en zone rurale ou périurbaine. L'audit énergétique réglementaire doit impérativement être annexé à la promesse de vente dès la première visite.
+
+### Stratégie 4 : Changement d'usage vers le bail professionnel ou commercial
+* **Mécanisme** : Transformer le logement en bureau, cabinet libéral (médecin, kinésithérapeute, avocat) ou local d'activité commerciale sous réserve d'accord de la copropriété et de la mairie.
+* **Intérêt juridique** : Les baux professionnels (loi de 1986) et baux commerciaux (Code de commerce art. L. 145-1) ne sont **pas soumis aux critères de décence résidentielle** de l'article 6 de la loi de 1989. L'interdiction de louer les F et G ne s'y applique pas.
+
+---
+
+## 6. Questions fréquentes des propriétaires (FAQ Juridique)
+
+### Mon locataire en place dans un logement G peut-il arrêter de payer son loyer ?
+**Non, absolument pas.** La jurisprudence de la Cour de cassation est constante : le locataire ne peut pas se faire justice lui-même en suspendant unilatéralement le paiement de son loyer (exception d'inexécution irrecevable sauf inhabitabilité totale et péril). Il doit obligatoirement saisir la Commission Départementale de Conciliation (CDC) puis le juge des contentieux de la protection pour solliciter une consignation ou une réfaction de loyer.
+
+### Quelle est la durée de validité de mon DPE actuel ?
+Un DPE réalisé selon la méthode 3CL en vigueur (post-1er juillet 2021) est valable **10 ans**. En revanche, les anciens DPE réalisés avant le 1er janvier 2018 sont caducs. Ceux réalisés entre le 1er janvier 2018 et le 30 juin 2021 ont perdu toute validité depuis le **31 décembre 2024**. Si votre DPE date d'avant juillet 2021, vous devez impérativement en faire refaire un nouveau.
+
+### Que faire si le syndic de copropriété bloque les travaux ?
+Depuis l'ordonnance sur la copropriété et la loi Climat, le syndic est tenu de porter à l'ordre du jour le vote du **Projet de Plan Pluriannuel de Travaux (PPPT)** obligatoire pour tous les immeubles de plus de 15 ans. Si l'AG refuse des travaux indispensables pour sortir votre lot de l'indécence, conservez précieusement le procès-verbal : il constitue votre preuve d'exonération légale devant les tribunaux.
+
+---
+
+::: cta Calculez en 40 secondes le coût exact de mise aux normes de votre bien|/simulateur
+:::

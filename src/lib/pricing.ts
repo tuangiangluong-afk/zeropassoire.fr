@@ -77,7 +77,7 @@ export function climatFromZone(z: 1 | 2 | 3): "H1" | "H2" | "H3" {
   return z === 1 ? "H1" : z === 3 ? "H3" : "H2";
 }
 
-// Coût poste isolé (€ HT) par m² ou forfait, médiane chantiers ADEME
+// Coût poste isolé (€ HT) avec forfaits modulés selon la surface, médiane chantiers ADEME
 const POSTES_REF: Record<string, { label: string; description: string; perM2: number; forfait: number }> = {
   audit_energetique: {
     label: "Audit énergétique réglementaire",
@@ -93,9 +93,15 @@ const POSTES_REF: Record<string, { label: string; description: string; perM2: nu
   },
   pompe_a_chaleur_air_eau: {
     label: "Pompe à chaleur air/eau haute performance",
-    description: "Remplacement chaudière fossile par PAC bi-bloc avec régulation connectée.",
+    description: "Remplacement chaudière fossile par PAC bi-bloc dimensionnée selon la surface.",
+    perM2: 25,
+    forfait: 11500,
+  },
+  chaudiere_gaz_condensation: {
+    label: "Chaudière gaz très haute performance (THPE)",
+    description: "Remplacement par chaudière à condensation micro-accumulée (appartement).",
     perM2: 0,
-    forfait: 13500,
+    forfait: 4200,
   },
   isolation_combles: {
     label: "Isolation combles perdus ou toiture (R ≥ 7)",
@@ -124,8 +130,8 @@ const POSTES_REF: Record<string, { label: string; description: string; perM2: nu
   radiateurs_inertie_connectes: {
     label: "Radiateurs à inertie fluide / fonte connectés",
     description: "Chauffe homogène basse consommation avec régulation pièce par pièce.",
-    perM2: 0,
-    forfait: 3400,
+    perM2: 35,
+    forfait: 800,
   },
   vmc_double_flux: {
     label: "VMC double flux haut rendement",
@@ -156,11 +162,27 @@ const MPR_TAUX: Record<SimulateurInput["menageIncomeBracket"], number> = {
   superieur:     0.30,
 };
 
+// Taux d'écrêtement Anah officiel (total aides / montant travaux)
+const TAUX_ECRETEMENT: Record<SimulateurInput["menageIncomeBracket"], number> = {
+  tres_modeste: 0.95,
+  modeste: 0.80,
+  intermediaire: 0.60,
+  superieur: 0.40,
+};
+
 function parcoursPour(
   classe: DpeClass,
-  type: LogementType
+  type: LogementType,
+  chauffage: ChauffageType
 ): { posteIds: string[]; nouvelleClasse: string } {
+  const dejaChauffePropre = chauffage === "pac" || chauffage === "granule";
+
   if (type === "appartement") {
+    const posteChauffageApt =
+      chauffage === "gaz"
+        ? "chaudiere_gaz_condensation"
+        : "radiateurs_inertie_connectes";
+
     switch (classe) {
       case "G":
         return {
@@ -168,7 +190,7 @@ function parcoursPour(
             "audit_energetique",
             "isolation_interieure_murs",
             "remplacement_fenetres",
-            "radiateurs_inertie_connectes",
+            posteChauffageApt,
             "vmc_hygro",
           ],
           nouvelleClasse: "D",
@@ -179,7 +201,7 @@ function parcoursPour(
             "dpe",
             "isolation_interieure_murs",
             "remplacement_fenetres",
-            "radiateurs_inertie_connectes",
+            posteChauffageApt,
           ],
           nouvelleClasse: "D",
         };
@@ -189,14 +211,47 @@ function parcoursPour(
           posteIds: [
             "dpe",
             "remplacement_fenetres",
-            "radiateurs_inertie_connectes",
+            posteChauffageApt,
           ],
           nouvelleClasse: "C",
         };
     }
   }
 
-  // Maison individuelle
+  // Maison individuelle : si déjà équipé d'une PAC ou granulés, réorienter vers l'ITE/isolation enveloppe
+  if (dejaChauffePropre) {
+    switch (classe) {
+      case "G":
+        return {
+          posteIds: [
+            "audit_energetique",
+            "isolation_murs_exterieurs",
+            "isolation_combles",
+            "remplacement_fenetres",
+            "vmc_double_flux",
+          ],
+          nouvelleClasse: "C",
+        };
+      case "F":
+        return {
+          posteIds: [
+            "dpe",
+            "isolation_murs_exterieurs",
+            "isolation_combles",
+            "remplacement_fenetres",
+          ],
+          nouvelleClasse: "C",
+        };
+      case "E":
+      default:
+        return {
+          posteIds: ["dpe", "isolation_combles", "remplacement_fenetres"],
+          nouvelleClasse: "B",
+        };
+    }
+  }
+
+  // Maison individuelle avec chauffage fossile ou convecteurs
   switch (classe) {
     case "G":
       return {
@@ -307,7 +362,7 @@ function computeEcheanceLegale(classe: DpeClass, statut: StatutType): EcheanceLe
 export function simulate(input: SimulateurInput): SimulateurResult {
   const statut: StatutType = input.statut ?? "occupant";
   const zone = zoneFromCp(input.cp);
-  const { posteIds, nouvelleClasse } = parcoursPour(input.classe, input.type);
+  const { posteIds, nouvelleClasse } = parcoursPour(input.classe, input.type, input.chauffage);
 
   const postes: PosteTravauxDetail[] = [];
   let travaux = 0;
@@ -317,7 +372,7 @@ export function simulate(input: SimulateurInput): SimulateurResult {
     if (!ref) continue;
     let cout = 0;
     if (ref.perM2) cout = Math.round(ref.perM2 * input.surface);
-    if (ref.forfait) cout = ref.forfait;
+    if (ref.forfait) cout += ref.forfait;
     travaux += cout;
     postes.push({
       id,
@@ -332,8 +387,9 @@ export function simulate(input: SimulateurInput): SimulateurResult {
   const primeMpr = Math.min(plafondMpr, Math.round(travaux * tauxMpr));
   const primeCee = ceePrime(input.classe, input.surface, zone, input.type);
 
-  // Le total des aides ne peut pas dépasser 95 % des travaux (règle Anah)
-  const maxAides = Math.round(travaux * 0.95);
+  // Application de la règle d'écrêtement Anah officielle 2026
+  const tauxEcretement = TAUX_ECRETEMENT[input.menageIncomeBracket];
+  const maxAides = Math.round(travaux * tauxEcretement);
   const aidesCumul = Math.min(maxAides, primeMpr + primeCee);
 
   const min = Math.max(500, Math.round(travaux - aidesCumul));

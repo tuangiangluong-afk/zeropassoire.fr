@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { supabaseAdmin } from "@/lib/supabase";
 import { sendLeadEmail } from "@/lib/email";
+import { pushLeadToViteUnDevis } from "@/lib/viteundevis";
 
 export const runtime = "nodejs";
 
@@ -141,6 +142,27 @@ export async function POST(req: NextRequest) {
       else console.log("[zeropassoire][email][ok]", email);
     })
     .catch((e) => console.error("[zeropassoire][email][throw]", e));
+
+  // ViteUnDevis Partner Dispatch (uniquement si rappel consenti avec numéro de téléphone)
+  if (consentCallback && phoneRaw) {
+    const inputData = (simulation as any).input || {};
+    pushLeadToViteUnDevis({
+      email,
+      phone: phoneRaw,
+      postalCode: String(inputData.cp || "75000"),
+      typeLogement: inputData.type === "appartement" ? "appartement" : "maison",
+      statut: inputData.statut === "bailleur" ? "bailleur" : "occupant",
+      surface: Number(inputData.surface) || 80,
+      classeDpe: inputData.classe || "F",
+      leadId: data.id,
+    })
+      .then((vRes) => {
+        if (vRes.skipped) console.log("[zeropassoire][ViteUnDevis][skipped]", vRes.skipped);
+        else if (vRes.success) console.log("[zeropassoire][ViteUnDevis][ok]", data.id);
+        else console.error("[zeropassoire][ViteUnDevis][fail]", vRes.error);
+      })
+      .catch((vErr) => console.error("[zeropassoire][ViteUnDevis][throw]", vErr));
+  }
 
   return NextResponse.json({ ok: true, id: data.id });
 }
