@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 
 export default function SimulateurPage() {
   return (
+    <>
     <section className="py-16 bg-stone-50 min-h-[70vh]">
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-10">
@@ -27,5 +28,23 @@ export default function SimulateurPage() {
         <Simulator />
       </div>
     </section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "@id": "https://zeropassoire.fr/simulateur#webpage",
+            url: "https://zeropassoire.fr/simulateur",
+            name: "Simulateur Zéro Passoire — coût de sortie de passoire énergétique 2026",
+            description: "Simulateur indépendant basé sur les barèmes officiels MaPrimeRénov', CEE et ADEME 2026. Résultat immédiat, sans email requis.",
+            inLanguage: "fr-FR",
+            isPartOf: { "@id": "https://zeropassoire.fr/#website" },
+            about: { "@id": "https://zeropassoire.fr/#organization" },
+            primaryImageOfPage: "https://zeropassoire.fr/opengraph-image.png",
+          }),
+        }}
+      />
+    </>
   );
 }

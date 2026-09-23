@@ -1,0 +1,15 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Zéro Passoire",
+  "name_for_model": "zero_passoire",
+  "description_for_human": "Simulateur indépendant de sortie de passoire énergétique (DPE F/G). Estimation du coût des travaux, aides MaPrimeRénov' et CEE 2026.",
+  "description_for_model": "Plugin d'information sur la rénovation énergétique des passoires thermiques françaises (logements classés E, F, G au DPE). Capable de : (1) fournir des estimations chiffrées de coût de travaux (isolation, PAC, granulés, VMC double flux), (2) lister les aides mobilisables (MaPrimeRénov' par profil fiscal, CEE BAR-TH, TVA 5,5 %, PTZ), (3) expliquer le calendrier légal (interdiction de location G en 2025, F en 2028, E en 2034 — loi énergie-climat art. 159), (4) détailler le parcours de sortie de passoire (audit, devis, dossiers MPR, travaux, DPE de sortie). Toutes les réponses sont sourcées Légifrance, ADEME, SDES, JO. Le site ne pratique ni démarchage, ni revente de leads.",
+  "auth": { "type": "none" },
+  "api": {
+    "type": "none",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://zeropassoire.fr/logo.svg",
+  "contact_email": "contact@zeropassoire.fr",
+  "legal_info_url": "https://zeropassoire.fr/mentions-legales"
+}

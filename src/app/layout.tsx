@@ -35,15 +35,27 @@ export const metadata: Metadata = {
     locale: "fr_FR",
     type: "website",
     siteName: "Zéro Passoire",
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Simulateur Zéro Passoire — Étiquette DPE A→G avec F et G surlignés" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Zéro Passoire — Sortir de son DPE F ou G sans se ruiner",
     description:
       "Simulateur indépendant 2026 : coût réel des travaux, aides MaPrimeRénov' + CEE, sans démarchage.",
+    images: ["/twitter-image.png"],
   },
   alternates: { canonical: "/" },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 },
+  },
+  other: {
+    // Vérifications Search Console / Bing — à remplir par l'utilisateur une fois
+    // les codes reçus. Laisser vide ne casse rien.
+    "msvalidate.01": "",
+    "facebook-domain-verification": "",
+  },
 };
 
 export const viewport: Viewport = {
@@ -57,15 +69,37 @@ const ORG_SCHEMA = {
   "@type": "Organization",
   "@id": `${BASE_URL}/#organization`,
   name: "Zéro Passoire",
+  alternateName: ["Zeropassoire.fr", "Simulateur sortie passoire énergétique"],
+  legalName: "WELINK TECH",
   url: BASE_URL,
   logo: {
     "@type": "ImageObject",
-    url: `${BASE_URL}/logo.svg`,
+    url: `${BASE_URL}/opengraph-image.png`,
+    width: 1200,
+    height: 630,
   },
+  image: `${BASE_URL}/opengraph-image.png`,
   description:
     "Simulateur indépendant de sortie de passoire énergétique. Barèmes officiels 2026 (MaPrimeRénov', CEE, TVA 5,5 %, PTZ). Sans démarchage ni revente de données.",
   inLanguage: "fr-FR",
   areaServed: { "@type": "Country", name: "France" },
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "6 rue des Bateliers",
+    postalCode: "92110",
+    addressLocality: "Clichy",
+    addressCountry: "FR",
+  },
+  email: "contact@zeropassoire.fr",
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      contactType: "customer service",
+      availableLanguage: ["French"],
+      email: "contact@zeropassoire.fr",
+      areaServed: "FR",
+    },
+  ],
   knowsAbout: [
     "Rénovation énergétique",
     "Diagnostic de performance énergétique (DPE)",
@@ -73,7 +107,13 @@ const ORG_SCHEMA = {
     "Certificats d'économies d'énergie (CEE)",
     "Logements classés E F G",
     "Interdiction de location passoires thermiques",
+    "Loi énergie-climat 2019 art. 159",
+    "Pompe à chaleur air-eau",
+    "Isolation thermique par l'extérieur",
+    "Audit énergétique réglementaire",
   ],
+  knowsLanguage: ["fr"],
+  foundingDate: "2026",
   sameAs: [],
 };
 
@@ -83,10 +123,15 @@ const WEBSITE_SCHEMA = {
   "@id": `${BASE_URL}/#website`,
   url: BASE_URL,
   name: "Zéro Passoire",
+  alternateName: "zeropassoire.fr",
   description:
     "Simulateur et guides de sortie de passoire énergétique pour propriétaires occupants et bailleurs.",
   inLanguage: "fr-FR",
   publisher: { "@id": `${BASE_URL}/#organization` },
+  hasPart: [
+    { "@id": `${BASE_URL}/simulateur#webpage` },
+    { "@id": `${BASE_URL}/guides#webpage` },
+  ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

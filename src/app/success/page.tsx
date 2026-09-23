@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { CheckCircle2, Download, Share2, ArrowRight } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Merci — votre plan de sortie est en route",
+  description: "Confirmation d'envoi de votre plan de sortie de passoire énergétique.",
+  robots: { index: false, follow: false },
+};
 
 export default function SuccessPage() {
   // In a real deployment, this page could fetch the lead's snapshot via session_id from

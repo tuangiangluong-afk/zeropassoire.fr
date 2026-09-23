@@ -26,6 +26,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       locale: "fr_FR",
       type: "article",
       publishedTime: guide.publishedAt,
+      authors: ["Zéro Passoire"],
+      images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Étiquette DPE A→G" }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: guide.title,
+      description: guide.description,
+      images: ["/twitter-image.png"],
     },
   };
 }
@@ -39,16 +47,43 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
   const guide = getGuideBySlug(slug);
   if (!guide) notFound();
 
+  const url = `${BASE}/guides/${slug}`;
   const schemas: object[] = [
     {
       "@context": "https://schema.org",
       "@type": "Article",
+      "@id": `${url}#article`,
       headline: guide.title,
       description: guide.description,
       datePublished: guide.publishedAt,
-      author: { "@type": "Organization", name: "Zéro Passoire" },
-      publisher: { "@type": "Organization", name: "Zéro Passoire", url: BASE },
-      mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE}/guides/${slug}` },
+      dateModified: guide.publishedAt,
+      inLanguage: "fr-FR",
+      author: {
+        "@type": "Organization",
+        "@id": `${BASE}/#organization`,
+        name: "Équipe éditoriale Zéro Passoire",
+        url: `${BASE}/#organization`,
+      },
+      publisher: {
+        "@type": "Organization",
+        "@id": `${BASE}/#organization`,
+        name: "Zéro Passoire",
+        url: BASE,
+        logo: { "@type": "ImageObject", url: `${BASE}/logo.svg` },
+      },
+      isPartOf: { "@id": `${BASE}/#website` },
+      about: [
+        { "@type": "Thing", name: "Sortie de passoire thermique" },
+        { "@type": "Thing", name: "Rénovation énergétique" },
+        { "@type": "Thing", name: "MaPrimeRénov'" },
+      ],
+      mentions: [
+        { "@type": "Thing", name: "DPE" },
+        { "@type": "Thing", name: "Légifrance" },
+        { "@type": "Thing", name: "ADEME" },
+      ],
+      mainEntityOfPage: { "@type": "WebPage", "@id": url },
+      image: `${BASE}/opengraph-image.png`,
     },
     {
       "@context": "https://schema.org",
@@ -56,8 +91,25 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Accueil", item: BASE },
         { "@type": "ListItem", position: 2, name: "Guides", item: `${BASE}/guides` },
-        { "@type": "ListItem", position: 3, name: guide.title, item: `${BASE}/guides/${slug}` },
+        { "@type": "ListItem", position: 3, name: guide.title, item: url },
       ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": url,
+      url,
+      name: guide.title,
+      description: guide.description,
+      inLanguage: "fr-FR",
+      isPartOf: { "@id": `${BASE}/#website` },
+      about: { "@id": `${BASE}/#organization` },
+      breadcrumb: { "@id": `${url}#breadcrumb` },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h1 + p", ".prose-zeropassoire > h2:first-of-type", ".prose-zeropassoire > h2:first-of-type + p"],
     },
   ];
 
@@ -104,13 +156,13 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
 
         <div className="mt-16 p-6 rounded-2xl bg-brand-50 border border-brand-200 text-center">
           <h3 className="font-display text-2xl font-bold text-stone-900 mb-2">
-            Votre situation m&eacute;rite des chiffres &agrave; jour
+            Votre situation mérite des chiffres à jour
           </h3>
           <p className="text-stone-700 mb-5 text-sm">
-            Le simulateur vous donne votre reste &agrave; charge pr&eacute;cis en 40 secondes.
+            Le simulateur vous donne votre reste à charge précis en 40 secondes.
           </p>
           <Link href="/simulateur" className="btn-primary inline-flex">
-            Estimer mon reste &agrave; charge
+            Estimer mon reste à charge
           </Link>
         </div>
       </div>

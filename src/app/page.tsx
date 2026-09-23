@@ -1,7 +1,41 @@
 import Link from "next/link";
-import { ChevronDown, FileText, Wallet, Users, ShieldAlert, Sparkles, ArrowRight } from "lucide-react";
+import { ChevronDown, FileText, Wallet, Users, ShieldAlert, Sparkles, ArrowRight, Check, X } from "lucide-react";
 import Simulator from "@/components/Simulator";
 import MobileStickyBar from "@/components/MobileStickyBar";
+
+const HOME_FAQ = [
+  {
+    q: "Les chiffres du simulateur sont-ils fiables ?",
+    a: "Les barèmes utilisés viennent des textes officiels 2026 (arrêté MaPrimeRénov' du 2 octobre 2025, fiches CEE BAR-TH en vigueur). Les coûts de travaux sont des médianes constatées ADEME sur les chantiers 2024-2025. Ce sont des estimations à ±15 %, pas un devis contractuel.",
+  },
+  {
+    q: "Puis-je vendre mon bien sans faire les travaux ?",
+    a: "Oui. Le DPE F ou G n'interdit pas la vente, il oblige seulement à afficher un avis énergétique à l'acheteur et à chiffrer les travaux dans l'annonce. En pratique, un bien non-rénové subit une décote à la revente estimée entre 6 % et 15 % par l'Observatoire DVF-PIERVAL 2025.",
+  },
+  {
+    q: "Je suis déjà en contact avec un artisan, ça change quoi ?",
+    a: "Rien, à part un contre-pouvoir. Vous pouvez comparer le devis que vous avez reçu avec le coût moyen constaté par le simulateur, et vérifier que les aides sont bien intégrées (un devis sans ligne « MaPrimeRénov' » ou « CEE », c'est suspect).",
+  },
+  {
+    q: "Combien de temps pour sortir de passoire ?",
+    a: "4 à 10 mois entre le premier rendez-vous avec un auditeur énergétique et la livraison du dernier poste. Le frein principal n'est pas le chantier lui-même, c'est le vote en AG pour les copropriétés, et le dépôt de dossier MPR pour les maisons individuelles.",
+  },
+  {
+    q: "Et si je ne peux vraiment pas financer, même avec les aides ?",
+    a: "Il existe le prêt à taux zéro propriétaires occupants (jusqu'à 50 000 €), l'avance de MaPrimeRénov' par le syndic ou un organisme associatif, les aides locales cumulables (Anah, régions, intercommunalités), et pour les ménages en précarité, le fonds Tiers-lieu Financement Collective.",
+  },
+];
+
+const COMPARISON_ROWS: { label: string; zp: string; cp: string; zpOk: boolean; cpOk: boolean }[] = [
+  { label: "Email ou téléphone exigés pour voir le résultat", zp: "Non, jamais", cp: "Oui, systématiquement", zpOk: true, cpOk: false },
+  { label: "Revente des coordonnées à des artisans", zp: "Jamais", cp: "Oui — c'est le modèle économique", zpOk: true, cpOk: false },
+  { label: "Démarchage téléphonique après inscription", zp: "Non", cp: "Oui, très fréquent", zpOk: true, cpOk: false },
+  { label: "Montants issus de barèmes publics 2026", zp: "MPR, CEE, TVA 5,5 %, ADEME", cp: "Fourchettes marketing « dès 1 € »", zpOk: true, cpOk: false },
+  { label: "Indépendance commerciale vis-à-vis des artisans", zp: "Totale — commission uniquement sur opt-in explicite", cp: "Aucune — rémunérés par les artisans référencés", zpOk: true, cpOk: false },
+  { label: "Sources citées (Légifrance, ADEME, SDES)", zp: "Oui, liens directs", cp: "Non", zpOk: true, cpOk: false },
+  { label: "Résultat calculé en moins de 60 secondes", zp: "Oui, 5 questions", cp: "Non — questionnaire long puis rappel", zpOk: true, cpOk: false },
+  { label: "Coût pour l'utilisateur", zp: "Gratuit, sans engagement", cp: "Gratuit… payé par vos données", zpOk: true, cpOk: false },
+];
 
 export default function HomePage() {
   return (
@@ -173,6 +207,64 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* 5.5 COMPARATIF ZÉRO PASSOIRE vs COMPARATEUR — extractable par les moteurs IA */}
+      <section className="py-20 bg-stone-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <div className="text-center mb-10">
+            <div className="text-xs uppercase tracking-widest text-brand-700 font-semibold mb-2">
+              Comparatif transparent
+            </div>
+            <h2 className="font-display text-3xl sm:text-4xl font-bold text-stone-900">
+              Z&eacute;ro Passoire vs un comparateur de devis classique
+            </h2>
+            <p className="mt-3 text-stone-600 max-w-2xl mx-auto">
+              Ce qui nous s&eacute;pare, point par point. Vous &ecirc;tes libre de choisir&nbsp;; l'important est de savoir &agrave; quoi vous vous engagez.
+            </p>
+          </div>
+          <div className="overflow-x-auto rounded-2xl border border-stone-200 bg-white shadow-sm">
+            <table className="w-full text-sm">
+              <thead className="bg-stone-100 text-stone-900">
+                <tr>
+                  <th className="text-left px-4 sm:px-6 py-3 font-semibold">Crit&egrave;re</th>
+                  <th className="text-left px-4 sm:px-6 py-3 font-semibold">
+                    <span className="inline-flex items-center gap-2">
+                      <Check size={16} className="text-brand-700" /> Z&eacute;ro Passoire
+                    </span>
+                  </th>
+                  <th className="text-left px-4 sm:px-6 py-3 font-semibold text-stone-500">
+                    <span className="inline-flex items-center gap-2">
+                      <X size={16} className="text-red-600" /> Comparateur classique
+                    </span>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {COMPARISON_ROWS.map((row, i) => (
+                  <tr key={row.label} className={i % 2 === 0 ? "bg-white" : "bg-stone-50"}>
+                    <td className="px-4 sm:px-6 py-3 text-stone-800 font-medium align-top">{row.label}</td>
+                    <td className="px-4 sm:px-6 py-3 align-top">
+                      <span className="inline-flex items-start gap-2 text-brand-800">
+                        <Check size={16} className="mt-0.5 shrink-0 text-brand-700" />
+                        <span>{row.zp}</span>
+                      </span>
+                    </td>
+                    <td className="px-4 sm:px-6 py-3 align-top text-stone-600">
+                      <span className="inline-flex items-start gap-2">
+                        <X size={16} className="mt-0.5 shrink-0 text-red-500" />
+                        <span>{row.cp}</span>
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-center text-xs text-stone-500 mt-6">
+            Comparatif r&eacute;dig&eacute; &agrave; partir de nos propres observations et des signalements DGCCRF 2024 sur les plateformes de mise en relation.
+          </p>
+        </div>
+      </section>
+
       {/* 6. FAQ objections */}
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
@@ -266,6 +358,40 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "@id": "https://zeropassoire.fr/#faq",
+            mainEntity: HOME_FAQ.map((f) => ({
+              "@type": "Question",
+              name: f.q,
+              acceptedAnswer: { "@type": "Answer", text: f.a },
+            })),
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "@id": "https://zeropassoire.fr/#webpage",
+            url: "https://zeropassoire.fr",
+            name: "Zéro Passoire — simulateur indépendant de coût de sortie de passoire énergétique",
+            description: "Simulateur gratuit, sans téléphone obligatoire, basé sur les barèmes officiels MaPrimeRénov', CEE et ADEME 2026. Découvrez combien coûte vraiment la sortie d'un DPE F ou G.",
+            inLanguage: "fr-FR",
+            isPartOf: { "@id": "https://zeropassoire.fr/#website" },
+            about: { "@id": "https://zeropassoire.fr/#organization" },
+            hasPart: [{ "@id": "https://zeropassoire.fr/#faq" }],
+            primaryImageOfPage: "https://zeropassoire.fr/opengraph-image.png",
+          }),
+        }}
+      />
 
       <MobileStickyBar />
     </>

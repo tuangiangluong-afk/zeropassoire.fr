@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { supabaseAdmin } from "@/lib/supabase";
+import { sendLeadEmail } from "@/lib/email";
 
 export const runtime = "nodejs";
 
@@ -90,6 +91,21 @@ export async function POST(req: NextRequest) {
   }).then(({ error: evErr }: any) => {
     if (evErr) console.error("[zeropassoire][supabase][funnel-event]", evErr);
   });
+
+  // Email de récap (best effort — lead est déjà en base, on ne bloque jamais la réponse).
+  sendLeadEmail({
+    email,
+    phone: phoneRaw,
+    simulation: simulation as any,
+    consentCallback,
+    leadId: data.id,
+  })
+    .then((r) => {
+      if (r.skipped) console.log("[zeropassoire][email][skipped]", r.skipped);
+      else if (!r.ok) console.error("[zeropassoire][email][fail]", r.error);
+      else console.log("[zeropassoire][email][ok]", email);
+    })
+    .catch((e) => console.error("[zeropassoire][email][throw]", e));
 
   return NextResponse.json({ ok: true, id: data.id });
 }
