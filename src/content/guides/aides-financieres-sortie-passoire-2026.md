@@ -75,7 +75,7 @@ Le montant de l'aide est calculé en pourcentage d'un plafond de dépenses de tr
 Dans le Parcours Accompagné, le recours à un opérateur agréé par l'État (**Mon Accompagnateur Rénov'**) est **légalement obligatoire**. Ses missions :
 1. Réaliser la visite initiale du logement et l'audit thermique réglementaire.
 2. Élaborer 2 à 3 scénarios de travaux chiffrés permettant de sortir du statut de passoire.
-3. Vérifier la conformité des devis d'[artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) (critères techniques de résistance thermique R, coefficient Uw, COP des pompes à chaleur).
+3. Vérifier la conformité des devis d'[artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaires-professionnels/artisan-rge-architecte) (critères techniques de résistance thermique R, coefficient Uw, COP des pompes à chaleur).
 4. Monter et suivre le dossier de subvention auprès de l'Anah jusqu'au versement effectif des fonds.
 
 **Financement de la prestation du MAR :**

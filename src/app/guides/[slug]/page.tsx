@@ -203,11 +203,11 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         />
 
         <div className="mt-16 p-6 rounded-2xl bg-brand-50 border border-brand-200 text-center">
-          <h2 className="font-display text-2xl font-bold text-stone-900 mb-2">
-            {formatH2(`Simulez vos aides : ${guide.title.split(":")[0].trim()}`)}
-          </h2>
+          <h3 className="font-display text-2xl font-bold text-stone-900 mb-2">
+            Simulez vos aides travaux en 40 secondes
+          </h3>
           <p className="text-stone-700 mb-5 text-sm">
-            Le simulateur vous donne votre reste à charge précis en 40 secondes.
+            Le simulateur vous donne votre reste à charge précis selon votre classe DPE.
           </p>
           <Link href="/simulateur" className="btn-primary inline-flex">
             Estimer mon reste à charge

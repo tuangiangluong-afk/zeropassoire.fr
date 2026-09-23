@@ -12,12 +12,11 @@ export function formatPageTitle(title: string, brand = "Zéro Passoire"): string
   if (withBrand.length <= 54) {
     return withBrand;
   }
-  if (clean.length <= 54) {
-    return clean;
-  }
-  const slice = clean.slice(0, 50);
+  const maxTitlePart = 54 - ` | ${brand}`.length;
+  const slice = clean.slice(0, maxTitlePart);
   const lastSpace = slice.lastIndexOf(" ");
-  return (lastSpace > 30 ? slice.slice(0, lastSpace) : slice).trim();
+  const shortTitle = (lastSpace > 20 ? slice.slice(0, lastSpace) : slice).trim().replace(/[,:;\-\s]+$/, "");
+  return `${shortTitle} | ${brand}`;
 }
 
 export function truncateDesc(desc: string, max = 155): string {
@@ -51,10 +50,6 @@ export function formatH2(heading: string, max = 70): string {
   if (!heading) return "";
   const clean = heading.replace(/\s+/g, " ").trim();
   if (clean.length <= max) return clean;
-  if (clean.includes(" : ")) {
-    const [part1, ...rest] = clean.split(" : ");
-    if (part1.length >= 15 && part1.length <= max) return part1.replace(/[,:;\-\s]+$/, "");
-  }
   const sliced = clean.slice(0, max);
   const lastSpace = sliced.lastIndexOf(" ");
   if (lastSpace > 30) return sliced.slice(0, lastSpace).trim().replace(/[,:;\-\s]+$/, "");

@@ -169,7 +169,7 @@ Déposer un isolant soufflé sur un vieux plancher en bois sans avoir préalable
 La projection d'un isolant combustible ou semi-combustible directement au contact de transformateurs électriques ou de spots halogènes/LED non protégés est la première cause de sinistre incendie après isolation de combles. Chaque point lumineux encastré doit recevoir un capot certifié coupe-feu d'un volume minimal d'air conforme aux prescriptions de la norme NF C 15-100.
 
 ### 4. Le déficit de matière et la fausse déclaration de résistance thermique
-Pour maximiser leurs marges, certains opérateurs peu scrupuleux injectent une densité d'air trop élevée lors du soufflage pneumatique, créant un foisonnement artificiel qui s'effondre de 40 % en quelques mois. Pour être conforme à la fiche BAR-EN-101, l'[artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) doit obligatoirement vous remettre à l'achèvement des travaux :
+Pour maximiser leurs marges, certains opérateurs peu scrupuleux injectent une densité d'air trop élevée lors du soufflage pneumatique, créant un foisonnement artificiel qui s'effondre de 40 % en quelques mois. Pour être conforme à la fiche BAR-EN-101, l'[artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaires-professionnels/artisan-rge-architecte) doit obligatoirement vous remettre à l'achèvement des travaux :
 * La fiche de fin de chantier mentionnant le **nombre exact de sacs** d'isolant injectés par rapport à la surface au sol.
 * La marque, la référence ACERMI et la classe d'affaissement du matériau.
 * Les photographies horodatées des piges de mesure et de la protection des points singuliers (trappe, conduit, spots).

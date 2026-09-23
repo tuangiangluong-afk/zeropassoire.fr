@@ -23,7 +23,7 @@ const BASE_URL = "https://www.zeropassoire.fr";
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "Zéro Passoire — Sortir de son DPE F ou G sans se ruiner",
+    default: "Zéro Passoire — Sortir du DPE F ou G sans se ruiner",
     template: "%s",
   },
   description:

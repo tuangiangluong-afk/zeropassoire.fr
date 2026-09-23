@@ -156,7 +156,7 @@ La fiche d'opération standardisée **BAR-EN-103** ("Isolation d'un plancher") i
 1. Une résistance thermique certifiée de la couche d'isolant installée : **$R \ge 3,0\ \text{m}^2\cdot\text{K/W}$**.
 2. Un isolant titulaire d'une certification **ACERMI** valide ou d'un marquage CE assorti d'une déclaration de performance (DoP) conforme aux normes EN 13162 à EN 13171.
 3. La réalisation des travaux par un professionnel titulaire de la mention **RGE** (*Reconnu Garant de l'Environnement*) dans le domaine de l'isolation des parois opaques à la date de signature de l'engagement.
-4. L'établissement d'une visite technique préalable par l'[artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) (attestée sur le devis et la facture) pour valider la typologie du sous-sol et les conditions d'accès.
+4. L'établissement d'une visite technique préalable par l'[artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaires-professionnels/artisan-rge-architecte) (attestée sur le devis et la facture) pour valider la typologie du sous-sol et les conditions d'accès.
 
 ### MaPrimeRénov' et le reste à charge en 2026
 En 2026, l'isolation du plancher bas n'est plus finançable sous forme de mono-geste forfaitaire direct par l'Anah (MaPrimeRénov' parcours par geste) : elle s'articule via les **[primes CEE Coup de Pouce](/guides/prime-cee-coup-de-pouce-renovation-globale-cumul) directes** (versées par les délégataires d'énergie, de **6 à 12 €/m²** selon la zone géographique et les revenus) ou s'intègre au sein du parcours **MaPrimeRénov' Rénovation d'ampleur** (Parcours Accompagné).

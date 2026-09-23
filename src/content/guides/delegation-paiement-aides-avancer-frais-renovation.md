@@ -36,7 +36,7 @@ Le processus standard d'octroi de MaPrimeRénov' repose sur un contrôle *ex-pos
 ```
 
 ### Le cycle des flux financiers sur un chantier de 50 000 €
-1. **Acompte initial (30 %) :** 15 000 € exigés par les [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) au démarrage pour l'achat des isolants (R ≥ 7 m².K/W en combles, R ≥ 3,7 m².K/W sur murs ITE), des menuiseries (Uw ≤ 1,3 W/m².K) et du générateur thermodynamique (PAC air/eau avec ETAS ≥ 126 %).
+1. **Acompte initial (30 %) :** 15 000 € exigés par les [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaires-professionnels/artisan-rge-architecte) au démarrage pour l'achat des isolants (R ≥ 7 m².K/W en combles, R ≥ 3,7 m².K/W sur murs ITE), des menuiseries (Uw ≤ 1,3 W/m².K) et du générateur thermodynamique (PAC air/eau avec ETAS ≥ 126 %).
 2. **Appel de fonds intermédiaire (40 %) :** 20 000 € réclamés à mi-chantier selon l'avancement des lots techniques.
 3. **Solde à la réception des travaux (30 %) :** 15 000 € exigibles dès la signature du procès-verbal de réception sans réserve.
 4. **Instruction de la demande de solde Anah :** Entre 16 et 32 semaines (4 à 8 mois) pour l'instruction administrative, le contrôle de conformité par l'Agence Nationale de l'Habitat et le virement effectif sur le compte du bénéficiaire.

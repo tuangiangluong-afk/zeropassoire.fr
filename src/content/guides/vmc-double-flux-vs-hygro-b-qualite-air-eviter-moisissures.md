@@ -233,7 +233,7 @@ Une installation de VMC défaillante ou mal entretenue perd jusqu'à 50 % de ses
 
 * **Tous les 6 mois** : Démonter et nettoyer à l'eau savonneuse tiède les bouches d'extraction et les entrées d'air hygroréglables. Ne jamais mouiller les régulateurs sensibles en polyamide sous un jet d'eau direct.
 * **Tous les 6 à 12 mois (VMC Double Flux)** : Remplacer l'ensemble des cartouches filtrantes (filtres d'insufflation F7 et filtres d'extraction G4). Des filtres saturés augmentent la consommation des ventilateurs, déséquilibrent les pressions d'air et provoquent l'arrêt de l'échangeur par sécurité.
-* **Tous les 5 ans** : Faire réaliser un contrôle aéraulique par un [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaire-rge) avec mesure des débits/pressions au manomètre différentiel et dépoussiérage complet de la roue du motoventilateur.
+* **Tous les 5 ans** : Faire réaliser un contrôle aéraulique par un [artisans certifiés RGE sur l’annuaire France Rénov’](https://france-renov.gouv.fr/annuaires-professionnels/artisan-rge-architecte) avec mesure des débits/pressions au manomètre différentiel et dépoussiérage complet de la roue du motoventilateur.
 
 ::: cta Estimer mon reste à charge|/simulateur
 

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mentions Légales & Éditeur | Zéro Passoire",
+  title: "Mentions Légales et Éditeur | Zéro Passoire",
   description:
     "Éditeur du site zéropassoire.fr : WELINK TECH, SIREN, hébergement, propriété intellectuelle, RGPD et données personnelles.",
   robots: { index: true, follow: true },

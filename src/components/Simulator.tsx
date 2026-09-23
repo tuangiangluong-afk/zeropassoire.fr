@@ -439,7 +439,7 @@ export default function Simulator() {
 function StepWrapper({ title, hint, children }: { title: string; hint?: string; children: React.ReactNode }) {
   return (
     <div>
-      <h2 className="text-xl sm:text-2xl font-display font-bold text-stone-900 mb-2">{title}</h2>
+      <div className="text-xl sm:text-2xl font-display font-bold text-stone-900 mb-2">{title}</div>
       {hint && <p className="text-sm text-stone-600 mb-6 leading-relaxed">{hint}</p>}
       <div className="mt-6">{children}</div>
     </div>

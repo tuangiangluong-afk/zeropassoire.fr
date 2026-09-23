@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Politique de Confidentialité & RGPD | Zéro Passoire",
+  title: "Politique Confidentialité RGPD | Zéro Passoire",
   description:
     "Politique de confidentialité et RGPD de zéropassoire.fr : collecte minimale, protection des données personnelles, droits d'accès et durée de conservation.",
   robots: { index: true, follow: true },
