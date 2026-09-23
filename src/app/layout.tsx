@@ -125,7 +125,11 @@ const ORG_SCHEMA = {
   ],
   knowsLanguage: ["fr"],
   foundingDate: "2026",
-  sameAs: [],
+  sameAs: [
+    "https://annuaire-entreprises.data.gouv.fr/entreprise/welink-tech-984800136",
+    "https://www.societe.com/societe/welink-tech-984800136.html",
+    "https://www.pappers.fr/entreprise/welink-tech-984800136",
+  ],
 };
 
 const WEBSITE_SCHEMA = {
