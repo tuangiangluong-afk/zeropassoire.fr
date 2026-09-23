@@ -144,7 +144,7 @@ Lorsqu'un bailleur a appliqué une indexation IRL ou augmenté le montant du loy
 
 L'**article 7-1 de la loi du 6 juillet 1989** fixe la prescription des actions en recouvrement des créances locatives à **3 ans**. Le locataire peut exiger la restitution de l'ensemble des hausses perçues sur les 36 derniers mois à compter du jour où il engage son action.
 
-#### Exemple chiffré de calcul de trop-perçu :
+### Exemple chiffré de calcul de trop-perçu :
 *   Loyer de base au 1er septembre 2023 pour un T2 classé F : **800 € / mois**.
 *   Hausse IRL illégale appliquée au 1er septembre 2024 (+3,5 %) : Loyer porté à **828 € / mois** (trop-perçu de 28 €/mois).
 *   Nouvelle hausse IRL illégale au 1er septembre 2025 (+2,5 %) : Loyer porté à **848,70 € / mois** (trop-perçu de 48,70 €/mois par rapport au loyer d'origine).

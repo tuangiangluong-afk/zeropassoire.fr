@@ -3,6 +3,7 @@ import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import GTMScript, { GTMNoScript } from "@/components/GTMScript";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -152,6 +153,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr" className={`${inter.variable} ${grotesk.variable}`}>
       <body className="min-h-screen flex flex-col">
+        <GTMNoScript />
+        <GTMScript />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(ORG_SCHEMA) }}

@@ -152,12 +152,12 @@ Dans le cadre d'un achat par un propriétaire occupant ou par un bailleur (via M
 ### Le super-levier du déficit foncier doublé
 Pour le bailleur imposé au régime réel d'imposition des revenus fonciers, l'article 41 de la loi de finances rectificative pour 2022 (prolongé) permet de **doubler le plafond d'imputation du déficit foncier sur le revenu global**, le portant de 10 700 € à **21 400 € par an**.
 
-#### Conditions d'éligibilité strictes :
+### Conditions d'éligibilité strictes :
 1. Dépenses de rénovation énergétique payées entre le 1er janvier 2023 et le 31 décembre 2025/2026.
 2. Le bien doit passer d'une classe énergétique E, F ou G à une classe A, B, C ou D constatée par un DPE post-travaux établi au plus tard le 31 décembre de l'année suivant celle du paiement des travaux.
 3. Maintien du bien à la location nue à usage d'habitation principale pendant au moins trois ans suivant l'imputation du déficit.
 
-#### Impact fiscal concret :
+### Impact fiscal concret :
 Un investisseur situé dans la tranche marginale d'imposition (TMI) à 41 % générant 40 000 € de travaux déductibles non subventionnés impute 21 400 € directement sur son revenu global (salaires, BNC) la première année et reporte le solde sur ses revenus fonciers des 10 années suivantes.
 * **Économie d'impôt sur le revenu (année 1) :** $21\,400 \times 41\% = 8\,774\ \text{€}$.
 * **Économie de prélèvements sociaux (17,2 %) sur les revenus fonciers compensés :** $21\,400 \times 17,2\% = 3\,680\ \text{€}$.

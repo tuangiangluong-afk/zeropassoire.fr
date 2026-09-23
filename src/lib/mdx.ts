@@ -95,7 +95,7 @@ function parseMarkers(md: string): string {
     /:::\s*callout\s+([^\n]*)\n([\s\S]*?):::/g,
     (_m, title, body) =>
       `<div class="my-6 rounded-2xl border-l-4 border-brand-600 bg-brand-50 p-5">
-         <h4 class="text-brand-800 font-semibold mb-2">${title.trim() || "&Agrave; retenir"}</h4>
+         <p class="text-brand-800 font-bold mb-2">${title.trim() || "&Agrave; retenir"}</p>
          <div class="text-stone-700">${marked.parse(body.trim(), { async: false }) as string}</div>
        </div>`
   );
@@ -137,7 +137,7 @@ export function getAllGuides(): Guide[] {
     const raw = fs.readFileSync(path.join(GUIDES_DIR, f), "utf-8");
     const { data, content } = matter(raw);
     const slug = f.replace(/\.md$/, "");
-    const rawHtml = parseMarkers(content);
+    const rawHtml = parseMarkers(content).replace(/^\s*<h1[^>]*>[\s\S]*?<\/h1>/i, "");
     const { html, toc } = extractAndAnnotateToc(rawHtml);
     return {
       slug,

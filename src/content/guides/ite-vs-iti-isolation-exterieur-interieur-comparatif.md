@@ -99,7 +99,7 @@ Sur un appartement de 70 m² disposant de 30 mètres linéaires de murs donnant 
 - Surface habitable consommée : $30\ \text{ml} \times 0,15\ \text{m} = 4,50\ \text{m}^2$.
 - Surface résiduelle après travaux : 65,50 m² (soit **6,43 % de perte sèche**).
 
-#### Impact sur la valeur vénale selon le marché immobilier
+### Impact sur la valeur vénale selon le marché immobilier
 
 - **À Paris (moyenne 10 000 € / m²) :** Perte de $4,5\ \text{m}^2 \times 10\ 000\ \text{€} = \mathbf{45\ 000\ \text{€}}$ de valeur patrimoniale.
 - **À Lyon / Bordeaux (moyenne 4 500 € / m²) :** Perte de $4,5\ \text{m}^2 \times 4\ 500\ \text{€} = \mathbf{20\ 250\ \text{€}}$.
@@ -191,25 +191,25 @@ Le respect des règles de l'art est indispensable pour garantir la durabilité d
 +-----------------------------------------------------------------------------------+
 ```
 
-#### 1. Polystyrène expansé graphité (PSE gris)
+### 1. Polystyrène expansé graphité (PSE gris)
 - **Conductivité thermique ($\lambda$) :** $0,031\ \text{W/m.K}$.
 - **Usage privilégié :** ITE sous enduit standard.
 - **Points forts :** Rapport coût/performance imbattable, très léger, imputrescible.
 - **Limites :** Isolation acoustique médiocre, comportement au feu nécessitant des bandes coupe-feu en laine de roche tous les deux niveaux en collectif (guide feu ITE).
 
-#### 2. Laine de roche haute densité
+### 2. Laine de roche haute densité
 - **Conductivité thermique ($\lambda$) :** $0,034$ à $0,036\ \text{W/m.K}$.
 - **Usage privilégié :** ITE sous enduit ou bardage ventilé, ITI sous ossature.
 - **Points forts :** Incombustible (classement A1), excellente isolation phonique, perméable à la vapeur d'eau.
 - **Limites :** Poids élevé exigeant des chevilles de fixation renforcées en ITE.
 
-#### 3. Isolants biosourcés (Fibre de bois / Ouate de cellulose)
+### 3. Isolants biosourcés (Fibre de bois / Ouate de cellulose)
 - **Conductivité thermique ($\lambda$) :** $0,036$ à $0,040\ \text{W/m.K}$.
 - **Usage privilégié :** ITE sous bardage ventilé, ITI écologique sur murs anciens (moellons, pisé, torchis).
 - **Points forts :** Déphasage thermique élevé (8 à 12 heures) pour le confort d'été, bilan carbone négatif, excellente régulation hygrométrique.
 - **Limites :** Coût supérieur de 25 % à 40 % par rapport au PSE, sensibilité accrue à l'eau stagnante en pied de façade.
 
-#### 4. Aérogels de silice et panneaux sous vide (VIP)
+### 4. Aérogels de silice et panneaux sous vide (VIP)
 - **Conductivité thermique ($\lambda$) :** $0,015$ à $0,018\ \text{W/m.K}$.
 - **Usage privilégié :** ITI en milieu ultra-contraint (centres-villes historiques, embrasures de fenêtres en ITE).
 - **Points forts :** Atteint $R = 3,7\ \text{m}^2\text{.K/W}$ avec seulement 6 cm d'épaisseur totale.

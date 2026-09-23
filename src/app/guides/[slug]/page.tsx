@@ -200,9 +200,9 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         />
 
         <div className="mt-16 p-6 rounded-2xl bg-brand-50 border border-brand-200 text-center">
-          <h3 className="font-display text-2xl font-bold text-stone-900 mb-2">
+          <h2 className="font-display text-2xl font-bold text-stone-900 mb-2">
             Votre situation mérite des chiffres à jour
-          </h3>
+          </h2>
           <p className="text-stone-700 mb-5 text-sm">
             Le simulateur vous donne votre reste à charge précis en 40 secondes.
           </p>
@@ -216,9 +216,9 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
           <div className="mt-16 pt-12 border-t border-stone-200">
             <div className="flex items-center justify-between mb-6">
               <div>
-                <h3 className="font-display text-2xl font-bold text-stone-900">
+                <h2 className="font-display text-2xl font-bold text-stone-900">
                   Guides et enquêtes associées
-                </h3>
+                </h2>
                 <p className="text-stone-600 text-sm mt-1">
                   Complétez votre analyse avec nos autres dossiers de référence.
                 </p>
@@ -241,9 +241,9 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                     <div className="text-[11px] font-semibold uppercase tracking-wider text-brand-700 mb-1">
                       {rel.category} &middot; {rel.readTime}
                     </div>
-                    <h4 className="font-display font-bold text-sm text-stone-900 group-hover:text-brand-700 transition line-clamp-2">
+                    <h3 className="font-display font-bold text-sm text-stone-900 group-hover:text-brand-700 transition line-clamp-2">
                       {rel.title}
-                    </h4>
+                    </h3>
                     <p className="text-xs text-stone-600 mt-2 line-clamp-2">
                       {rel.description}
                     </p>

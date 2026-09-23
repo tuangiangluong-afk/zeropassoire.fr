@@ -59,9 +59,9 @@ export default function ContactPage() {
             {/* Context & Direct Resources Column (2 cols) */}
             <div className="md:col-span-2 space-y-6">
               <div className="p-6 rounded-2xl bg-white border border-stone-200 shadow-sm">
-                <h3 className="font-display font-bold text-stone-900 text-base mb-3 flex items-center gap-2">
+                <h2 className="font-display font-bold text-stone-900 text-base mb-3 flex items-center gap-2">
                   <ShieldCheck size={18} className="text-brand-600" /> Réponses immédiates
-                </h3>
+                </h2>
                 <p className="text-xs text-stone-600 leading-relaxed mb-4">
                   Avant de nous écrire, votre réponse se trouve très probablement dans l'un de nos outils en libre accès :
                 </p>

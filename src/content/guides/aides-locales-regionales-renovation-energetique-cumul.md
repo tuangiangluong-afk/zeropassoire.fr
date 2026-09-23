@@ -58,12 +58,12 @@ Le Code Général des Impôts distingue deux mécanismes d'exonération pour les
                               └─────────────────────────────────┘
 ```
 
-#### 1. L'exonération de droit commun (Article 1383-0 B du CGI)
+### 1. L'exonération de droit commun (Article 1383-0 B du CGI)
 Ce dispositif s'adresse aux logements anciens achevés avant le **1er janvier 1989**. Pour ouvrir droit à l'exonération, les dépenses de travaux payées par le propriétaire (hors main-d'œuvre non éligible selon les critères CEE/CGI) doivent être supérieures à :
 *   **10 000 € TTC** par logement au cours de l’année précédant la première année d’application de l’exonération.
 *   **15 000 € TTC** par logement au cours des trois années précédant l’application.
 
-#### 2. L'exonération renforcée pour rénovation lourde (Article 1383-0 B bis du CGI)
+### 2. L'exonération renforcée pour rénovation lourde (Article 1383-0 B bis du CGI)
 Modifié par les récentes lois de finances, ce régime s'applique aux logements achevés depuis plus de 10 ans (date d'achèvement antérieure au 1er janvier de la troisième année précédant celle de la demande) faisant l'objet d'une rénovation globale ambitieuse. Le niveau de performance visé doit garantir une sortie de passoire avec atteinte minimale de la classe B ou C du DPE, ou justifier de dépenses d'un montant supérieur aux seuils légaux fixés par arrêté.
 
 ### Modalités, taux et durée de l'avantage fiscal
