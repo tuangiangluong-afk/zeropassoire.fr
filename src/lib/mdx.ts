@@ -7,6 +7,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
+import { formatH2 } from "@/lib/seo";
 
 const GUIDES_DIR = path.join(process.cwd(), "src/content/guides");
 
@@ -64,12 +65,15 @@ function extractAndAnnotateToc(html: string): { html: string; toc: TocEntry[] } 
   const toc: TocEntry[] = [];
   const used = new Set<string>();
   const out = html.replace(/<h([23])([^>]*)>([\s\S]*?)<\/h\1>/g, (_m, lvl, attrs, inner) => {
-    const text = String(inner).replace(/<[^>]+>/g, "").trim();
+    let text = String(inner).replace(/<[^>]+>/g, "").trim();
     if (!text) return `<h${lvl}${attrs}>${inner}</h${lvl}>`;
+    if (lvl === "2") {
+      text = formatH2(text, 70);
+    }
     if (/id=/.test(attrs)) {
       const existing = (attrs as string).match(/id="([^"]+)"/)?.[1] || slugifyFr(text);
       toc.push({ id: existing, text, level: Number(lvl) as 2 | 3 });
-      return `<h${lvl}${attrs}>${inner}</h${lvl}>`;
+      return `<h${lvl}${attrs}>${text}</h${lvl}>`;
     }
     let base = slugifyFr(text) || "section";
     let id = base;
@@ -77,7 +81,7 @@ function extractAndAnnotateToc(html: string): { html: string; toc: TocEntry[] } 
     while (used.has(id)) { id = `${base}-${n++}`; }
     used.add(id);
     toc.push({ id, text, level: Number(lvl) as 2 | 3 });
-    return `<h${lvl} id="${id}"${attrs}>${inner}</h${lvl}>`;
+    return `<h${lvl} id="${id}"${attrs}>${text}</h${lvl}>`;
   });
   return { html: out, toc };
 }
@@ -139,7 +143,7 @@ export function getAllGuides(): Guide[] {
     const slug = f.replace(/\.md$/, "");
     const cleanContent = content.replace(
       /^##\s*(?:(?:\d+\.\s*)?Questions?\s+fr[^\n]*)$/gim,
-      `## Questions fréquentes : ${data.title ?? ""}`
+      `## Questions fréquentes : ${formatH2((data.title ?? "").split(":")[0].trim(), 45)}`
     );
     const rawHtml = parseMarkers(cleanContent).replace(/^\s*<h1[^>]*>[\s\S]*?<\/h1>/i, "");
     const { html, toc } = extractAndAnnotateToc(rawHtml);

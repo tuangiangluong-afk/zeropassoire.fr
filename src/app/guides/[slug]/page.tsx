@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, Calculator } from "lucide-react";
 import { getAllGuides, getGuideBySlug } from "@/lib/mdx";
-import { formatPageTitle, truncateDesc } from "@/lib/seo";
+import { formatPageTitle, truncateDesc, formatH1, formatH2 } from "@/lib/seo";
 
 const BASE = "https://www.zeropassoire.fr";
 
@@ -193,7 +193,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
           {guide.category} &middot; {guide.readTime}
         </div>
         <h1 className="font-display text-4xl font-bold text-stone-900 leading-tight mb-4">
-          {guide.title}
+          {formatH1(guide.title)}
         </h1>
         <p className="text-lg text-stone-600 mb-10 leading-relaxed">{guide.description}</p>
 
@@ -204,7 +204,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
 
         <div className="mt-16 p-6 rounded-2xl bg-brand-50 border border-brand-200 text-center">
           <h2 className="font-display text-2xl font-bold text-stone-900 mb-2">
-            Simulez vos aides et travaux : {guide.title}
+            {formatH2(`Simulez vos aides : ${guide.title.split(":")[0].trim()}`)}
           </h2>
           <p className="text-stone-700 mb-5 text-sm">
             Le simulateur vous donne votre reste à charge précis en 40 secondes.
@@ -220,7 +220,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
             <div className="flex items-center justify-between mb-6">
               <div>
                 <h2 className="font-display text-2xl font-bold text-stone-900">
-                  Guides et enquêtes associés : {guide.title}
+                  {formatH2(`Guides associés : ${guide.title.split(":")[0].trim()}`)}
                 </h2>
                 <p className="text-stone-600 text-sm mt-1">
                   Complétez votre analyse avec nos autres dossiers de référence.

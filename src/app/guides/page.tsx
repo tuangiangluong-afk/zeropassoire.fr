@@ -123,29 +123,33 @@ export default function GuidesListingPage() {
         </div>
 
         {/* Guides listing with rich metadata */}
-        <div className="space-y-5">
-          {guides.map((g) => (
-            <Link
-              key={g.slug}
-              href={`/guides/${g.slug}`}
-              className="block p-6 rounded-2xl bg-white border border-stone-200 hover:border-brand-600 hover:shadow-md transition group"
-            >
-              <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
-                <div className="flex-1">
-                  <div className="flex flex-wrap items-center gap-2 mb-2 text-xs">
-                    <span className="font-semibold text-brand-700 uppercase tracking-wide">
-                      {g.category}
-                    </span>
-                    <span className="text-stone-300">&middot;</span>
-                    <span className="text-stone-500 font-mono">{g.readTime}</span>
-                    <span className="text-stone-300">&middot;</span>
-                    <span className="text-stone-500">
-                      Mis à jour le {new Date(g.publishedAt).toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" })}
-                    </span>
-                  </div>
-                  <h2 className="font-display text-xl sm:text-2xl font-bold text-stone-900 group-hover:text-brand-700 transition leading-snug mb-2">
-                    {g.title}
-                  </h2>
+        <div>
+          <h2 className="font-display text-2xl font-bold text-stone-900 mb-6">
+            Tous nos dossiers et enquêtes de référence
+          </h2>
+          <div className="space-y-5">
+            {guides.map((g) => (
+              <Link
+                key={g.slug}
+                href={`/guides/${g.slug}`}
+                className="block p-6 rounded-2xl bg-white border border-stone-200 hover:border-brand-600 hover:shadow-md transition group"
+              >
+                <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+                  <div className="flex-1">
+                    <div className="flex flex-wrap items-center gap-2 mb-2 text-xs">
+                      <span className="font-semibold text-brand-700 uppercase tracking-wide">
+                        {g.category}
+                      </span>
+                      <span className="text-stone-300">&middot;</span>
+                      <span className="text-stone-500 font-mono">{g.readTime}</span>
+                      <span className="text-stone-300">&middot;</span>
+                      <span className="text-stone-500">
+                        Mis à jour le {new Date(g.publishedAt).toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" })}
+                      </span>
+                    </div>
+                    <h3 className="font-display text-xl sm:text-2xl font-bold text-stone-900 group-hover:text-brand-700 transition leading-snug mb-2">
+                      {g.title}
+                    </h3>
                   <p className="text-stone-600 text-sm leading-relaxed line-clamp-3">
                     {g.description}
                   </p>
@@ -158,6 +162,7 @@ export default function GuidesListingPage() {
           ))}
         </div>
       </div>
-    </section>
+    </div>
+  </section>
   );
 }

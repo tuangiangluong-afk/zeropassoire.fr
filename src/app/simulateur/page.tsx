@@ -4,7 +4,7 @@ import { ArrowRight, BookOpen, CheckCircle2, AlertTriangle, Scale, Calculator, S
 import Simulator from "@/components/Simulator";
 
 export const metadata: Metadata = {
-  title: "Simulateur DPE 2026 : Aides MaPrimeRénov' & Reste à Charge",
+  title: "Simulateur DPE 2026 : Aides & Reste à Charge",
   description:
     "Estimez le coût pour sortir d'un DPE F ou G : aides MaPrimeRénov' 2026, primes CEE et reste à charge réel. Calcul gratuit et immédiat sans démarchage.",
   alternates: { canonical: "https://www.zeropassoire.fr/simulateur" },

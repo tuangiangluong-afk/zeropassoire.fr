@@ -113,12 +113,12 @@ export default function HomePage() {
               <Sparkles size={14} /> Simulateur indépendant &middot; Barèmes officiels 2026
             </div>
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
-              Votre logement est classé{" "}
+              Votre logement est une{" "}
               <span className="relative">
                 <span className="relative z-10">passoire thermique</span>
                 <span className="absolute bottom-1 left-0 right-0 h-3 bg-alert-500/30 z-0" />
               </span>
-              &nbsp;? On chiffre votre sortie de F ou G.
+              &nbsp;? Chiffrez votre sortie.
             </h1>
             <p className="mt-6 text-lg text-stone-200 leading-relaxed max-w-2xl">
               Chaque poste est pondéré et rattaché à son texte officiel : arrêté MaPrimeRénov' du 2 octobre 2025, fiches CEE 6e période et coûts réels ADEME.
