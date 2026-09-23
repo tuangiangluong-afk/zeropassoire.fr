@@ -12,8 +12,8 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "*", allow: "/", disallow: ["/api/", "/success"] },
       ...AI_BOTS.map((bot) => ({
         userAgent: bot,
-        allow: ["/", "/llms.txt", "/llms-full.txt", "/guides", "/simulateur", "/api/leads", "/api/events"],
-        disallow: ["/success"],
+        allow: ["/", "/llms.txt", "/llms-full.txt", "/guides", "/simulateur", "/contact"],
+        disallow: ["/api/", "/success"],
       })),
     ],
     sitemap: "https://zeropassoire.fr/sitemap.xml",

@@ -128,7 +128,7 @@ export default function Simulator() {
       <div className="p-6 sm:p-8">
         {step === 0 && (
           <StepWrapper
-            title="Quelle est la classe énergétique actuelle de votre bien&nbsp;?"
+            title="Quelle est la classe énergétique actuelle de votre bien ?"
             hint="Indiquée sur votre DPE. Seuls les logements E, F et G sont concernés par les obligations de sortie et aides renforcées."
           >
             <DpeSelector value={state.classe} onChange={(v) => set("classe", v)} />
@@ -439,8 +439,8 @@ export default function Simulator() {
 function StepWrapper({ title, hint, children }: { title: string; hint?: string; children: React.ReactNode }) {
   return (
     <div>
-      <h3 className="text-xl sm:text-2xl font-display font-bold text-stone-900 mb-2" dangerouslySetInnerHTML={{ __html: title }} />
-      {hint && <p className="text-sm text-stone-600 mb-6 leading-relaxed" dangerouslySetInnerHTML={{ __html: hint }} />}
+      <h3 className="text-xl sm:text-2xl font-display font-bold text-stone-900 mb-2">{title}</h3>
+      {hint && <p className="text-sm text-stone-600 mb-6 leading-relaxed">{hint}</p>}
       <div className="mt-6">{children}</div>
     </div>
   );

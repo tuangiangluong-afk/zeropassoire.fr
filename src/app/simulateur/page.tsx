@@ -49,6 +49,7 @@ export default function SimulateurPage() {
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+    "@id": `${BASE_URL}/simulateur#breadcrumb`,
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Accueil", item: BASE_URL },
       { "@type": "ListItem", position: 2, name: "Simulateur", item: `${BASE_URL}/simulateur` },
