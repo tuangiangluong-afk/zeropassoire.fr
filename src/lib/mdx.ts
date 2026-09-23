@@ -83,21 +83,26 @@ function extractAndAnnotateToc(html: string): { html: string; toc: TocEntry[] } 
 }
 
 function parseMarkers(md: string): string {
-  // ::: callout <titre>\n...\n:::
+  // Support ::: cta <texte>|<url> ::: or ::: cta <texte>|<url>
   let out = md.replace(
+    /:::\s*cta\s+([^|\n]+)\|([^\s\n]+)(?:\s*:::)?/g,
+    (_m, label, href) =>
+      `<div class="my-8 text-center"><a href="${href}" class="inline-flex items-center gap-2 rounded-xl bg-brand-700 px-6 py-3 font-semibold text-white shadow-lg hover:bg-brand-800 transition">${label.trim()} &rarr;</a></div>`
+  );
+
+  // ::: callout <titre>\n...\n:::
+  out = out.replace(
     /:::\s*callout\s+([^\n]*)\n([\s\S]*?):::/g,
     (_m, title, body) =>
       `<div class="my-6 rounded-2xl border-l-4 border-brand-600 bg-brand-50 p-5">
          <h4 class="text-brand-800 font-semibold mb-2">${title.trim() || "&Agrave; retenir"}</h4>
-         <div class="text-stone-700">${marked.parse(body.trim()) as string}</div>
+         <div class="text-stone-700">${marked.parse(body.trim(), { async: false }) as string}</div>
        </div>`
   );
-  // ::: cta <texte>|<url> :::
-  out = out.replace(
-    /:::\s*cta\s+([^|\n]+)\|([^\s]+)\s*:::/g,
-    (_m, label, href) =>
-      `<a href="${href}" class="mt-6 inline-flex items-center gap-2 rounded-xl bg-brand-700 px-6 py-3 font-semibold text-white shadow-lg hover:bg-brand-800 transition">${label.trim()}</a>`
-  );
+
+  // Clean any remaining orphaned ::: markers
+  out = out.replace(/^[ \t]*:::[ \t]*$/gm, "");
+
   return marked.parse(out, { async: false }) as string;
 }
 
