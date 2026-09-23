@@ -113,6 +113,30 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
     },
   ];
 
+  // HowTo schema — auto-generated from H2 headings of the guide (skip FAQ + intro headings).
+  const STEP_SKIP = /^(questions? fr[eé]quentes?|introduction|aller plus loin|conclusion|résumé|à retenir)/i;
+  const howToSteps = guide.toc
+    .filter((h) => h.level === 2 && !STEP_SKIP.test(h.text))
+    .map((h, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: h.text,
+      text: h.text,
+      url: `${url}#${h.id}`,
+    }));
+  if (howToSteps.length >= 3) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "@id": `${url}#howto`,
+      name: guide.title,
+      description: guide.description,
+      inLanguage: "fr-FR",
+      totalTime: guide.readTime ? `PT${guide.readTime.replace(/\s*min.*/i, "M")}` : undefined,
+      step: howToSteps,
+    });
+  }
+
   if (guide.faqs.length > 0) {
     schemas.push({
       "@context": "https://schema.org",

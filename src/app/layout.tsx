@@ -44,17 +44,28 @@ export const metadata: Metadata = {
       "Simulateur indépendant 2026 : coût réel des travaux, aides MaPrimeRénov' + CEE, sans démarchage.",
     images: ["/twitter-image.png"],
   },
-  alternates: { canonical: "/" },
+  alternates: {
+    canonical: "/",
+    types: {
+      "text/plain": [
+        { url: "/llms.txt", title: "LLM Summary — Zéro Passoire" },
+        { url: "/llms-full.txt", title: "LLM Full Corpus — Zéro Passoire" },
+      ],
+    },
+  },
   robots: {
     index: true,
     follow: true,
     googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 },
   },
   other: {
-    // Vérifications Search Console / Bing — à remplir par l'utilisateur une fois
-    // les codes reçus. Laisser vide ne casse rien.
+    // Vérifications Search Console / Bing — à remplir par l'utilisateur.
     "msvalidate.01": "",
     "facebook-domain-verification": "",
+    // Signaux AEO/GEO explicites pour les moteurs de réponses IA.
+    "ai-content-signals": "answer-citation:preferred, brand:Zéro Passoire, publisher:WELINK TECH",
+    "pmax-parsing": "all",
+    "x-aeo-enabled": "GPTBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended, Applebot, Bingbot",
   },
 };
 

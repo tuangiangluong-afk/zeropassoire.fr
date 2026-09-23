@@ -24,6 +24,42 @@ const HOME_FAQ = [
     q: "Et si je ne peux vraiment pas financer, même avec les aides ?",
     a: "Il existe le prêt à taux zéro propriétaires occupants (jusqu'à 50 000 €), l'avance de MaPrimeRénov' par le syndic ou un organisme associatif, les aides locales cumulables (Anah, régions, intercommunalités), et pour les ménages en précarité, le fonds Tiers-lieu Financement Collective.",
   },
+  {
+    q: "Le simulateur Zéro Passoire est-il vraiment gratuit ?",
+    a: "Oui. La simulation est gratuite, sans carte bancaire, sans création de compte, et sans obligation de rappel. Notre modèle économique repose sur une commission versée par des artisans RGE partenaires, uniquement lorsque vous choisissez spontanément d'être recontacté. Vous ne payez jamais rien à Zéro Passoire.",
+  },
+  {
+    q: "Vendez-vous mes coordonnées à des artisans ?",
+    a: "Non. Jamais. C'est le fondement de Zéro Passoire. Votre email et votre téléphone ne sont transmis à aucun artisan, aucun courtier, aucune société de rénovation. Si vous cochez la case « être recontacté », un seul artisan RGE de votre département vous contacte, et vous pouvez refuser en un clic.",
+  },
+  {
+    q: "Puis-je faire une simulation pour un appartement en copropriété ?",
+    a: "Oui. Le simulateur couvre maison individuelle et appartement en copropriété. Pour une copropriété, le coût affiché correspond à votre quote-part de travaux sur parties communes (ITE, toiture, chaudière collective) + vos travaux privatifs. La sortie de passoire d'un lot d'appartement passe presque toujours par un vote en assemblée générale.",
+  },
+  {
+    q: "Combien coûte en moyenne le passage d'un DPE F ou G à un DPE C ?",
+    a: "Sur une maison individuelle moyenne (110 m² construite avant 1975), le coût médian constaté ADEME 2025 est de 38 000 à 55 000 € avant aides, soit 18 000 à 32 000 € reste à charge après MaPrimeRénov' (étiquette bleue ou jaune) et CEE. En appartement, comptez 12 000 à 22 000 € de quote-part.",
+  },
+  {
+    q: "Les artisans RGE référencés sont-ils vraiment vérifiés ?",
+    a: "Nous ne référençons que des entreprises titulaires d'un signe de qualité RGE (Reconnu Garant de l'Environnement) valide au répertoire officiel de l'ADEME, vérifié chaque mois. Un artisan perd son référencement dès que son certificat expire ou qu'un signalement DGCCRF est confirmé.",
+  },
+  {
+    q: "Comment supprimer mes données après une simulation ?",
+    a: "Un email à contact@zeropassoire.fr avec la mention « suppression » et votre adresse suffit. Nous supprimons votre lead et vos événements de session dans un délai maximal de 30 jours, conformément à l'article 17 du RGPD. Vous pouvez aussi exercer votre droit d'opposition à la prospection commerciale sans justification.",
+  },
+  {
+    q: "Puis-je utiliser le simulateur si je suis locataire ?",
+    a: "Oui, mais l'interprétation change. En location, les travaux incombent au propriétaire bailleur. Vous pouvez utiliser la simulation pour chiffrer le coût demandé au bailleur et argumenter la décote de loyer. Depuis le 1er janvier 2025, un logement classé G ne peut plus être mis en location, et un F le pourra jusqu'au 1er janvier 2028.",
+  },
+  {
+    q: "Combien de temps pour percevoir MaPrimeRénov' ?",
+    a: "Comptez 4 à 8 semaines entre la fin des travaux, le dépôt du dossier de paiement et le virement. En cas d'avance (via le syndic, Action Logement ou un organisme tiers), le délai de versement est de 2 à 3 semaines après dépôt du dossier de demande.",
+  },
+  {
+    q: "Zéro Passoire est-il indépendant des fournisseurs d'énergie ?",
+    a: "Oui. Zéro Passoire est exploité par WELINK TECH, SASU immatriculée au RCS de Nanterre (SIREN 984 800 136). Aucun fournisseur d'énergie, aucune caisse des CEE, aucun négociaire n'est actionnaire. Notre rémunération vient exclusivement des commissions d'apport payées par les artisans RGE partenaires, uniquement sur lead opt-in.",
+  },
 ];
 
 const COMPARISON_ROWS: { label: string; zp: string; cp: string; zpOk: boolean; cpOk: boolean }[] = [
@@ -271,50 +307,12 @@ export default function HomePage() {
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-stone-900 text-center mb-12">
             Les questions qu'on nous pose vraiment
           </h2>
-          <details className="faq-item">
-            <summary>Les chiffres du simulateur sont-ils fiables&nbsp;?</summary>
-            <p>
-              Les bar&egrave;mes utilis&eacute;s viennent des textes officiels 2026 (arr&ecirc;t&eacute; MaPrimeR&eacute;nov' du 2 octobre 2025,
-              fiches CEE BAR-TH en vigueur). Les co&ucirc;ts de travaux sont des m&eacute;dianes constat&eacute;es ADEME sur
-              les chantiers 2024-2025. Ce sont des estimations &agrave; ±15&nbsp;%, pas un devis contractuel.
-            </p>
-          </details>
-          <details className="faq-item">
-            <summary>Puis-je vendre mon bien sans faire les travaux&nbsp;?</summary>
-            <p>
-              Oui. Le DPE F ou G n'interdit pas la vente, il oblige seulement &agrave; afficher un
-              <em> avis &eacute;nerg&eacute;tique</em> &agrave; l'acheteur et &agrave; chiffrer les travaux dans l'annonce.
-              En pratique, un bien non-r&eacute;nov&eacute; subit une d&eacute;cote &agrave; la revente estim&eacute;e entre 6&nbsp;% et 15&nbsp;%
-              par l'Observatoire DVF-PIERVAL 2025.
-            </p>
-          </details>
-          <details className="faq-item">
-            <summary>Je suis d&eacute;j&agrave; en contact avec un artisan, &ccedil;a change quoi&nbsp;?</summary>
-            <p>
-              Rien, &agrave; part un contre-pouvoir. Vous pouvez comparer le devis que vous avez re&ccedil;u avec
-              le co&ucirc;t moyen constat&eacute; par le simulateur, et v&eacute;rifier que les aides sont bien
-              int&eacute;gr&eacute;es (un devis sans ligne &laquo;&nbsp;MaPrimeR&eacute;nov'&nbsp;&raquo; ou &laquo;&nbsp;CEE&nbsp;&raquo;,
-              c'est suspect).
-            </p>
-          </details>
-          <details className="faq-item">
-            <summary>Combien de temps pour sortir de passoire&nbsp;?</summary>
-            <p>
-              4 &agrave; 10 mois entre le premier rendez-vous avec un auditeur &eacute;nerg&eacute;tique et la livraison
-              du dernier poste. Le frein principal n'est pas le chantier lui-m&ecirc;me, c'est le vote en AG
-              pour les copropri&eacute;t&eacute;s, et le d&eacute;p&ocirc;t de dossier MPR pour les maisons individuelles.
-            </p>
-          </details>
-          <details className="faq-item">
-            <summary>Et si je ne peux vraiment pas financer, m&ecirc;me avec les aides&nbsp;?</summary>
-            <p>
-              Il existe : le <em>pr&ecirc;t &agrave; taux z&eacute;ro propri&eacute;taire occupants</em> (jusqu'&agrave; 50&nbsp;000&nbsp;&euro;),
-              l'avance de MaPrimeR&eacute;nov' par le syndic ou un organisme associatif, les aides locales
-              cumulables (Anah, r&eacute;gions, intercommunalit&eacute;s), et pour les m&eacute;nages en situation
-              de pr&eacute;carit&eacute;, le fonds <em>Tiers-lieu Financement Collective</em>. On en parle
-              dans le <Link href="/guides/aides-financieres-sortie-passoire-2026" className="text-brand-700 underline">guide des aides 2026</Link>.
-            </p>
-          </details>
+          {HOME_FAQ.map((f) => (
+            <details key={f.q} className="faq-item">
+              <summary>{f.q}</summary>
+              <p>{f.a}</p>
+            </details>
+          ))}
         </div>
       </section>
 
@@ -364,6 +362,16 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "SpeakableSpecification",
+            cssSelector: ["h1", "h1 + p", "#simulateur h2", "#simulateur h2 + p"],
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             "@id": "https://zeropassoire.fr/#faq",
             mainEntity: HOME_FAQ.map((f) => ({
@@ -387,8 +395,32 @@ export default function HomePage() {
             inLanguage: "fr-FR",
             isPartOf: { "@id": "https://zeropassoire.fr/#website" },
             about: { "@id": "https://zeropassoire.fr/#organization" },
-            hasPart: [{ "@id": "https://zeropassoire.fr/#faq" }],
+            hasPart: [{ "@id": "https://zeropassoire.fr/#faq" }, { "@id": "https://zeropassoire.fr/#service" }],
             primaryImageOfPage: "https://zeropassoire.fr/opengraph-image.png",
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "@id": "https://zeropassoire.fr/#service",
+            serviceType: "Simulateur de coût de sortie de passoire énergétique",
+            name: "Simulateur Zéro Passoire",
+            description: "Estimation indicative du coût de travaux de rénovation énergétique (DPE F ou G vers C), incluant MaPrimeRénov', CEE, TVA 5,5 % et PTZ. Résultat immédiat, sans email requis.",
+            provider: { "@id": "https://zeropassoire.fr/#organization" },
+            areaServed: { "@type": "Country", name: "France" },
+            availableLanguage: "fr",
+            offers: {
+              "@type": "Offer",
+              price: "0",
+              priceCurrency: "EUR",
+              availability: "https://schema.org/InStock",
+              url: "https://zeropassoire.fr/simulateur",
+              validFor: "P1Y",
+            },
           }),
         }}
       />

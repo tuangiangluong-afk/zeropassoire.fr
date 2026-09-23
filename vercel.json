@@ -1,0 +1,48 @@
+{
+  "framework": "nextjs",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "all, max-image-preview:large, max-snippet:-1, max-video-preview:-1, index, follow"
+        },
+        {
+          "key": "X-AEO-Enabled",
+          "value": "GPTBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended, Applebot, Bingbot"
+        },
+        {
+          "key": "X-Llms-Txt",
+          "value": "/llms.txt"
+        },
+        {
+          "key": "X-AEO-Engine",
+          "value": "ZeroPassoire-M2M-v1"
+        },
+        {
+          "key": "X-Content-Signals",
+          "value": "answer-citation:preferred, brand:Z\u00e9ro-Passoire, publisher:WELINK-TECH"
+        }
+      ]
+    },
+    {
+      "source": "/llms.txt",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=3600"
+        }
+      ]
+    },
+    {
+      "source": "/llms-full.txt",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=3600"
+        }
+      ]
+    }
+  ]
+}
