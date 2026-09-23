@@ -4,9 +4,9 @@ import { ArrowRight, BookOpen, CheckCircle2, AlertTriangle, Scale, Calculator, S
 import Simulator from "@/components/Simulator";
 
 export const metadata: Metadata = {
-  title: "Simulateur sortie de passoire énergétique 2026 — Reste à charge & Aides",
+  title: "Simulateur DPE 2026 : Aides MaPrimeRénov' & Reste à Charge",
   description:
-    "Combien coûte la sortie d'un DPE F ou G ? Simulateur indépendant basé sur les barèmes MaPrimeRénov' et CEE 2026. Résultat gratuit immédiat, sans email requis.",
+    "Estimez le coût pour sortir d'un DPE F ou G : aides MaPrimeRénov' 2026, primes CEE et reste à charge réel. Calcul gratuit et immédiat sans démarchage.",
   alternates: { canonical: "https://www.zeropassoire.fr/simulateur" },
   openGraph: {
     title: "Simulateur officiel de sortie de passoire énergétique 2026",

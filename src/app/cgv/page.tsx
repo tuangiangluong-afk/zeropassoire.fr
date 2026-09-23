@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Conditions générales d'utilisation et de vente",
+  title: "Conditions Générales d'Utilisation",
   description:
-    "Cadre contractuel régissant l'usage du simulateur zéropassoire.fr édité par WELINK TECH : limites de responsabilité, obligations utilisateur, médiation consommation.",
+    "Conditions générales d'utilisation du simulateur zéropassoire.fr : cadre contractuel, responsabilités, propriété intellectuelle et médiation conso.",
   robots: { index: true, follow: true },
   alternates: { canonical: "https://www.zeropassoire.fr/cgv" },
 };

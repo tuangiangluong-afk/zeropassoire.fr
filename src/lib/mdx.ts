@@ -113,7 +113,7 @@ function parseMarkers(md: string): string {
  */
 function extractFaqs(html: string): Faq[] {
   const faqSectionMatch = html.match(
-    /<h2[^>]*>\s*(?:Questions?\s+fr[e&eacute;]+quentes?)\s*<\/h2>([\s\S]*?)(?=<h2[\s>]|$)/i
+    /<h2[^>]*>\s*(?:Questions?\s+fr[^\n<]*)<\/h2>([\s\S]*?)(?=<h2[\s>]|$)/i
   );
   if (!faqSectionMatch) return [];
   const section = faqSectionMatch[1];
@@ -137,7 +137,11 @@ export function getAllGuides(): Guide[] {
     const raw = fs.readFileSync(path.join(GUIDES_DIR, f), "utf-8");
     const { data, content } = matter(raw);
     const slug = f.replace(/\.md$/, "");
-    const rawHtml = parseMarkers(content).replace(/^\s*<h1[^>]*>[\s\S]*?<\/h1>/i, "");
+    const cleanContent = content.replace(
+      /^##\s*(?:(?:\d+\.\s*)?Questions?\s+fr[^\n]*)$/gim,
+      `## Questions fréquentes : ${data.title ?? ""}`
+    );
+    const rawHtml = parseMarkers(cleanContent).replace(/^\s*<h1[^>]*>[\s\S]*?<\/h1>/i, "");
     const { html, toc } = extractAndAnnotateToc(rawHtml);
     return {
       slug,

@@ -24,10 +24,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
     default: "Zéro Passoire — Sortir de son DPE F ou G sans se ruiner",
-    template: "%s | Zéro Passoire",
+    template: "%s",
   },
   description:
-    "Simulateur gratuit de sortie de passoire énergétique. Estimez le coût des travaux, les aides MaPrimeRénov' et CEE mobilisables, et le gain sur votre facture.",
+    "Simulateur gratuit de sortie de passoire énergétique : estimez le coût des travaux, aides MaPrimeRénov' et CEE, et gain réel sur votre facture d'énergie.",
   openGraph: {
     title: "Zéro Passoire — Sortir de son DPE F ou G",
     description:

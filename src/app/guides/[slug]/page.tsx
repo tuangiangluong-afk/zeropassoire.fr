@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, Calculator } from "lucide-react";
 import { getAllGuides, getGuideBySlug } from "@/lib/mdx";
+import { formatPageTitle, truncateDesc } from "@/lib/seo";
 
 const BASE = "https://www.zeropassoire.fr";
 
@@ -15,13 +16,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const guide = getGuideBySlug(slug);
   if (!guide) return {};
   const url = `${BASE}/guides/${slug}`;
+  const pageTitle = formatPageTitle(guide.title, "Zéro Passoire");
+  const pageDesc = truncateDesc(guide.description, 155);
   return {
-    title: guide.title,
-    description: guide.description,
+    title: pageTitle,
+    description: pageDesc,
     alternates: { canonical: url },
     openGraph: {
-      title: guide.title,
-      description: guide.description,
+      title: pageTitle,
+      description: pageDesc,
       url,
       locale: "fr_FR",
       type: "article",
@@ -31,8 +34,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     },
     twitter: {
       card: "summary_large_image",
-      title: guide.title,
-      description: guide.description,
+      title: pageTitle,
+      description: pageDesc,
       images: ["/twitter-image.png"],
     },
   };
@@ -201,7 +204,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
 
         <div className="mt-16 p-6 rounded-2xl bg-brand-50 border border-brand-200 text-center">
           <h2 className="font-display text-2xl font-bold text-stone-900 mb-2">
-            Votre situation mérite des chiffres à jour
+            Simulez vos aides et travaux : {guide.title}
           </h2>
           <p className="text-stone-700 mb-5 text-sm">
             Le simulateur vous donne votre reste à charge précis en 40 secondes.
@@ -217,7 +220,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
             <div className="flex items-center justify-between mb-6">
               <div>
                 <h2 className="font-display text-2xl font-bold text-stone-900">
-                  Guides et enquêtes associées
+                  Guides et enquêtes associés : {guide.title}
                 </h2>
                 <p className="text-stone-600 text-sm mt-1">
                   Complétez votre analyse avec nos autres dossiers de référence.

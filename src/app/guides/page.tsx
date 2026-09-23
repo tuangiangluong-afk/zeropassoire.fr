@@ -6,9 +6,9 @@ import { getAllGuides } from "@/lib/mdx";
 const BASE = "https://www.zeropassoire.fr";
 
 export const metadata: Metadata = {
-  title: "Guides et Enquêtes DPE 2026 : Sortir de passoire énergétique",
+  title: "Guides Rénovation DPE 2026 : Sortir de Passoire",
   description:
-    "Guides de référence rédigés par des auditeurs énergétiques et juristes : calendrier d'interdiction de location 2025-2034, barèmes MaPrimeRénov' 2026, primes CEE et pièges de chantier.",
+    "Guides pratiques et enquêtes DPE 2026 : calendrier d'interdiction de location, barèmes MaPrimeRénov', primes CEE et étapes clés pour rénover sans piège.",
   alternates: { canonical: `${BASE}/guides` },
   openGraph: {
     title: "Centre de ressources & Guides officiels sortie de passoire 2026",

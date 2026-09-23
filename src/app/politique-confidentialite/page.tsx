@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Politique de confidentialité",
+  title: "Politique de Confidentialité",
   description:
-    "Comment WELINK TECH collecte, utilise et protège les données personnelles transmises via le simulateur zéropassoire.fr. RGPD, droits, durée de conservation.",
+    "Politique de confidentialité et RGPD de zéropassoire.fr : collecte minimale, protection des données personnelles, droits d'accès et durée de conservation.",
   robots: { index: true, follow: true },
   alternates: { canonical: "https://www.zeropassoire.fr/politique-confidentialite" },
 };

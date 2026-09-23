@@ -6,9 +6,9 @@ import ContactForm from "@/components/ContactForm";
 const BASE_URL = "https://www.zeropassoire.fr";
 
 export const metadata: Metadata = {
-  title: "Contact & Assistance — Zéro Passoire",
+  title: "Contact & Assistance Indépendante | Zéro Passoire",
   description:
-    "Une question technique sur le simulateur, une contestation de DPE ou une précision sur les barèmes MaPrimeRénov' 2026 ? Contactez l'équipe éditoriale indépendante de Zéro Passoire.",
+    "Une question sur le simulateur DPE, les barèmes MaPrimeRénov' 2026 ou vos droits ? Contactez notre équipe éditoriale et technique Zéro Passoire.",
   alternates: { canonical: `${BASE_URL}/contact` },
   openGraph: {
     title: "Contact & Support indépendant — Zéro Passoire",
@@ -123,6 +123,26 @@ export default function ContactPage() {
                 </a>
                 . Zéro Passoire n'a aucun lien avec les entreprises sanctionnées.
               </div>
+            </div>
+          </div>
+
+          {/* Enriched Editorial & Legal Assistance Sections */}
+          <div className="mt-16 pt-12 border-t border-stone-200 grid sm:grid-cols-2 gap-8 text-sm text-stone-600">
+            <div className="p-6 rounded-2xl bg-white border border-stone-200">
+              <h2 className="font-display font-bold text-stone-900 text-base mb-2">
+                Charte d'indépendance éditoriale & Déontologie
+              </h2>
+              <p className="leading-relaxed text-xs text-stone-600">
+                Zéro Passoire est un portail d'information technique et juridique indépendant des réseaux d'artisans et des fournisseurs d'énergie. Nos barèmes et calculs sont basés strictement sur les arrêtés ministériels, les fiches CEE de la DGEC et les référentiels de l'ADEME. Aucun artisan ne peut payer pour modifier nos recommandations techniques.
+              </p>
+            </div>
+            <div className="p-6 rounded-2xl bg-white border border-stone-200">
+              <h2 className="font-display font-bold text-stone-900 text-base mb-2">
+                Signalement réglementaire et veille DPE
+              </h2>
+              <p className="leading-relaxed text-xs text-stone-600">
+                Vous constatez une mise à jour d'un barème de l'Anah, un nouvel arrêté préfectoral ou une décision de justice relative à l'indécence énergétique d'un logement ? Utilisez notre formulaire pour alerter nos rédacteurs. Nos veilleurs vérifient chaque source juridique sous 24 heures ouvrées.
+              </p>
             </div>
           </div>
         </div>
