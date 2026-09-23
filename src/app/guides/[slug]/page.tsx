@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ArrowRight, Calculator } from "lucide-react";
 import { getAllGuides, getGuideBySlug } from "@/lib/mdx";
 
 const BASE = "https://zeropassoire.fr";
@@ -152,6 +152,9 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
     });
   }
 
+  const allGuides = getAllGuides();
+  const relatedGuides = allGuides.filter((g) => g.slug !== slug).slice(0, 3);
+
   return (
     <article className="py-16 bg-white">
       {schemas.map((s, i) => (
@@ -192,6 +195,52 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
             Estimer mon reste à charge
           </Link>
         </div>
+
+        {/* Dynamic Internal Mesh: Related Guides & Pillars */}
+        {relatedGuides.length > 0 && (
+          <div className="mt-16 pt-12 border-t border-stone-200">
+            <div className="flex items-center justify-between mb-6">
+              <div>
+                <h3 className="font-display text-2xl font-bold text-stone-900">
+                  Guides et enquêtes associées
+                </h3>
+                <p className="text-stone-600 text-sm mt-1">
+                  Complétez votre analyse avec nos autres dossiers de référence.
+                </p>
+              </div>
+              <Link
+                href="/guides"
+                className="text-xs font-semibold text-brand-700 hover:text-brand-800 hidden sm:inline-flex items-center gap-1"
+              >
+                Tous les guides <ArrowRight size={14} />
+              </Link>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {relatedGuides.map((rel) => (
+                <Link
+                  key={rel.slug}
+                  href={`/guides/${rel.slug}`}
+                  className="p-4 rounded-xl border border-stone-200 hover:border-brand-600 transition bg-stone-50 hover:bg-white group flex flex-col justify-between"
+                >
+                  <div>
+                    <div className="text-[11px] font-semibold uppercase tracking-wider text-brand-700 mb-1">
+                      {rel.category} &middot; {rel.readTime}
+                    </div>
+                    <h4 className="font-display font-bold text-sm text-stone-900 group-hover:text-brand-700 transition line-clamp-2">
+                      {rel.title}
+                    </h4>
+                    <p className="text-xs text-stone-600 mt-2 line-clamp-2">
+                      {rel.description}
+                    </p>
+                  </div>
+                  <div className="mt-3 text-xs font-semibold text-brand-700 flex items-center gap-1 pt-2 border-t border-stone-100">
+                    Consulter <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </article>
   );

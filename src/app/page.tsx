@@ -3,14 +3,22 @@ import { ChevronDown, FileText, Wallet, Users, ShieldAlert, Sparkles, ArrowRight
 import Simulator from "@/components/Simulator";
 import MobileStickyBar from "@/components/MobileStickyBar";
 
-const HOME_FAQ = [
+type HomeFaqItem = {
+  q: string;
+  a: string;
+  link?: { href: string; label: string };
+};
+
+const HOME_FAQ: HomeFaqItem[] = [
   {
     q: "Les chiffres du simulateur sont-ils fiables ?",
     a: "Les barèmes utilisés viennent des textes officiels 2026 (arrêté MaPrimeRénov' du 2 octobre 2025, fiches CEE BAR-TH en vigueur). Les coûts de travaux sont des médianes constatées ADEME sur les chantiers 2024-2025. Ce sont des estimations à ±15 %, pas un devis contractuel.",
+    link: { href: "/guides/aides-financieres-sortie-passoire-2026", label: "Consulter la grille complète des barèmes et primes 2026" },
   },
   {
     q: "Puis-je vendre mon bien sans faire les travaux ?",
     a: "Oui. Le DPE F ou G n'interdit pas la vente, il oblige seulement à afficher un avis énergétique à l'acheteur et à chiffrer les travaux dans l'annonce. En pratique, un bien non-rénové subit une décote à la revente estimée entre 6 % et 15 % par l'Observatoire DVF-PIERVAL 2025.",
+    link: { href: "/guides/sortir-de-passoire-energetique-2026", label: "Voir l'impact de la décote passoire sur la valeur vénale" },
   },
   {
     q: "Je suis déjà en contact avec un artisan, ça change quoi ?",
@@ -19,10 +27,12 @@ const HOME_FAQ = [
   {
     q: "Combien de temps pour sortir de passoire ?",
     a: "4 à 10 mois entre le premier rendez-vous avec un auditeur énergétique et la livraison du dernier poste. Le frein principal n'est pas le chantier lui-même, c'est le vote en AG pour les copropriétés, et le dépôt de dossier MPR pour les maisons individuelles.",
+    link: { href: "/guides/sortir-de-passoire-energetique-2026", label: "Consulter les 5 étapes indispensables du parcours de travaux" },
   },
   {
     q: "Et si je ne peux vraiment pas financer, même avec les aides ?",
     a: "Il existe le prêt à taux zéro propriétaires occupants (jusqu'à 50 000 €), l'avance de MaPrimeRénov' par le syndic ou un organisme associatif, les aides locales cumulables (Anah, régions, intercommunalités), et pour les ménages en précarité, le fonds Tiers-lieu Financement Collective.",
+    link: { href: "/guides/aides-financieres-sortie-passoire-2026#eco-ptz", label: "Tout savoir sur l'Éco-PTZ à 0 % d'intérêt sur 20 ans" },
   },
   {
     q: "Le simulateur Zéro Passoire est-il vraiment gratuit ?",
@@ -35,10 +45,12 @@ const HOME_FAQ = [
   {
     q: "Puis-je faire une simulation pour un appartement en copropriété ?",
     a: "Oui. Le simulateur couvre maison individuelle et appartement en copropriété. Pour une copropriété, le coût affiché correspond à votre quote-part de travaux sur parties communes (ITE, toiture, chaudière collective) + vos travaux privatifs. La sortie de passoire d'un lot d'appartement passe presque toujours par un vote en assemblée générale.",
+    link: { href: "/guides/sortir-de-passoire-energetique-2026#copropriete", label: "Consulter les règles de vote en AG de copropriété (art. 24, 25)" },
   },
   {
     q: "Combien coûte en moyenne le passage d'un DPE F ou G à un DPE C ?",
     a: "Sur une maison individuelle moyenne (110 m² construite avant 1975), le coût médian constaté ADEME 2025 est de 38 000 à 55 000 € avant aides, soit 18 000 à 32 000 € reste à charge après MaPrimeRénov' (étiquette bleue ou jaune) et CEE. En appartement, comptez 12 000 à 22 000 € de quote-part.",
+    link: { href: "/guides/aides-financieres-sortie-passoire-2026", label: "Voir le chiffrage détaillé et les plafonds par profil fiscal" },
   },
   {
     q: "Les artisans RGE référencés sont-ils vraiment vérifiés ?",
@@ -51,6 +63,7 @@ const HOME_FAQ = [
   {
     q: "Puis-je utiliser le simulateur si je suis locataire ?",
     a: "Oui, mais l'interprétation change. En location, les travaux incombent au propriétaire bailleur. Vous pouvez utiliser la simulation pour chiffrer le coût demandé au bailleur et argumenter la décote de loyer. Depuis le 1er janvier 2025, un logement classé G ne peut plus être mis en location, et un F le pourra jusqu'au 1er janvier 2028.",
+    link: { href: "/guides/interdiction-location-passoire-thermique", label: "Lire le guide juridique complet sur l'interdiction de location" },
   },
   {
     q: "Combien de temps pour percevoir MaPrimeRénov' ?",
@@ -328,6 +341,13 @@ export default function HomePage() {
             <details key={f.q} className="faq-item">
               <summary>{f.q}</summary>
               <p>{f.a}</p>
+              {f.link && (
+                <div className="mt-2 text-xs">
+                  <Link href={f.link.href} className="text-brand-700 font-semibold hover:underline inline-flex items-center gap-1">
+                    → {f.link.label}
+                  </Link>
+                </div>
+              )}
             </details>
           ))}
         </div>
@@ -347,26 +367,54 @@ export default function HomePage() {
             Lancer la simulation <ArrowRight size={18} />
           </a>
           <div className="mt-16 text-left">
-            <h3 className="font-display text-lg font-bold text-stone-900 mb-4">
-              Pour aller plus loin
-            </h3>
+            <div className="flex items-center justify-between mb-4">
+              <div>
+                <h3 className="font-display text-lg font-bold text-stone-900">
+                  Nos guides et dossiers d'autorité
+                </h3>
+                <p className="text-stone-600 text-xs">
+                  Analyses juridiques, barèmes officiels et méthodes de chantier décryptés.
+                </p>
+              </div>
+              <Link href="/guides" className="text-xs font-semibold text-brand-700 hover:text-brand-800 inline-flex items-center gap-1">
+                Tous les guides <ArrowRight size={14} />
+              </Link>
+            </div>
             <ul className="grid sm:grid-cols-3 gap-4 text-sm">
               <li>
-                <Link href="/guides/sortir-de-passoire-energetique-2026" className="block p-4 rounded-xl bg-white border border-stone-200 hover:border-brand-600 transition">
-                  <div className="font-semibold text-stone-900 mb-1">Le guide pilier</div>
-                  <div className="text-stone-600">Sortir de passoire : le parcours complet</div>
+                <Link href="/guides/sortir-de-passoire-energetique-2026" className="block p-5 rounded-2xl bg-white border border-stone-200 hover:border-brand-600 hover:shadow-sm transition group h-full flex flex-col justify-between">
+                  <div>
+                    <div className="text-xs uppercase tracking-wider font-semibold text-brand-700 mb-1">Technique &amp; Chantiers</div>
+                    <div className="font-display font-bold text-stone-900 group-hover:text-brand-700 transition mb-2">Sortir de passoire : le parcours complet</div>
+                    <div className="text-stone-600 text-xs leading-relaxed">Déperditions thermiques, devis RGE, copropriété et les 7 fraudes DGCCRF.</div>
+                  </div>
+                  <div className="mt-4 pt-3 border-t border-stone-100 text-xs font-semibold text-brand-700 flex items-center gap-1">
+                    Lire le dossier <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
+                  </div>
                 </Link>
               </li>
               <li>
-                <Link href="/guides/aides-financieres-sortie-passoire-2026" className="block p-4 rounded-xl bg-white border border-stone-200 hover:border-brand-600 transition">
-                  <div className="font-semibold text-stone-900 mb-1">Aides 2026</div>
-                  <div className="text-stone-600">MPR&nbsp;+&nbsp;CEE&nbsp;+&nbsp;TVA&nbsp;5,5&nbsp;%&nbsp;+&nbsp;aides locales</div>
+                <Link href="/guides/aides-financieres-sortie-passoire-2026" className="block p-5 rounded-2xl bg-white border border-stone-200 hover:border-brand-600 hover:shadow-sm transition group h-full flex flex-col justify-between">
+                  <div>
+                    <div className="text-xs uppercase tracking-wider font-semibold text-emerald-800 mb-1">Financement &amp; Fiscalité</div>
+                    <div className="font-display font-bold text-stone-900 group-hover:text-brand-700 transition mb-2">Aides 2026 : MPR, CEE, PTZ</div>
+                    <div className="text-stone-600 text-xs leading-relaxed">Plafonds RFR 2026, cumul à 95%, fiches CEE 6e période et Éco-PTZ 50 000 €.</div>
+                  </div>
+                  <div className="mt-4 pt-3 border-t border-stone-100 text-xs font-semibold text-brand-700 flex items-center gap-1">
+                    Voir les barèmes <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
+                  </div>
                 </Link>
               </li>
               <li>
-                <Link href="/guides/interdiction-location-passoire-thermique" className="block p-4 rounded-xl bg-white border border-stone-200 hover:border-brand-600 transition">
-                  <div className="font-semibold text-stone-900 mb-1">Location 2025</div>
-                  <div className="text-stone-600">Interdiction G puis F&nbsp;: calendrier</div>
+                <Link href="/guides/interdiction-location-passoire-thermique" className="block p-5 rounded-2xl bg-white border border-stone-200 hover:border-brand-600 hover:shadow-sm transition group h-full flex flex-col justify-between">
+                  <div>
+                    <div className="text-xs uppercase tracking-wider font-semibold text-red-700 mb-1">Droit &amp; Contentieux</div>
+                    <div className="font-display font-bold text-stone-900 group-hover:text-brand-700 transition mb-2">Location 2025 : Interdictions &amp; Sanctions</div>
+                    <div className="text-stone-600 text-xs leading-relaxed">Jurisprudence baisse de loyer jusqu'à 50%, Loi Le Meur et exceptions légales.</div>
+                  </div>
+                  <div className="mt-4 pt-3 border-t border-stone-100 text-xs font-semibold text-brand-700 flex items-center gap-1">
+                    Consulter la loi <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
+                  </div>
                 </Link>
               </li>
             </ul>
