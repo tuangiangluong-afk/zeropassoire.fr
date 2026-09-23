@@ -7,7 +7,7 @@ description: >-
   G/F/E, sanctions civiles et administratives (amende 20 000 €, baisse
   judiciaire de loyer), cas Airbnb (loi Le Meur), exceptions réelles et 4
   stratégies d'arbitrage patrimonial.
-publishedAt: "2026-05-18"
+publishedAt: "2026-09-17"
 category: Obligations légales
 readTime: 18 min
 ---

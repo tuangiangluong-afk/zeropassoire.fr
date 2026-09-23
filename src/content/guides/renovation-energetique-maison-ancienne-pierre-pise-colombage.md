@@ -6,7 +6,7 @@ description: >-
   Guide expert pour la rénovation thermique du bâti ancien : gestion de la
   perspirance, compatibilité des matériaux biosourcés, correction thermique
   chaux-chanvre et élimination des pathologies d'humidité.
-publishedAt: "2026-08-25"
+publishedAt: "2026-09-07"
 category: Travaux & Bâti Ancien
 readTime: 11 min
 ---

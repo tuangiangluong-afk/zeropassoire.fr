@@ -6,7 +6,7 @@ description: >-
   Le parcours pas à pas pour rénover efficacement une passoire thermique :
   bouquets de travaux optimaux selon l'ancienneté du bâti, règles de
   copropriété, pièges techniques et les 7 fraudes répertoriées par la DGCCRF.
-publishedAt: "2026-09-03"
+publishedAt: "2026-09-20"
 category: Guide pilier
 readTime: 22 min
 ---
