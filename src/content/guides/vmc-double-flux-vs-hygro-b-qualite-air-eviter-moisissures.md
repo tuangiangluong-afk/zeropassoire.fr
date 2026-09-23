@@ -6,7 +6,7 @@ description: >-
   Isolation sans ventilation : découvrez les risques de moisissures,
   condensation et dégradation du DPE. Comparatif technique, coûts et aides 2026
   entre VMC Hygro B et Double Flux.
-publishedAt: '2026-09-23'
+publishedAt: "2026-09-12"
 category: Ventilation & Santé
 readTime: 9 min
 ---

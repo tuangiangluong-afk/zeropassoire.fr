@@ -6,7 +6,7 @@ description: >-
   Le guide financier officiel 2026 : barèmes complets RFR Île-de-France et
   Province, plafonds par profil (Bleu, Jaune, Violet, Rose), règles d'écrêtement
   Anah, fiches CEE 6e période et calendrier optimal de dépôt.
-publishedAt: '2026-09-23'
+publishedAt: "2026-01-12"
 category: Aides & financement
 readTime: 20 min
 ---

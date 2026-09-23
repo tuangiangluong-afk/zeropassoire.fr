@@ -5,7 +5,7 @@ title: >-
 description: >-
   Baromètre des décotes DPE F et G en 2026, méthode de valorisation inversée,
   utilisation de l'audit énergétique et stratégie d'investissement clé en main.
-publishedAt: '2026-09-23'
+publishedAt: "2026-03-07"
 category: Achat & Investissement
 readTime: 10 min
 ---

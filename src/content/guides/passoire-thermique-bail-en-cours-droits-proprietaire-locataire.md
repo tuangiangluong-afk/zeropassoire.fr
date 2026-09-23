@@ -4,7 +4,7 @@ description: >-
   Bail en cours, reconduction tacite, recours du locataire et travaux en milieu
   occupé : analyse juridique complète des obligations du bailleur face à la
   décence énergétique en 2026.
-publishedAt: '2026-09-23'
+publishedAt: "2026-07-29"
 category: Bailleurs & Baux
 readTime: 10 min
 ---

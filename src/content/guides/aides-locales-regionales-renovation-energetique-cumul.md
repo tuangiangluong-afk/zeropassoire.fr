@@ -6,7 +6,7 @@ description: >-
   Guide complet 2026 sur les aides locales à la rénovation énergétique :
   exonération de taxe foncière (CGI), primes métropolitaines, caisses de
   retraite et règles de cumul.
-publishedAt: '2026-09-23'
+publishedAt: "2026-01-21"
 category: Aides Financières
 readTime: 8 min
 ---

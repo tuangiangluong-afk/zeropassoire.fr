@@ -6,7 +6,7 @@ description: >-
   Décryptage complet de la loi Le Meur (Loi n° 2024-1038) : calendrier DPE pour
   les meublés de tourisme, blocage des numéros d'enregistrement en mairie,
   amendes jusqu'à 50 000 € et réforme fiscale.
-publishedAt: '2026-09-23'
+publishedAt: "2026-07-11"
 category: Réglementation & Droit
 readTime: 8 min
 ---

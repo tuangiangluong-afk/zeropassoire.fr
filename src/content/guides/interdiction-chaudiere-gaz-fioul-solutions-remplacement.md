@@ -6,7 +6,7 @@ description: >-
   Réglementation 2026 sur l'interdiction du fioul et les restrictions du gaz :
   découvrez les alternatives techniques (PAC, biomasse, réseau urbain), les
   coûts et les aides MaPrimeRénov'.
-publishedAt: '2026-09-23'
+publishedAt: "2026-05-09"
 category: Chauffage & Énergie
 readTime: 10 min
 ---

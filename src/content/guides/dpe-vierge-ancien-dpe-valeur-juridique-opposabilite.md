@@ -6,7 +6,7 @@ description: >-
   Les anciens DPE et DPE vierges sont caducs depuis le 31 décembre 2024. Analyse
   des risques juridiques, de l'opposabilité et des obligations pour louer ou
   vendre.
-publishedAt: '2026-09-23'
+publishedAt: "2026-04-12"
 category: DPE & Diagnostics
 readTime: 7 min
 ---

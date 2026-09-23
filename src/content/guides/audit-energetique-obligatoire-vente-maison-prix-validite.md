@@ -6,7 +6,7 @@ description: >-
   Guide complet 2026 de l'audit énergétique réglementaire avant-vente :
   obligations pour les maisons F, G et E, coût, durée de validité et scénarios
   de travaux.
-publishedAt: '2026-09-23'
+publishedAt: "2026-01-30"
 category: Vente & Diagnostics
 readTime: 10 min
 ---

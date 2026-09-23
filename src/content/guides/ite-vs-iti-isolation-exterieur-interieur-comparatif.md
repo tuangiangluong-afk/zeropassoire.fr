@@ -6,7 +6,7 @@ description: >-
   Isolation thermique par l'extérieur ou par l'intérieur ? Analyse complète des
   coûts au m², pertes de surface Carrez, performance DPE, démarches d'urbanisme
   et règles DTU 45.2.
-publishedAt: '2026-09-23'
+publishedAt: "2026-06-14"
 category: Travaux & Isolation
 readTime: 11 min
 ---

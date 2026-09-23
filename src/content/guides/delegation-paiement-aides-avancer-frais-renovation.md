@@ -6,7 +6,7 @@ description: >-
   Découvrez comment réaliser vos travaux de rénovation globale sans débourser
   votre trésorerie grâce à la délégation de paiement Anah et au Prêt Avance
   Rénovation garanti par l'État.
-publishedAt: '2026-09-23'
+publishedAt: "2026-03-25"
 category: Aides Financières
 readTime: 8 min
 ---

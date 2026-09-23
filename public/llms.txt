@@ -10,7 +10,7 @@ Le site s'adresse aux propriétaires de logements classés E, F ou G au DPE (5,3
 - [Accueil](https://zeropassoire.fr): Simulateur complet, tableau comparatif anti-démarchage, FAQ transparence et statistiques officielles.
 - [Guides](https://zeropassoire.fr/guides): 28 guides et enquêtes de référence, sourcés Légifrance, ADEME et Journal Officiel.
 
-## Guides et Enquêtes de référence (28 dossiers d'autorité)
+## Guides et Enquêtes de référence (28 dossiers de référence)
 
 - [Décote des Passoires Thermiques en 2026 : Comment Négocier le Prix d’un Bien F ou G](https://zeropassoire.fr/guides/decote-immobiliere-passoire-thermique-negociation-achat): Baromètre des décotes DPE F et G en 2026, méthode de valorisation inversée, utilisation de l'audit énergétique et stratégie d'investissement clé en main. [Achat & Investissement &middot; 10 min]
 - [Aides financières sortie de passoire 2026 : MaPrimeRénov', CEE P6, TVA 5,5 %, Éco-PTZ 50 000 €](https://zeropassoire.fr/guides/aides-financieres-sortie-passoire-2026): Le guide financier officiel 2026 : barèmes complets RFR Île-de-France et Province, plafonds par profil (Bleu, Jaune, Violet, Rose), règles d'écrêtement Anah, fiches CEE 6e période et calendrier optimal de dépôt. [Aides & financement &middot; 20 min]

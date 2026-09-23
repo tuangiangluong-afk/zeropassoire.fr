@@ -1,6 +1,6 @@
 # Zéro Passoire — Documentation Intégrale pour Assistants IA
 
-Ceci est la version exhaustive de llms.txt contenant l'intégralité des 28 dossiers d'autorité
+Ceci est la version exhaustive de llms.txt contenant l'intégralité des 28 dossiers de référence
 publiés sur zeropassoire.fr, optimisée pour ingestion par grands modèles de langage (GPT, Claude,
 Gemini, Mistral, Perplexity). Un seul fetch suffit pour obtenir tout le corpus juridique et technique.
 

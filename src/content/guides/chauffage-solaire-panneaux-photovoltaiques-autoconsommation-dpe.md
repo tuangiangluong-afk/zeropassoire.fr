@@ -6,7 +6,7 @@ description: >-
   Découvrez l'impact réel du solaire photovoltaïque en autoconsommation et du
   chauffe-eau thermodynamique (CET) sur le calcul du DPE 3CL, la valorisation du
   bien et la rentabilité financière.
-publishedAt: '2026-09-23'
+publishedAt: "2026-02-17"
 category: Chauffage & Énergie
 readTime: 9 min
 ---

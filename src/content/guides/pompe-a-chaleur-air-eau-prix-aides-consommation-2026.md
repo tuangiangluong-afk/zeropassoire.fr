@@ -6,7 +6,7 @@ description: >-
   Guide technique complet 2026 sur la pompe à chaleur air/eau : dimensionnement,
   SCOP, remplacement chaudière fioul/gaz, aides MaPrimeRénov' et CEE,
   rentabilité réelle.
-publishedAt: '2026-09-23'
+publishedAt: "2026-08-07"
 category: Chauffage & Énergie
 readTime: 11 min
 ---

@@ -6,7 +6,7 @@ description: >-
   Guide technique complet sur l'isolation des planchers bas en 2026 : techniques
   en sous-face, insufflation de vide sanitaire, conformité BAR-EN-103 (R ≥ 3,0)
   et impact DPE.
-publishedAt: '2026-09-23'
+publishedAt: "2026-06-05"
 category: Travaux & Isolation
 readTime: 8 min
 ---

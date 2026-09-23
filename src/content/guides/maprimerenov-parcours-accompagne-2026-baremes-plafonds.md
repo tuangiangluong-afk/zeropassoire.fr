@@ -6,7 +6,7 @@ description: >-
   Guide technique et financier 2026 sur MaPrimeRénov' Parcours Accompagné :
   barèmes de revenus, plafonds de dépenses jusqu'à 70 000 €, taux d'aide et rôle
   du MAR.
-publishedAt: '2026-09-23'
+publishedAt: "2026-07-02"
 category: Aides Financières
 readTime: 11 min
 ---

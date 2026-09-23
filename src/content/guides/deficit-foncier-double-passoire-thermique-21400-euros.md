@@ -6,7 +6,7 @@ description: >-
   Optimisez la fiscalité de vos travaux de rénovation énergétique : découvrez
   les conditions, le calendrier et le calcul du déficit foncier majoré à 21 400
   € pour les passoires thermiques.
-publishedAt: '2026-09-23'
+publishedAt: "2026-03-16"
 category: Financement & Fiscalité
 readTime: 10 min
 ---

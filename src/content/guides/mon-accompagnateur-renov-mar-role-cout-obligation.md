@@ -4,7 +4,7 @@ description: >-
   Guide complet 2026 sur Mon Accompagnateur Rénov' (MAR) : obligation légale,
   missions, tarifs, barème de prise en charge Anah et critères pour choisir un
   tiers de confiance agréé.
-publishedAt: '2026-09-23'
+publishedAt: "2026-07-20"
 category: Aides Financières
 readTime: 9 min
 ---

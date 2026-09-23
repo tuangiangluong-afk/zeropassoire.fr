@@ -4,7 +4,7 @@ description: >-
   DPE mensonger, faux calcul ou étiquette énergétique faussée : découvrez les
   recours juridiques, actions en vice caché ou dol, et indemnisations possibles
   pour acheteurs et locataires.
-publishedAt: '2026-09-23'
+publishedAt: "2026-06-23"
 category: Réglementation & Droit
 readTime: 10 min
 ---

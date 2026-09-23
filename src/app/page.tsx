@@ -370,7 +370,7 @@ export default function HomePage() {
             <div className="flex items-center justify-between mb-4">
               <div>
                 <h3 className="font-display text-lg font-bold text-stone-900">
-                  Nos guides et dossiers d'autorité
+                  Nos guides et enquêtes de référence
                 </h3>
                 <p className="text-stone-600 text-xs">
                   Analyses juridiques, barèmes officiels et méthodes de chantier décryptés.

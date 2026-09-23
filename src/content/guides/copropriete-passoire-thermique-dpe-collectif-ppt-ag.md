@@ -6,7 +6,7 @@ description: >-
   Guide juridique et technique pour sortir une copropriété du statut de passoire
   thermique : calendrier du DPE collectif, PPT, fonds de travaux Alur, règles de
   vote en AG (art. 25-1) et subventions MaPrimeRénov' Copropriété 2026.
-publishedAt: '2026-09-23'
+publishedAt: "2026-02-26"
 category: Copropriété
 readTime: 11 min
 ---

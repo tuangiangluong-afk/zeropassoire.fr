@@ -74,7 +74,7 @@ export default function GuidesListingPage() {
             Guides &amp; Enquêtes de référence
           </h1>
           <p className="text-stone-600 text-lg leading-relaxed max-w-3xl">
-            La rénovation énergétique d’une passoire ne s’improvise pas. Retrouvez nos dossiers d’autorité sourcés Légifrance, ADEME et Journal Officiel, sans langue de bois ni démarchage commercial.
+            La rénovation énergétique d’une passoire ne s’improvise pas. Retrouvez nos dossiers de référence sourcés Légifrance, ADEME et Journal Officiel, sans langue de bois ni démarchage commercial.
           </p>
         </div>
 

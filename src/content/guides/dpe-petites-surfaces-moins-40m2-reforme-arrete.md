@@ -6,7 +6,7 @@ description: >-
   Découvrez comment l'arrêté ministériel correctif sur le DPE des logements de
   moins de 40 m² permet de sortir mécaniquement du statut de passoire thermique
   sans travaux.
-publishedAt: '2026-09-23'
+publishedAt: "2026-04-03"
 category: DPE & Diagnostics
 readTime: 8 min
 ---

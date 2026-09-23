@@ -6,7 +6,7 @@ description: >-
   Guide technique et financier sur le changement de menuiseries : coefficients
   Uw, Ug, Sw, choix entre double et triple vitrage, dépose totale vs rénovation
   et impact sur le DPE.
-publishedAt: '2026-09-23'
+publishedAt: "2026-02-08"
 category: Travaux & Isolation
 readTime: 9 min
 ---

@@ -6,7 +6,7 @@ description: >-
   Réglementation complète sur le gel des loyers des passoires thermiques
   classées F et G : interdiction IRL, relocation, renouvellement, litiges et
   remboursements.
-publishedAt: '2026-09-23'
+publishedAt: "2026-04-30"
 category: Réglementation & Droit
 readTime: 9 min
 ---

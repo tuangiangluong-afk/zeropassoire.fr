@@ -6,7 +6,7 @@ description: >-
   Guide technique 2026 : seuil R ≥ 7 m².K/W en combles perdus et R ≥ 6 en
   rampants, comparatif des isolants, déphasage thermique, prix au m² et règles
   NF DTU 45.11.
-publishedAt: '2026-09-23'
+publishedAt: "2026-05-27"
 category: Travaux & Isolation
 readTime: 10 min
 ---
