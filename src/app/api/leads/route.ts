@@ -150,11 +150,14 @@ export async function POST(req: NextRequest) {
       email,
       phone: phoneRaw,
       postalCode: String(inputData.cp || "75000"),
+      city: String(inputData.ville || ""),
       typeLogement: inputData.type === "appartement" ? "appartement" : "maison",
       statut: inputData.statut === "bailleur" ? "bailleur" : "occupant",
       surface: Number(inputData.surface) || 80,
       classeDpe: inputData.classe || "F",
       leadId: data.id,
+      clientIp,
+      pageUrl: req.headers.get("referer") || undefined,
     })
       .then((vRes) => {
         if (vRes.skipped) console.log("[zeropassoire][ViteUnDevis][skipped]", vRes.skipped);
