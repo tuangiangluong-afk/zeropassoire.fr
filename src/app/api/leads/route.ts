@@ -6,6 +6,8 @@ export const runtime = "nodejs";
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 const PHONE_RE = /^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.\-]*\d{2}){4}$/;
 
+// Le frontend (LeadCaptureCard + ContactForm) envoie en snake_case.
+// On accepte aussi camelCase pour curl manuel / intégrations tierces.
 export async function POST(req: NextRequest) {
   let body: any;
   try {
@@ -13,55 +15,80 @@ export async function POST(req: NextRequest) {
   } catch {
     return NextResponse.json({ error: "invalid_json" }, { status: 400 });
   }
+  if (!body || typeof body !== "object") {
+    return NextResponse.json({ error: "invalid_body" }, { status: 400 });
+  }
 
   const email = String(body.email || "").trim().toLowerCase();
-  const phone = body.phone ? String(body.phone).trim() : null;
+  const phoneRaw = body.phone ? String(body.phone).trim() : null;
   const simulation = body.simulation;
+
+  const consentCallback = Boolean(body.consent_callback ?? body.consentCallback ?? false);
+  const consentNewsletter = Boolean(body.consent_newsletter ?? body.consentNewsletter ?? false);
+  const sessionIdRaw = body.session_id ?? body.sessionId;
+  const sessionId = sessionIdRaw ? String(sessionIdRaw).slice(0, 120) : null;
+
+  const utmSource = String(body.utm?.source ?? body.utm?.utm_source ?? body.utm_source ?? "").slice(0, 120) || null;
+  const utmMedium = String(body.utm?.medium ?? body.utm?.utm_medium ?? body.utm_medium ?? "").slice(0, 120) || null;
+  const utmCampaign = String(body.utm?.campaign ?? body.utm?.utm_campaign ?? body.utm_campaign ?? "").slice(0, 160) || null;
+  const gclid = String(body.utm?.gclid ?? body.gclid ?? "").slice(0, 120) || null;
+  const fbclid = String(body.utm?.fbclid ?? body.fbclid ?? "").slice(0, 120) || null;
 
   if (!EMAIL_RE.test(email)) {
     return NextResponse.json({ error: "invalid_email" }, { status: 400 });
   }
-  if (phone && !PHONE_RE.test(phone)) {
+  if (phoneRaw && !PHONE_RE.test(phoneRaw)) {
     return NextResponse.json({ error: "invalid_phone" }, { status: 400 });
   }
-  if (!simulation || !simulation.result) {
+  if (!simulation || typeof simulation !== "object") {
     return NextResponse.json({ error: "simulation_required" }, { status: 400 });
   }
 
   const client = supabaseAdmin();
   const record = {
     email,
-    phone,
+    phone: phoneRaw,
     simulation,
-    consent_callback: !!body.consent_callback,
-    consent_newsletter: !!body.consent_newsletter,
-    utm_source: body.utm?.utm_source || null,
-    utm_medium: body.utm?.utm_medium || null,
-    utm_campaign: body.utm?.utm_campaign || null,
-    gclid: body.utm?.gclid || null,
-    fbclid: body.utm?.fbclid || null,
-    session_id: body.session_id || null,
+    consent_callback: consentCallback,
+    consent_newsletter: consentNewsletter,
+    utm_source: utmSource,
+    utm_medium: utmMedium,
+    utm_campaign: utmCampaign,
+    gclid,
+    fbclid,
+    session_id: sessionId,
     created_at: new Date().toISOString(),
   };
 
   if (!client) {
-    // Fallback dev sans Supabase configuré — log en console, retourne succès mock.
     console.log("[zeropassoire][DEV][lead]", record);
-    return NextResponse.json({ ok: true, id: "dev-" + Math.random().toString(36).slice(2), mode: "dev" });
+    return NextResponse.json({
+      ok: true,
+      id: "dev-" + Math.random().toString(36).slice(2),
+      mode: "dev",
+    });
   }
 
   const { data, error } = await client.from("leads").insert(record).select("id").single();
-  if (error) {
-    console.error("[zeropassoire][supabase]", error);
+  if (error || !data) {
+    console.error("[zeropassoire][supabase][lead]", error);
     return NextResponse.json({ error: "storage_failed" }, { status: 500 });
   }
 
-  // Funnel event
-  await client.from("events").insert({
+  // Funnel event post-inscription (best effort — ne bloque pas la réponse si ça fail).
+  client.from("events").insert({
     session_id: record.session_id,
     event_name: "lead_submitted",
-    properties: { lead_id: data.id, classe: simulation.result.nouvelleClasse },
+    properties: {
+      lead_id: data.id,
+      classe: (simulation as any).classe ?? null,
+      kind: (simulation as any).kind ?? "simulator",
+      consent_callback: consentCallback,
+      consent_newsletter: consentNewsletter,
+    },
     created_at: record.created_at,
+  }).then(({ error: evErr }: any) => {
+    if (evErr) console.error("[zeropassoire][supabase][funnel-event]", evErr);
   });
 
   return NextResponse.json({ ok: true, id: data.id });
