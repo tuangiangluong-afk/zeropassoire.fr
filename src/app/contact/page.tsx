@@ -19,6 +19,16 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": `${BASE_URL}/contact#breadcrumb`,
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Accueil", item: BASE_URL },
+      { "@type": "ListItem", position: 2, name: "Contact", item: `${BASE_URL}/contact` },
+    ],
+  };
+
   const contactPageSchema = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
@@ -29,10 +39,15 @@ export default function ContactPage() {
     inLanguage: "fr-FR",
     isPartOf: { "@id": `${BASE_URL}/#website` },
     about: { "@id": `${BASE_URL}/#organization` },
+    breadcrumb: { "@id": `${BASE_URL}/contact#breadcrumb` },
   };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageSchema) }}

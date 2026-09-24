@@ -24,6 +24,7 @@ export default function GuidesListingPage() {
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
+    "@id": `${BASE}/guides#itemlist`,
     name: "Guides Zéro Passoire — Centre de référence sortie de passoire énergétique",
     itemListElement: guides.map((g, i) => ({
       "@type": "ListItem",
@@ -38,6 +39,7 @@ export default function GuidesListingPage() {
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+    "@id": `${BASE}/guides#breadcrumb`,
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Accueil", item: BASE },
       { "@type": "ListItem", position: 2, name: "Guides", item: `${BASE}/guides` },

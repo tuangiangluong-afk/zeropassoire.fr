@@ -95,6 +95,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
+      "@id": `${url}#breadcrumb`,
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Accueil", item: BASE },
         { "@type": "ListItem", position: 2, name: "Guides", item: `${BASE}/guides` },
