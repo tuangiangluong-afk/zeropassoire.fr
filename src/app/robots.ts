@@ -17,6 +17,5 @@ export default function robots(): MetadataRoute.Robots {
       })),
     ],
     sitemap: "https://www.zeropassoire.fr/sitemap.xml",
-    host: "https://www.zeropassoire.fr",
   };
 }
