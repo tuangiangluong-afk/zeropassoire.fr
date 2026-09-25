@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { Mail, Clock, ShieldCheck, ArrowRight, BookOpen, Calculator, Scale } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 
@@ -73,6 +74,29 @@ export default function ContactPage() {
 
             {/* Context & Direct Resources Column (2 cols) */}
             <div className="md:col-span-2 space-y-6">
+              <div className="rounded-2xl bg-white border border-stone-200 overflow-hidden shadow-sm">
+                <div className="relative aspect-[4/3] w-full overflow-hidden bg-stone-100">
+                  <Image
+                    src="/images/audit-conseil.webp"
+                    alt="Conseil et audit énergétique indépendant avec un propriétaire"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 360px"
+                    className="object-cover"
+                  />
+                  <span className="absolute top-2.5 left-2.5 rounded-full bg-stone-900/85 backdrop-blur-sm border border-stone-700 px-2.5 py-0.5 text-[11px] font-semibold text-emerald-400">
+                    Conseil indépendant
+                  </span>
+                </div>
+                <div className="p-5">
+                  <div className="font-display font-bold text-stone-900 text-sm mb-1">
+                    Une équipe d'auditeurs &amp; juristes
+                  </div>
+                  <p className="text-xs text-stone-600 leading-relaxed">
+                    Nous analysons vos devis et litiges DPE sans aucun parti pris commercial. Zéro revente de coordonnées, zéro commission installateur imposée.
+                  </p>
+                </div>
+              </div>
+
               <div className="p-6 rounded-2xl bg-white border border-stone-200 shadow-sm">
                 <h2 className="font-display font-bold text-stone-900 text-base mb-3 flex items-center gap-2">
                   <ShieldCheck size={18} className="text-brand-600" /> Réponses immédiates

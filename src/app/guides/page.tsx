@@ -1,9 +1,24 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, BookOpen, Calendar, ShieldAlert, Award, FileSpreadsheet, Calculator } from "lucide-react";
 import { getAllGuides } from "@/lib/mdx";
 
 const BASE = "https://www.zeropassoire.fr";
+
+const GUIDE_COVERS: Record<string, string> = {
+  "sortir-de-passoire-energetique-2026": "/images/chantier-isolation-ite.webp",
+  "aides-financieres-sortie-passoire-2026": "/images/pompe-chaleur-installation.webp",
+  "interdiction-location-passoire-thermique": "/images/thermographie-maison.webp",
+  "pompe-a-chaleur-air-eau-prix-aides-consommation-2026": "/images/pompe-chaleur-installation.webp",
+  "ite-vs-iti-isolation-exterieur-interieur-comparatif": "/images/chantier-isolation-ite.webp",
+  "isolation-combles-perdus-amenages-guide-prix-r7": "/images/isolation-combles.webp",
+  "changement-fenetres-double-vitrage-gain-dpe-rentabilite": "/images/menuiserie-fenetre.webp",
+  "mon-accompagnateur-renov-mar-role-cout-obligation": "/images/audit-conseil.webp",
+  "maprimerenov-parcours-accompagne-2026-baremes-plafonds": "/images/audit-conseil.webp",
+  "passoire-thermique-bail-en-cours-droits-proprietaire-locataire": "/images/thermographie-maison.webp",
+  "audit-energetique-obligatoire-vente-maison-prix-validite": "/images/thermographie-maison.webp",
+};
 
 export const metadata: Metadata = {
   title: "Guides Rénovation DPE 2026 : Sortir de Passoire",
@@ -130,39 +145,53 @@ export default function GuidesListingPage() {
             Tous nos dossiers et enquêtes de référence
           </h2>
           <div className="space-y-5">
-            {guides.map((g) => (
-              <Link
-                key={g.slug}
-                href={`/guides/${g.slug}`}
-                className="block p-6 rounded-2xl bg-white border border-stone-200 hover:border-brand-600 hover:shadow-md transition group"
-              >
-                <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
-                  <div className="flex-1">
-                    <div className="flex flex-wrap items-center gap-2 mb-2 text-xs">
-                      <span className="font-semibold text-brand-700 uppercase tracking-wide">
-                        {g.category}
-                      </span>
-                      <span className="text-stone-300">&middot;</span>
-                      <span className="text-stone-500 font-mono">{g.readTime}</span>
-                      <span className="text-stone-300">&middot;</span>
-                      <span className="text-stone-500">
-                        Mis à jour le {new Date(g.publishedAt).toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" })}
-                      </span>
+            {guides.map((g) => {
+              const cover = GUIDE_COVERS[g.slug];
+              return (
+                <Link
+                  key={g.slug}
+                  href={`/guides/${g.slug}`}
+                  className="block p-6 rounded-2xl bg-white border border-stone-200 hover:border-brand-600 hover:shadow-md transition group overflow-hidden"
+                >
+                  <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-6">
+                    {cover && (
+                      <div className="relative w-full sm:w-44 sm:h-32 shrink-0 rounded-xl overflow-hidden bg-stone-100 aspect-[16/9] sm:aspect-auto">
+                        <Image
+                          src={cover}
+                          alt={g.title}
+                          fill
+                          sizes="(max-width: 640px) 100vw, 180px"
+                          className="object-cover group-hover:scale-105 transition-transform duration-500"
+                        />
+                      </div>
+                    )}
+                    <div className="flex-1">
+                      <div className="flex flex-wrap items-center gap-2 mb-2 text-xs">
+                        <span className="font-semibold text-brand-700 uppercase tracking-wide">
+                          {g.category}
+                        </span>
+                        <span className="text-stone-300">&middot;</span>
+                        <span className="text-stone-500 font-mono">{g.readTime}</span>
+                        <span className="text-stone-300">&middot;</span>
+                        <span className="text-stone-500">
+                          Mis à jour le {new Date(g.publishedAt).toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" })}
+                        </span>
+                      </div>
+                      <h3 className="font-display text-xl sm:text-2xl font-bold text-stone-900 group-hover:text-brand-700 transition leading-snug mb-2">
+                        {g.title}
+                      </h3>
+                      <p className="text-stone-600 text-sm leading-relaxed line-clamp-3">
+                        {g.description}
+                      </p>
                     </div>
-                    <h3 className="font-display text-xl sm:text-2xl font-bold text-stone-900 group-hover:text-brand-700 transition leading-snug mb-2">
-                      {g.title}
-                    </h3>
-                  <p className="text-stone-600 text-sm leading-relaxed line-clamp-3">
-                    {g.description}
-                  </p>
-                </div>
-                <div className="flex items-center text-xs font-semibold text-brand-700 group-hover:text-brand-800 shrink-0 self-end sm:self-center gap-1">
-                  Lire l'enquête <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
+                    <div className="flex items-center text-xs font-semibold text-brand-700 group-hover:text-brand-800 shrink-0 self-end sm:self-center gap-1">
+                      Lire l'enquête <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
       </div>
     </div>
   </section>

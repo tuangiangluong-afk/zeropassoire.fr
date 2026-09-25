@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, BookOpen, CheckCircle2, AlertTriangle, Scale, Calculator, ShieldCheck, Zap } from "lucide-react";
 import Simulator from "@/components/Simulator";
 
@@ -204,6 +205,35 @@ export default function SimulateurPage() {
                 • Zone H1 (Nord, Est, IDF) : Coeff 1.20 à 1.30 (aide maximale)<br />
                 • Zone H2 (Façade Ouest, Sud-Ouest) : Coeff 1.00<br />
                 • Zone H3 (Méditerranée) : Coeff 0.75 à 0.85
+              </div>
+            </div>
+          </div>
+
+          {/* Visual Thermography Explainer */}
+          <div className="mb-12 rounded-3xl border border-stone-200 bg-stone-900 text-white overflow-hidden shadow-md">
+            <div className="grid md:grid-cols-12 items-center">
+              <div className="md:col-span-6 relative aspect-[4/3] w-full">
+                <Image
+                  src="/images/thermographie-maison.webp"
+                  alt="Thermographie infrarouge d'une maison passoire thermique révélant les déperditions de chaleur"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 500px"
+                  className="object-cover"
+                />
+              </div>
+              <div className="md:col-span-6 p-6 sm:p-8">
+                <div className="inline-flex items-center gap-2 rounded-full bg-red-900/60 border border-red-700/50 px-3 py-1 text-xs font-semibold text-red-200 mb-3">
+                  Diagnostic infrarouge thermique
+                </div>
+                <h3 className="font-display text-2xl font-bold text-white mb-3">
+                  Où s'échappe réellement la chaleur d'une passoire ?
+                </h3>
+                <p className="text-stone-300 text-sm leading-relaxed mb-4">
+                  Sur ce relevé thermique hivernal, les zones rouges et jaunes révèlent les fuites massives de calories : <strong className="text-white">toiture non isolée (30%)</strong> et <strong className="text-white">menuiseries vétustes (15%)</strong>.
+                </p>
+                <p className="text-stone-300 text-sm leading-relaxed">
+                  Le moteur Zéro Passoire calcule et priorise ces chantiers à fort rendement pour faire chuter votre facture dès le premier hiver tout en optimisant vos subventions Anah.
+                </p>
               </div>
             </div>
           </div>

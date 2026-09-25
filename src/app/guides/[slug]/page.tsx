@@ -1,11 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, Calculator } from "lucide-react";
 import { getAllGuides, getGuideBySlug } from "@/lib/mdx";
 import { formatPageTitle, truncateDesc, formatH1, formatH2 } from "@/lib/seo";
 
 const BASE = "https://www.zeropassoire.fr";
+
+const GUIDE_COVERS: Record<string, string> = {
+  "sortir-de-passoire-energetique-2026": "/images/chantier-isolation-ite.webp",
+  "aides-financieres-sortie-passoire-2026": "/images/pompe-chaleur-installation.webp",
+  "interdiction-location-passoire-thermique": "/images/thermographie-maison.webp",
+  "pompe-a-chaleur-air-eau-prix-aides-consommation-2026": "/images/pompe-chaleur-installation.webp",
+  "ite-vs-iti-isolation-exterieur-interieur-comparatif": "/images/chantier-isolation-ite.webp",
+  "isolation-combles-perdus-amenages-guide-prix-r7": "/images/isolation-combles.webp",
+  "changement-fenetres-double-vitrage-gain-dpe-rentabilite": "/images/menuiserie-fenetre.webp",
+  "mon-accompagnateur-renov-mar-role-cout-obligation": "/images/audit-conseil.webp",
+  "maprimerenov-parcours-accompagne-2026-baremes-plafonds": "/images/audit-conseil.webp",
+  "passoire-thermique-bail-en-cours-droits-proprietaire-locataire": "/images/thermographie-maison.webp",
+  "audit-energetique-obligatoire-vente-maison-prix-validite": "/images/thermographie-maison.webp",
+};
 
 export async function generateStaticParams() {
   return getAllGuides().map((g) => ({ slug: g.slug }));
@@ -197,6 +212,19 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
           {formatH1(guide.title)}
         </h1>
         <p className="text-lg text-stone-600 mb-10 leading-relaxed">{guide.description}</p>
+
+        {GUIDE_COVERS[slug] && (
+          <div className="relative aspect-[16/9] w-full rounded-2xl overflow-hidden mb-10 border border-stone-200 shadow-sm bg-stone-100">
+            <Image
+              src={GUIDE_COVERS[slug]}
+              alt={guide.title}
+              fill
+              priority
+              sizes="(max-width: 768px) 100vw, 768px"
+              className="object-cover"
+            />
+          </div>
+        )}
 
         <div
           className="prose-zeropassoire max-w-none"

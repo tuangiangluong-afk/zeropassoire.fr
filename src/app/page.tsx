@@ -1,6 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
-import { ChevronDown, FileText, Wallet, Users, ShieldAlert, Sparkles, ArrowRight, Check, X } from "lucide-react";
+import { ChevronDown, FileText, Wallet, Users, ShieldAlert, ShieldCheck, Sparkles, ArrowRight, Check, X } from "lucide-react";
 import Simulator from "@/components/Simulator";
 import MobileStickyBar from "@/components/MobileStickyBar";
 
@@ -108,56 +109,82 @@ export default function HomePage() {
           }}
         />
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 rounded-full bg-brand-900/60 border border-brand-700/50 px-4 py-1.5 text-xs font-semibold text-brand-100 mb-6">
-              <Sparkles size={14} /> Simulateur indépendant &middot; Barèmes officiels 2026
+          <div className="grid lg:grid-cols-12 gap-10 items-center">
+            <div className="lg:col-span-7">
+              <div className="inline-flex items-center gap-2 rounded-full bg-brand-900/60 border border-brand-700/50 px-4 py-1.5 text-xs font-semibold text-brand-100 mb-6">
+                <Sparkles size={14} /> Simulateur indépendant &middot; Barèmes officiels 2026
+              </div>
+              <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
+                Votre logement est une{" "}
+                <span className="relative">
+                  <span className="relative z-10">passoire thermique</span>
+                  <span className="absolute bottom-1 left-0 right-0 h-3 bg-alert-500/30 z-0" />
+                </span>
+                &nbsp;? Chiffrez votre sortie.
+              </h1>
+              <p className="mt-6 text-lg text-stone-200 leading-relaxed max-w-2xl">
+                Chaque poste est pondéré et rattaché à son texte officiel : arrêté MaPrimeRénov' du 2 octobre 2025, fiches CEE 6e période et coûts réels ADEME.
+                En 40 secondes : <strong className="text-white">votre reste à charge net, vos aides déduites, votre délai d'amortissement</strong> et vos obligations légales.
+              </p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <Link href="#simulateur" className="btn-primary">
+                  Estimer mon reste à charge <ChevronDown size={18} />
+                </Link>
+                <Link href="/guides" className="btn-secondary !border-stone-600 !text-white !bg-transparent hover:!bg-stone-800">
+                  Lire les guides
+                </Link>
+              </div>
+              <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs font-mono text-stone-200">
+                <div className="flex items-center gap-2 p-2.5 rounded-xl bg-stone-800/80 border border-stone-700">
+                  <span className="text-emerald-400 font-bold">✓</span>
+                  <span>Arrêté 2 oct. 2025 · MPR 2026</span>
+                </div>
+                <div className="flex items-center gap-2 p-2.5 rounded-xl bg-stone-800/80 border border-stone-700">
+                  <span className="text-emerald-400 font-bold">✓</span>
+                  <span>Fiches CEE BAR-TH 6e période</span>
+                </div>
+                <div className="flex items-center gap-2 p-2.5 rounded-xl bg-stone-800/80 border border-stone-700">
+                  <span className="text-emerald-400 font-bold">✓</span>
+                  <span>Médianes chantiers ADEME</span>
+                </div>
+                <div className="flex items-center gap-2 p-2.5 rounded-xl bg-stone-800/80 border border-stone-700">
+                  <span className="text-emerald-400 font-bold">✓</span>
+                  <span>0 appel · 0 donnée revendue</span>
+                </div>
+              </div>
+              <div className="mt-3 text-xs text-stone-400 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                <span>Barèmes vérifiés et à jour au 25 septembre 2026 &middot; Sans inscription ni email requis</span>
+              </div>
             </div>
-            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
-              Votre logement est une{" "}
-              <span className="relative">
-                <span className="relative z-10">passoire thermique</span>
-                <span className="absolute bottom-1 left-0 right-0 h-3 bg-alert-500/30 z-0" />
-              </span>
-              &nbsp;? Chiffrez votre sortie.
-            </h1>
-            <p className="mt-6 text-lg text-stone-200 leading-relaxed max-w-2xl">
-              Chaque poste est pondéré et rattaché à son texte officiel : arrêté MaPrimeRénov' du 2 octobre 2025, fiches CEE 6e période et coûts réels ADEME.
-              En 40 secondes : <strong className="text-white">votre reste à charge net, vos aides déduites, votre délai d'amortissement</strong> et vos obligations légales.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="#simulateur" className="btn-primary">
-                Estimer mon reste à charge <ChevronDown size={18} />
-              </Link>
-              <Link href="/guides" className="btn-secondary !border-stone-600 !text-white !bg-transparent hover:!bg-stone-800">
-                Lire les guides
-              </Link>
-            </div>
-            <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs font-mono text-stone-200">
-              <div className="flex items-center gap-2 p-2.5 rounded-xl bg-stone-800/80 border border-stone-700">
-                <span className="text-emerald-400 font-bold">✓</span>
-                <span>Arrêté 2 oct. 2025 · MPR 2026</span>
+
+            <div className="lg:col-span-5 hidden lg:block">
+              <div className="relative rounded-3xl overflow-hidden border border-stone-700/80 bg-stone-800/90 shadow-2xl p-2.5 backdrop-blur-sm">
+                <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+                  <Image
+                    src="/images/audit-conseil.webp"
+                    alt="Conseiller officiel en rénovation énergétique et audit DPE accompagnant un propriétaire"
+                    fill
+                    priority
+                    sizes="(max-width: 1024px) 100vw, 460px"
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-stone-950/85 via-stone-950/20 to-transparent" />
+                  <div className="absolute bottom-3 left-3 right-3 p-3.5 rounded-xl bg-stone-900/90 backdrop-blur-md border border-stone-700 text-xs">
+                    <div className="font-semibold text-white flex items-center gap-1.5 mb-1">
+                      <ShieldCheck size={15} className="text-emerald-400" /> Conseil indépendant &amp; Devis vérifiés
+                    </div>
+                    <div className="text-stone-300 text-[11px] leading-relaxed">
+                      Barèmes officiels MaPrimeRénov' 2026, fiches CEE et calcul de rentabilité sans intermédiaire commercial.
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="flex items-center gap-2 p-2.5 rounded-xl bg-stone-800/80 border border-stone-700">
-                <span className="text-emerald-400 font-bold">✓</span>
-                <span>Fiches CEE BAR-TH 6e période</span>
-              </div>
-              <div className="flex items-center gap-2 p-2.5 rounded-xl bg-stone-800/80 border border-stone-700">
-                <span className="text-emerald-400 font-bold">✓</span>
-                <span>Médianes chantiers ADEME</span>
-              </div>
-              <div className="flex items-center gap-2 p-2.5 rounded-xl bg-stone-800/80 border border-stone-700">
-                <span className="text-emerald-400 font-bold">✓</span>
-                <span>0 appel · 0 donnée revendue</span>
-              </div>
-            </div>
-            <div className="mt-3 text-xs text-stone-400 flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span>Barèmes vérifiés et à jour au 23 septembre 2026 &middot; Sans inscription ni email requis</span>
             </div>
           </div>
 
           {/* DPE gauge visual */}
-          <div className="mt-16 max-w-3xl">
+          <div className="mt-14 max-w-3xl">
             <div className="text-xs uppercase tracking-widest text-stone-400 mb-3">
               Vous êtes probablement ici&nbsp;:
             </div>
@@ -214,6 +241,141 @@ export default function HomePage() {
               Une PAC bien posée coûte entre 9 000 et 16 000 € après aides.
               Même quand c'est moins vendeur.
             </AntiCard>
+          </div>
+        </div>
+      </section>
+
+      {/* 3.5 REAL CHANTIERS — 4 bouquets de travaux avec photos de terrain */}
+      <section className="py-20 bg-stone-100/70 border-b border-stone-200">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="text-center max-w-3xl mx-auto mb-14">
+            <div className="inline-flex items-center gap-2 rounded-full bg-emerald-100 border border-emerald-300 px-3.5 py-1 text-xs font-semibold text-emerald-800 mb-3">
+              Travaux vérifiés · Artisans RGE certifiés
+            </div>
+            <h2 className="font-display text-3xl sm:text-4xl font-bold text-stone-900">
+              Les 4 chantiers concrets pour effacer une étiquette F ou G
+            </h2>
+            <p className="mt-3 text-stone-600 text-base leading-relaxed">
+              Pour sauter 2 à 4 classes DPE et maximiser les aides de l'État, les travaux s'articulent autour des 4 bouquets techniques indispensables du parcours accompagné.
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Card 1: ITE */}
+            <div className="rounded-2xl border border-stone-200 bg-white overflow-hidden shadow-sm hover:shadow-md transition flex flex-col justify-between">
+              <div>
+                <div className="relative aspect-[4/3] w-full overflow-hidden bg-stone-100">
+                  <Image
+                    src="/images/chantier-isolation-ite.webp"
+                    alt="Chantier réel d'isolation thermique extérieure ITE sur maison individuelle"
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 280px"
+                    className="object-cover hover:scale-105 transition-transform duration-500"
+                  />
+                  <span className="absolute top-2.5 left-2.5 rounded-full bg-stone-900/85 backdrop-blur-sm border border-stone-700 px-2.5 py-0.5 text-[11px] font-semibold text-emerald-400">
+                    Murs · Jusqu'à 35% de gain
+                  </span>
+                </div>
+                <div className="p-5">
+                  <h3 className="font-display font-bold text-stone-900 text-base mb-1.5">
+                    Isolation Extérieure (ITE)
+                  </h3>
+                  <p className="text-stone-600 text-xs leading-relaxed">
+                    Supprime l'intégralité des ponts thermiques de façade sans réduire votre surface habitable intérieure. Barème MPR 2026 jusqu'à 75 €/m².
+                  </p>
+                </div>
+              </div>
+              <div className="px-5 pb-5 pt-2 border-t border-stone-100 flex items-center justify-between text-xs">
+                <span className="font-semibold text-brand-700">Aide MPR jusqu'à 75 €/m²</span>
+              </div>
+            </div>
+
+            {/* Card 2: PAC */}
+            <div className="rounded-2xl border border-stone-200 bg-white overflow-hidden shadow-sm hover:shadow-md transition flex flex-col justify-between">
+              <div>
+                <div className="relative aspect-[4/3] w-full overflow-hidden bg-stone-100">
+                  <Image
+                    src="/images/pompe-chaleur-installation.webp"
+                    alt="Installation d'une pompe à chaleur air-eau certifiée RGE"
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 280px"
+                    className="object-cover hover:scale-105 transition-transform duration-500"
+                  />
+                  <span className="absolute top-2.5 left-2.5 rounded-full bg-stone-900/85 backdrop-blur-sm border border-stone-700 px-2.5 py-0.5 text-[11px] font-semibold text-emerald-400">
+                    Chauffage · Division par 3
+                  </span>
+                </div>
+                <div className="p-5">
+                  <h3 className="font-display font-bold text-stone-900 text-base mb-1.5">
+                    Pompe à chaleur Air/Eau
+                  </h3>
+                  <p className="text-stone-600 text-xs leading-relaxed">
+                    Remplace les chaudières fioul ou gaz énergivores. SCOP saisonnier ≥ 3,8, compatible avec vos radiateurs haute température.
+                  </p>
+                </div>
+              </div>
+              <div className="px-5 pb-5 pt-2 border-t border-stone-100 flex items-center justify-between text-xs">
+                <span className="font-semibold text-brand-700">Primes CEE &amp; MPR déduites</span>
+              </div>
+            </div>
+
+            {/* Card 3: Combles */}
+            <div className="rounded-2xl border border-stone-200 bg-white overflow-hidden shadow-sm hover:shadow-md transition flex flex-col justify-between">
+              <div>
+                <div className="relative aspect-[4/3] w-full overflow-hidden bg-stone-100">
+                  <Image
+                    src="/images/isolation-combles.webp"
+                    alt="Isolation des combles perdus par soufflage de laine certifiée R supérieur ou égal à 7"
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 280px"
+                    className="object-cover hover:scale-105 transition-transform duration-500"
+                  />
+                  <span className="absolute top-2.5 left-2.5 rounded-full bg-stone-900/85 backdrop-blur-sm border border-stone-700 px-2.5 py-0.5 text-[11px] font-semibold text-emerald-400">
+                    Toit · 30% des fuites
+                  </span>
+                </div>
+                <div className="p-5">
+                  <h3 className="font-display font-bold text-stone-900 text-base mb-1.5">
+                    Combles perdus (R ≥ 7)
+                  </h3>
+                  <p className="text-stone-600 text-xs leading-relaxed">
+                    Le premier poste de rentabilité. 35 cm de laine minérale soufflée pour bloquer l'ascension de l'air chaud vers la toiture en 1 journée.
+                  </p>
+                </div>
+              </div>
+              <div className="px-5 pb-5 pt-2 border-t border-stone-100 flex items-center justify-between text-xs">
+                <span className="font-semibold text-brand-700">Amorti en 24 à 36 mois</span>
+              </div>
+            </div>
+
+            {/* Card 4: Fenêtres */}
+            <div className="rounded-2xl border border-stone-200 bg-white overflow-hidden shadow-sm hover:shadow-md transition flex flex-col justify-between">
+              <div>
+                <div className="relative aspect-[4/3] w-full overflow-hidden bg-stone-100">
+                  <Image
+                    src="/images/menuiserie-fenetre.webp"
+                    alt="Pose de menuiseries double vitrage thermique Uw inférieur ou égal à 1.3"
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 280px"
+                    className="object-cover hover:scale-105 transition-transform duration-500"
+                  />
+                  <span className="absolute top-2.5 left-2.5 rounded-full bg-stone-900/85 backdrop-blur-sm border border-stone-700 px-2.5 py-0.5 text-[11px] font-semibold text-emerald-400">
+                    Fenêtres · Uw ≤ 1,3
+                  </span>
+                </div>
+                <div className="p-5">
+                  <h3 className="font-display font-bold text-stone-900 text-base mb-1.5">
+                    Menuiseries Double Vitrage
+                  </h3>
+                  <p className="text-stone-600 text-xs leading-relaxed">
+                    Élimine la sensation de paroi froide, les courants d'air et la condensation. Vitrage thermique à gaz argon et rupture de pont thermique.
+                  </p>
+                </div>
+              </div>
+              <div className="px-5 pb-5 pt-2 border-t border-stone-100 flex items-center justify-between text-xs">
+                <span className="font-semibold text-brand-700">Confort thermique immédiat</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -387,39 +549,72 @@ export default function HomePage() {
                 Tous les guides <ArrowRight size={14} />
               </Link>
             </div>
-            <ul className="grid sm:grid-cols-3 gap-4 text-sm">
+            <ul className="grid sm:grid-cols-3 gap-6 text-sm">
               <li>
-                <Link href="/guides/sortir-de-passoire-energetique-2026" className="block p-5 rounded-2xl bg-white border border-stone-200 hover:border-brand-600 hover:shadow-sm transition group h-full flex flex-col justify-between">
+                <Link href="/guides/sortir-de-passoire-energetique-2026" className="block rounded-2xl bg-white border border-stone-200 hover:border-brand-600 hover:shadow-md transition group h-full flex flex-col justify-between overflow-hidden">
                   <div>
-                    <div className="text-xs uppercase tracking-wider font-semibold text-brand-700 mb-1">Technique &amp; Chantiers</div>
-                    <div className="font-display font-bold text-stone-900 group-hover:text-brand-700 transition mb-2">Sortir de passoire : le parcours complet</div>
-                    <div className="text-stone-600 text-xs leading-relaxed">Déperditions thermiques, devis RGE, copropriété et les 7 fraudes DGCCRF.</div>
+                    <div className="relative aspect-[16/9] w-full overflow-hidden bg-stone-100">
+                      <Image
+                        src="/images/chantier-isolation-ite.webp"
+                        alt="Chantier de sortie de passoire énergétique"
+                        fill
+                        sizes="(max-width: 640px) 100vw, 33vw"
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                    <div className="p-5">
+                      <div className="text-xs uppercase tracking-wider font-semibold text-brand-700 mb-1">Technique &amp; Chantiers</div>
+                      <div className="font-display font-bold text-stone-900 group-hover:text-brand-700 transition mb-2">Sortir de passoire : le parcours complet</div>
+                      <div className="text-stone-600 text-xs leading-relaxed">Déperditions thermiques, devis RGE, copropriété et les 7 fraudes DGCCRF.</div>
+                    </div>
                   </div>
-                  <div className="mt-4 pt-3 border-t border-stone-100 text-xs font-semibold text-brand-700 flex items-center gap-1">
+                  <div className="px-5 pb-4 pt-3 border-t border-stone-100 text-xs font-semibold text-brand-700 flex items-center gap-1">
                     Lire le dossier <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
                   </div>
                 </Link>
               </li>
               <li>
-                <Link href="/guides/aides-financieres-sortie-passoire-2026" className="block p-5 rounded-2xl bg-white border border-stone-200 hover:border-brand-600 hover:shadow-sm transition group h-full flex flex-col justify-between">
+                <Link href="/guides/aides-financieres-sortie-passoire-2026" className="block rounded-2xl bg-white border border-stone-200 hover:border-brand-600 hover:shadow-md transition group h-full flex flex-col justify-between overflow-hidden">
                   <div>
-                    <div className="text-xs uppercase tracking-wider font-semibold text-emerald-800 mb-1">Financement &amp; Fiscalité</div>
-                    <div className="font-display font-bold text-stone-900 group-hover:text-brand-700 transition mb-2">Aides 2026 : MPR, CEE, PTZ</div>
-                    <div className="text-stone-600 text-xs leading-relaxed">Plafonds RFR 2026, cumul à 95%, fiches CEE 6e période et Éco-PTZ 50 000 €.</div>
+                    <div className="relative aspect-[16/9] w-full overflow-hidden bg-stone-100">
+                      <Image
+                        src="/images/pompe-chaleur-installation.webp"
+                        alt="Aides financières et subventions pompe à chaleur 2026"
+                        fill
+                        sizes="(max-width: 640px) 100vw, 33vw"
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                    <div className="p-5">
+                      <div className="text-xs uppercase tracking-wider font-semibold text-emerald-800 mb-1">Financement &amp; Fiscalité</div>
+                      <div className="font-display font-bold text-stone-900 group-hover:text-brand-700 transition mb-2">Aides 2026 : MPR, CEE, PTZ</div>
+                      <div className="text-stone-600 text-xs leading-relaxed">Plafonds RFR 2026, cumul à 95%, fiches CEE 6e période et Éco-PTZ 50 000 €.</div>
+                    </div>
                   </div>
-                  <div className="mt-4 pt-3 border-t border-stone-100 text-xs font-semibold text-brand-700 flex items-center gap-1">
+                  <div className="px-5 pb-4 pt-3 border-t border-stone-100 text-xs font-semibold text-brand-700 flex items-center gap-1">
                     Voir les barèmes <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
                   </div>
                 </Link>
               </li>
               <li>
-                <Link href="/guides/interdiction-location-passoire-thermique" className="block p-5 rounded-2xl bg-white border border-stone-200 hover:border-brand-600 hover:shadow-sm transition group h-full flex flex-col justify-between">
+                <Link href="/guides/interdiction-location-passoire-thermique" className="block rounded-2xl bg-white border border-stone-200 hover:border-brand-600 hover:shadow-md transition group h-full flex flex-col justify-between overflow-hidden">
                   <div>
-                    <div className="text-xs uppercase tracking-wider font-semibold text-red-700 mb-1">Droit &amp; Contentieux</div>
-                    <div className="font-display font-bold text-stone-900 group-hover:text-brand-700 transition mb-2">Location 2025 : Interdictions &amp; Sanctions</div>
-                    <div className="text-stone-600 text-xs leading-relaxed">Jurisprudence baisse de loyer jusqu'à 50%, Loi Le Meur et exceptions légales.</div>
+                    <div className="relative aspect-[16/9] w-full overflow-hidden bg-stone-100">
+                      <Image
+                        src="/images/thermographie-maison.webp"
+                        alt="Interdiction de location passoire thermique et audit infrarouge"
+                        fill
+                        sizes="(max-width: 640px) 100vw, 33vw"
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                    <div className="p-5">
+                      <div className="text-xs uppercase tracking-wider font-semibold text-red-700 mb-1">Droit &amp; Contentieux</div>
+                      <div className="font-display font-bold text-stone-900 group-hover:text-brand-700 transition mb-2">Location 2025 : Interdictions &amp; Sanctions</div>
+                      <div className="text-stone-600 text-xs leading-relaxed">Jurisprudence baisse de loyer jusqu'à 50%, Loi Le Meur et exceptions légales.</div>
+                    </div>
                   </div>
-                  <div className="mt-4 pt-3 border-t border-stone-100 text-xs font-semibold text-brand-700 flex items-center gap-1">
+                  <div className="px-5 pb-4 pt-3 border-t border-stone-100 text-xs font-semibold text-brand-700 flex items-center gap-1">
                     Consulter la loi <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
                   </div>
                 </Link>
