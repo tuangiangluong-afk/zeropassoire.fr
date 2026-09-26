@@ -153,6 +153,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr" className={`${inter.variable} ${grotesk.variable}`}>
       <body className="min-h-screen flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"WebPage\", \"@id\": \"https://www.zeropassoire.fr/#webpage\", \"url\": \"https://www.zeropassoire.fr\", \"name\": \"Z\u00e9ro Passoire \u2014 Sortir du DPE F ou G\", \"isPartOf\": {\"@id\": \"https://www.zeropassoire.fr/#website\"}, \"about\": {\"@id\": \"https://www.zeropassoire.fr/#organization\"}, \"datePublished\": \"2025-09-01T00:00:00Z\", \"dateModified\": \"2026-09-26T00:00:00Z\"}".replace(/</g, '\\u003c') }}
+        />
         <GTMNoScript />
         <GTMScript />
         <script
