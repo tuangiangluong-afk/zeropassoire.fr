@@ -680,6 +680,8 @@ export default function HomePage() {
             name: "Zéro Passoire — simulateur indépendant de coût de sortie de passoire énergétique",
             description: "Simulateur gratuit, sans téléphone obligatoire, basé sur les barèmes officiels MaPrimeRénov', CEE et ADEME 2026. Découvrez combien coûte vraiment la sortie d'un DPE F ou G.",
             inLanguage: "fr-FR",
+            datePublished: "2025-10-01T00:00:00Z",
+            dateModified: "2026-09-26T00:00:00Z",
             isPartOf: { "@id": "https://www.zeropassoire.fr/#website" },
             about: { "@id": "https://www.zeropassoire.fr/#organization" },
             speakable: {
