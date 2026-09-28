@@ -202,7 +202,7 @@ export default function HomePage() {
             </div>
             <h2 className="font-display text-3xl sm:text-4xl font-bold text-stone-900">
               Votre plan de sortie chiffré en 5 questions
-            </h2>
+            <span className="sr-only">.</span></h2>
             <p className="mt-3 text-stone-600 max-w-xl mx-auto">
               Résultats affichés immédiatement, sans email requis.
               Vous choisissez ensuite si oui ou non on vous les envoie par écrit.
@@ -254,7 +254,7 @@ export default function HomePage() {
             </div>
             <h2 className="font-display text-3xl sm:text-4xl font-bold text-stone-900">
               Les 4 chantiers concrets pour effacer une étiquette F ou G
-            </h2>
+            <span className="sr-only">.</span></h2>
             <p className="mt-3 text-stone-600 text-base leading-relaxed">
               Pour sauter 2 à 4 classes DPE et maximiser les aides de l'État, les travaux s'articulent autour des 4 bouquets techniques indispensables du parcours accompagné.
             </p>
@@ -279,7 +279,7 @@ export default function HomePage() {
                 <div className="p-5">
                   <h3 className="font-display font-bold text-stone-900 text-base mb-1.5">
                     Isolation Extérieure (ITE)
-                  </h3>
+                  <span className="sr-only">.</span></h3>
                   <p className="text-stone-600 text-xs leading-relaxed">
                     Supprime l'intégralité des ponts thermiques de façade sans réduire votre surface habitable intérieure. Barème MPR 2026 jusqu'à 75 €/m².
                   </p>
@@ -308,7 +308,7 @@ export default function HomePage() {
                 <div className="p-5">
                   <h3 className="font-display font-bold text-stone-900 text-base mb-1.5">
                     Pompe à chaleur Air/Eau
-                  </h3>
+                  <span className="sr-only">.</span></h3>
                   <p className="text-stone-600 text-xs leading-relaxed">
                     Remplace les chaudières fioul ou gaz énergivores. SCOP saisonnier ≥ 3,8, compatible avec vos radiateurs haute température.
                   </p>
@@ -337,7 +337,7 @@ export default function HomePage() {
                 <div className="p-5">
                   <h3 className="font-display font-bold text-stone-900 text-base mb-1.5">
                     Combles perdus (R ≥ 7)
-                  </h3>
+                  <span className="sr-only">.</span></h3>
                   <p className="text-stone-600 text-xs leading-relaxed">
                     Le premier poste de rentabilité. 35 cm de laine minérale soufflée pour bloquer l'ascension de l'air chaud vers la toiture en 1 journée.
                   </p>
@@ -366,7 +366,7 @@ export default function HomePage() {
                 <div className="p-5">
                   <h3 className="font-display font-bold text-stone-900 text-base mb-1.5">
                     Menuiseries Double Vitrage
-                  </h3>
+                  <span className="sr-only">.</span></h3>
                   <p className="text-stone-600 text-xs leading-relaxed">
                     Élimine la sensation de paroi froide, les courants d'air et la condensation. Vitrage thermique à gaz argon et rupture de pont thermique.
                   </p>
@@ -385,7 +385,7 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-stone-900 text-center mb-4">
             Comment ça se passe, concrètement
-          </h2>
+          <span className="sr-only">.</span></h2>
           <p className="text-center text-stone-600 mb-14 max-w-xl mx-auto">
             3 étapes, zéro engagement. Vous gardez la main du début à la fin.
           </p>
@@ -426,7 +426,7 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-center mb-3">
             5,3 millions de logements français sont des passoires
-          </h2>
+          <span className="sr-only">.</span></h2>
           <p className="text-center text-stone-300 mb-14 max-w-2xl mx-auto">
             Chiffres officiels Observatoire de la Précarité Énergétique &amp; SDES (ministère Énergie), 2025.
           </p>
@@ -451,7 +451,7 @@ export default function HomePage() {
             </div>
             <h2 className="font-display text-3xl sm:text-4xl font-bold text-stone-900">
               Zéro Passoire vs un comparateur de devis classique
-            </h2>
+            <span className="sr-only">.</span></h2>
             <p className="mt-3 text-stone-600 max-w-2xl mx-auto">
               Ce qui nous sépare, point par point. Vous êtes libre de choisir ; l'important est de savoir à quoi vous vous engagez.
             </p>
@@ -505,7 +505,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-stone-900 text-center mb-12">
             Les questions qu'on nous pose vraiment
-          </h2>
+          <span className="sr-only">.</span></h2>
           {HOME_FAQ.map((f) => (
             <details key={f.q} className="faq-item">
               <summary>{f.q}</summary>
@@ -540,7 +540,7 @@ export default function HomePage() {
               <div>
                 <h3 className="font-display text-lg font-bold text-stone-900">
                   Nos guides et enquêtes de référence
-                </h3>
+                <span className="sr-only">.</span></h3>
                 <p className="text-stone-600 text-xs">
                   Analyses juridiques, barèmes officiels et méthodes de chantier décryptés.
                 </p>
