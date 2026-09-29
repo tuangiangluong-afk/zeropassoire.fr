@@ -1,0 +1,136 @@
+name: Supabase Keep-Alive
+
+on:
+  schedule:
+    # Supabase pauses a Free project after 7 days without enough database
+    # activity ("a few user requests to the database each day over the previous week").
+    # Three runs a day gives ~21 writes/week, keeping WAL traffic active well below the 7-day limit.
+    - cron: "0 3,11,19 * * *"
+  workflow_dispatch: # Allows manual trigger from GitHub Actions UI
+
+concurrency:
+  group: supabase-keep-alive
+  cancel-in-progress: false
+
+permissions:
+  contents: write # Required to commit and push the keep-alive timestamp
+  issues: write   # Required to open/close alert issue if ping fails
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Ping site keep-alive endpoint (Primary)
+        id: ping_site
+        run: |
+          set -euo pipefail
+          echo "Pinging https://www.zeropassoire.fr/api/keep-alive..."
+          RESPONSE=$(curl -fsS --max-time 30 --retry 5 --retry-delay 3 --retry-all-errors \
+            -H "User-Agent: GitHub-Actions-KeepAlive" \
+            "https://www.zeropassoire.fr/api/keep-alive")
+          echo "Response: ${RESPONSE}"
+          echo "✅ Site keep-alive endpoint OK"
+
+      - name: Direct Supabase REST API Ping (Secondary fallback if secrets are configured)
+        id: ping_supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          set -uo pipefail
+          KEY="${SUPABASE_SECRET_KEY:-${SUPABASE_SERVICE_KEY:-}}"
+          URL="${SUPABASE_URL:-}"
+
+          if [ -z "${KEY}" ] || [ -z "${URL}" ]; then
+            echo "Direct Supabase secrets not configured on GitHub, skipping direct REST ping (handled by site endpoint)."
+            exit 0
+          fi
+
+          NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          AUTH=()
+          case "${KEY}" in
+            eyJ*) AUTH=(-H "Authorization: Bearer ${KEY}") ;;
+          esac
+
+          sb_request() {
+            curl -fsS --max-time 30 \
+              --retry 3 --retry-delay 2 --retry-all-errors \
+              -H "apikey: ${KEY}" \
+              -H "Content-Type: application/json" \
+              "${AUTH[@]}" "$@"
+          }
+
+          echo "Writing direct keep-alive ping to Supabase at: ${NOW}"
+          if ! sb_request -X POST \
+            -H "Prefer: return=minimal" \
+            --data "{\"pinged_at\":\"${NOW}\"}" \
+            "${URL}/rest/v1/sys_keep_alive" >/dev/null 2>&1; then
+            echo "sys_keep_alive table unavailable, writing to events table..."
+            sb_request -X POST \
+              -H "Prefer: return=minimal" \
+              --data "{\"session_id\":\"github-actions-keepalive\",\"event_name\":\"supabase_keep_alive\",\"properties\":{\"source\":\"github_action\",\"pinged_at\":\"${NOW}\"},\"created_at\":\"${NOW}\"}" \
+              "${URL}/rest/v1/events" >/dev/null
+          fi
+          echo "✅ Direct Supabase keep-alive write OK"
+
+      - name: Update keep-alive log, commit and push
+        # Runs even when a step above failed: this commit stops GitHub from
+        # disabling scheduled workflows after 60 days of repository inactivity.
+        if: always()
+        run: |
+          set -euo pipefail
+
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          echo "Keep-alive last executed: ${TIMESTAMP}" > supabase-keep-alive.txt
+          echo "Status log updated to: ${TIMESTAMP}"
+
+          git add supabase-keep-alive.txt
+
+          if git diff --cached --exit-code; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: automated supabase keep-alive [${TIMESTAMP}]"
+
+          for attempt in 1 2 3; do
+            if git push origin main; then
+              echo "Pushed keep-alive log on attempt ${attempt}"
+              exit 0
+            fi
+            echo "Push rejected (attempt ${attempt}), rebasing on origin/main"
+            git pull --rebase origin main
+          done
+          echo "::error::Could not push the keep-alive log after 3 attempts"
+          exit 1
+
+      - name: Alert on keep-alive failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -uo pipefail
+          REPO="${GITHUB_REPOSITORY}"
+          TITLE="Keep-alive Supabase en echec - zeropassoire.fr"
+          RUN_URL="https://github.com/${REPO}/actions/runs/${GITHUB_RUN_ID}"
+          DASH="https://supabase.com/dashboard/project/otdctbilgspdecfkhilt"
+
+          BODY="Le keep-alive Supabase a echoue pour zeropassoire.fr.
+
+          - depot : ${REPO}
+          - projet Supabase : otdctbilgspdecfkhilt
+          - run en echec : ${RUN_URL}
+          - tableau de bord Supabase : ${DASH}
+
+          Verifier le statut du projet sur Supabase pour eviter la mise en pause."
+
+          gh issue create --repo "$REPO" --title "$TITLE" --body "$BODY" || true
