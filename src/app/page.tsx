@@ -682,7 +682,6 @@ export default function HomePage() {
             inLanguage: "fr-FR",
             datePublished: "2025-10-01T00:00:00Z",
             dateModified: "2026-09-26T00:00:00Z",
-            breadcrumb: { "@id": "https://www.zeropassoire.fr#breadcrumb" },
             isPartOf: { "@id": "https://www.zeropassoire.fr/#website" },
             about: { "@id": "https://www.zeropassoire.fr/#organization" },
             speakable: {

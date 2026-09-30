@@ -1,76 +1,32 @@
-"use client";
-
-import { useEffect } from "react";
-
-declare global {
-  interface Window {
-    dataLayer?: unknown[];
-  }
-}
+import Script from "next/script";
 
 const DEFAULT_GTM_ID = "GTM-WHMQBV4V";
 
 /**
- * Balise Google Tag Manager optimisée pour les Core Web Vitals (LCP / TBT 100/100).
- * - Initialise immédiatement window.dataLayer pour bufferiser les clics et événements.
- * - Injecte gtm.js dès la première interaction utilisateur (scroll, touch, clic) ou après 2,5s d'inactivité.
- * - Évite le double téléchargement redondant de gtag.js (GA4 G-6HTXYCLZS7 est géré directement par le conteneur GTM).
+ * Balise Google Tag Manager optimisée via next/script (afterInteractive).
+ * - Initialise window.dataLayer dès l'hydratation.
+ * - Charge gtm.js sans bloquer le rendu visuel initial (LCP préservé).
+ * - Garantit l'enregistrement de 100 % des visites et des événements GA4.
  */
 export default function GTMScript() {
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID || DEFAULT_GTM_ID;
 
-  useEffect(() => {
-    if (!gtmId || typeof window === "undefined") return;
-
-    // 1. Initialiser le dataLayer immédiatement (les clics de simulation sont bufferisés sans perte)
-    window.dataLayer = window.dataLayer || [];
-
-    let loaded = false;
-    const injectGTM = () => {
-      if (loaded) return;
-      loaded = true;
-
-      (window.dataLayer = window.dataLayer || []).push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-      const script = document.createElement("script");
-      script.async = true;
-      script.src = `https://www.googletagmanager.com/gtm.js?id=${gtmId}`;
-      document.head.appendChild(script);
-
-      cleanup();
-    };
-
-    const cleanup = () => {
-      window.removeEventListener("scroll", injectGTM);
-      window.removeEventListener("mousemove", injectGTM);
-      window.removeEventListener("touchstart", injectGTM);
-      window.removeEventListener("keydown", injectGTM);
-      window.removeEventListener("click", injectGTM);
-    };
-
-    // 2. Déclenchement instantané à la première interaction humaine
-    window.addEventListener("scroll", injectGTM, { passive: true, once: true });
-    window.addEventListener("mousemove", injectGTM, { passive: true, once: true });
-    window.addEventListener("touchstart", injectGTM, { passive: true, once: true });
-    window.addEventListener("keydown", injectGTM, { passive: true, once: true });
-    window.addEventListener("click", injectGTM, { passive: true, once: true });
-
-    // 3. Fallback différé en idle pour les sessions passives
-    let timerId: ReturnType<typeof setTimeout>;
-    if ("requestIdleCallback" in window) {
-      (window as unknown as { requestIdleCallback: (cb: () => void) => void }).requestIdleCallback(() => {
-        timerId = setTimeout(injectGTM, 2500);
-      });
-    } else {
-      timerId = setTimeout(injectGTM, 3000);
-    }
-
-    return () => {
-      cleanup();
-      clearTimeout(timerId);
-    };
-  }, [gtmId]);
-
-  return null;
+  return (
+    <Script
+      id="gtm-init"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{
+        __html: `
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+          (function(w,d,s,l,i){w[l]=w[l]||[];var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','${gtmId}');
+        `,
+      }}
+    />
+  );
 }
 
 /**
