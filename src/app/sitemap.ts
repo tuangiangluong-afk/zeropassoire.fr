@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 import { getAllGuides } from "@/lib/mdx";
-import { OPERATORS } from "@/data/operators";
+import { OPERATORS, HARDWARE_BRANDS, PASSOIRE_DUELS } from "@/data/operators";
 
 const BASE = "https://www.zeropassoire.fr";
 
@@ -29,7 +29,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  // 3. Guide Routes
+  // 3. Brand Routes
+  const brandRoutes: MetadataRoute.Sitemap = HARDWARE_BRANDS.map((b) => ({
+    url: `${BASE}/marques/${b.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  }));
+
+  // 4. Duel Routes
+  const duelRoutes: MetadataRoute.Sitemap = PASSOIRE_DUELS.map((d) => ({
+    url: `${BASE}/comparatif/${d.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.85,
+  }));
+
+  // 5. Guide Routes
   const guides = getAllGuides().map((g) => ({
     url: `${BASE}/guides/${g.slug}`,
     lastModified: new Date(g.publishedAt),
@@ -37,5 +53,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  return [...statics, ...operatorRoutes, ...guides];
+  return [...statics, ...operatorRoutes, ...brandRoutes, ...duelRoutes, ...guides];
 }

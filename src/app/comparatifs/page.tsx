@@ -144,10 +144,10 @@ export default function ComparatifsHubPage() {
 
               <div className="flex justify-end">
                 <Link
-                  href="/#simulateur"
+                  href={`/comparatif/${duel.slug}`}
                   className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold bg-emerald-700 text-white hover:bg-emerald-800 transition-colors"
                 >
-                  Simuler ce scénario sur mon logement <ArrowRight className="w-3.5 h-3.5" />
+                  Lire l&apos;analyse comparative <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
               </div>
             </article>

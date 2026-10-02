@@ -135,10 +135,10 @@ export default function MarquesHubPage() {
                   ))}
                 </div>
                 <Link
-                  href="/#simulateur"
+                  href={`/marques/${b.slug}`}
                   className="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold bg-stone-900 text-white hover:bg-emerald-700 transition-colors"
                 >
-                  Chiffrer avec cette marque <ArrowRight className="w-3.5 h-3.5" />
+                  Voir la fiche technique <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
               </div>
             </article>
