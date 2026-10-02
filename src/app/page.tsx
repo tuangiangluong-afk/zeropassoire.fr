@@ -172,7 +172,7 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="mt-3 text-xs text-stone-400 flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                <span className="text-emerald-400 font-bold">●</span>
                 <span>Barèmes vérifiés et à jour au 25 septembre 2026 &middot; Sans inscription ni email requis</span>
               </div>
             </div>
