@@ -112,13 +112,28 @@ export default function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/operateurs" className="hover:text-white transition">
+                12 Opérateurs &amp; MAR au banc d&apos;essai
+              </Link>
+            </li>
+            <li>
+              <Link href="/marques" className="hover:text-white transition">
+                Marques d&apos;isolants &amp; PAC agréées
+              </Link>
+            </li>
+            <li>
+              <Link href="/comparatifs" className="hover:text-white transition">
+                Duels &amp; Arbitrages techniques
+              </Link>
+            </li>
+            <li>
               <Link href="/guides/sortir-de-passoire-energetique-2026" className="hover:text-white transition">
                 Parcours de rénovation globale G→C
               </Link>
             </li>
             <li>
               <Link href="/guides" className="hover:text-white transition">
-                Tous les guides &amp; dossiers
+                Tous les 28 guides &amp; dossiers
               </Link>
             </li>
             <li>

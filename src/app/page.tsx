@@ -1,13 +1,32 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
-import { ChevronDown, FileText, Wallet, Users, ShieldAlert, ShieldCheck, Sparkles, ArrowRight, Check, X } from "lucide-react";
+import { ChevronDown, FileText, Wallet, Users, ShieldAlert, ShieldCheck, Sparkles, ArrowRight, Check, X, Layers, Scale } from "lucide-react";
 import Simulator from "@/components/Simulator";
 import MobileStickyBar from "@/components/MobileStickyBar";
 
+import { ogImageUrl } from "@/lib/seo";
+
 export const metadata: Metadata = {
+  title: "Zéro Passoire — Sortir du DPE F ou G sans se ruiner | Barèmes 2026",
+  description: "Simulateur gratuit et indépendant de sortie de passoire thermique : barèmes officiels MaPrimeRénov' 2026, CEE, 12 opérateurs et MAR au banc d'essai.",
   alternates: {
     canonical: "/",
+  },
+  openGraph: {
+    title: "Zéro Passoire — Sortir du DPE F ou G sans se ruiner",
+    description: "Simulateur officiel 2026 : estimez vos aides MaPrimeRénov' et CEE, comparez les opérateurs et artisans RGE sans démarchage téléphonique.",
+    images: [
+      {
+        url: ogImageUrl({
+          q: "Sortir de Passoire Énergétique F & G",
+          sub: "Barèmes MaPrimeRénov' 2026 • 12 Opérateurs & MAR au Banc d'Essai",
+          badge: "Simulateur Indépendant",
+        }),
+        width: 1200,
+        height: 630,
+      },
+    ],
   },
 };
 
@@ -497,6 +516,106 @@ export default function HomePage() {
           <p className="text-center text-xs text-stone-500 mt-6">
             Comparatif rédigé à partir de nos propres observations et des signalements DGCCRF 2024 sur les plateformes de mise en relation.
           </p>
+        </div>
+      </section>
+
+      {/* Cluster Hubs & Knowledge Base Section */}
+      <section className="py-20 bg-stone-900 text-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-3">
+              <ShieldCheck className="w-3.5 h-3.5" />
+              Observatoire de la Rénovation Globale 2026
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
+              Base de Connaissances &amp; Décision Rénovation
+            </h2>
+            <p className="mt-3 text-stone-400 text-sm sm:text-base">
+              Anticipez le calendrier légal de la Loi Climat (interdiction G en 2025, F en 2028) : comparez les mandataires, les matériaux certifiés et optimisez vos subventions sans intermédiaire.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-4 gap-6">
+            <Link
+              href="/operateurs"
+              className="group p-6 rounded-2xl bg-stone-800/80 border border-stone-700 hover:border-emerald-500/50 transition-all flex flex-col justify-between"
+            >
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Users className="w-6 h-6" />
+                </div>
+                <h3 className="text-lg font-bold group-hover:text-emerald-400 transition-colors">
+                  12 Opérateurs &amp; MAR
+                </h3>
+                <p className="text-xs text-stone-400 mt-2 leading-relaxed">
+                  Hellio, Effy, IZI by EDF, Sonergia, Camif : décryptage des marges d&apos;intermédiation et agrément MAR.
+                </p>
+              </div>
+              <div className="mt-4 flex items-center text-xs font-bold text-emerald-400 gap-1">
+                Consulter les 12 fiches <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </Link>
+
+            <Link
+              href="/marques"
+              className="group p-6 rounded-2xl bg-stone-800/80 border border-stone-700 hover:border-emerald-500/50 transition-all flex flex-col justify-between"
+            >
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Layers className="w-6 h-6" />
+                </div>
+                <h3 className="text-lg font-bold group-hover:text-blue-400 transition-colors">
+                  Matériaux &amp; Isolants Agréés
+                </h3>
+                <p className="text-xs text-stone-400 mt-2 leading-relaxed">
+                  Isover, Rockwool, Daikin, Atlantic, Soprema, Velux : normes ACERMI, CSTB et NF PAC pour garantir le saut de DPE.
+                </p>
+              </div>
+              <div className="mt-4 flex items-center text-xs font-bold text-blue-400 gap-1">
+                Explorer les marques <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </Link>
+
+            <Link
+              href="/comparatifs"
+              className="group p-6 rounded-2xl bg-stone-800/80 border border-stone-700 hover:border-emerald-500/50 transition-all flex flex-col justify-between"
+            >
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Scale className="w-6 h-6" />
+                </div>
+                <h3 className="text-lg font-bold group-hover:text-amber-400 transition-colors">
+                  Duels &amp; Arbitrages
+                </h3>
+                <p className="text-xs text-stone-400 mt-2 leading-relaxed">
+                  Parcours Accompagné vs Geste, ITE vs ITI, PAC vs Granulés, Audit réglementaire vs DPE : analyses critère par critère.
+                </p>
+              </div>
+              <div className="mt-4 flex items-center text-xs font-bold text-amber-400 gap-1">
+                Voir tous les comparatifs <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </Link>
+
+            <Link
+              href="/guides"
+              className="group p-6 rounded-2xl bg-stone-800/80 border border-stone-700 hover:border-emerald-500/50 transition-all flex flex-col justify-between"
+            >
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <FileText className="w-6 h-6" />
+                </div>
+                <h3 className="text-lg font-bold group-hover:text-purple-400 transition-colors">
+                  28 Guides &amp; Réglementation
+                </h3>
+                <p className="text-xs text-stone-400 mt-2 leading-relaxed">
+                  Calendrier d&apos;interdiction de location, sanctions judiciaires, Loi Le Meur, Éco-PTZ et barèmes officiels 2026.
+                </p>
+              </div>
+              <div className="mt-4 flex items-center text-xs font-bold text-purple-400 gap-1">
+                Lire les dossiers <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </Link>
+          </div>
         </div>
       </section>
 
