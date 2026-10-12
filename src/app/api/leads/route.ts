@@ -10,6 +10,7 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 const PHONE_RE = /^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.\-]*\d{2}){4}$/;
 
 const LeadInputSchema = z.object({
+  name: z.string().trim().max(120).optional().nullable(),
   email: z.string().trim().toLowerCase().regex(EMAIL_RE, "invalid_email"),
   phone: z
     .string()
@@ -91,6 +92,7 @@ export async function POST(req: NextRequest) {
   }
 
   const valid = parseResult.data;
+  const nameRaw = valid.name ? valid.name.trim() : null;
   const email = valid.email;
   const phoneRaw = valid.phone ? valid.phone.trim() : null;
   const simulation = valid.simulation;
@@ -107,6 +109,7 @@ export async function POST(req: NextRequest) {
 
   const client = supabaseAdmin();
   const record = {
+    name: nameRaw,
     email,
     phone: phoneRaw,
     simulation,
@@ -171,7 +174,13 @@ export async function POST(req: NextRequest) {
   // ViteUnDevis Partner Dispatch (uniquement si rappel consenti avec numéro de téléphone)
   if (consentCallback && phoneRaw) {
     const inputData = (simulation as any).input || {};
+    const nameParts = (nameRaw || "Propriétaire Client").split(/\s+/);
+    const prenom = nameParts[0] || "Client";
+    const nom = nameParts.slice(1).join(" ") || "Proprietaire";
+
     pushLeadToViteUnDevis({
+      nom,
+      prenom,
       email,
       phone: phoneRaw,
       postalCode: String(inputData.cp || "75000"),

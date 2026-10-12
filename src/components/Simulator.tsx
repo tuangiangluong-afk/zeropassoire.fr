@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { ArrowLeft, ArrowRight, Loader2, Sparkles, MapPin, Building2, Home, UserCheck, KeyRound } from "lucide-react";
+import { ArrowLeft, ArrowRight, Loader2, Sparkles, MapPin, Building2, Home, UserCheck, KeyRound, CheckCircle2 } from "lucide-react";
 import DpeSelector, { type DpeClass } from "@/components/DpeSelector";
 import ResultCard from "@/components/ResultCard";
 import LeadCaptureCard from "@/components/LeadCaptureCard";
@@ -38,6 +38,7 @@ export default function Simulator() {
   });
   const [result, setResult] = useState<SimulateurResult | null>(null);
   const [loading, setLoading] = useState(false);
+  const [isUnlocked, setIsUnlocked] = useState(false);
 
   function set<K extends keyof SimState>(k: K, v: SimState[K]) {
     setState((s) => ({ ...s, [k]: v }));
@@ -89,6 +90,7 @@ export default function Simulator() {
   function restart() {
     setStep(0);
     setResult(null);
+    setIsUnlocked(false);
     setState({
       classe: null,
       statut: "occupant",
@@ -363,30 +365,82 @@ export default function Simulator() {
 
             {!loading && result && (
               <>
-                <ResultCard
-                  result={result}
-                  state={{
-                    classe: state.classe ?? "F",
-                    surface: state.surface,
-                    statut: state.statut,
-                    type: state.type,
-                    cp: state.cp,
-                  }}
-                />
-                <div className="mt-8">
-                  <LeadCaptureCard
-                    state={{
-                      classe: state.classe as "E" | "F" | "G",
-                      surface: state.surface,
-                      cp: state.cp,
-                      chauffage: state.chauffage,
-                      type: state.type,
-                      statut: state.statut,
-                      menageIncomeBracket: state.revenus,
-                    }}
-                    result={result}
-                  />
-                </div>
+                {!isUnlocked ? (
+                  <div className="space-y-6">
+                    {/* Teaser Summary Card */}
+                    <div className="p-6 sm:p-7 rounded-3xl bg-stone-900 text-white relative overflow-hidden shadow-2xl border border-stone-800">
+                      <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
+                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+                          <Sparkles size={14} /> Simulation Prête &bull; {state.classe ?? "Passoire"} vers B/C
+                        </span>
+                        <span className="text-xs text-stone-400 font-mono">Code postal {state.cp} &bull; Zone {cpClimat || "H1"}</span>
+                      </div>
+                      
+                      <h3 className="text-xl sm:text-2xl font-display font-extrabold text-white mb-2 leading-tight">
+                        Votre bien ({state.surface} m², classe {state.classe ?? "F"}) est éligible au parcours d&apos;aides renforcé 2026
+                      </h3>
+                      <p className="text-sm text-stone-300 mb-6 leading-relaxed">
+                        Le saut de classe énergétique et vos plafonds de subventions publiques ont été calculés selon les barèmes Anah et CEE 6e période 2026.
+                      </p>
+
+                      {/* Blurred Teaser Metrics */}
+                      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div className="p-3.5 bg-black/50 border border-white/10 rounded-2xl">
+                          <div className="text-xs text-stone-400 font-medium">Aides estimées (Anah + CEE)</div>
+                          <div className="text-xl font-black text-emerald-400 blur-sm select-none mt-1">38 500 € à 58 000 €</div>
+                          <div className="text-[11px] text-amber-300 font-semibold mt-1">🔒 Déblocage gratuit ci-dessous</div>
+                        </div>
+                        <div className="p-3.5 bg-black/50 border border-white/10 rounded-2xl">
+                          <div className="text-xs text-stone-400 font-medium">Reste à charge moyen</div>
+                          <div className="text-xl font-black text-white blur-sm select-none mt-1">10% à 25% du projet</div>
+                          <div className="text-[11px] text-amber-300 font-semibold mt-1">🔒 Déblocage gratuit ci-dessous</div>
+                        </div>
+                        <div className="p-3.5 bg-black/50 border border-white/10 rounded-2xl">
+                          <div className="text-xs text-stone-400 font-medium">Économies sur facture</div>
+                          <div className="text-xl font-black text-emerald-400 blur-sm select-none mt-1">-55% à -70% / an</div>
+                          <div className="text-[11px] text-amber-300 font-semibold mt-1">🔒 Déblocage gratuit ci-dessous</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Formulaire de Déverrouillage */}
+                    <LeadCaptureCard
+                      state={{
+                        classe: state.classe as "E" | "F" | "G",
+                        surface: state.surface,
+                        cp: state.cp,
+                        chauffage: state.chauffage,
+                        type: state.type,
+                        statut: state.statut,
+                        menageIncomeBracket: state.revenus,
+                      }}
+                      result={result}
+                      onUnlocked={() => setIsUnlocked(true)}
+                    />
+                  </div>
+                ) : (
+                  <div className="space-y-6">
+                    <div className="p-5 rounded-2xl bg-emerald-100/90 border-2 border-emerald-400 text-emerald-950 flex items-start sm:items-center gap-3 shadow-md">
+                      <CheckCircle2 size={26} className="text-emerald-700 shrink-0 mt-0.5 sm:mt-0" />
+                      <div>
+                        <div className="font-bold text-base text-emerald-900">Votre dossier est débloqué avec succès !</div>
+                        <div className="text-xs text-emerald-800 mt-0.5">Voici le détail officiel de vos subventions et travaux recommandés. Votre synthèse vous a également été envoyée par SMS et email.</div>
+                      </div>
+                    </div>
+
+                    <ResultCard
+                      result={result}
+                      state={{
+                        classe: state.classe ?? "F",
+                        surface: state.surface,
+                        statut: state.statut,
+                        type: state.type,
+                        cp: state.cp,
+                      }}
+                    />
+                  </div>
+                )}
+
                 <div className="mt-6 flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-stone-200">
                   <button type="button" onClick={back} className="btn-secondary text-sm">
                     <ArrowLeft size={16} /> Modifier une réponse

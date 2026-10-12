@@ -21,6 +21,8 @@ export interface ViteUnDevisLead {
   leadId?: string | number;
   clientIp?: string;
   pageUrl?: string;
+  nom?: string;
+  prenom?: string;
 }
 
 export interface ViteUnDevisResponse {
@@ -106,8 +108,8 @@ export async function pushLeadToViteUnDevis(lead: ViteUnDevisLead): Promise<Vite
 
   const formParams = new URLSearchParams({
     key: apiKey,
-    nom: "Proprietaire",
-    prenom: "Client",
+    nom: lead.nom || "Proprietaire",
+    prenom: lead.prenom || "Client",
     email: lead.email,
     tel: lead.phone,
     adresse1: city,
