@@ -133,8 +133,41 @@ export async function sendLeadEmail(input: {
   });
 
   try {
-    const [a, b] = await Promise.all([leadTask, notifyTask]);
-    const err = (!isContact && a && (a as any).error) || (b && (b as any).error);
+    let [a, b] = await Promise.all([leadTask, notifyTask]);
+    let err = (!isContact && a && (a as any).error) || (b && (b as any).error);
+
+    // Fallback: If primary domain rejected, retry with verified empire sender
+    if (err) {
+      const fallbackFrom = "Zéro Passoire <hello@expertbornerecharge.com>";
+      console.warn("⚠️ [Resend ZéroPassoire] Primary sender rejected, retrying with verified fallback:", err);
+
+      const retryLeadTask = !isContact
+        ? resend.emails.send({
+            from: fallbackFrom,
+            to: input.email,
+            replyTo: notify,
+            subject,
+            html: buildLeadEmailHtml(input.email, input.simulation),
+          })
+        : Promise.resolve({ data: null, error: null });
+
+      const retryNotifyTask = resend.emails.send({
+        from: fallbackFrom,
+        to: notify,
+        subject: isContact
+          ? `Nouveau message de contact — ${input.email}`
+          : `Nouveau lead — ${input.email}`,
+        html: `<p><strong>Email&nbsp;:</strong> ${escapeHtml(input.email)}</p>
+          <p><strong>Téléphone&nbsp;:</strong> ${escapeHtml(input.phone || "—")}</p>
+          <p><strong>Consentement rappel&nbsp;:</strong> ${input.consentCallback ? "oui" : "non"}</p>
+          <p><strong>Lead ID&nbsp;:</strong> ${escapeHtml(input.leadId ?? "—")}</p>
+          <pre style="background:#fafaf9;padding:12px;border-radius:6px;font-size:12px;overflow:auto">${escapeHtml(JSON.stringify(input.simulation, null, 2))}</pre>`,
+      });
+
+      [a, b] = await Promise.all([retryLeadTask, retryNotifyTask]);
+      err = (!isContact && a && (a as any).error) || (b && (b as any).error);
+    }
+
     if (err) return { ok: false, error: typeof err === "object" ? JSON.stringify(err) : String(err) };
     return { ok: true };
   } catch (e: unknown) {
