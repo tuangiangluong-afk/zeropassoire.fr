@@ -108,11 +108,15 @@ export async function POST(req: NextRequest) {
   const fbclid = valid.utm?.fbclid?.slice(0, 120) || null;
 
   const client = supabaseAdmin();
-  const record = {
-    name: nameRaw,
+  const simulationWithMeta = {
+    ...(simulation || {}),
+    ...(nameRaw ? { name: nameRaw } : {}),
+  };
+
+  const record: Record<string, unknown> = {
     email,
     phone: phoneRaw,
-    simulation,
+    simulation: simulationWithMeta,
     consent_callback: consentCallback,
     consent_newsletter: consentNewsletter,
     utm_source: utmSource,
@@ -139,8 +143,8 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "storage_failed" }, { status: 500 });
   }
 
-  // Funnel event post-inscription (best effort — ne bloque pas la réponse si ça fail).
-  client.from("events").insert({
+  // Funnel event post-inscription (best effort)
+  void client.from("events").insert({
     session_id: record.session_id,
     event_name: "lead_submitted",
     properties: {
@@ -156,11 +160,12 @@ export async function POST(req: NextRequest) {
     if (evErr) console.error("[zeropassoire][supabase][funnel-event]", evErr);
   });
 
-  // Email de récap (best effort — lead est déjà en base, on ne bloque jamais la réponse).
-  sendLeadEmail({
+  // Notifications et dispatch partenaires
+  // Awaité pour garantir l'exécution sur Vercel Serverless avant le gel du runtime
+  const emailPromise = sendLeadEmail({
     email,
     phone: phoneRaw,
-    simulation: simulation as any,
+    simulation: simulationWithMeta as any,
     consentCallback,
     leadId: data.id,
   })
@@ -171,14 +176,14 @@ export async function POST(req: NextRequest) {
     })
     .catch((e) => console.error("[zeropassoire][email][throw]", e));
 
-  // ViteUnDevis Partner Dispatch (uniquement si rappel consenti avec numéro de téléphone)
+  let partnerPromise: Promise<unknown> = Promise.resolve();
   if (consentCallback && phoneRaw) {
     const inputData = (simulation as any).input || {};
     const nameParts = (nameRaw || "Propriétaire Client").split(/\s+/);
     const prenom = nameParts[0] || "Client";
     const nom = nameParts.slice(1).join(" ") || "Proprietaire";
 
-    pushLeadToViteUnDevis({
+    partnerPromise = pushLeadToViteUnDevis({
       nom,
       prenom,
       email,
@@ -200,6 +205,8 @@ export async function POST(req: NextRequest) {
       })
       .catch((vErr) => console.error("[zeropassoire][ViteUnDevis][throw]", vErr));
   }
+
+  await Promise.allSettled([emailPromise, partnerPromise]);
 
   return NextResponse.json({ ok: true, id: data.id });
 }
