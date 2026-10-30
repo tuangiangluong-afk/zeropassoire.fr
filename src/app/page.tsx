@@ -9,13 +9,13 @@ import { ogImageUrl } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Zéro Passoire — Sortir du DPE F ou G sans se ruiner | Barèmes 2026",
-  description: "Simulateur gratuit et indépendant de sortie de passoire thermique : barèmes officiels MaPrimeRénov' 2026, CEE, 12 opérateurs et MAR au banc d'essai.",
+  description: "Simulateur de sortie de passoire thermique : barèmes MaPrimeRénov' 2026 et CEE, méthode et sources publiques, fiches documentées sur 12 opérateurs et réseaux MAR.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Zéro Passoire — Sortir du DPE F ou G sans se ruiner",
-    description: "Simulateur officiel 2026 : estimez vos aides MaPrimeRénov' et CEE, comparez les opérateurs et artisans RGE sans démarchage téléphonique.",
+    description: "Simulateur 2026 : estimez vos aides MaPrimeRénov' et CEE, comparez les opérateurs et les réseaux d'artisans RGE. Démarchage uniquement avec votre accord.",
     images: [
       {
         url: ogImageUrl({
@@ -44,7 +44,7 @@ const HOME_FAQ: HomeFaqItem[] = [
   },
   {
     q: "Puis-je vendre mon bien sans faire les travaux ?",
-    a: "Oui. Le DPE F ou G n'interdit pas la vente, il oblige seulement à afficher un avis énergétique à l'acheteur et à chiffrer les travaux dans l'annonce. En pratique, un bien non-rénové subit une décote à la revente estimée entre 6 % et 15 % par l'Observatoire DVF-PIERVAL 2025.",
+    a: "Oui. Le DPE F ou G n'interdit pas la vente, il oblige seulement à afficher un avis énergétique à l'acheteur et à chiffrer les travaux dans l'annonce. En pratique, un bien non-rénové se négocie en dessous du prix des biens équivalents mieux classés : les notaires constatent une décote sur les étiquettes F et G, dont l'ampleur dépend de la tension du marché local.",
     link: { href: "/guides/sortir-de-passoire-energetique-2026", label: "Voir l'impact de la décote passoire sur la valeur vénale" },
   },
   {
@@ -98,14 +98,14 @@ const HOME_FAQ: HomeFaqItem[] = [
   },
   {
     q: "Zéro Passoire est-il indépendant des fournisseurs d'énergie ?",
-    a: "Oui. Zéro Passoire est exploité par WELINK TECH, SASU immatriculée au RCS de Nanterre (SIREN 984 800 136). Aucun fournisseur d'énergie, aucune caisse des CEE, aucun négociaire n'est actionnaire. Notre rémunération vient exclusivement des commissions d'apport payées par les artisans RGE partenaires, uniquement sur lead opt-in.",
+    a: "Oui. Zéro Passoire est exploité par WELINK TECH, SASU immatriculée au RCS de Nanterre (SIREN 984 800 136). Aucun fournisseur d'énergie, aucune caisse des CEE, aucun négociant n'est actionnaire. Notre rémunération vient exclusivement des commissions d'apport payées par les artisans RGE partenaires, uniquement sur lead opt-in.",
   },
 ];
 
 const COMPARISON_ROWS: { label: string; zp: string; cp: string; zpOk: boolean; cpOk: boolean }[] = [
   { label: "Email ou téléphone exigés pour voir le résultat", zp: "Non, jamais", cp: "Oui, systématiquement", zpOk: true, cpOk: false },
-  { label: "Revente des coordonnées à des artisans", zp: "Jamais", cp: "Oui — c'est le modèle économique", zpOk: true, cpOk: false },
-  { label: "Démarchage téléphonique après inscription", zp: "Non", cp: "Oui, très fréquent", zpOk: true, cpOk: false },
+  { label: "Transmission des coordonnées à des artisans", zp: "Uniquement avec votre accord explicite", cp: "Oui, sans choix réel", zpOk: true, cpOk: false },
+  { label: "Démarchage téléphonique après inscription", zp: "Seulement si vous cochez la case", cp: "Oui, très fréquent", zpOk: true, cpOk: false },
   { label: "Montants issus de barèmes publics 2026", zp: "MPR, CEE, TVA 5,5 %, ADEME", cp: "Fourchettes marketing « dès 1 € »", zpOk: true, cpOk: false },
   { label: "Indépendance commerciale vis-à-vis des artisans", zp: "Totale — commission uniquement sur opt-in explicite", cp: "Aucune — rémunérés par les artisans référencés", zpOk: true, cpOk: false },
   { label: "Sources citées (Légifrance, ADEME, SDES)", zp: "Oui, liens directs", cp: "Non", zpOk: true, cpOk: false },
@@ -247,13 +247,13 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid sm:grid-cols-3 gap-6">
-            <AntiCard title="Pas de démarchage">
-              Personne ne vous appelle sans que vous l'ayez demandé. Votre numéro est optionnel,
-              et si vous le laissez, on ne l'appelle qu'une seule fois, sur le créneau que vous choisissez.
+            <AntiCard title="Pas d'appel sans accord">
+              Aucun démarchage sans que vous l'ayez demandé. La case de rappel est décochée par
+              défaut, et vos coordonnées ne sont transmises que si vous la cochez.
             </AntiCard>
-            <AntiCard title="Pas de revente">
-              Vos coordonnées ne sont jamais cédées à des artisans, des courtiers
-              ou des sociétés de rénovation. Point.
+            <AntiCard title="Pas de courtier en données">
+              Vos coordonnées ne sont ni revendues ni cédées à des courtiers. Avec votre accord
+              explicite, elles vont à un seul partenaire rénovation — jamais à une base de données.
             </AntiCard>
             <AntiCard title="Pas de « 1 € »">
               On vous donne des fourchettes réalistes, pas des montants marketing.
@@ -525,7 +525,7 @@ export default function HomePage() {
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-3">
               <ShieldCheck className="w-3.5 h-3.5" />
-              Observatoire de la Rénovation Globale 2026
+              Guides, comparatifs et fiches documentaires
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
               Base de Connaissances &amp; Décision Rénovation

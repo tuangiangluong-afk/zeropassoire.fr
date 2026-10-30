@@ -37,14 +37,15 @@ export default function PolitiqueConfidentialite() {
             <p className="text-stone-700 mb-2">Nous collectons uniquement les données strictement nécessaires&nbsp;:</p>
             <ul className="text-stone-700 space-y-1">
               <li><strong>Données saisies dans le simulateur&nbsp;:</strong> classe DPE, surface, type de bien, mode de chauffage, tranche de revenus, code postal. Ces données ne sont pas directement identifiantes.</li>
-              <li><strong>Données de contact&nbsp;:</strong> adresse e-mail (obligatoire), numéro de téléphone (optionnel). Collectées uniquement si vous remplissez le formulaire de capture.</li>
-              <li><strong>Consentements&nbsp;:</strong> case « rappel par un conseiller » et case « newsletter », avec horodatage.</li>
+              <li><strong>Données de contact&nbsp;:</strong> adresse e-mail, et numéro de téléphone <em>uniquement si vous demandez un rappel</em>. Collectées uniquement si vous remplissez le formulaire.</li>
+              <li><strong>Consentements&nbsp;:</strong> case de mise en relation (décochée par défaut) et case « newsletter », avec horodatage.</li>
               <li><strong>Trace technique&nbsp;:</strong> identifiant de session anonyme (localStorage), paramètres d'acquisition UTM (source, medium, campagne), gclid, fbclid.</li>
             </ul>
             <p className="text-stone-700 mt-3">
-              Nous ne collectons <strong>aucun cookie publicitaire</strong>, aucun
-              traceur tiers, aucune donnée de géolocalisation fine, aucune donnée
-              fiscale, et aucun identifiant biométrique.
+              Nous ne collectons aucune donnée de géolocalisation fine, aucune donnée
+              fiscale et aucun identifiant biométrique. Le site charge Google Tag Manager
+              (mesure d&apos;audience), qui peut déposer des cookies de mesure&nbsp;: voir la
+              section 8.
             </p>
           </div>
 
@@ -61,14 +62,17 @@ export default function PolitiqueConfidentialite() {
           <div>
             <h2 className="font-bold text-stone-900 mb-3">4. Partage avec des tiers</h2>
             <p className="text-stone-700 mb-2">
-              Vos coordonnées ne sont <strong>jamais revendues à des tiers
-              commerciaux</strong> ni partagées avec des courtiers en leads. Elles
-              peuvent être transmises&nbsp;:
+              Vos coordonnées ne sont <strong>jamais revendues</strong> ni cédées à des
+              courtiers en données. Elles sont transmises&nbsp;:
             </p>
             <ul className="text-stone-700 space-y-1">
-              <li>aux artisans RGE partenaires de votre département, <strong>uniquement</strong> si vous avez coché le consentement de rappel&nbsp;;</li>
-              <li>à nos prestataires techniques (hébergement Supabase UE, CDN Vercel, emailing Resend), qui agissent en qualité de sous-traitants au sens de l'article 28 RGPD.</li>
+              <li><strong>à ViteUnDevis</strong>, partenaire de mise en relation en rénovation énergétique, <strong>uniquement</strong> si vous avez coché la case de mise en relation. Ce partenaire peut alors vous contacter par téléphone au sujet de votre projet&nbsp;;</li>
+              <li>à nos prestataires techniques (hébergement Supabase UE, CDN Vercel, emailing Resend, mesure d&apos;audience Google Tag Manager), qui agissent en qualité de sous-traitants au sens de l&apos;article 28 RGPD.</li>
             </ul>
+            <p className="text-stone-700 mt-3">
+              Sans cette case cochée, aucune coordonnée n&apos;est transmise à un partenaire.
+              Votre e-mail sert alors uniquement à vous envoyer votre récapitulatif.
+            </p>
           </div>
 
           <div>
@@ -108,7 +112,19 @@ export default function PolitiqueConfidentialite() {
           </div>
 
           <div>
-            <h2 className="font-bold text-stone-900 mb-3">8. Mises à jour de la politique</h2>
+            <h2 className="font-bold text-stone-900 mb-3">8. Cookies et mesure d&apos;audience</h2>
+            <p className="text-stone-700">
+              Le site charge Google Tag Manager, qui active la mesure d&apos;audience Google
+              Analytics. Ces traceurs servent uniquement à compter les visites et à mesurer
+              l&apos;usage du simulateur&nbsp;; ils ne servent à aucun ciblage publicitaire de notre
+              part. Le stockage d&apos;un identifiant de session (localStorage) permet de rattacher
+              les étapes du simulateur à une même visite. Vous pouvez refuser ces traceurs via
+              les réglages de votre navigateur, ou nous écrire pour demander leur désactivation.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="font-bold text-stone-900 mb-3">9. Mises à jour de la politique</h2>
             <p className="text-stone-700">
               La présente politique peut être amendée à tout moment. Les utilisateurs
               ayant fourni leur e-mail seront notifiés en cas de modification
@@ -117,7 +133,7 @@ export default function PolitiqueConfidentialite() {
           </div>
 
           <div className="pt-6 border-t border-stone-200 text-xs text-stone-500">
-            Dernière mise à jour&nbsp;: septembre 2026.
+            Dernière mise à jour&nbsp;: 30 octobre 2026.
           </div>
         </div>
       </div>

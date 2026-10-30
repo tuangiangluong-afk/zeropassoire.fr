@@ -10,11 +10,11 @@ export default function Footer() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 grid sm:grid-cols-3 gap-4 text-sm">
           <div className="flex items-center gap-3">
             <PhoneOff className="w-5 h-5 text-brand-500 shrink-0" />
-            <span>Aucun démarchage téléphonique non sollicité</span>
+            <span>Démarchage uniquement si vous le demandez</span>
           </div>
           <div className="flex items-center gap-3">
             <Lock className="w-5 h-5 text-brand-500 shrink-0" />
-            <span>Vos données ne sont jamais revendues à des tiers</span>
+            <span>Coordonnées transmises à un partenaire, avec votre accord</span>
           </div>
           <div className="flex items-center gap-3">
             <ShieldCheck className="w-5 h-5 text-brand-500 shrink-0" />
@@ -113,7 +113,7 @@ export default function Footer() {
             </li>
             <li>
               <Link href="/operateurs" className="hover:text-white transition">
-                12 Opérateurs &amp; MAR au banc d&apos;essai
+                12 opérateurs &amp; réseaux MAR
               </Link>
             </li>
             <li>
@@ -155,6 +155,7 @@ export default function Footer() {
             <Link href="/mentions-legales" className="hover:text-white transition">Mentions légales</Link>
             <Link href="/cgv" className="hover:text-white transition">CGU</Link>
             <Link href="/politique-confidentialite" className="hover:text-white transition">Politique de confidentialité</Link>
+            <Link href="/methode" className="hover:text-white transition">Méthode &amp; sources</Link>
           </div>
         </div>
       </div>

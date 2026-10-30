@@ -19,6 +19,7 @@ export default function Header() {
           <Link href="/comparatifs" className="hover:text-brand-700 transition-colors">Comparatifs</Link>
           <Link href="/guides" className="hover:text-brand-700 transition-colors">Guides &amp; Loi</Link>
           <Link href="/simulateur" className="hover:text-brand-700 transition-colors">Simulateur</Link>
+          <Link href="/methode" className="hover:text-brand-700 transition-colors">Méthode</Link>
         </nav>
         <div className="flex items-center gap-3">
           <div className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-emerald-100/70 text-emerald-800 border border-emerald-200/80">

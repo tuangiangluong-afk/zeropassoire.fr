@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/seo/Breadcrumbs";
 import { ShieldCheck, Award, ArrowRight, CheckCircle2, ChevronRight, Wrench, Sparkles } from "lucide-react";
 import { ogImageUrl } from "@/lib/seo";
+import { AUTHOR, EDITOR } from "@/lib/schema";
 
 export const revalidate = 86400;
 
@@ -62,85 +63,27 @@ export default async function BrandDetailPage({ params }: { params: Params }) {
     { name: brand.name, href: `/marques/${slug}` },
   ];
 
-  const productSchema = {
+  const url = `${BASE_URL}/marques/${brand.slug}`;
+
+  // Page de marque : Article documentaire. Pas de Product/Offer/AggregateRating,
+  // ces types ne décrivent pas une page de documentation et les notes affichées
+  // auparavant ne provenaient d'aucune source vérifiable.
+  const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
-    name: `${brand.name} — Solutions Rénovation Énergétique`,
-    image: `https://www.zeropassoire.fr/api/og?title=${encodeURIComponent(brand.name)}&badge=Certifie`,
+    "@type": "Article",
+    "@id": `${url}#article`,
+    headline: `${brand.name} : équipements et performance DPE`,
     description: brand.description,
-    brand: {
-      "@type": "Brand",
-      name: brand.name,
-    },
-    sku: `ZP-${brand.slug.toUpperCase()}-2026`,
-    mpn: `MPN-${brand.slug.toUpperCase()}`,
-    offers: {
-      "@type": "Offer",
-      url: canonicalUrl,
-      priceCurrency: "EUR",
-      price: "1850.00",
-      priceValidUntil: "2027-12-31",
-      availability: "https://schema.org/InStock",
-      itemCondition: "https://schema.org/NewCondition",
-      seller: {
-        "@type": "Organization",
-        name: "Zéro Passoire Réseau RGE",
-      },
-      shippingDetails: {
-        "@type": "OfferShippingDetails",
-        shippingRate: {
-          "@type": "MonetaryAmount",
-          value: "0.00",
-          currency: "EUR",
-        },
-        shippingDestination: {
-          "@type": "DefinedRegion",
-          addressCountry: "FR",
-        },
-        deliveryTime: {
-          "@type": "ShippingDeliveryTime",
-          handlingTime: {
-            "@type": "QuantitativeValue",
-            minValue: 1,
-            maxValue: 3,
-            unitCode: "d",
-          },
-          transitTime: {
-            "@type": "QuantitativeValue",
-            minValue: 3,
-            maxValue: 7,
-            unitCode: "d",
-          },
-        },
-      },
-      hasMerchantReturnPolicy: {
-        "@type": "MerchantReturnPolicy",
-        applicableCountry: "FR",
-        returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
-        merchantReturnDays: 14,
-        returnMethod: "https://schema.org/ReturnByMail",
-        returnFees: "https://schema.org/FreeReturn",
-      },
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.8",
-      reviewCount: 340,
-    },
-    review: {
-      "@type": "Review",
-      author: {
-        "@type": "Organization",
-        name: "Observatoire Qualité Rénovation RGE",
-      },
-      datePublished: "2026-03-12",
-      reviewBody: `Les matériels et isolants ${brand.name} répondent parfaitement aux critères d'éligibilité MaPrimeRénov' 2026. L'efficacité énergétique constatée permet d'atteindre le saut de classe DPE requis.`,
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: "5",
-      },
-    },
+    about: { "@type": "Brand", name: brand.name },
+    author: AUTHOR,
+    publisher: EDITOR,
+    datePublished: "2026-09-23",
+    dateModified: "2026-10-30",
+    isAccessibleForFree: true,
+    inLanguage: "fr-FR",
+    mainEntityOfPage: url,
   };
+
 
   return (
     <div className="min-h-screen bg-stone-50 text-stone-900">
@@ -148,7 +91,7 @@ export default async function BrandDetailPage({ params }: { params: Params }) {
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
 
       <main className="max-w-5xl mx-auto px-4 sm:px-6 py-8">

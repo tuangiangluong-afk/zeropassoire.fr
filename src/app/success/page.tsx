@@ -73,7 +73,7 @@ export default function SuccessPage() {
             Il mérite les mêmes chiffres que vous.
           </p>
           <div className="flex flex-wrap gap-2 text-sm">
-            <a href={`whatsapp://send?text=${encodeURIComponent("J'ai utilisé zéropassoire.fr pour estimer mon reste à charge de sortie de passoire énergétique. Le simulateur est honnête, sans démarchage : https://www.zeropassoire.fr")}`}
+            <a href={`whatsapp://send?text=${encodeURIComponent("J'ai utilisé zéropassoire.fr pour estimer mon reste à charge de sortie de passoire énergétique. Le simulateur est gratuit et sans inscription : https://www.zeropassoire.fr")}`}
                className="btn-secondary !py-2 !text-sm">
               Partager sur WhatsApp
             </a>

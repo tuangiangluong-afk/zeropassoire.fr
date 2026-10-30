@@ -174,7 +174,7 @@ export default function GuidesListingPage() {
                         <span className="text-stone-500 font-mono">{g.readTime}</span>
                         <span className="text-stone-300">&middot;</span>
                         <span className="text-stone-500">
-                          Mis à jour le {new Date(g.publishedAt).toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" })}
+                          Publié le {new Date(g.publishedAt).toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" })}
                         </span>
                       </div>
                       <h3 className="font-display text-xl sm:text-2xl font-bold text-stone-900 group-hover:text-brand-700 transition leading-snug mb-2">

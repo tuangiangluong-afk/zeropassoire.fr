@@ -116,7 +116,7 @@ export default function MentionsLegales() {
           <div>
             <h2 className="font-bold text-stone-900 mb-3">7. Cookies</h2>
             <p className="text-stone-700">
-              Le Site fonctionne sans cookie publicitaire ni traceur tiers. Un unique
+              Le Site charge Google Tag Manager pour la mesure d&apos;audience (voir la politique de confidentialité). Il ne dépose aucun cookie publicitaire propre. Un unique
               cookie de session (localStorage) est utilisé pour rattacher les étapes
               du simulateur à une session anonyme&nbsp;; il est purgé à la fermeture
               du navigateur.

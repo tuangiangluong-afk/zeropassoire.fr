@@ -27,7 +27,7 @@ export default function Breadcrumbs({ items, className = "" }: BreadcrumbsProps)
         "@type": "ListItem",
         position: 1,
         name: "Accueil",
-        item: "https://zeropassoire.fr",
+        item: "https://www.zeropassoire.fr",
       },
       ...normalized.map((item, index) => ({
         "@type": "ListItem",
@@ -35,7 +35,7 @@ export default function Breadcrumbs({ items, className = "" }: BreadcrumbsProps)
         name: item.name,
         item: item.href.startsWith("http")
           ? item.href
-          : `https://zeropassoire.fr${item.href}`,
+          : `https://www.zeropassoire.fr${item.href}`,
       })),
     ],
   };

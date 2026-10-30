@@ -6,7 +6,6 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/seo/Breadcrumbs";
 import {
   ShieldCheck,
-  Star,
   ArrowRight,
   TrendingDown,
   Building2,
@@ -32,7 +31,7 @@ export const metadata: Metadata = {
         url: ogImageUrl({
           q: "12 Opérateurs Rénovation Globale & MAR",
           sub: "Audit des Marges d'Intermédiation & Avis • Sortie de Passoire DPE F & G",
-          badge: "Observatoire MAR 2026",
+          badge: "Fiches documentaires 2026",
         }),
         width: 1200,
         height: 630,
@@ -56,15 +55,8 @@ export default function OperateursHubPage() {
       item: {
         "@type": "Organization",
         name: op.name,
-        url: `https://zeropassoire.fr/operateurs/${op.slug}`,
+        url: `https://www.zeropassoire.fr/operateurs/${op.slug}`,
         description: op.shortDescription,
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: op.ratingValue,
-          reviewCount: op.reviewCount,
-          bestRating: 5,
-          worstRating: 1,
-        },
       },
     })),
   };
@@ -120,7 +112,7 @@ export default function OperateursHubPage() {
         <section className="mt-4 mb-12">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800 border border-emerald-200 mb-4">
             <ShieldCheck className="w-4 h-4 text-emerald-700" />
-            Observatoire Indépendant des Mandataires &amp; MAR 2026
+            Fiches documentaires — mandataires &amp; réseaux MAR 2026
           </div>
           <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-stone-900 mb-4">
             Opérateurs Rénovation Globale &amp; Réseaux MAR
@@ -132,7 +124,7 @@ export default function OperateursHubPage() {
           <div className="mt-6 p-4 rounded-2xl bg-amber-50 border border-amber-200 flex items-start gap-3 text-amber-900 text-sm">
             <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
             <div>
-              <strong>Règle d&apos;or anti-surcoût :</strong> Les plateformes nationales appliquent entre <strong>15 % et 28 % de commission</strong> répercutée sur vos devis. En mandatant un MAR indépendant et en contractant directement avec des artisans RGE en direct, vous préservez l&apos;intégralité de vos aides.
+              <strong>Règle d&apos;or anti-surcoût :</strong> les plateformes nationales intègrent des frais d&apos;ingénierie et d&apos;intermédiation dans le devis. Demandez toujours le <strong>détail chiffré de ces frais</strong> avant de signer, et comparez avec un artisan RGE en direct : c&apos;est la première source de surcoût sur ce type de chantier.
             </div>
           </div>
         </section>
@@ -149,10 +141,13 @@ export default function OperateursHubPage() {
                   <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-stone-100 text-stone-700 border border-stone-200">
                     {op.category}
                   </span>
-                  <div className="flex items-center text-amber-600 font-bold text-xs">
-                    <Star className="w-3.5 h-3.5 fill-amber-500 text-amber-500 mr-1" />
-                    {op.ratingValue}/5
-                    <span className="text-stone-400 font-normal ml-1">({op.reviewCount})</span>
+                  <div className="flex items-center gap-1.5 text-[11px] font-medium">
+                    {op.agrementMAR && (
+                      <span className="rounded-full bg-emerald-50 px-2 py-1 text-emerald-800">MAR</span>
+                    )}
+                    {op.certifiedRGE && (
+                      <span className="rounded-full bg-emerald-50 px-2 py-1 text-emerald-800">RGE</span>
+                    )}
                   </div>
                 </div>
 

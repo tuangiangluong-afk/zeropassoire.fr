@@ -5,7 +5,7 @@ title: >-
 description: >-
   Baromètre des décotes DPE F et G en 2026, méthode de valorisation inversée,
   utilisation de l'audit énergétique et stratégie d'investissement clé en main.
-publishedAt: "2026-03-07"
+publishedAt: "2026-09-23"
 category: Achat & Investissement
 readTime: 10 min
 ---
@@ -22,13 +22,15 @@ Cette situation crée une asymétrie de marché historique : des vendeurs contra
 
 ---
 
-## 1. Le baromètre 2026 des décotes immobilières selon les Notaires de France
+## 1. Comment se forme la décote sur un bien F ou G
 
-Les statistiques issues de la base de données des Notaires de France (notamment les publications annuelles sur la *valeur verte des logements*) confirment l'accentuation de la décote appliquée aux passoires énergétiques. L'impact du DPE sur le prix de vente net vendeur varie substantiellement selon deux variables fondamentales : la **tension du marché immobilier local** (zone tendue A/Abis versus zone détendue B2/C) et la **typologie du bâti** (maison individuelle versus appartement en copropriété).
+Les notaires publient des travaux sur la *valeur verte* des logements, mais aucune de ces publications ne fournit de grille de décote par département : les chiffres varient d'une étude à l'autre, d'une année à l'autre et d'un segment à l'autre. Ce qui est stable, en revanche, c'est la mécanique. L'impact du DPE sur le prix net vendeur dépend de deux variables : la **tension du marché local** (zone A/Abis contre zone B2/C) et la **typologie du bâti** (maison individuelle contre appartement en copropriété).
 
-En zone détendue, l'offre de biens étant supérieure à la demande, les acheteurs éliminent systématiquement les biens énergivores de leurs sélections ou appliquent une décote agressive supérieure au coût réel des travaux. En zone très tendue (Paris, petite couronne, Lyon, Bordeaux intramuros), l'effet d'éviction lié à la rareté du foncier tempère la baisse nominale, mais le délai de vente moyen d'un bien classé F ou G s'établit désormais à 112 jours, contre 48 jours pour un logement classé A, B ou C.
+En zone détendue, l'offre dépasse la demande : les acheteurs écartent les biens énergivores ou appliquent une décote supérieure au coût réel des travaux. En zone très tendue, la rareté du foncier tempère la baisse nominale, mais les biens F et G restent plus longs à vendre et se négocient davantage.
 
-| Zone géographique | Type de bien | Étiquette DPE | Décote moyenne constatée vs Classe D | Impact sur le délai de vente moyen |
+Le tableau ci-dessous est un **ordre de grandeur de travail**, construit à partir de ces deux variables. Ce n'est pas une statistique officielle : utilisez-le pour cadrer une négociation, jamais comme preuve opposable.
+
+| Zone géographique | Type de bien | Étiquette DPE | Décote indicative vs classe D (ordre de grandeur) | Effet observé sur le délai de vente |
 | :--- | :--- | :--- | :--- | :--- |
 | **Zone très tendue** (Paris, zone A bis) | Appartement | F | -4 % à -7 % | +25 jours |
 | **Zone très tendue** (Paris, zone A bis) | Appartement | G | -7 % à -11 % | +45 jours |

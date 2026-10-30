@@ -2,12 +2,13 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { OPERATORS } from "@/data/operators";
+import { AUTHOR, EDITOR } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/seo/Breadcrumbs";
 import {
   ShieldCheck,
-  Star,
   CheckCircle2,
   XCircle,
   AlertCircle,
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!op) return {};
 
   const title = `${op.name} : Avis, Tarifs & Aides 2026 | Zéro Passoire`;
-  const description = `Audit indépendant de ${op.name} : marge réelle, agrément MAR, reste à charge MaPrimeRénov' et avis certifiés pour sortir de passoire F ou G.`;
+  const description = `Fiche documentaire sur ${op.name} : statut, agréments, mode de rémunération et reste à charge MaPrimeRénov' pour sortir d'une passoire F ou G.`;
 
   return {
     title,
@@ -71,92 +72,30 @@ export default async function OperateurDetailPage({ params }: PageProps) {
     { name: op.name, href: `/operateurs/${op.slug}` },
   ];
 
-  const productSchema = {
+  const url = `${SITE_URL}/operateurs/${op.slug}`;
+
+  // Fiche documentaire : Article + Organization. Pas de Product, pas d'Offer,
+  // pas d'AggregateRating — aucun de ces types ne décrit honnêtement cette page,
+  // et les notes affichées précédemment n'avaient aucune source.
+  const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
-    name: `Accompagnement Rénovation Globale - ${op.name}`,
-    image: ogImageUrl({
-      q: op.name,
-      sub: "Audit Mandataire & MAR 2026",
-      badge: "Zéro Passoire",
-    }),
+    "@type": "Article",
+    "@id": `${url}#article`,
+    headline: `${op.name} : fiche documentaire 2026`,
     description: op.shortDescription,
-    sku: `ZP-OP-${op.slug.toUpperCase()}`,
-    mpn: `MAR-${op.slug}`,
-    brand: {
-      "@type": "Brand",
+    about: {
+      "@type": "Organization",
       name: op.name,
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: op.ratingValue,
-      reviewCount: op.reviewCount,
-      bestRating: 5,
-      worstRating: 1,
-    },
-    review: {
-      "@type": "Review",
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: op.ratingValue,
-        bestRating: 5,
-      },
-      author: {
-        "@type": "Organization",
-        name: "Observatoire Zéro Passoire",
-      },
-      reviewBody: op.verdict,
-      datePublished: op.publishedAt,
-    },
-    offers: {
-      "@type": "Offer",
-      url: `https://zeropassoire.fr/operateurs/${op.slug}`,
-      priceCurrency: "EUR",
-      price: op.priceRange === "€€" ? "1800" : op.priceRange === "€€€" ? "2200" : "2800",
-      priceValidUntil: "2026-12-31",
-      itemCondition: "https://schema.org/NewCondition",
-      availability: "https://schema.org/InStock",
-      seller: {
-        "@type": "Organization",
-        name: op.name,
-      },
-      shippingDetails: {
-        "@type": "OfferShippingDetails",
-        shippingRate: {
-          "@type": "MonetaryAmount",
-          value: "0.00",
-          currency: "EUR",
-        },
-        shippingDestination: {
-          "@type": "DefinedRegion",
-          addressCountry: "FR",
-        },
-        deliveryTime: {
-          "@type": "ShippingDeliveryTime",
-          handlingTime: {
-            "@type": "QuantitativeValue",
-            minValue: 1,
-            maxValue: 3,
-            unitCode: "DAY",
-          },
-          transitTime: {
-            "@type": "QuantitativeValue",
-            minValue: 7,
-            maxValue: 21,
-            unitCode: "DAY",
-          },
-        },
-      },
-      hasMerchantReturnPolicy: {
-        "@type": "MerchantReturnPolicy",
-        applicableCountry: "FR",
-        returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
-        merchantReturnDays: 14,
-        returnMethod: "https://schema.org/ReturnByMail",
-        returnFees: "https://schema.org/FreeReturn",
-      },
-    },
+    author: AUTHOR,
+    publisher: EDITOR,
+    datePublished: "2026-09-23",
+    dateModified: op.updatedAt,
+    isAccessibleForFree: true,
+    inLanguage: "fr-FR",
+    mainEntityOfPage: url,
   };
+
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -195,7 +134,7 @@ export default async function OperateurDetailPage({ params }: PageProps) {
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
       <script
         type="application/ld+json"
@@ -233,21 +172,30 @@ export default async function OperateurDetailPage({ params }: PageProps) {
             {op.shortDescription}
           </p>
 
-          <div className="flex flex-wrap items-center gap-6 p-4 rounded-2xl bg-white border border-stone-200 shadow-sm text-sm">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-3 p-4 rounded-2xl bg-white border border-stone-200 shadow-sm text-sm">
             <div className="flex items-center gap-2">
-              <div className="flex text-amber-500">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-current" />
-                ))}
-              </div>
-              <strong className="text-stone-900">{op.ratingValue}/5</strong>
-              <span className="text-stone-500">({op.reviewCount} avis clients)</span>
+              <Building2 className="w-4 h-4 text-emerald-700" />
+              <span className="text-stone-700">{op.category}</span>
+            </div>
+            <div className="flex items-center gap-2 text-xs text-stone-600">
+              {op.agrementMAR && (
+                <span className="rounded-full bg-emerald-50 px-2.5 py-1 font-medium text-emerald-800">Agrément MAR</span>
+              )}
+              {op.certifiedRGE && (
+                <span className="rounded-full bg-emerald-50 px-2.5 py-1 font-medium text-emerald-800">RGE</span>
+              )}
+              <span className="rounded-full bg-stone-100 px-2.5 py-1">Frais estimés : {op.priceRange}</span>
             </div>
             <div className="border-l border-stone-200 pl-4 text-xs text-stone-500 flex items-center gap-1">
               <Calendar className="w-3.5 h-3.5" />
-              <span>Audit mis à jour : 24 septembre 2026</span>
+              <span>Fiche mise à jour le 24 septembre 2026</span>
             </div>
           </div>
+          <p className="mt-3 text-xs text-stone-500 leading-relaxed">
+            Fiche documentaire : elle synthétise des informations publiques (statut, agréments, mode de
+            rémunération annoncé). Elle ne repose pas sur un test de chantier et ne constitue pas une
+            note client. <Link href="/methode" className="underline hover:text-stone-700">Méthode</Link>
+          </p>
         </section>
 
         {/* Financial & Margin Audit */}
@@ -336,7 +284,7 @@ export default async function OperateurDetailPage({ params }: PageProps) {
           <div className="p-6 sm:p-8 rounded-2xl bg-white border border-stone-200 shadow-sm">
             <h2 className="text-xl font-bold text-stone-900 mb-4 flex items-center gap-2">
               <Scale className="w-5 h-5 text-emerald-700" />
-              L&apos;Avis d&apos;Expert Zéro Passoire
+              Notre analyse documentaire
             </h2>
             <p className="text-stone-700 text-sm sm:text-base leading-relaxed mb-4">
               {op.editorialReview}
@@ -344,6 +292,11 @@ export default async function OperateurDetailPage({ params }: PageProps) {
             <div className="p-4 rounded-xl bg-stone-50 border border-stone-200 text-xs text-stone-600">
               <strong>Matériels et marques privilégiées :</strong> {op.hardwareBrands.join(", ")}.
             </div>
+            <p className="mt-3 text-xs text-stone-500 leading-relaxed">
+              Analyse fondée sur les informations publiques de l&apos;opérateur (statut, agréments, communications
+              tarifaires). Les frais d&apos;intermédiation sont des estimations d&apos;ordre de grandeur, non vérifiées
+              par l&apos;éditeur. Aucun test de chantier n&apos;a été réalisé.
+            </p>
           </div>
         </section>
 

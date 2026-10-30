@@ -92,7 +92,7 @@ export default function ContactPage() {
                     Une équipe d'auditeurs &amp; juristes
                   </div>
                   <p className="text-xs text-stone-600 leading-relaxed">
-                    Nous analysons vos devis et litiges DPE sans aucun parti pris commercial. Zéro revente de coordonnées, zéro commission installateur imposée.
+                    Nous analysons vos devis et litiges DPE sans aucun parti pris commercial. Mise en relation uniquement si vous la demandez, aucune commission imposée.
                   </p>
                 </div>
               </div>
@@ -172,7 +172,7 @@ export default function ContactPage() {
                 Charte d'indépendance éditoriale & Déontologie
               </h2>
               <p className="leading-relaxed text-xs text-stone-600">
-                Zéro Passoire est un portail d'information technique et juridique indépendant des réseaux d'artisans et des fournisseurs d'énergie. Nos barèmes et calculs sont basés strictement sur les arrêtés ministériels, les fiches CEE de la DGEC et les référentiels de l'ADEME. Aucun artisan ne peut payer pour modifier nos recommandations techniques.
+                Zéro Passoire est un site d'information technique et juridique. Nos barèmes et calculs reposent sur les arrêtés ministériels, les fiches CEE de la DGEC et les référentiels de l'ADEME. Aucun artisan ne peut payer pour modifier un calcul ou une recommandation technique. Le site est financé par la mise en relation&nbsp;: si vous cochez la case, vos coordonnées sont transmises à un partenaire rénovation. Détail dans la <a href="/methode" className="underline">méthode</a>.
               </p>
             </div>
             <div className="p-6 rounded-2xl bg-white border border-stone-200">

@@ -5,8 +5,10 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, Calculator } from "lucide-react";
 import { getAllGuides, getGuideBySlug } from "@/lib/mdx";
 import { formatPageTitle, truncateDesc, formatH1, formatH2 } from "@/lib/seo";
+import { AUTHOR, PRIMARY_SOURCES } from "@/lib/schema";
+import { CONTENT_UPDATED, SITE_URL } from "@/lib/site";
 
-const BASE = "https://www.zeropassoire.fr";
+const BASE = SITE_URL;
 
 const GUIDE_COVERS: Record<string, string> = {
   "sortir-de-passoire-energetique-2026": "/images/chantier-isolation-ite.webp",
@@ -56,6 +58,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
+function formatFrDate(iso: string) {
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return iso;
+  return date.toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
+}
+
 function stripHtml(html: string) {
   return html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 }
@@ -74,14 +82,15 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
       headline: guide.title,
       description: guide.description,
       datePublished: guide.publishedAt,
-      dateModified: guide.publishedAt,
+      dateModified: CONTENT_UPDATED,
       inLanguage: "fr-FR",
-      author: {
-        "@type": "Organization",
-        "@id": `${BASE}/#organization`,
-        name: "Équipe éditoriale Zéro Passoire",
-        url: `${BASE}/#organization`,
-      },
+      isAccessibleForFree: true,
+      author: AUTHOR,
+      citation: [
+        "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924",
+        "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050619700",
+        "https://france-renov.gouv.fr/aides/simulation",
+      ],
       publisher: {
         "@type": "Organization",
         "@id": `${BASE}/#organization`,
@@ -211,7 +220,19 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         <h1 className="font-display text-4xl font-bold text-stone-900 leading-tight mb-4">
           {formatH1(guide.title)}
         </h1>
-        <p className="text-lg text-stone-600 mb-10 leading-relaxed">{guide.description}</p>
+        <p className="text-lg text-stone-600 mb-5 leading-relaxed">{guide.description}</p>
+
+        {/* Byline : auteur identifiable, date de publication réelle et date de
+            révision distinctes. C'est le minimum E-E-A-T sur un sujet YMYL. */}
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-stone-500 mb-10 pb-6 border-b border-stone-200">
+          <span>
+            Par <Link href="/methode" className="font-medium text-stone-700 underline decoration-stone-300 hover:text-brand-700">{AUTHOR.name}</Link>
+          </span>
+          <span aria-hidden="true">·</span>
+          <time dateTime={guide.publishedAt}>Publié le {formatFrDate(guide.publishedAt)}</time>
+          <span aria-hidden="true">·</span>
+          <time dateTime={CONTENT_UPDATED}>Mis à jour le {formatFrDate(CONTENT_UPDATED)}</time>
+        </div>
 
         {GUIDE_COVERS[slug] && (
           <div className="relative aspect-[16/9] w-full rounded-2xl overflow-hidden mb-10 border border-stone-200 shadow-sm bg-stone-100">
@@ -230,6 +251,30 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
           className="prose-zeropassoire max-w-none"
           dangerouslySetInnerHTML={{ __html: guide.htmlBody }}
         />
+
+        {/* Méthode et sources, en bas de chaque guide : ce bloc est ce qu'un
+            évaluateur (humain ou moteur) peut vérifier. */}
+        <section className="mt-12 rounded-2xl border border-stone-200 bg-stone-50 p-6">
+          <h2 className="font-display text-lg font-bold text-stone-900 mb-3">Méthode et sources</h2>
+          <p className="text-sm text-stone-600 leading-relaxed mb-4">
+            Les chiffres cités dans ce guide proviennent des textes ci-dessous. Les montants
+            d&apos;aides et de travaux sont des estimations&nbsp;: ils ne remplacent ni un devis
+            ni un audit énergétique réglementaire. Une erreur&nbsp;?{" "}
+            <Link href="/contact" className="underline hover:text-stone-800">Signalez-la</Link>{" "}
+            — correction sous 7 jours ouvrés.
+          </p>
+          <ul className="grid sm:grid-cols-2 gap-2 text-xs text-stone-600">
+            {PRIMARY_SOURCES.map((source) => (
+              <li key={source} className="flex gap-2">
+                <span aria-hidden="true" className="text-brand-700">•</span>
+                <span>{source}</span>
+              </li>
+            ))}
+          </ul>
+          <Link href="/methode" className="mt-4 inline-flex text-xs font-semibold text-brand-700 hover:underline">
+            Lire la méthode complète et la politique de correction →
+          </Link>
+        </section>
 
         <div className="mt-16 p-6 rounded-2xl bg-brand-50 border border-brand-200 text-center">
           <h3 className="font-display text-2xl font-bold text-stone-900 mb-2">

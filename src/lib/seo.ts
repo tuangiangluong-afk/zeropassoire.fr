@@ -71,7 +71,7 @@ export interface OgImageOptions {
 }
 
 export function ogImageUrl(options: OgImageOptions): string {
-  const base = "https://zeropassoire.fr/api/og";
+  const base = "https://www.zeropassoire.fr/api/og";
   const params = new URLSearchParams();
   params.set("q", options.q);
   if (options.sub) params.set("sub", options.sub);
@@ -89,7 +89,7 @@ export function breadcrumbList(items: { name: string; item: string }[]) {
       name: item.name,
       item: item.item.startsWith("http")
         ? item.item
-        : `https://zeropassoire.fr${item.item}`,
+        : `https://www.zeropassoire.fr${item.item}`,
     })),
   };
 }

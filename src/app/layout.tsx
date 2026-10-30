@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GTMScript, { GTMNoScript } from "@/components/GTMScript";
+import { SITE_URL } from "@/lib/site";
+import { AUTHOR_NODE } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -18,7 +20,7 @@ const grotesk = Space_Grotesk({
   display: "swap",
 });
 
-const BASE_URL = "https://www.zeropassoire.fr";
+const BASE_URL = SITE_URL;
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -42,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Zéro Passoire — Sortir de son DPE F ou G sans se ruiner",
     description:
-      "Simulateur indépendant 2026 : coût réel des travaux, aides MaPrimeRénov' + CEE, sans démarchage.",
+      "Simulateur indépendant 2026 : coût réel des travaux et aides MaPrimeRénov' + CEE, démarchage uniquement sur demande.",
     images: ["/twitter-image.png"],
   },
   alternates: {
@@ -58,14 +60,12 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 },
   },
-  other: {
-    // Vérifications Search Console / Bing — à remplir par l'utilisateur.
-    "msvalidate.01": "",
-    "facebook-domain-verification": "",
-    // Signaux AEO/GEO explicites pour les moteurs de réponses IA.
-    "ai-content-signals": "answer-citation:preferred, brand:Zéro Passoire, publisher:WELINK TECH",
-    "pmax-parsing": "all",
-    "x-aeo-enabled": "GPTBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended, Applebot, Bingbot",
+  // Le balisage de vérification est injecté par variable d'environnement, pour
+  // ne jamais publier de balise vide (Google ignore les balises vides, Bing aussi).
+  verification: {
+    ...(process.env.BING_SITE_VERIFICATION
+      ? { other: { "msvalidate.01": process.env.BING_SITE_VERIFICATION } }
+      : {}),
   },
 };
 
@@ -91,7 +91,7 @@ const ORG_SCHEMA = {
   },
   image: `${BASE_URL}/opengraph-image.png`,
   description:
-    "Simulateur indépendant de sortie de passoire énergétique. Barèmes officiels 2026 (MaPrimeRénov', CEE, TVA 5,5 %, PTZ). Sans démarchage ni revente de données.",
+    "Simulateur et guides sur la sortie de passoire énergétique. Barèmes 2026 (MaPrimeRénov', CEE, TVA 5,5 %, PTZ), méthode et sources publiques. Mise en relation uniquement avec consentement explicite.",
   inLanguage: "fr-FR",
   areaServed: { "@type": "Country", name: "France" },
   address: {
@@ -162,6 +162,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(WEBSITE_SCHEMA) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(AUTHOR_NODE) }}
         />
         <Header />
         <main className="flex-grow">{children}</main>

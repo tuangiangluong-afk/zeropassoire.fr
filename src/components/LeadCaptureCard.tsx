@@ -19,7 +19,8 @@ export default function LeadCaptureCard({
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [callback, setCallback] = useState(true);
+  // Opt-in : la case ne doit jamais être pré-cochée (CNIL + art. 7 RGPD).
+  const [callback, setCallback] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -37,8 +38,13 @@ export default function LeadCaptureCard({
       return;
     }
 
-    if (!phone.trim() || !PHONE_RE.test(phone.replace(/\s/g, ""))) {
-      setError("Veuillez renseigner un numéro de téléphone portable valide (ex: 06 12 34 56 78) pour recevoir votre confirmation d'éligibilité.");
+    if (callback && (!phone.trim() || !PHONE_RE.test(phone.replace(/\s/g, "")))) {
+      setError("Un numéro de téléphone valide est nécessaire pour demander un rappel (ex : 06 12 34 56 78).");
+      return;
+    }
+
+    if (phone.trim() && !PHONE_RE.test(phone.replace(/\s/g, ""))) {
+      setError("Ce numéro de téléphone ne semble pas valide (ex : 06 12 34 56 78).");
       return;
     }
 
@@ -120,17 +126,19 @@ export default function LeadCaptureCard({
           <div>
             <label className="flex items-center gap-2 text-sm font-semibold text-stone-800 mb-1.5">
               <Phone size={16} className="text-stone-500" />
-              Téléphone portable <span className="text-emerald-700">*</span>
+              Téléphone portable{" "}
+              <span className="text-emerald-700">{callback ? "*" : "(facultatif)"}</span>
             </label>
             <input
               type="tel"
-              required
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               className="w-full rounded-xl border-2 border-stone-300 bg-white px-4 py-3 text-stone-900 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-500/20 focus:outline-none transition"
               placeholder="06 12 34 56 78"
             />
-            <p className="text-[11px] text-stone-500 mt-1">Pour recevoir la confirmation par SMS</p>
+            <p className="text-[11px] text-stone-500 mt-1">
+              Utilisé uniquement si vous demandez un rappel. Jamais revendu.
+            </p>
           </div>
 
           <div>
@@ -160,7 +168,13 @@ export default function LeadCaptureCard({
               className="mt-0.5 rounded border-stone-300 text-emerald-600 focus:ring-emerald-500 accent-emerald-600 shrink-0"
             />
             <span>
-              J&apos;accepte d&apos;être contacté(e) gratuitement par téléphone par les services techniques et jusqu&apos;à 3 artisans RGE certifiés de mon département pour valider la faisabilité technique de mon projet.
+              J&apos;accepte que mes coordonnées soient transmises à un partenaire spécialisé en
+              rénovation et que je sois contacté(e) par téléphone au sujet de mon projet. Cette
+              case est facultative et peut être retirée à tout moment. Détail des destinataires
+              dans la{" "}
+              <a href="/politique-confidentialite" className="underline hover:text-stone-900">
+                politique de confidentialité
+              </a>.
             </span>
           </label>
         </div>
@@ -184,7 +198,7 @@ export default function LeadCaptureCard({
           ) : (
             <>
               <Send size={18} />
-              <span>Débloquer mon plan d&apos;aides &amp; voir mes devis gratuits</span>
+              <span>Recevoir mon plan d&apos;aides détaillé</span>
             </>
           )}
         </button>

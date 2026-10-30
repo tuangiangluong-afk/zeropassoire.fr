@@ -3,9 +3,6 @@ export interface Operator {
   name: string;
   category: "Mandataire MPR & CEE" | "Obligé Énergie" | "Contractant Général" | "Réseau MAR Indépendant" | "Groupement Artisans RGE";
   shortDescription: string;
-  ratingValue: number;
-  reviewCount: number;
-  publishedAt: string;
   updatedAt: string;
   priceRange: "€€" | "€€€" | "€€€€";
   pros: string[];
@@ -25,9 +22,6 @@ export const OPERATORS: Operator[] = [
     name: "Hellio Rénovation Globale",
     category: "Mandataire MPR & CEE",
     shortDescription: "Pionnier des CEE et mandataire administratif ANAH, Hellio pilote les dossiers MaPrimeRénov' Parcours Accompagné et avance les aides aux particuliers.",
-    ratingValue: 4.4,
-    reviewCount: 1480,
-    publishedAt: "2025-10-18",
     updatedAt: "2026-09-24",
     priceRange: "€€€",
     pros: [
@@ -53,9 +47,6 @@ export const OPERATORS: Operator[] = [
     name: "Effy Sérénité",
     category: "Mandataire MPR & CEE",
     shortDescription: "Leader historique de la rénovation énergétique grand public, Effy certifie plus de 4 000 artisans partenaires et déduit la Prime Effy directement des devis.",
-    ratingValue: 4.2,
-    reviewCount: 2310,
-    publishedAt: "2025-11-04",
     updatedAt: "2026-09-24",
     priceRange: "€€€",
     pros: [
@@ -81,9 +72,6 @@ export const OPERATORS: Operator[] = [
     name: "IZI by EDF Rénovation",
     category: "Obligé Énergie",
     shortDescription: "Filiale de travaux du groupe EDF, IZI propose des packs de rénovation globale avec audit thermique et garantie de bonne fin de travaux adossée à EDF.",
-    ratingValue: 4.3,
-    reviewCount: 960,
-    publishedAt: "2025-11-20",
     updatedAt: "2026-09-24",
     priceRange: "€€€€",
     pros: [
@@ -109,9 +97,6 @@ export const OPERATORS: Operator[] = [
     name: "Sonergia Rénovation Globale",
     category: "Obligé Énergie",
     shortDescription: "Acteur majeur et délégataire CEE indépendant depuis 2009, Sonergia valorise les primes énergies pour les ménages modestes et très modestes.",
-    ratingValue: 4.2,
-    reviewCount: 640,
-    publishedAt: "2025-12-08",
     updatedAt: "2026-09-24",
     priceRange: "€€",
     pros: [
@@ -137,9 +122,6 @@ export const OPERATORS: Operator[] = [
     name: "Heero Solutions Climat",
     category: "Mandataire MPR & CEE",
     shortDescription: "Fintech et courtier en rénovation énergétique issu du groupe Pro BTP, Heero structure le plan de financement complet (aides + Éco-PTZ + prêt bancaire).",
-    ratingValue: 4.5,
-    reviewCount: 510,
-    publishedAt: "2025-12-28",
     updatedAt: "2026-09-24",
     priceRange: "€€€",
     pros: [
@@ -165,9 +147,6 @@ export const OPERATORS: Operator[] = [
     name: "ENGIE Rénovation Énergétique",
     category: "Obligé Énergie",
     shortDescription: "La branche rénovation de l'énergéticien ENGIE propose la prime Économie d'Énergie et des forfaits clés en main pompe à chaleur et isolation.",
-    ratingValue: 4.1,
-    reviewCount: 1820,
-    publishedAt: "2026-01-14",
     updatedAt: "2026-09-24",
     priceRange: "€€€€",
     pros: [
@@ -193,9 +172,6 @@ export const OPERATORS: Operator[] = [
     name: "TotalEnergies Rénovation & CEE",
     category: "Obligé Énergie",
     shortDescription: "Premier obligé CEE de France, TotalEnergies finance massivement les travaux de rénovation globale via son programme Prime Énergie et ses filiales de travaux.",
-    ratingValue: 4.0,
-    reviewCount: 1140,
-    publishedAt: "2026-02-02",
     updatedAt: "2026-09-24",
     priceRange: "€€€",
     pros: [
@@ -221,9 +197,6 @@ export const OPERATORS: Operator[] = [
     name: "Camif Habitat Rénovation Globale",
     category: "Contractant Général",
     shortDescription: "Contractant général historique de la maison individuelle, Camif Habitat s'engage contractuellement sur les délais, le prix ferme et la réussite du gain DPE.",
-    ratingValue: 4.6,
-    reviewCount: 420,
-    publishedAt: "2026-02-22",
     updatedAt: "2026-09-24",
     priceRange: "€€€€",
     pros: [
@@ -249,9 +222,6 @@ export const OPERATORS: Operator[] = [
     name: "La Maison Saint-Gobain",
     category: "Contractant Général",
     shortDescription: "Portail travaux du fabricant mondial de matériaux Saint-Gobain, mettant en relation avec des pros labellisés 'Artisans RGE Saint-Gobain'.",
-    ratingValue: 4.4,
-    reviewCount: 890,
-    publishedAt: "2026-03-12",
     updatedAt: "2026-09-24",
     priceRange: "€€€",
     pros: [
@@ -277,9 +247,6 @@ export const OPERATORS: Operator[] = [
     name: "Réseau MAR Indépendant",
     category: "Réseau MAR Indépendant",
     shortDescription: "Bureaux d'études thermiques et auditeurs indépendants agréés Mon Accompagnateur Rénov' par l'ANAH, sans aucun lien commercial avec les entreprises de travaux.",
-    ratingValue: 4.8,
-    reviewCount: 380,
-    publishedAt: "2026-04-05",
     updatedAt: "2026-09-24",
     priceRange: "€€",
     pros: [
@@ -305,9 +272,6 @@ export const OPERATORS: Operator[] = [
     name: "Proxiserve Rénovation Habitat",
     category: "Mandataire MPR & CEE",
     shortDescription: "Spécialiste national de l'installation et maintenance de chauffage, Proxiserve déploie des solutions PAC hybrides et chauffe-eau thermodynamiques pour sortir de passoire.",
-    ratingValue: 4.1,
-    reviewCount: 1250,
-    publishedAt: "2026-04-28",
     updatedAt: "2026-09-24",
     priceRange: "€€€",
     pros: [
@@ -333,9 +297,6 @@ export const OPERATORS: Operator[] = [
     name: "Artisans RGE Indépendants (CAPEB & FFB)",
     category: "Groupement Artisans RGE",
     shortDescription: "Les artisans et entreprises locales certifiées RGE Qualibat, QualiPAC et QualiBois réunies en groupements momentanés d'entreprises (GME) sans intermédiaire.",
-    ratingValue: 4.7,
-    reviewCount: 3120,
-    publishedAt: "2026-05-15",
     updatedAt: "2026-09-24",
     priceRange: "€€",
     pros: [
