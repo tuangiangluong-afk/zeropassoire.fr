@@ -22,6 +22,7 @@ const GUIDE_COVERS: Record<string, string> = {
   "maprimerenov-parcours-accompagne-2026-baremes-plafonds": "/images/audit-conseil.webp",
   "passoire-thermique-bail-en-cours-droits-proprietaire-locataire": "/images/thermographie-maison.webp",
   "audit-energetique-obligatoire-vente-maison-prix-validite": "/images/thermographie-maison.webp",
+  "interdiction-location-passoire-thermique-g-2025-2026-vrai-faux-copropriete": "/images/blog/interdiction-location-passoire-thermique-g-2025-2026-vrai-faux-copropriete.png",
 };
 
 export async function generateStaticParams() {
@@ -35,6 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const url = `${BASE}/guides/${slug}`;
   const pageTitle = formatPageTitle(guide.title, "Zéro Passoire");
   const pageDesc = truncateDesc(guide.description, 155);
+  const coverUrl = GUIDE_COVERS[slug] || "/opengraph-image.png";
   return {
     title: pageTitle,
     description: pageDesc,
@@ -47,13 +49,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       type: "article",
       publishedTime: guide.publishedAt,
       authors: ["Zéro Passoire"],
-      images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Étiquette DPE A→G" }],
+      images: [{ url: coverUrl, width: 1200, height: 630, alt: guide.title }],
     },
     twitter: {
       card: "summary_large_image",
       title: pageTitle,
       description: pageDesc,
-      images: ["/twitter-image.png"],
+      images: [coverUrl],
     },
   };
 }
@@ -110,7 +112,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         { "@type": "Thing", name: "ADEME" },
       ],
       mainEntityOfPage: { "@type": "WebPage", "@id": url },
-      image: `${BASE}/opengraph-image.png`,
+      image: GUIDE_COVERS[slug] ? `${BASE}${GUIDE_COVERS[slug]}` : `${BASE}/opengraph-image.png`,
       speakable: {
         "@type": "SpeakableSpecification",
         cssSelector: ["h1", "h1 + p", ".prose-zeropassoire > h2:first-of-type", ".prose-zeropassoire > h2:first-of-type + p"],
