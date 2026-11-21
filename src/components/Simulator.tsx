@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ArrowLeft, ArrowRight, Loader2, Sparkles, MapPin, Building2, Home, UserCheck, KeyRound, CheckCircle2 } from "lucide-react";
 import DpeSelector, { type DpeClass } from "@/components/DpeSelector";
 import ResultCard from "@/components/ResultCard";
@@ -39,6 +39,15 @@ export default function Simulator() {
   const [result, setResult] = useState<SimulateurResult | null>(null);
   const [loading, setLoading] = useState(false);
   const [isUnlocked, setIsUnlocked] = useState(false);
+
+  // Deep link from guides: /simulateur?classe=G skips step 0.
+  useEffect(() => {
+    const c = new URLSearchParams(window.location.search).get("classe")?.toUpperCase();
+    if (c === "E" || c === "F" || c === "G") {
+      setState((s) => ({ ...s, classe: c as DpeClass }));
+      setStep(1);
+    }
+  }, []);
 
   function set<K extends keyof SimState>(k: K, v: SimState[K]) {
     setState((s) => ({ ...s, [k]: v }));

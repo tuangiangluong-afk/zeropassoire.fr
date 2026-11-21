@@ -9,13 +9,21 @@
 export function formatPageTitle(title: string, brand = "Zéro Passoire"): string {
   const clean = title.replace(/\s+/g, " ").replace(/\s*\|\s*Zéro Passoire\s*/gi, "").trim();
   const withBrand = `${clean} | ${brand}`;
-  if (withBrand.length <= 54) {
+  if (withBrand.length <= 60) {
     return withBrand;
   }
-  const maxTitlePart = 54 - ` | ${brand}`.length;
+  // Keep the keyword phrase intact: prefer the part before " : " over a mid-phrase cut.
+  const head = clean.split(" : ")[0].trim();
+  if (head !== clean && head.length >= 20) {
+    const headBrand = `${head} | ${brand}`;
+    return headBrand.length <= 60 ? headBrand : head.length <= 65 ? head : formatPageTitle(head, brand);
+  }
+  if (clean.length <= 65) return clean;
+  const maxTitlePart = 60 - ` | ${brand}`.length;
   const slice = clean.slice(0, maxTitlePart);
   const lastSpace = slice.lastIndexOf(" ");
-  const shortTitle = (lastSpace > 20 ? slice.slice(0, lastSpace) : slice).trim().replace(/[,:;\-\s]+$/, "");
+  const shortTitle = (lastSpace > 20 ? slice.slice(0, lastSpace) : slice).trim().replace(/[,:;\-\s]+$/, "")
+    .replace(/(\s+(et|de|des|du|la|le|les|à|au|aux|en|ou|avec|sur|pour|un|une))+$/i, "");
   return `${shortTitle} | ${brand}`;
 }
 

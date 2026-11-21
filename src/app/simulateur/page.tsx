@@ -101,7 +101,7 @@ export default function SimulateurPage() {
     url: `${BASE_URL}/simulateur`,
     name: "Simulateur Zéro Passoire — coût de sortie de passoire énergétique 2026",
     description:
-      "Simulateur indépendant basé sur les barèmes officiels MaPrimeRénov', CEE et ADEME 2026. Résultat immédiat, sans email préalable.",
+      "Simulateur indépendant basé sur les barèmes officiels MaPrimeRénov', CEE et ADEME 2026. Estimation immédiate, gratuite et sans inscription.",
     inLanguage: "fr-FR",
     isPartOf: { "@id": `${BASE_URL}/#website` },
     about: { "@id": `${BASE_URL}/#organization` },
@@ -148,7 +148,7 @@ export default function SimulateurPage() {
             </h1>
             <p className="text-stone-600 max-w-xl mx-auto text-base sm:text-lg leading-relaxed">
               Arrêté MPR du 2 oct. 2025, fiches CEE 6e période et médianes chantiers ADEME.
-              Résultat affiché immédiatement, <strong>sans aucun numéro ni email requis</strong>.
+              Estimation immédiate, <strong>gratuite et sans inscription</strong>. Plan d&apos;aides détaillé envoyé par email.
             </p>
           </div>
           <Simulator />

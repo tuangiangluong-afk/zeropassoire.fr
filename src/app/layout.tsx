@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import Attribution from "@/components/Attribution";
 import Footer from "@/components/Footer";
 import GTMScript, { GTMNoScript } from "@/components/GTMScript";
 import { SITE_URL } from "@/lib/site";
@@ -167,6 +168,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(AUTHOR_NODE) }}
         />
+        <Attribution />
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />

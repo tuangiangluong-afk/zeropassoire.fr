@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, Calculator } from "lucide-react";
+import MobileStickyBar from "@/components/MobileStickyBar";
 import { getAllGuides, getGuideBySlug } from "@/lib/mdx";
 import { formatPageTitle, truncateDesc, formatH1, formatH2 } from "@/lib/seo";
 import { AUTHOR, PRIMARY_SOURCES } from "@/lib/schema";
@@ -249,6 +250,30 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
           </div>
         )}
 
+        {/* Above-the-fold conversion: one tap on the DPE class pre-fills the simulator. */}
+        <div className="mb-10 rounded-2xl border-2 border-emerald-500 bg-emerald-50 p-5 sm:p-6">
+          <p className="font-display text-lg font-bold text-stone-900 mb-1">
+            Combien d&apos;aides pour votre logement&nbsp;?
+          </p>
+          <p className="text-sm text-stone-700 mb-4">
+            Choisissez votre classe DPE actuelle&nbsp;: reste à charge et aides 2026 en 40&nbsp;secondes, gratuit.
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {(["G", "F", "E"] as const).map((c) => (
+              <Link
+                key={c}
+                href={`/simulateur?classe=${c}`}
+                className="btn-primary !px-5 !py-2.5 text-sm"
+              >
+                Je suis en {c}
+              </Link>
+            ))}
+            <Link href="/simulateur" className="inline-flex items-center px-4 py-2.5 text-sm font-semibold text-emerald-800 underline">
+              Je ne sais pas
+            </Link>
+          </div>
+        </div>
+
         <div
           className="prose-zeropassoire max-w-none"
           dangerouslySetInnerHTML={{ __html: guide.htmlBody }}
@@ -289,6 +314,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
             Estimer mon reste à charge
           </Link>
         </div>
+        <MobileStickyBar />
 
         {/* Dynamic Internal Mesh: Related Guides & Pillars */}
         {relatedGuides.length > 0 && (

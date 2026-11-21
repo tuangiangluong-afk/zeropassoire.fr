@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Phone, User, Mail, Send, Loader2, Lock, ShieldCheck, Sparkles, CheckCircle2 } from "lucide-react";
+import { readFirstTouch } from "@/components/Attribution";
 import type { SimulateurInput, SimulateurResult } from "@/lib/pricing";
 
 const PHONE_RE = /^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.\-]*\d{2}){4}$/;
@@ -57,7 +58,7 @@ export default function LeadCaptureCard({
           name: name.trim(),
           email: email.trim(),
           phone: phone.trim(),
-          simulation: { input: state, result },
+          simulation: { input: state, result, attribution: readFirstTouch() },
           consent_callback: callback,
           consent_newsletter: false,
           utm: readUtm(),
@@ -168,6 +169,9 @@ export default function LeadCaptureCard({
               className="mt-0.5 rounded border-stone-300 text-emerald-600 focus:ring-emerald-500 accent-emerald-600 shrink-0"
             />
             <span>
+              <strong className="block text-sm text-stone-900 mb-1">
+                Oui, je veux être rappelé(e) gratuitement pour recevoir mes devis d&apos;artisans RGE
+              </strong>
               J&apos;accepte que mes coordonnées soient transmises à un partenaire spécialisé en
               rénovation et que je sois contacté(e) par téléphone au sujet de mon projet. Cette
               case est facultative et peut être retirée à tout moment. Détail des destinataires
@@ -220,11 +224,13 @@ export default function LeadCaptureCard({
 function readUtm() {
   if (typeof window === "undefined") return {};
   const p = new URLSearchParams(window.location.search);
+  const ft = readFirstTouch();
+  const get = (k: string) => p.get(k) || ft[k] || undefined;
   return {
-    utm_source: p.get("utm_source") || undefined,
-    utm_medium: p.get("utm_medium") || undefined,
-    utm_campaign: p.get("utm_campaign") || undefined,
-    gclid: p.get("gclid") || undefined,
-    fbclid: p.get("fbclid") || undefined,
+    utm_source: get("utm_source"),
+    utm_medium: get("utm_medium"),
+    utm_campaign: get("utm_campaign"),
+    gclid: get("gclid"),
+    fbclid: get("fbclid"),
   };
 }

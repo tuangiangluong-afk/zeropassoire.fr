@@ -67,7 +67,7 @@ const HOME_FAQ: HomeFaqItem[] = [
   },
   {
     q: "Vendez-vous mes coordonnées à des artisans ?",
-    a: "Non. Jamais. C'est le fondement de Zéro Passoire. Votre email et votre téléphone ne sont transmis à aucun artisan, aucun courtier, aucune société de rénovation. Si vous cochez la case « être recontacté », un seul artisan RGE de votre département vous contacte, et vous pouvez refuser en un clic.",
+    a: "Non. Sans votre accord explicite, votre email et votre téléphone ne sont transmis à personne. Uniquement si vous cochez la case « être rappelé(e) », vos coordonnées sont transmises à notre partenaire de mise en relation, qui vous oriente vers des artisans RGE de votre secteur. Vous pouvez retirer ce consentement à tout moment (détail dans la politique de confidentialité).",
   },
   {
     q: "Puis-je faire une simulation pour un appartement en copropriété ?",
@@ -173,7 +173,7 @@ export default function HomePage() {
               </div>
               <div className="mt-3 text-xs text-stone-400 flex items-center gap-2">
                 <span className="text-emerald-400 font-bold">●</span>
-                <span>Barèmes vérifiés et à jour au 25 septembre 2026 &middot; Sans inscription ni email requis</span>
+                <span>Barèmes vérifiés et à jour au 25 septembre 2026 &middot; Gratuit, sans inscription</span>
               </div>
             </div>
 
@@ -223,7 +223,7 @@ export default function HomePage() {
               Votre plan de sortie chiffré en 5 questions
             <span className="sr-only">.</span></h2>
             <p className="mt-3 text-stone-600 max-w-xl mx-auto">
-              Résultats affichés immédiatement, sans email requis.
+              Estimation immédiate, plan d'aides détaillé envoyé par email.
               Vous choisissez ensuite si oui ou non on vous les envoie par écrit.
             </p>
           </div>
@@ -825,7 +825,7 @@ export default function HomePage() {
             "@id": "https://www.zeropassoire.fr/#service",
             serviceType: "Simulateur de coût de sortie de passoire énergétique",
             name: "Simulateur Zéro Passoire",
-            description: "Estimation indicative du coût de travaux de rénovation énergétique (DPE F ou G vers C), incluant MaPrimeRénov', CEE, TVA 5,5 % et PTZ. Résultat immédiat, sans email requis.",
+            description: "Estimation indicative du coût de travaux de rénovation énergétique (DPE F ou G vers C), incluant MaPrimeRénov', CEE, TVA 5,5 % et PTZ. Résultat immédiat, gratuit et sans inscription.",
             provider: { "@id": "https://www.zeropassoire.fr/#organization" },
             areaServed: { "@type": "Country", name: "France" },
             availableLanguage: "fr",
