@@ -7,6 +7,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Aides Financières
 readTime: 9 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # Mon Accompagnateur Rénov’ (MAR) : Rôle, Obligation, Coût et Financement 2026

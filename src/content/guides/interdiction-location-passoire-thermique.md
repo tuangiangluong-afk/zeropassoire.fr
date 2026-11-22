@@ -10,6 +10,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Obligations légales
 readTime: 18 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # Interdiction de location des passoires thermiques : le dossier juridique et opérationnel complet (2025–2034)

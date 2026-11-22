@@ -9,6 +9,8 @@ seoDescription: "La location des passoires thermiques G n'est PAS annulée : dé
 readTime: "42 min"
 category: "Réglementation & DPE"
 tags: ["passoire-thermique", "dpe", "location", "loi-climat"]
+
+image: "/images/guides/interdiction-location-passoire-thermique-dpe.webp"
 ---
 
 # Interdiction de Louer les Logements G en 2025-2026 : Le Vrai du Faux sur l'Assouplissement en Copropriété et le Risque de Blocage des Loyers

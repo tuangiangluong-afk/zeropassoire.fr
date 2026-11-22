@@ -7,6 +7,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Bailleurs & Baux
 readTime: 10 min
+
+image: "/images/guides/interdiction-location-passoire-thermique-dpe.webp"
 ---
 
 # Passoire Thermique avec Locataire en Place : Que Dit la Loi en 2026 ?

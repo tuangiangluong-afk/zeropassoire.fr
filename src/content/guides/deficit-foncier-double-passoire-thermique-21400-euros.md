@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Financement & Fiscalité
 readTime: 10 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # Déficit Foncier Doublé à 21 400 € : Mode d’Emploi Fiscal Spécial Passoire Thermique

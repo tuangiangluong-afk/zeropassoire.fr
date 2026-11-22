@@ -7,6 +7,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Aides Financières
 readTime: 10 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # Primes CEE & Coup de Pouce 2026 : Fiches BAR-TH-164/171 et Cumul MaPrimeRénov’

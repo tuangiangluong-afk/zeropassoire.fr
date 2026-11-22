@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Réglementation & Droit
 readTime: 9 min
+
+image: "/images/guides/interdiction-location-passoire-thermique-dpe.webp"
 ---
 
 # Gel des Loyers des Passoires Thermiques F et G : Règles, Calculs et Sanctions 2026

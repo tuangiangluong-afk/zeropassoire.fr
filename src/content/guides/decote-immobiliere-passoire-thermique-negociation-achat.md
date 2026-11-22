@@ -8,6 +8,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Achat & Investissement
 readTime: 10 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # Décote des Passoires Thermiques en 2026 : Comment Négocier le Prix d’un Bien F ou G

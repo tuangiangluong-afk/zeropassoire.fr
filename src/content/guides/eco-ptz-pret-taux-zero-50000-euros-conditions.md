@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Financement & Fiscalité
 readTime: 9 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # Éco-PTZ 2026 : Emprunter Jusqu’à 50 000 € à Taux Zéro sur 20 Ans pour ses Travaux

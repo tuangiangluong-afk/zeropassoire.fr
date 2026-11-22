@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Aides Financières
 readTime: 8 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # Aides Régionales et Municipales 2026 : Exonération de Taxe Foncière et Abondements

@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Travaux & Isolation
 readTime: 9 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # Remplacement des Fenêtres : Double vs Triple Vitrage, Coefficient Uw et Gain DPE

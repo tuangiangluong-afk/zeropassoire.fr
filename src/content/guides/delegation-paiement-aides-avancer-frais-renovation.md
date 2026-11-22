@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Aides Financières
 readTime: 8 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # Rénovation Énergétique Sans Avance de Frais : Mandataires et Prêt Avance Rénovation (PAR)

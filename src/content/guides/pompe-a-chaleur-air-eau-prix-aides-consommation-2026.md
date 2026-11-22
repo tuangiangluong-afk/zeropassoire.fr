@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Chauffage & Énergie
 readTime: 11 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # PAC Air/Eau en 2026 : Prix Réel, Aides Déduites, COP Saisonnier et Consommation

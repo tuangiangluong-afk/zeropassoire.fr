@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: DPE & Diagnostics
 readTime: 8 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # DPE des Petites Surfaces (< 40 m²) : Sortir du G Grâce au Nouvel Arrêté Ministériel

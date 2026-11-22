@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Aides & financement
 readTime: 20 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # Aides sortie de passoire énergétique 2026 : le panorama financier exhaustif et officiel

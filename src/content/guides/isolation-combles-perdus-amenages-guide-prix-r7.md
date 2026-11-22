@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Travaux & Isolation
 readTime: 10 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # Isolation des Combles Perdus et Aménagés : Matériaux, Prix au m² et Seuil R ≥ 7

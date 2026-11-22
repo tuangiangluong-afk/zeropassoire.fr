@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Travaux & Bâti Ancien
 readTime: 11 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # Rénover une Maison Ancienne (Pierre, Pisé, Colombages) : Éviter le Piège de l'Humidité

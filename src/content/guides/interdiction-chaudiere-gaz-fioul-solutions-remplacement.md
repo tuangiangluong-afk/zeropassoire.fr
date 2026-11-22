@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Chauffage & Énergie
 readTime: 10 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # Fin des Chaudières Fioul et Restrictions Gaz : Les Meilleures Alternatives 2026

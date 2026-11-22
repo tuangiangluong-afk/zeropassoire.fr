@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Guide pilier
 readTime: 22 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # Sortir de passoire énergétique en 2026 : la méthode technique et pratique complète

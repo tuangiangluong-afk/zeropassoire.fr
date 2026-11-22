@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Copropriété
 readTime: 11 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # Passoire Thermique en Copropriété : DPE Collectif, Plan Pluriannuel (PPT) et Vote en AG

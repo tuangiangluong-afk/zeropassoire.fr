@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Réglementation & Droit
 readTime: 8 min
+
+image: "/images/guides/interdiction-location-passoire-thermique-dpe.webp"
 ---
 
 # Airbnb et Meublés Touristiques Classés F ou G : Les Nouvelles Obligations DPE (Loi Le Meur)

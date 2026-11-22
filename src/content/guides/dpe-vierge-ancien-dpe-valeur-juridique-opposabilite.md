@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: DPE & Diagnostics
 readTime: 7 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # DPE Vierge et DPE d’Avant Juillet 2021 : Pourquoi Ils Sont Totalement Caducs et Dangereux

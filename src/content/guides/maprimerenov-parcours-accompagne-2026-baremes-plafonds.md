@@ -9,6 +9,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Aides Financières
 readTime: 11 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # MaPrimeRénov’ Parcours Accompagné 2026 : Plafonds 70 000 €, Barèmes et Prise en Charge

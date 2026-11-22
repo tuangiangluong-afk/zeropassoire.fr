@@ -7,6 +7,8 @@ description: >-
 publishedAt: "2026-09-23"
 category: Réglementation & Droit
 readTime: 10 min
+
+image: "/images/guides/travaux-renovation-energetique-isolation-globale.webp"
 ---
 
 # DPE Erroné ou Falsifié : Les Recours de l’Acheteur et du Locataire en 2026
